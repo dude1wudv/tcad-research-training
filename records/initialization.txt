@@ -1,0 +1,28 @@
+初始化变更记录
+==============
+创建题目中立的私有仓库，保留两个参考项目的可追溯原则，不搬用其科研结论。
+独立复制 62 个 VMDK/NVRAM 文件共 94.629 GiB；源文件未改动。
+冷启动配置 8 vCPU/16 GiB，NAT，关闭失效共享目录，保留原硬件身份。
+通过 VMware Tools 安装专用 SSH 公钥并可信获取服务器主机公钥。
+修复镜像 networking disabled/unmanaged 状态，启用 ens33 自动连接与 sshd。
+修复科研父目录归属，使 tcad 可以创建项目锁文件。
+版本探测改用此工具实际支持的 sdevice -v；失败时完整保留原始 stderr。
+建立串行单核真实 SDE->mesh->SDevice 运行、输入哈希、独立 run ID、原始归档。
+退出码 trap 提前到锁之前；正常退出取证已验证，未进行故障注入测试。
+Astra medium 已验证 PN 基准成功；完整证据见 environment-qualification.json。
+
+许可证维护事件
+--------------
+PN 基准成功后，启动入口验证遇到 FlexNet -97,234：vendor daemon down。
+不是 SSH 传输失败；已能进入客户机并执行 sdevice。
+采用工具提供的正常维护命令恢复，不修改/读取许可证内容，不更改时间或硬件标识：
+/usr/synopsys/scl/scl2023/linux64/bin/lmutil lmreread -c 27000@sentaurus
+实测返回 lmreread successful。恢复后的验收状态见启动验收记录。
+当前镜像的 sdevice -v 会执行许可证签出，因此 doctor 同时受当前许可状态约束。
+
+边界
+----
+发现用户已有图形/终端会话，未为了验收而重启或关闭虚拟机。
+初次冷启动和多次真实 SSH 已验证；再次重启的自动恢复不冒称已验证。
+原始结果、连接地址、许可证相关原始日志留在本地 local_runtime。
+不隐藏镜像遗留 locale/devtoolset/contact API 警告，不安装不明 AI 插件。

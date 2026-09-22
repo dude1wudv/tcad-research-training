@@ -15,6 +15,7 @@ E:/TCAD-Workspace/tcad-research-training/  Git 工程源文件
 E:/TCAD-Workspace/machines/sentaurus/     独立 VM，绝不入库
 E:/TCAD-Workspace/local/                 本机部署材料，绝不入库
 原始 E:/T2024-09/ 镜像保留，不直接启动或写入。
+为保持原有 TCAD 环境兼容性，保留 VM 硬件身份；禁止同时启动源镜像与此副本。
 
 仓库结构
 --------
@@ -26,11 +27,16 @@ local_runtime/                         被忽略的连接配置、主机公钥�
 
 日常操作（Windows PowerShell）
 ------------------------------
-1. 在 VMware 打开本工作区 machines/sentaurus/Sentaurus2019.vmx 并启动。
-2. cd E:/TCAD-Workspace/tcad-research-training
+1. cd E:/TCAD-Workspace/tcad-research-training
+2. pwsh -File scripts/start-vm.ps1
 3. python scripts/tcad.py doctor
 4. python scripts/tcad.py shell
 5. python scripts/tcad.py run simulation/qualification/pn-diode
+首次启动服务若权限不足，仅以管理员 PowerShell 重试 start-vm.ps1。
+也可直接在 VMware 打开 machines/sentaurus/Sentaurus2019.vmx；不要打开源镜像。
+guest-bootstrap.sh 针对此镜像的 ens33，由 root 在可信控制台执行：
+bash guest-bootstrap.sh tcad /path/to/public-key.pub
+它只安装公钥、启用自动网络/SSH 和设置科研目录，不保存密码或授予 sudo。
 
 连接不依赖猜测 IP：每次通过该 VM 的 VMware Tools 查询当前私网地址。
 SSH 仅使用专用密钥，严格核验固定 HostKeyAlias 的公钥；连接保活 15 秒。
@@ -64,3 +70,12 @@ connection.json 只保存在 local_runtime，按 config/connection.example.json 
 私钥位于 Windows 用户 .ssh，不复制给 VM；VM 只安装公钥。
 仅将审核后的小型汇总、图表与来源清单提升到版本控制。
 不安装不明来源 AI 插件；优先标准 CLI 和版本化脚本，所有物理参数由人确认。
+
+初始化验收
+----------
+records/environment-qualification.json 保存已审核的环境基线和证据哈希。
+真实 PN 基准已经完成 SDE -> snmesh -> SDevice，0.5 V 偏压收敛，单线程求解，
+运行与归档退出码均为 0；原始结果仅保存在 local_runtime。
+验收由 openai-codex/gpt-6-astra:medium 执行，不以环境基准作科研结论。
+镜像遗留的 locale、缺失 devtoolset profile 和旧 contact API 警告如实记录，
+本次未通过修改商业工具/许可或压制日志掩盖警告。

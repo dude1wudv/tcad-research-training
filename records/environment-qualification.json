@@ -1,0 +1,51 @@
+{
+  "scope": "Environment qualification, not research-topic calibration or experimental data",
+  "research_topic": null,
+  "status": "PASS",
+  "vm": {
+    "deployment": "Independent cold-boot disk copy; source unchanged",
+    "hypervisor": "VMware Workstation 17.5.2 build-23775571",
+    "guest": "CentOS 7",
+    "cpu_count": 8,
+    "memory_MiB": 16384,
+    "network": "NAT, VMware Tools address discovery, no added public port forwarding",
+    "ssh": "Dedicated Ed25519 client key and trusted-console pinned host public key"
+  },
+  "tool_version": "Sentaurus W-2024.09, changelist 9150440",
+  "validation_model": "openai-codex/gpt-6-astra:medium",
+  "run_id": "20260922T092543Z-pn-diode-qualification-c67252d7",
+  "source_commit_at_run": "29823c24125afed050410d7935b7db3cca7e4504",
+  "runner_sha256": "e19fb9fede877c179f0a77e0c522e62c88ad9341c7d62dc0287f47d6670d8130",
+  "source_note": "Run includes working-tree fixes after initial commit; exact runner/input hashes are authoritative.",
+  "results_tar_sha256": "ae7db5ee203a93aefc56d282f02e1a6351bc33f05a53e760ff56f32d34b7f88a",
+  "evidence_path": "local_runtime/runs/20260922T092543Z-pn-diode-qualification-c67252d7",
+  "evidence_committed": false,
+  "checks": {
+    "doctor_exit_code": 0,
+    "run_exit_code": 0,
+    "archived_exit_code": 0,
+    "solver_threads": 1,
+    "mesh_points": 561,
+    "mesh_elements": 1024,
+    "plt_records": 17,
+    "anode_final_voltage_V": 0.5,
+    "cathode_final_voltage_V": 0.0,
+    "anode_total_current_raw": 2.1840963523861e-9,
+    "cathode_total_current_raw": -2.18409635238611e-9,
+    "convergence_error": 0.0037748,
+    "completion": "Curve trace finished; Sentaurus Device simulation finished; ENGINEERING_RUN_COMPLETED",
+    "archive_and_input_hashes_match": true
+  },
+  "nonfatal_image_warnings": [
+    "SDE define-2d-contact is obsolete but supported",
+    "LC_TIME locale warning",
+    "Login profile references missing /opt/rh/devtoolset-8/enable"
+  ],
+  "not_claimed": [
+    "Scientific validity or calibrated device structure",
+    "Mesh independence or physics model accuracy",
+    "Independent validation of 2D current normalization",
+    "Long-duration unattended reliability",
+    "Redistribution rights or license entitlement verification"
+  ]
+}

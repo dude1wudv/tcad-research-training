@@ -20,6 +20,14 @@ def execute(args, **kwargs):
     return subprocess.run(args, check=True, **kwargs)
 
 
+def file_hash(path):
+    digest = hashlib.sha256()
+    with path.open('rb') as stream:
+        for chunk in iter(lambda: stream.read(1024 * 1024), b''):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
 def connection():
     cfg = json.loads(CONFIG.read_text(encoding='utf-8'))
     result = execute([cfg['vmrun'], 'getGuestIPAddress', cfg['vmx']],
@@ -46,7 +54,7 @@ def doctor(cfg, ssh, ip):
               'printf "SSH_OK\\n"; hostname; id -un; '
               'for tool in sde snmesh sdevice swb svisual; do command -v "$tool"; done; '
               'command -v flock; command -v taskset; command -v tar; '
-              'getconf _NPROCESSORS_ONLN; df -h "$HOME"; sdevice -V')
+              'getconf _NPROCESSORS_ONLN; df -h "$HOME"; sdevice -v')
     result = remote(ssh, script, capture_output=True, text=True, timeout=60)
     print(result.stdout)
     folder = ROOT / 'local_runtime/diagnostics'
@@ -54,7 +62,7 @@ def doctor(cfg, ssh, ip):
     stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
     (folder / (stamp + '.json')).write_text(json.dumps({
         'utc': stamp, 'ip': ip, 'stdout': result.stdout, 'stderr': result.stderr,
-        'scope': 'SSH, executable discovery and version only; not license checkout or physics validation'
+        'scope': 'SSH, executable discovery and version/license probe; not physics validation'
     }, indent=2), encoding='utf-8')
 
 
@@ -89,9 +97,9 @@ def run_project(cfg, ssh, project):
     files = sorted(p for p in project.rglob('*') if p.is_file())
     if any(p.is_symlink() for p in project.rglob('*')):
         raise ValueError('Symlinks are not allowed in simulation inputs')
-    inputs = {p.relative_to(project).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
-              for p in files}
+    inputs = {p.relative_to(project).as_posix(): file_hash(p) for p in files}
     evidence = {'run_id': run_id, 'commit': commit, 'input_sha256': inputs,
+                'runner_sha256': file_hash(Path(__file__)),
                 'steps': steps, 'remote_directory': remote_dir, 'state': 'PREPARED',
                 'interpretation': 'Engineering execution only; scientific validity requires review'}
     manifest = local / 'manifest.json'
@@ -105,16 +113,16 @@ def run_project(cfg, ssh, project):
     qdir = shlex.quote(remote_dir)
     qroot = shlex.quote(cfg['remote_root'])
     runner = ['#!/bin/bash', 'set -euo pipefail', 'umask 077',
+              'cd ' + qdir,
+              'trap \'rc=$?; printf "%s\\n" "$rc" > exit-code.txt\' EXIT',
+              'exec > >(tee execution.log) 2>&1',
               'export PATH=' + shlex.quote(cfg['tool_bin']) + ':"$PATH"',
               'export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1',
               'mkdir -p ' + qroot,
               'exec 9>' + qroot + '/.solver.lock',
               'flock -n 9 || { echo "Another project run holds the solver lock" >&2; exit 75; }',
-              'cd ' + qdir,
               'cpu=$(awk \'/^Cpus_allowed_list:/{split($2,a,/[-,]/);print a[1]}\' /proc/self/status)',
-              'exec > >(tee execution.log) 2>&1',
-              'date -u; hostname; sdevice -V; taskset -pc $$',
-              'trap \'rc=$?; printf "%s\\n" "$rc" > exit-code.txt\' EXIT']
+              'date -u; hostname; sdevice -v; taskset -pc $$']
     for index, step in enumerate(steps, 1):
         args = [step['tool']]
         if step['tool'] == 'sdevice':
@@ -148,7 +156,7 @@ def run_project(cfg, ssh, project):
         print('Run evidence:', local)
     with (local / 'results.tar').open('wb') as stream:
         remote(ssh, 'tar -cf - -C ' + qdir + ' .', stdout=stream, timeout=300)
-    evidence['results_sha256'] = hashlib.sha256((local / 'results.tar').read_bytes()).hexdigest()
+    evidence['results_sha256'] = file_hash(local / 'results.tar')
     evidence['state'] = 'COLLECTED' if result.returncode == 0 else 'FAILED_COLLECTED'
     save()
     if result.returncode:
@@ -178,4 +186,6 @@ if __name__ == '__main__':
         main()
     except (OSError, ValueError, RuntimeError, subprocess.CalledProcessError, subprocess.TimeoutExpired) as exc:
         print('ERROR:', exc, file=sys.stderr)
+        if getattr(exc, 'stderr', None):
+            print(exc.stderr, file=sys.stderr)
         sys.exit(1)

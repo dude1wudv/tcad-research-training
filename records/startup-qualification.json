@@ -1,0 +1,13 @@
+{
+  "status": "PASS_EXISTING_INSTANCE",
+  "model": "openai-codex/gpt-6-astra:medium",
+  "command": "pwsh -File scripts/start-vm.ps1",
+  "exit_code": 0,
+  "evidence": ["VMware Tools IPv4 discovery", "Strict pinned-host key-only SSH: SSH_OK", "tcad user", "Sentaurus W-2024.09 / changelist 9150440", "8 guest CPUs", "1 sdevice license checked out and checked in"],
+  "license_maintenance_required": true,
+  "license_maintenance": "Existing vendor daemon recovered using normal lmutil lmreread; no license files read or modified",
+  "prior_failures_retained": "local_runtime/startup-acceptance.json",
+  "reboot": "NOT_PERFORMED_USER_SESSION",
+  "not_verified": ["start-vm.ps1 cold-start branch", "Post-reboot automatic network and key persistence", "Long-duration license daemon stability"],
+  "cleanup": "Task-created host screenshots and guest /tmp/training-* bootstrap transfers removed; original VM/source and raw run evidence retained"
+}
