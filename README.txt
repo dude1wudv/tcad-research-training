@@ -1,7 +1,9 @@
 TCAD 科研训练工作区
 ===================
-具体科研题目等待用户指定；不继承旧项目的器件、辐照剂量或结论。
+研究主线：AI 辅助 TCAD 迭代仿真与自动化处理的项目报告。
+具体器件题目等待老师下发；不默认采用 PN 结，不继承旧项目的器件、辐照剂量或结论。
 私有仓库：https://github.com/dude1wudv/tcad-research-training
+实验方案：experiments/plan.md；报告提纲：reports/outline.md。
 
 设计参考：
 https://github.com/dude1wudv/vdmos-tid-research
@@ -25,6 +27,8 @@ simulation/qualification/pn-diode/      实际 SDE/SDevice 环境基准
 config/connection.example.json         无秘密的连接配置示例
 records/                               人工审核后的环境及实验记录
 design-notes/                          可复用设计流程、排障经验及验证边界（入口 README.md）
+experiments/                           器件无关实验方案及题目下发后的冻结定义
+reports/                               报告提纲及后续正式报告
 local_runtime/                         被忽略的连接配置、主机公钥、日志和原始结果
 
 日常操作（Windows PowerShell）
