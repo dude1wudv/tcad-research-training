@@ -23,6 +23,7 @@ scripts/tcad.py                        Python 标准库运行器
 simulation/qualification/pn-diode/      实际 SDE/SDevice 环境基准
 config/connection.example.json         无秘密的连接配置示例
 records/                               人工审核后的环境及实验记录
+design-notes/                          可复用设计流程、排障经验及验证边界（入口 README.md）
 local_runtime/                         被忽略的连接配置、主机公钥、日志和原始结果
 
 日常操作（Windows PowerShell）
