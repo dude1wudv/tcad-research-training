@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "kind": "Desktop GUI plus traceable native-tool CLI workflow test",
+  "parameters": {
+    "P_doping_cm3": {
+      "before": 10000000000000000,
+      "after": 50000000000000000
+    },
+    "anode_final_V": {
+      "before": 0.5,
+      "after": -2
+    },
+    "N_doping_cm3": 10000000000000000,
+    "cathode_V": 0
+  },
+  "run_id": "20260922T094811Z-pn-field-desktop-002679b5",
+  "command": "python scripts/tcad.py run tests/pn-field-desktop/model",
+  "exit_code": 0,
+  "model": "openai-codex/gpt-6-astra:medium",
+  "input_sha256": {
+    "device.cmd": "64efb0fcee3ef81f2f4f755c9fc95eadb42791a0fba97a03af78c5f3b4e72b9c",
+    "geometry.scm": "a3c25bd5d618649d48bfe47cf0d1ef3fc4d7c333006199df812b3dab4b732a33",
+    "project.json": "8b408efadd633c0535c5807427e25f52fcadbf2a44345875e80ff7d3d412b80f"
+  },
+  "results_tar_sha256": "30e130af2baf25ca9eb30dfaf6b025a0dce9d44ab336c9aac9885e0a7d733c87",
+  "tdr_sha256": "31495ac1504755be50e6ab7f8a9bc1fb7c2b3d09d7ce3104404e6e69cc66dfcf",
+  "final_bias_V": {
+    "anode": -2,
+    "cathode": 0
+  },
+  "convergence": {
+    "final_t": 1,
+    "final_error": 0.090775,
+    "markers": [
+      "Curve trace finished.",
+      "Sentaurus Device simulation finished",
+      "ENGINEERING_RUN_COMPLETED"
+    ]
+  },
+  "mesh": {
+    "points": 561,
+    "elements": 1024,
+    "evidence": "diode_msh.log: Saving file diode_msh.tdr...done."
+  },
+  "visual": {
+    "application": "Sentaurus Visual W-2024.09",
+    "field": "Abs(ElectricField-V)",
+    "unit": "V/cm",
+    "maximum_displayed": 79013.2,
+    "maximum_source": "Actual GUI range field and color scale",
+    "desktop_capture": "Guest Gdk root window, unmodified PNG",
+    "swb": "Started via typed swb command in guest graphical terminal",
+    "solver_entrypoint": "scripts/tcad.py; not Workbench Run button"
+  },
+  "files": {
+    "field.tcl": {
+      "sha256": "02a4f3b41e11942031ffe62c4779af8c8549c6703f456b61026871df6211cd83",
+      "bytes": 545
+    },
+    "desktop.py": {
+      "sha256": "c330f92d3dfda31f487f38688e2b0b7f6b57e19c5875f558dd6b1cfea08198c8",
+      "bytes": 2722
+    },
+    "electric-field.png": {
+      "sha256": "dcec2a9f60ce2e7406261969b6dddb73ff11edf53c20dcc5b72b93ab28186316",
+      "bytes": 16008
+    },
+    "screenshots/01-swb-start.png": {
+      "sha256": "6ed5da79a9fdefbf432acdb3ed14ea7f36f8407f293b7de929440dc51a5f767e",
+      "bytes": 124833
+    },
+    "screenshots/02-workbench-open.png": {
+      "sha256": "f2b29ca10cb0fd17759b3da27078a7b9a0fa6d0df4ba4bbd850ad2573d6935c9",
+      "bytes": 55056
+    },
+    "screenshots/03-electric-field-desktop.png": {
+      "sha256": "4b0debb99519af05cb7fd94a936ea77aec971f09d7d10cdcbd539792a8368371",
+      "bytes": 187164
+    }
+  }
+}

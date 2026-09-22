@@ -1,0 +1,8 @@
+{
+  "name": "pn-field-desktop",
+  "purpose": "Desktop workflow test: P doping 5e16 cm^-3, anode reverse bias -2 V; not calibrated research data",
+  "steps": [
+    {"tool": "sde", "args": ["-e", "-l", "geometry.scm"], "outputs": ["diode_msh.tdr"]},
+    {"tool": "sdevice", "args": ["device.cmd"], "outputs": ["diode_des.plt", "diode_des.tdr", "diode_des.log"]}
+  ]
+}
