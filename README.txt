@@ -19,6 +19,7 @@ E:/TCAD-Workspace/local/                 本机部署材料，绝不入库
 
 仓库结构
 --------
+AGENTS.md                             仓库级 Agent 操作、验收和安全规范
 scripts/tcad.py                        Python 标准库运行器
 simulation/qualification/pn-diode/      实际 SDE/SDevice 环境基准
 config/connection.example.json         无秘密的连接配置示例
