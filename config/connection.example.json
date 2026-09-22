@@ -1,0 +1,9 @@
+{
+  "vmrun": "C:/Program Files (x86)/VMware/VMware Workstation/vmrun.exe",
+  "vmx": "E:/TCAD-Workspace/machines/sentaurus/Sentaurus2019.vmx",
+  "user": "tcad",
+  "identity": "C:/Users/YOUR_USER/.ssh/id_ed25519_tcad_training",
+  "known_hosts": "E:/TCAD-Workspace/tcad-research-training/local_runtime/known_hosts",
+  "remote_root": "/home/tcad/research-training",
+  "tool_bin": "/usr/synopsys/sentaurus/W-2024.09/bin"
+}
