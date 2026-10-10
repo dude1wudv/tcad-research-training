@@ -1,0 +1,361 @@
+{
+  "status": "COMPLETED_WITH_SINGLE_RUN_BUDGET_DEVIATION",
+  "created_utc": "2026-10-02T05:49:01.666108+00:00",
+  "scope": "User-authorized VDMOS effective post-TID training; not experimental calibration or chip qualification",
+  "tool_version": "Sentaurus W-2024.09",
+  "main_agent_model": "openai-codex/gpt-6.1-sol",
+  "slow_subagent_configuration_verified": false,
+  "complex_work_delegated_to_ordinary_worker": false,
+  "production_doses_krad_SiO2": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60
+  ],
+  "runs": [
+    {
+      "run_id": "20261002T044057Z-vdmos-tid-pilot-v1-d408ee62",
+      "kind": "production",
+      "dose_krad_SiO2": 0.0,
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "3ac5a51c468cdbed561689405fb79a8c5ffb124a1f87a8000cebeefbad9d1afe",
+      "input_sha256": {
+        "breakdown.cmd": "f4b404c52acc0c161b6e4115e94f6ecc761af297b9cd3c7e218f5c2215b55617",
+        "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+        "idvg.cmd": "d9815440e19afe26986a1b23e231ceb6f5d48f81e6c2fa6e2142198c07a3bb4b",
+        "parameters.json": "4d8820cf7b1c9b08c0315d889ebf9abc5256cd2dc69f3cf255809f50a54da6f9",
+        "project.json": "f61a79b324e758d1eeae7f2a30774896b5fa708c8dd7d23709888c2f17e9cef8"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "git_commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "wallclock_s": {
+        "transfer_des.log": 53.68,
+        "breakdown_des.log": 118.24
+      }
+    },
+    {
+      "run_id": "20261002T045000Z-vdmos-tid-dose-010-dbea45ef",
+      "kind": "production",
+      "dose_krad_SiO2": 10.0,
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "3dbba943e6c2c9fd8570b8ecbf5b0fa627652215cab74e6569aefefa785f6d8d",
+      "input_sha256": {
+        "breakdown.cmd": "24ff7a8d0599fcf8a5bb2083704fccc9cde9620b3bbf0fa10e63be12ddb23037",
+        "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+        "idvg.cmd": "22f0f104ce246214e581cfe73e459820ace58ea3026480f0e8ae688a23a02957",
+        "parameters.json": "490652580c7b735784a581c93fd553d0ca7796599fc64554976524273cca8f7f",
+        "project.json": "b0c06f023c72ba5a364dd7605dfc00a7519e4a214d8fb868380cb79f7f519150"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "git_commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "wallclock_s": {
+        "transfer_des.log": 52.4,
+        "breakdown_des.log": 113.71
+      }
+    },
+    {
+      "run_id": "20261002T045315Z-vdmos-tid-dose-020-2cf3256f",
+      "kind": "production",
+      "dose_krad_SiO2": 20.0,
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "99ef2b85350dbd12f07d2a3ab94bfe619808e85dc3db312a4dc654022438576a",
+      "input_sha256": {
+        "breakdown.cmd": "a359f90746e894a723ccbeb744bf9f01ca1cf7f33caab8467fe532e8033eefff",
+        "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+        "idvg.cmd": "85adae9afc0da1a394790378eaf84cbceb753d613353907413880c285aadbb88",
+        "parameters.json": "dfe1085bdc12787b4c0236f7d94ce2316702681a6a8481b9f18635ae898c2f6c",
+        "project.json": "efa09ca09e5ac83430ceeee452b075cc30ce32cad2aa5f21d5b69a0353183d5e"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "git_commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "wallclock_s": {
+        "transfer_des.log": 50.0,
+        "breakdown_des.log": 108.19
+      }
+    },
+    {
+      "run_id": "20261002T045619Z-vdmos-tid-dose-030-1979bca3",
+      "kind": "production",
+      "dose_krad_SiO2": 30.0,
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "d99d437868c10b21fdf7ebb32ce803c941e94a0ad2a6181a255384f8c836dc4b",
+      "input_sha256": {
+        "breakdown.cmd": "84462ad9fd35da1deb6c49c2d2dfdc3786758f37184a545f7394f7fc1d3a37f3",
+        "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+        "idvg.cmd": "8a8e6989816c194b2942007eb65ec90a707c96cbfd58c60f9f7b6ac2f5d27f55",
+        "parameters.json": "a45323f6ba44a200174c314daf6057cf9a121f8e89397afeb9ad5db8277b02cf",
+        "project.json": "ca3cdd21d1e71220fe7febf472608e8ffd8d41f7efa27a9ff3e3b37ff11a84a7"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "git_commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "wallclock_s": {
+        "transfer_des.log": 47.45,
+        "breakdown_des.log": 109.26
+      }
+    },
+    {
+      "run_id": "20261002T045920Z-vdmos-tid-dose-040-d8c8a597",
+      "kind": "production",
+      "dose_krad_SiO2": 40.0,
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "6308bdb4300e5197926ea628eefac833d588b51131cc33d2f4f946c5d3ed01fe",
+      "input_sha256": {
+        "breakdown.cmd": "bdf6e8ca6a489bdbe1ea4ed816181dc452fa69f9714143dc26bb3c7d0789498b",
+        "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+        "idvg.cmd": "24d06ca8129b122e9e3d8cafa9bcf615678b839e63c84ea017d395aadbfe670a",
+        "parameters.json": "b65292bf6e527c632678ef2031da1d5ab43d2a8bcd952160a1433318728cd8bb",
+        "project.json": "c0398528ae856749d61984720734165f5429cf49267194d5174ffe4c36ed1695"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "git_commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "wallclock_s": {
+        "transfer_des.log": 46.57,
+        "breakdown_des.log": 100.31
+      }
+    },
+    {
+      "run_id": "20261002T050211Z-vdmos-tid-dose-050-6bbebff4",
+      "kind": "production",
+      "dose_krad_SiO2": 50.0,
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "a62a9d691add6703d7233c04ce259f025aa975059ce486b6dc79665f879aef3b",
+      "input_sha256": {
+        "breakdown.cmd": "e8ebbeba71b55cb202577dbcaa2bc802f8798b94cfbeeb14a96016a78ce2847d",
+        "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+        "idvg.cmd": "a9347c8f61675efdb0ab51c6afe8dbe163dd336d389f65a1fa64a710a5cbe10c",
+        "parameters.json": "8ad12400fdbc00842a3864738931cd3861757fc8200508a8967887e5edfc9830",
+        "project.json": "6cd05f76cba6b0c4527f33ae4ac36124d0a48086f42a5325476f5d9d8d1c4365"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "git_commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "wallclock_s": {
+        "transfer_des.log": 44.76,
+        "breakdown_des.log": 110.87
+      }
+    },
+    {
+      "run_id": "20261002T050511Z-vdmos-tid-dose-060-1a1ae2c5",
+      "kind": "production",
+      "dose_krad_SiO2": 60.0,
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "e0290be6a111cff246f92144f5528eeac6259f02029ee93a66bdd8d19156928d",
+      "input_sha256": {
+        "breakdown.cmd": "e6a44a246d98971784436b6d2c7bec113efca7fc38d4ac8e5ebb0289ab6f113e",
+        "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+        "idvg.cmd": "5745c11d1d439754f4355d018d2dfc016864d4e8bbc27772671e7944843ec9c4",
+        "parameters.json": "18592e8b7783d4c7088c3738748c0f672da366cb8dd881a10d3e105125cbf55c",
+        "project.json": "869217aa0867980701ad34ac0d6270f0a57a58e6762ef82de507a54ec6a81069"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "git_commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "wallclock_s": {
+        "transfer_des.log": 49.09,
+        "breakdown_des.log": 103.84
+      }
+    },
+    {
+      "run_id": "20261002T050808Z-vdmos-tid-fine-000-a49079eb",
+      "kind": "verification",
+      "dose_krad_SiO2": 0.0,
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "acbd24c8d4b534be3f103fa38e76a9f2abcd5e3d8d91cdd5c95d690375c0d568",
+      "input_sha256": {
+        "breakdown.cmd": "4058b8729fe996565cae26d2440023a59e81ebcd65a3664420f15e5297d784a7",
+        "geometry.scm": "d5fc70a1e1a4e8592213532877b562489f93cbf9ee83c57fa0fadd6507b50622",
+        "idvg.cmd": "cbc231761cf07bd331a84c575c7f513b7cd7c07164f337f7a8de25b92bc6c33c",
+        "parameters.json": "6577bed59e6406e152ad80da816e68106a5bd0d76a300a3dc3b24296e28095a8",
+        "project.json": "e68e7f3433337be345eab68c292f12456d9932f038da78aaa18c78f8c2642bb0"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "git_commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "wallclock_s": {
+        "transfer_des.log": 283.25,
+        "breakdown_des.log": 369.88
+      }
+    },
+    {
+      "run_id": "20261002T051927Z-vdmos-tid-fine-060-2bcc58ba",
+      "kind": "verification",
+      "dose_krad_SiO2": 60.0,
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "8edf5f12cf99dfc2ec4f9cd27f6e9321a468147a8343caece452f401292a0997",
+      "input_sha256": {
+        "breakdown.cmd": "ebd33f3476163aa9e72a92270027bf798db19d68503e61b9a40ab96c190ebb70",
+        "geometry.scm": "d5fc70a1e1a4e8592213532877b562489f93cbf9ee83c57fa0fadd6507b50622",
+        "idvg.cmd": "f8e486b2f4de70b23bc8540268f09c38b148629b0a2de34805b1ccc70096c014",
+        "parameters.json": "daf30b7b3592965d50f99e1dcb253fa799b020d6d3ed4803b8d4e848477819d0",
+        "project.json": "39ae9b7e3854b0f570ff39ded7d7f539f77b9198e657461edcc89d628a843295"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "git_commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "wallclock_s": {
+        "transfer_des.log": 247.69,
+        "breakdown_des.log": 285.59
+      }
+    }
+  ],
+  "units": {
+    "current": "A/um; 2D half-cell, unit depth, AreaFactor=1",
+    "dose": "krad(SiO2)",
+    "coordinates": "um",
+    "field": "V/cm"
+  },
+  "plan_sha256": "6731e441f80109d769ad67b59cb3146112de15510c49a13c6eb5b44a978233fb",
+  "resolution_checks": [
+    {
+      "dose_krad_SiO2": 0.0,
+      "reference_run_id": "20261002T044057Z-vdmos-tid-pilot-v1-d408ee62",
+      "verification_run_id": "20261002T050808Z-vdmos-tid-fine-000-a49079eb",
+      "mesh_scale": 0.7,
+      "step_scale": 0.5,
+      "absolute_Vth_difference_V": 0.0011969014946990875,
+      "relative_ID_VG10_difference": 0.0003380643962167529,
+      "relative_BV_difference": 0.0004847119322282101,
+      "passed": true
+    },
+    {
+      "dose_krad_SiO2": 60.0,
+      "reference_run_id": "20261002T050511Z-vdmos-tid-dose-060-1a1ae2c5",
+      "verification_run_id": "20261002T051927Z-vdmos-tid-fine-060-2bcc58ba",
+      "mesh_scale": 0.7,
+      "step_scale": 0.5,
+      "absolute_Vth_difference_V": 0.0011428096829830814,
+      "relative_ID_VG10_difference": 0.00029701374481383436,
+      "relative_BV_difference": 0.000510292787047173,
+      "passed": true
+    }
+  ],
+  "validation": {
+    "unit_tests": {
+      "command": "python tests/vdmos-tid-training/test_analysis.py",
+      "exit_code": 0,
+      "tests": 7
+    },
+    "final_postprocessing": {
+      "command": "local_runtime/vdmos-analysis-venv/Scripts/python.exe tests/vdmos-tid-training/analyze.py tests/vdmos-tid-training/run-index.json tests/vdmos-tid-training/data",
+      "exit_code": 0
+    },
+    "worker_archive_audit": {
+      "command_executable": "python -c",
+      "executed_source_evidence": "local_runtime/vdmos-tid-training/final-audit-source.py",
+      "executed_source_sha256": "590e0e6d087470af26f13211d3cf83783917f0166809bbfb1209b21629db5af6",
+      "exit_code": 0,
+      "run_count": 9,
+      "electrical_csv_count": 18,
+      "maximum_csv_numeric_difference": 0.0,
+      "maximum_resistor_voltage_relation_error_V": 1.0999758267167045e-07
+    },
+    "transfer_maximum_conservation_residual_A_per_um": 1.401839527705867e-19,
+    "breakdown_maximum_conservation_residual_A_per_um": 1.3044307387716225e-19,
+    "native_png_and_actual_desktop_reviewed": true,
+    "electrical_png_count": 5
+  },
+  "gui_evidence": {
+    "dose-000": {
+      "run_id": "20261002T044057Z-vdmos-tid-pilot-v1-d408ee62",
+      "structure": "figures/pilot-structure.png",
+      "electric_field": "figures/pilot-electric-field.png",
+      "field_internal_VDS_V": 79.5143995263692,
+      "proof": "data/dose-000-visual-proof.txt",
+      "interface_csv": "data/dose-000-interface-fields.csv"
+    },
+    "dose-060": {
+      "run_id": "20261002T050511Z-vdmos-tid-dose-060-1a1ae2c5",
+      "structure": "figures/dose-060-structure.png",
+      "electric_field": "figures/dose-060-electric-field.png",
+      "field_internal_VDS_V": 79.3977147392382,
+      "proof": "data/dose-060-visual-proof.txt",
+      "interface_csv": "data/dose-060-interface-fields.csv"
+    },
+    "actual_desktop": "figures/desktop-final.png",
+    "desktop_layout": "60 krad upper row; 0 krad lower row",
+    "workbench_run_button_verified": false,
+    "field_maps_are_equal_bias_comparison": false
+  },
+  "budget": {
+    "single_complete_run_limit_s": 480,
+    "single_run_limit_met": false,
+    "total_solver_budget_s": 7200,
+    "total_solver_budget_met": true,
+    "eight_run_batch_observed_wallclock_s": 2326.2,
+    "fine000_device_steps_sum_s": 653.13,
+    "fine060_device_steps_sum_s": 533.28,
+    "deviation": "Two refined runs exceeded the frozen per-run limit; pre-submitted chain did not enforce complete-run checks. No additional simulations were submitted after observing the deviation."
+  },
+  "limitations": [
+    "Uncalibrated geometry and dose-to-defect coefficients",
+    "No actual irradiation, dose-rate or annealing simulation",
+    "No complete radiation Coulomb-scattering calibration",
+    "No chip termination, packaging, self-heating or 3D cell model",
+    "Two combined mesh/step refinements are not rigorous independent convergence studies",
+    "Very low currents are not quantitatively qualified",
+    "Native full-domain field color scale includes oxide; use semiconductor PLT maximum for silicon avalanche"
+  ],
+  "artifact_sha256": {
+    "analyze.py": "9287604ab9ef0c7dbb5360b2aa188d89970595fca3a7eb02915817c0a4d6b0c8",
+    "build_case.py": "5193914170227fffe96e62eaaae02be1d85e90391489ff23a6fb1ea4045fe7aa",
+    "data/breakdown-iv.png": "badfb1472943d5a2ed1638e70298b29fb7461b74964f67cb005b7c16c1dde541",
+    "data/bv-dose.png": "c91f5efbc7ec4ed3b05872440594db4ce8d3aa90bb9dd26195999677302c8c48",
+    "data/depth-doping-0.15.csv": "4a2f41c17b1c35c0a17e8bd3e75dd5d03f23b469a936bb20671bcba4b8c7c2bb",
+    "data/depth-doping-0.9.csv": "0b2c5394b14dbb88d3af0aa939747f8b1c68615dc7f7ce8938b675628f66ae4f",
+    "data/depth-doping-2.5.csv": "4c5c357807af1910aacc1dca13b83562a361b3e8cee6b7c1c38b15a2b0cd3d91",
+    "data/depth-doping-4.5.csv": "03993f752bc6c23444f68cd074f81ffb37f5d6461cad8fcf50eddf5a1158de3b",
+    "data/dose-000-breakdown.csv": "69985f1e0d93c5b0d12cfc458d9a3b0dbd6ca29cabef4f3a07c32f2067505080",
+    "data/dose-000-idvg.csv": "f0d73c9ca4b08540e4d8e4653a6ba8e0da1a8565cc44e06a9e30f0789cbb78c8",
+    "data/dose-000-interface-fields.csv": "a3ec12c21edd8ce1caa5e1131a3707733181e152399b305e3cb3e3f6c3b5ba09",
+    "data/dose-000-visual-proof.txt": "9f56c982cc34a6dba40bd2c5725f50f65584db621a99e285dfe0d0fdedb31c24",
+    "data/dose-010-breakdown.csv": "d51a26b9b2b0be4746ca2477c55ab3de8208dc98e65da7d9092528d5dac1e946",
+    "data/dose-010-idvg.csv": "ec8fd0cc35927922884a52fa3ae39eba4117842d36218c82a19633da9654fb85",
+    "data/dose-020-breakdown.csv": "9858865045a36bcf353002c10beef70e1994ad87d61a0b76383a0efb187d4dc0",
+    "data/dose-020-idvg.csv": "7bef8923419d6d9a91afee310a53737df104313aa7e223a4c4946134f6e24179",
+    "data/dose-030-breakdown.csv": "8ebab5618164cd7aa52e24921809468bc2d07b5de91f65eef2c31436f8376cc3",
+    "data/dose-030-idvg.csv": "6a49f3dbd6522a9e6019bbc5abaaacde1d35d217532f057701bf5023b7b1ac2e",
+    "data/dose-040-breakdown.csv": "5da989b347e67b3ad92c5b1b265d10c0855e16257792ff29ceba47e5a2a11529",
+    "data/dose-040-idvg.csv": "00ff0cedca2878038aae201866cf7c5ee291d58040fbda24f7e79031e1c18acc",
+    "data/dose-050-breakdown.csv": "c8fec2aebab32b89a0f7a95c1e915e8caa04812e0a6a028b9cef576c0edac1dd",
+    "data/dose-050-idvg.csv": "d77a992e76c0f959e5a1edf6f095727afa4436bee1f5b496ade0e390b69ec868",
+    "data/dose-060-breakdown.csv": "6836d3b0f1a6910cc42eaa55b4fe338bf71a4d2e3f84b7520768463d2c8f3309",
+    "data/dose-060-idvg.csv": "0e7fbabab5ff0127676827c486be7dec46fa53e67ffa9157ed14b5cb3e4cf456",
+    "data/dose-060-interface-fields.csv": "50fc885bb56c19e1103f896d4679b3a8808b1d32fc7ecfb762dc9c2ce54403f7",
+    "data/dose-060-visual-proof.txt": "9f56c982cc34a6dba40bd2c5725f50f65584db621a99e285dfe0d0fdedb31c24",
+    "data/fine-000-breakdown.csv": "1c44f4d0dd92e0206cbabea206fb6aafc36366689f0c1c2c267313bb8844ff7c",
+    "data/fine-000-idvg.csv": "2dcfe89e7b3091af4fa37767d82d244964d1d62cd6f2048a0ddd73e768266741",
+    "data/fine-060-breakdown.csv": "20dd30bcd45fcca1e56993140e153c909eb30feb6dc48e2ad6b00665c59809ef",
+    "data/fine-060-idvg.csv": "be39858bd6c0e6617b32b6c66c3d2db1384e4e8880970a1d7fea7c132e2d0970",
+    "data/idvg-linear.png": "727d6ee1b5ac8f8a99ec6b0c591b869e61087224e23f06e1f305ebcf1b256c9d",
+    "data/idvg-log.png": "3c8c8de7c698bdd86387857f14c5779de1d880c99eea409bd8090e95c3f691a4",
+    "data/resolution-check.json": "84d4a3cce9b3387c50e02ade53409f4ec37107134e3e1d4a8f7bd28d75bf491a",
+    "data/scalars.csv": "ff749290e64e50c3fb445022fdbba862fbe945210f5c95729c4622c78bdb7948",
+    "data/summary.json": "345928e3468a783aab9198b1381a6f7c1a5fa58e77bd944f36a0bb4864f24496",
+    "data/surface-doping.csv": "f45c1874f007989f5442244198d70a247b9736871fe278f3f48b1b806908fc61",
+    "data/vth-dose.png": "8f25f75b5ad4f6952e46db5c928398f833e80812e6c41802d5b1c1b078d359e7",
+    "figures/desktop-final.png": "07fa547aaae6e304ff829855653f15f2c13cccab6bc438a51f3a1db11ef7b480",
+    "figures/dose-060-electric-field.png": "180e126fca95b7b0b86479c0c917510d01baef81bd0c052049f6f9bdc48bf0d2",
+    "figures/dose-060-structure.png": "db90a424e78beef4647bf7986500ccf516ef083348e3af54f98a90f03e11cc0c",
+    "figures/pilot-electric-field.png": "ed52a95a8591d0047f554bb5b850af40287058aab25310b1aef048b5d52a3b1c",
+    "figures/pilot-structure.png": "a0f9c2d5da6775f9584f54baf8b406ecc70224c801c4d42083aa83cd246887a0",
+    "lessons.md": "65886a2f2112ba4ba03af3cc5e704d872819567f5a50968cc646a7c8bca0d531",
+    "literature.md": "8a7ff57b0dfa1d149fb93753d5ec6e14a84b7affef8cdd71bd239800c289cb85",
+    "methods.md": "1a326b4dc4f0d8ed25cfc4ae6a97df3a69aeb93255b70b1c2c08c759752da559",
+    "model/geometry.scm": "95e6761f12e782b96f9600ff8d4139703442a85b432cfda1d61a9928e9fc1215",
+    "plan.md": "6731e441f80109d769ad67b59cb3146112de15510c49a13c6eb5b44a978233fb",
+    "README.md": "28342df3c62898155f0c6c45b5a2f94896d230890f729f3eb682e0e6429927e5",
+    "report.md": "64ad4c439f6cd04294a4b0b61d3c6d90212aa52a0a317cc2ef2bf074cdfc2800",
+    "run-index.json": "7f883252d107cde6e4da3234f171dbc33da386745a2de4e505006e8903dcecd3",
+    "test_analysis.py": "5a8de4fa2aeda3cb4f599751ee0c44dad5513202cb86138dc65b108094a7a66a",
+    "visualize.tcl": "cfe0f7664e5f76ea775765add81b627cb2417824c876789e1b1de759e3ba859e",
+    "workflow.md": "e286a7af5238e3f0ac6fd9c38b40edde88a121e3781867a544d1c1005cbfda1e"
+  }
+}

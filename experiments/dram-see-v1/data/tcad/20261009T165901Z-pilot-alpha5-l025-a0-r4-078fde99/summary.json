@@ -1,0 +1,56 @@
+{
+  "run_id": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+  "parameters": {
+    "gate_length_um": 0.25,
+    "charge_pc": 0.007659403595125654,
+    "angle_deg": 0.0,
+    "mesh_scale": 1.0,
+    "step_scale": 1.0,
+    "track_length_um": 1.2,
+    "let_pc_per_um": 0.006382836329271379,
+    "capacitance_F": 1e-14,
+    "effective_thickness_um": 1,
+    "temperature_K": 300,
+    "track_radius_um": 0.03,
+    "source_event": "experiments/dram-see-v1/data/geant4/pilot-alpha5-l025-a0/event.json",
+    "restart_run": null,
+    "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+  },
+  "archive_sha256": "5675f981dd1a08ea5ed64a8c3b4eb50c8f8e201c066c79ff0c92d21d53f50001",
+  "input_sha256": {
+    "device.cmd": "39bbdbfe6421c9c30f6173d7214b86c1408b7999837a3dcfdc6ac279c5291624",
+    "generator-sha256.txt": "b19a5c89d328564f5895e3bab0e7a03bc1bc3b7ebc85c0787e2e41f6c198237b",
+    "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+    "parameters.json": "2c4e721ea79d3867396eea8c448dc6029411e1dc36e725b368bd3f0054a81b55",
+    "project.json": "5ab927ffaf4c24150cd1d9478b75374a17f55ac27d6e42e50f3ee4bbad53aeb2"
+  },
+  "solver_finished": true,
+  "final_time_s": 3e-09,
+  "circuit_samples": 431,
+  "device_samples": 431,
+  "prestrike_voltage_V": 0.951610250137354,
+  "final_voltage_V": 0.462591552202472,
+  "min_poststrike_voltage_V": 0.462591552202472,
+  "voltage_drop_V": 0.489018697934882,
+  "capacitor_loss_C": 4.89018697934882e-15,
+  "terminal_loss_C": 4.890186979323717e-15,
+  "terminal_loss_trapezoid_C": 4.962348020259239e-15,
+  "charge_balance_residual_C": 2.5103131725943038e-26,
+  "max_kcl_residual_A": 3.865430241512725e-16,
+  "peak_hold_current_A": 0.00030760714540956,
+  "radiation": {
+    "generation_dataset": "IntegrSemiconductor HeavyIonGeneration",
+    "generated_C": 7.642740767944356e-15,
+    "target_C": 7.659403595125654e-15,
+    "source_integral_relative_error": 0.0021754731911375284,
+    "integration": "trapezoid of spatial generation integral over actual solver times"
+  },
+  "tdr_sha256": {
+    "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+    "prestrike_access_des.tdr": "9b502f1bf0d2339cfdf7098f5cba14782b23d44331383c9eb8eedc614abf30e1",
+    "strike_access_des.tdr": "b96b20652f1c2254b17f01e04fae7889dd125ef3564e0b7b5e295be670c13a02",
+    "final_access_des.tdr": "7cc23028fda4a4cf18f55aeb54fbc015dfd3c674514ef1102c78048c1e9f0104"
+  },
+  "scope": "Engineering and stated numerical contracts; uncalibrated 1T1C model",
+  "event_binding": "legacy_external_event_crosscheck; metadata was not frozen in TCAD input"
+}

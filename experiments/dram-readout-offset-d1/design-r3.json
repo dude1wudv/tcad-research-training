@@ -1,0 +1,202 @@
+{
+  "schema": "dram-readout-offset-d1",
+  "frozen_utc": "2026-10-10T07:31:34.006570+00:00",
+  "cases": [
+    {
+      "tag": "rodiag1-bridge090",
+      "sn_target_V": 0.9,
+      "variant": "standard",
+      "order": 0,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "864a45cde754c16a15579e6e4f16cf647d90cc738d5bcab783c44977067cec53",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "8fa156396f969aeebcc24988af3a585227d227acc1d7d05e9752786a9e5c8b84",
+        "project.json": "1113630fafa8f9e2d7f13c1f326092742bbd40c9f16815c9afa698bce0c522b6"
+      }
+    },
+    {
+      "tag": "rodiag1-center050",
+      "sn_target_V": 0.5,
+      "variant": "standard",
+      "order": 1,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "756635b7b84da324c44b94298ebefa3670105b70cbbdfd3bde8efcb63b4067fc",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "75ee9402713d19792fe2280432a7f974462306f970ad82dd94a2697390ebb85c",
+        "project.json": "8f63cd89706a54c7010bde6fa729da941fbff51e4c5f69f8929176df14195392"
+      }
+    },
+    {
+      "tag": "rodiag1-alpha-match",
+      "sn_target_V": 0.393727754888742,
+      "variant": "standard",
+      "order": 2,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "24ee8c23b05c003ff8caf3b2124079f7649fa8a5689fb9a89407209be00656ff",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "6e36ee0626586bafa989e80c580bee3f846d2e9b7ff325a6de36a05f6d09da1b",
+        "project.json": "d87cba9a8eda0eb2630817f264c89914a22bd367108141ca678ab00352061fa5"
+      }
+    },
+    {
+      "tag": "rodiag1-scan035",
+      "sn_target_V": 0.35,
+      "variant": "standard",
+      "order": 3,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "c18217554e788aa6498447362efff3cc9ec646909df47e5c0647578651c69205",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "e0c37f204e2fa46ceb33ef2264ab738b3e331160519454b6245d47362cf7ba8b",
+        "project.json": "b38f77428c6f6e16a6d5d78cc045f91076c8b6c522d9a9f46ded3e8bca83a4ea"
+      }
+    },
+    {
+      "tag": "rodiag1-scan045",
+      "sn_target_V": 0.45,
+      "variant": "standard",
+      "order": 4,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "1e086f3e426fb73f0d6ca334d5d7f1a994dec6729a5848e8e81d405dee46c010",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "8f0b0a686a9564475e89c8ba78f76dc086d5baf1ad5a867ae2777ceb1caef000",
+        "project.json": "ab26db3e3030e743aaf091e87eb52dcd1c8c8d6c69c9912c4b35218165205983"
+      }
+    },
+    {
+      "tag": "rodiag1-scan055",
+      "sn_target_V": 0.55,
+      "variant": "standard",
+      "order": 5,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "06e006a451ce430426635351b8ccddf9bb7ea9df6a90a266b68a2715039a4e0d",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "da0da67791e67488fa4a4625c728910db5f2c44f4b59a591469233c64e141bf6",
+        "project.json": "05e783b8bca371e80d8b55374c88b4c0ee8084c839a94ca9f4b8bcd97e557864"
+      }
+    },
+    {
+      "tag": "rodiag1-wl-off",
+      "sn_target_V": 0.5,
+      "variant": "wl_off",
+      "order": 6,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "0ff956a46c8090768b3d591e3c37d80ac90c258a30643b9169b62bb4fba71b18",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "8d63a1b0ca138499626285c656cca3c4088c9db38433e60fd916360d26c308ec",
+        "project.json": "1330f3ec1d38713b0d89da3d3b76c1f035f8de449e9d9ce50ebca3dda416b40d"
+      }
+    },
+    {
+      "tag": "rodiag1-wl-slow",
+      "sn_target_V": 0.5,
+      "variant": "wl_slow",
+      "order": 7,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "23358beb57e472e9885dd29a848822af346b870b4d4cd1fa95b42817964b222e",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "b97ef6fb1ef3c8a3c5197b0504cf175646d5eed886c7812f9e7f466521d14cb0",
+        "project.json": "76e768db16541040427d86bbe8d75b59a41bb6e05761edee8b678b1d9226a5e3"
+      }
+    },
+    {
+      "tag": "rodiag1-matched-ref-r3",
+      "sn_target_V": 0.393727754888742,
+      "variant": "matched_ref",
+      "order": 8,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "cd247ad56e1e665f95e41fe0baa03dc31525998ec1731982a71b42cb6adfd56e",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "c5ca239561ed030f4266f5783b10a5908ad2513aafe561ff269578d7b3f7a592",
+        "project.json": "0a26edcd751b22639ecbc7c914f8c3e7670f1b4902298031c5bacd2973ea92bf"
+      }
+    }
+  ],
+  "new_run_count": 9,
+  "solver_budget_s": 5400,
+  "single_run_inspection_s": 1200,
+  "serial_threads": 1,
+  "original_baseline": "20261010T014743Z-v2-base-l025-b1-143253c7",
+  "original_pilot_design_sha256": "f85653a58316c6d43858898ecb9976ec6b42bcb3e88da45cfa302d941f263170",
+  "source_sha256": {
+    "build.py": "ea93df2861321a2ea1870084210c8bed5e858dd5b0f2857e35905cd8f3d6272b",
+    "audit.py": "0979007bd37a258f0309a0d810f497593ee3b431d58d6e481141a25dffc9bdd4",
+    "run.py": "1d4c50f33d85584069538c65f21619e871887286d0d58f725a20e2ce078685d1"
+  },
+  "dependency_sha256": {
+    "experiments/dram-see-v1/analyze.py": "6b0df38bb4db9ff3a77bfaee1ead5ef3b794bf93999411bf016cc45ae526cabf",
+    "experiments/dram-see-v2/audit.py": "0ca60a603dbcdb74410c05eb6e2f7fb7f5ca8ecadbe3557e5fa3e20fdb2e845f",
+    "scripts/tcad.py": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5"
+  },
+  "prior_evidence": "v2 observed alpha small positive D; raw port-charge inspection preceded this diagnostic freeze; this is not prospective particle sampling",
+  "hypotheses": [
+    "WL actuation supplies a substantial gate-displacement contribution to SN+BL net charge; quantify body and carrier terms separately",
+    "ideal REF omits an access-cell read common-mode response; compare one physical matched reference with offline center-trace subtraction"
+  ],
+  "gates": {
+    "bridge_D_abs_difference_mV": 0.01,
+    "initial_tolerance_mV": 1,
+    "matched_reference_vs_offline_tolerance_mV": 0.1,
+    "conservation": "KCL 1pA+0.1% local current; BE max(0.001fC,0.1% gain); four-port closure max(0.002fC,0.1% gain)",
+    "hypothesis_outcomes": "negative/null mechanism contrasts are valid results, not grounds to change samples"
+  },
+  "analysis_plan": {
+    "scan": "D at4ns versus actual SN at3ns; two-capacitor prediction uses actual BL3/REF3; no fit extrapolation",
+    "ports": "BE right-endpoint integrals over3\u20134ns of total/e/h/displacement for source/drain/gate/body; device current opposite circuit node inflow",
+    "reference": "ideal REF drift; offline Dmatched=BLcase4-BLcenter4; physical twin reference neutral SN=.5 with identical BL precharge and WL; no calibrated sense latch",
+    "wl": "same SN=.5, WL held0 and same-start 200ps rise compared with50ps rise; compare gate peak and total/net charge",
+    "alpha_match": "compare no-particle scalar SN=.393727754888742 with original alpha101 read SN; carrier/field histories are not assumed equal"
+  },
+  "pilot_unchanged": true,
+  "particle_event_count": 0,
+  "no_new_probability_estimates": true,
+  "revision": 3,
+  "amendment": {
+    "utc": "2026-10-10T08:25:48.669249+00:00",
+    "parent_design": "design-r2.json",
+    "parent_sha256": "475db7f4889007cfe4a01ff8fa46168f020e4c4ad78b452f94fd3d0bb418b0c6",
+    "reason": "Collected parser failure at instance identifier reference; rename to refcell with corresponding current/output identifiers only.",
+    "retired_failed_tag": "rodiag1-matched-ref",
+    "failed_run_id": "20261010T082333Z-rodiag1-matched-ref-a289c12b",
+    "replacement_tag": "rodiag1-matched-ref-r3",
+    "old_instance": "reference",
+    "new_instance": "refcell",
+    "original_source_snapshot": "source-revisions/r2",
+    "physical_conditions_order_thresholds_budget_unchanged": true,
+    "inherited_completed_runs": {
+      "rodiag1-bridge090": "20261010T073147Z-rodiag1-bridge090-8db1e0b8",
+      "rodiag1-center050": "20261010T073750Z-rodiag1-center050-2fde80ba",
+      "rodiag1-alpha-match": "20261010T074533Z-rodiag1-alpha-match-d0af10aa",
+      "rodiag1-scan035": "20261010T075140Z-rodiag1-scan035-fd250135",
+      "rodiag1-scan045": "20261010T075751Z-rodiag1-scan045-bbc7abd1",
+      "rodiag1-scan055": "20261010T080358Z-rodiag1-scan055-02fe8094",
+      "rodiag1-wl-off": "20261010T081041Z-rodiag1-wl-off-55dfc440",
+      "rodiag1-wl-slow": "20261010T081707Z-rodiag1-wl-slow-5acda3af"
+    }
+  },
+  "previous_amendments": [
+    {
+      "utc": "2026-10-10T07:44:13.229969+00:00",
+      "parent_design": "design.json",
+      "parent_sha256": "b034e06845934bf9b50e760430065cdf884de3736280d243d535f5aef3c4b644",
+      "reason": "Runner requires lowercase safe project names; r1 contained an uppercase name. Discovered before dispatch; no solver failed.",
+      "retired_unsubmitted_tag": "rodiag1-alphaSN",
+      "replacement_tag": "rodiag1-alpha-match",
+      "physical_inputs_identical": true,
+      "inherited_completed_runs": {
+        "rodiag1-bridge090": "20261010T073147Z-rodiag1-bridge090-8db1e0b8",
+        "rodiag1-center050": "20261010T073750Z-rodiag1-center050-2fde80ba"
+      },
+      "original_source_snapshot": "source-revisions/r1",
+      "physical_conditions_order_thresholds_budget_unchanged": true
+    }
+  ]
+}

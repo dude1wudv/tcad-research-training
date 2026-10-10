@@ -1,0 +1,305 @@
+{
+  "schema": "dram-readout-offset-d1-presentation",
+  "source_files_sha256": {
+    "experiments/dram-readout-offset-d1/comparisons.json": "8fe4a7ac0c103053f45119b2e906fa8e80bb8110e17ccb1d91ecdafaa4867c4f",
+    "experiments/dram-readout-offset-d1/data/20261010T073147Z-rodiag1-bridge090-8db1e0b8/circuit.csv": "be988b11f29e116920993c735e976c52f62038b26e12086cafbd92c177f8137d",
+    "experiments/dram-readout-offset-d1/data/20261010T073147Z-rodiag1-bridge090-8db1e0b8/device.csv": "c8ca2e67f8fd43e1171d0d48accc87db97be538d702b74294b4ca436c52a46c3",
+    "experiments/dram-readout-offset-d1/data/20261010T073147Z-rodiag1-bridge090-8db1e0b8/summary.json": "6a949a02c3ea74e29be8bcb7d104ee566104ccdfd4031d63ae75d8f88369afb5",
+    "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/circuit.csv": "3a2d5c0854457bea57cf5786df79ae25afb3fa11fe2a419341b289d7f299b1a3",
+    "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/device.csv": "ddba324ac1250c4c2cc26e36bcb842a38f5f613bb981fd7f533e4e5e7be9a768",
+    "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/summary.json": "58a9399c73a01ad1cff7ed834b20a27722c6c23d4c80f9de65c71c22f3f946e3",
+    "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/circuit.csv": "011aa42f1488a73d2e25ded11297fb6f227c855b7981372b15b6b6fcc9a58c4b",
+    "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/device.csv": "f7a1a3d14110deeb04f106102408141bf4c125d196d9e5050f087e8fd2578e21",
+    "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/summary.json": "cfabddd0986af975e1f7ee2a52b17c4307d4be54d122e49b9e6949b54eb6d2f9",
+    "experiments/dram-readout-offset-d1/data/20261010T075140Z-rodiag1-scan035-fd250135/circuit.csv": "9d9fda508a1b4c2b94eb2ea67977f0193f8c5c16254b5d526237fa6b44e7e833",
+    "experiments/dram-readout-offset-d1/data/20261010T075140Z-rodiag1-scan035-fd250135/device.csv": "6ac83d6d4920365756b75fd7aecf71f15b1d9c12b0eeda8167a4539d05d7007b",
+    "experiments/dram-readout-offset-d1/data/20261010T075140Z-rodiag1-scan035-fd250135/summary.json": "5bdf4be98e23becc46bea1ed606ce6e78d3de8794a170f133cf292e4ab0e42e9",
+    "experiments/dram-readout-offset-d1/data/20261010T075751Z-rodiag1-scan045-bbc7abd1/circuit.csv": "0514dda01424f4e7214d85f15f6f49706b32a7482aa5fd593864208653223bf2",
+    "experiments/dram-readout-offset-d1/data/20261010T075751Z-rodiag1-scan045-bbc7abd1/device.csv": "71c807eb751b62029ed10e6a6ca23c3566e9820b6a2bf107553ce12f3a6acd79",
+    "experiments/dram-readout-offset-d1/data/20261010T075751Z-rodiag1-scan045-bbc7abd1/summary.json": "463ec5e64f2acd6ab78548a7823e50a0ac764c3eec3c3a2a9da51983ab8f4dab",
+    "experiments/dram-readout-offset-d1/data/20261010T080358Z-rodiag1-scan055-02fe8094/circuit.csv": "50cdec17e696875a765038fbf42f1028cca3a6d2145c064c39c7ffd8b705170d",
+    "experiments/dram-readout-offset-d1/data/20261010T080358Z-rodiag1-scan055-02fe8094/device.csv": "8f5fac8060a40c7ec377b9fdc80fbb7e95471f435abb3458a202e36023c43104",
+    "experiments/dram-readout-offset-d1/data/20261010T080358Z-rodiag1-scan055-02fe8094/summary.json": "30b8f216277e18f3e72392e61eee93b13084f1d406a4f29a9f0ede24031206c6",
+    "experiments/dram-readout-offset-d1/data/20261010T081041Z-rodiag1-wl-off-55dfc440/circuit.csv": "1eae6dd2e586bd1923056198b6462fdb26e09a8a8931af1fa78d189117d503e3",
+    "experiments/dram-readout-offset-d1/data/20261010T081041Z-rodiag1-wl-off-55dfc440/device.csv": "e2c911722f6194e5348c15f8526c52aa2e1024148cbc8a9395b1f140885b8d79",
+    "experiments/dram-readout-offset-d1/data/20261010T081041Z-rodiag1-wl-off-55dfc440/summary.json": "31de9fd298227641151c8f520f02b3a7cbc5fab64c580d6825453d75ad364596",
+    "experiments/dram-readout-offset-d1/data/20261010T081707Z-rodiag1-wl-slow-5acda3af/circuit.csv": "e6799e4580aa6850a9e9d8c91fce96117e700a6557cdaddd9242fbd902d0461b",
+    "experiments/dram-readout-offset-d1/data/20261010T081707Z-rodiag1-wl-slow-5acda3af/device.csv": "c7ba58ee3a47a5596e0ce5c088623ecaf04f4ff448c1d178d3a58fa0105934c3",
+    "experiments/dram-readout-offset-d1/data/20261010T081707Z-rodiag1-wl-slow-5acda3af/summary.json": "b80c4dd8d5436873880fe1ea35b87d1b256157f02734d1cb833eb208446c3e2c",
+    "experiments/dram-readout-offset-d1/data/20261010T082741Z-rodiag1-matched-ref-r3-99f3de31/circuit.csv": "9993079c121f659f7e07121f68c2fcb78013933993ba28e3358dbc1def88766e",
+    "experiments/dram-readout-offset-d1/data/20261010T082741Z-rodiag1-matched-ref-r3-99f3de31/device.csv": "2a4d07bc196d95b85d4b00b3f167663f2c4309c7640c73c69f9351419bb2173e",
+    "experiments/dram-readout-offset-d1/data/20261010T082741Z-rodiag1-matched-ref-r3-99f3de31/summary.json": "cf486cb98748390ec682754c2309ef9faeb65511a312aaed3af1ab05d5a8d3ec",
+    "experiments/dram-readout-offset-d1/design-r2.json": "475db7f4889007cfe4a01ff8fa46168f020e4c4ad78b452f94fd3d0bb418b0c6",
+    "experiments/dram-readout-offset-d1/design-r3.json": "9899b4a8ad1ffb1eab05d0c90aecd3acb4c369746a04c35bdc762345695ddd91",
+    "experiments/dram-readout-offset-d1/design-r4.json": "810a08d08e872887d822a50e983a7a7021ed883aa3f5af69176c676e5d13cf87",
+    "experiments/dram-readout-offset-d1/design.json": "b034e06845934bf9b50e760430065cdf884de3736280d243d535f5aef3c4b644",
+    "experiments/dram-readout-offset-d1/report.py": "df618e7bfe7dcb7e78fd4d0b40a71f94e28900b0fa3ebc68bef922facf7d91a2",
+    "experiments/dram-see-v2/data/tcad/20261010T014743Z-v2-base-l025-b1-143253c7/summary.json": "ef24a355808e0589d7814bba7a6999725464bbbbb18463c2c4d79a276d98a5ac",
+    "experiments/dram-see-v2/data/tcad/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/circuit.csv": "cda95862de65720505ecfd76d89f49789d35610d6ddddd08ebed8dee707eebab",
+    "experiments/dram-see-v2/data/tcad/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/summary.json": "6deb9bd0242b542b7cceaeff5fb8de291cd7ff65c197557c20b16ebcb10955ac",
+    "local_runtime/dram-readout-offset-d1/ledger.json": "1db4afa59d575d9ebe1db8e02d40c4d51c0722c80f3fde7ebd96ad77638f364c",
+    "local_runtime/dram-readout-offset-diagnostic/inspection/sign-check-and-alpha101-charge.json": "5a26f3440fab88acd7eaaab4982dadbc4732e76270d41b15ea31559218cd9fa2",
+    "local_runtime/runs/20261010T082333Z-rodiag1-matched-ref-a289c12b/console.log": "b93b9b7948031d468a3fb4336efb49e47a97cbb17846ef3e1a77010b30ebff4b",
+    "local_runtime/runs/20261010T082333Z-rodiag1-matched-ref-a289c12b/manifest.json": "15eb177e8bff7cf3f5096753de3134bb1d99175c8612d9785177a6e17303523a"
+  },
+  "actual_ledger_verified": 9,
+  "actual_presented_exports": 9,
+  "frozen_case_count": 9,
+  "active_design_file": "design-r4.json",
+  "historical_attempt_count": 1,
+  "historical_attempts": [
+    {
+      "cohort": "historical_attempt",
+      "tag": "rodiag1-matched-ref",
+      "state": "FAILED",
+      "run_id": "20261010T082333Z-rodiag1-matched-ref-a289c12b",
+      "failure_reason": "ValueError('Runner failure/ambiguous identity')",
+      "presentation_error": "",
+      "raw_manifest_state": "FAILED_COLLECTED",
+      "raw_error_excerpt": "Error in \"device.cmd\" at line 14, offending input: reference | syntax error !",
+      "raw_ssh_exit_code": 5
+    }
+  ],
+  "comparisons_recorded_passed": true,
+  "independent_particle_events_added": 0,
+  "probability_estimates": false,
+  "figures": [
+    {
+      "figure": "01-sn-transfer-and-offset",
+      "conditions": "Cstore=10 fF, CBL=100 fF; standard WL: 0 to 1.8 V over 3.05-3.10 ns; decision readout at 4 ns.",
+      "note": "Lines connect actual cases; no fitted curve, extrapolation, bit redefinition, or new event sample.",
+      "run_ids": [
+        "20261010T075140Z-rodiag1-scan035-fd250135",
+        "20261010T074533Z-rodiag1-alpha-match-d0af10aa",
+        "20261010T075751Z-rodiag1-scan045-bbc7abd1",
+        "20261010T073750Z-rodiag1-center050-2fde80ba",
+        "20261010T080358Z-rodiag1-scan055-02fe8094",
+        "20261010T073147Z-rodiag1-bridge090-8db1e0b8"
+      ],
+      "source_files_sha256": {
+        "experiments/dram-readout-offset-d1/data/20261010T073147Z-rodiag1-bridge090-8db1e0b8/circuit.csv": "be988b11f29e116920993c735e976c52f62038b26e12086cafbd92c177f8137d",
+        "experiments/dram-readout-offset-d1/data/20261010T073147Z-rodiag1-bridge090-8db1e0b8/device.csv": "c8ca2e67f8fd43e1171d0d48accc87db97be538d702b74294b4ca436c52a46c3",
+        "experiments/dram-readout-offset-d1/data/20261010T073147Z-rodiag1-bridge090-8db1e0b8/summary.json": "6a949a02c3ea74e29be8bcb7d104ee566104ccdfd4031d63ae75d8f88369afb5",
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/circuit.csv": "3a2d5c0854457bea57cf5786df79ae25afb3fa11fe2a419341b289d7f299b1a3",
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/device.csv": "ddba324ac1250c4c2cc26e36bcb842a38f5f613bb981fd7f533e4e5e7be9a768",
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/summary.json": "58a9399c73a01ad1cff7ed834b20a27722c6c23d4c80f9de65c71c22f3f946e3",
+        "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/circuit.csv": "011aa42f1488a73d2e25ded11297fb6f227c855b7981372b15b6b6fcc9a58c4b",
+        "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/device.csv": "f7a1a3d14110deeb04f106102408141bf4c125d196d9e5050f087e8fd2578e21",
+        "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/summary.json": "cfabddd0986af975e1f7ee2a52b17c4307d4be54d122e49b9e6949b54eb6d2f9",
+        "experiments/dram-readout-offset-d1/data/20261010T075140Z-rodiag1-scan035-fd250135/circuit.csv": "9d9fda508a1b4c2b94eb2ea67977f0193f8c5c16254b5d526237fa6b44e7e833",
+        "experiments/dram-readout-offset-d1/data/20261010T075140Z-rodiag1-scan035-fd250135/device.csv": "6ac83d6d4920365756b75fd7aecf71f15b1d9c12b0eeda8167a4539d05d7007b",
+        "experiments/dram-readout-offset-d1/data/20261010T075140Z-rodiag1-scan035-fd250135/summary.json": "5bdf4be98e23becc46bea1ed606ce6e78d3de8794a170f133cf292e4ab0e42e9",
+        "experiments/dram-readout-offset-d1/data/20261010T075751Z-rodiag1-scan045-bbc7abd1/circuit.csv": "0514dda01424f4e7214d85f15f6f49706b32a7482aa5fd593864208653223bf2",
+        "experiments/dram-readout-offset-d1/data/20261010T075751Z-rodiag1-scan045-bbc7abd1/device.csv": "71c807eb751b62029ed10e6a6ca23c3566e9820b6a2bf107553ce12f3a6acd79",
+        "experiments/dram-readout-offset-d1/data/20261010T075751Z-rodiag1-scan045-bbc7abd1/summary.json": "463ec5e64f2acd6ab78548a7823e50a0ac764c3eec3c3a2a9da51983ab8f4dab",
+        "experiments/dram-readout-offset-d1/data/20261010T080358Z-rodiag1-scan055-02fe8094/circuit.csv": "50cdec17e696875a765038fbf42f1028cca3a6d2145c064c39c7ffd8b705170d",
+        "experiments/dram-readout-offset-d1/data/20261010T080358Z-rodiag1-scan055-02fe8094/device.csv": "8f5fac8060a40c7ec377b9fdc80fbb7e95471f435abb3458a202e36023c43104",
+        "experiments/dram-readout-offset-d1/data/20261010T080358Z-rodiag1-scan055-02fe8094/summary.json": "30b8f216277e18f3e72392e61eee93b13084f1d406a4f29a9f0ede24031206c6"
+      },
+      "diagnostic_run_ids": [
+        "20261010T075140Z-rodiag1-scan035-fd250135",
+        "20261010T074533Z-rodiag1-alpha-match-d0af10aa",
+        "20261010T075751Z-rodiag1-scan045-bbc7abd1",
+        "20261010T073750Z-rodiag1-center050-2fde80ba",
+        "20261010T080358Z-rodiag1-scan055-02fe8094",
+        "20261010T073147Z-rodiag1-bridge090-8db1e0b8"
+      ],
+      "historical_reference_run_ids": [],
+      "archive_sha256": {
+        "20261010T075140Z-rodiag1-scan035-fd250135": "7ab2872a241b864e6c149c45185cbfee9a9e786ab5603bf8590809a9facad5e5",
+        "20261010T074533Z-rodiag1-alpha-match-d0af10aa": "4180ab071cf0be7c5d3e15551fc4033ba092c1ce56a72bea19cff016b65a85bb",
+        "20261010T075751Z-rodiag1-scan045-bbc7abd1": "a621a3719d815e6f769748da1d34981f4318c9c76be7c018d9d01ae1495ac7ea",
+        "20261010T073750Z-rodiag1-center050-2fde80ba": "d06946f0e0a1be5cb4c65261a8cd0ae7c343f1a94815c3a6c7603b640d6bf769",
+        "20261010T080358Z-rodiag1-scan055-02fe8094": "97cf5065eca790863bd46b59791c05a873944c0fcdca54b9ccd94406c94b1b82",
+        "20261010T073147Z-rodiag1-bridge090-8db1e0b8": "9e84c195bedef98eb1d1cab9ac263d615ade3949d6abc5080e4fe5898cf7290d"
+      },
+      "files": {
+        "png": {
+          "path": "experiments/dram-readout-offset-d1/figures/01-sn-transfer-and-offset.png",
+          "sha256": "1e0df613a43fadab3c30996bd511b6f5566acf6c6f8811e5b86abd9854356f2c"
+        },
+        "svg": {
+          "path": "experiments/dram-readout-offset-d1/figures/01-sn-transfer-and-offset.svg",
+          "sha256": "a3c3bdef276f5430b671d58b099b8eff56486efef30c77b1ff1aa2413b624689"
+        }
+      },
+      "kind": "DATA PLOT, not a Sentaurus Visual screenshot"
+    },
+    {
+      "figure": "02-wl-and-terminal-currents",
+      "conditions": "L=0.25 um, 300 K, Cstore=10 fF, CBL=100 fF; same WL start=3.05 ns.",
+      "note": "Device terminal sign is opposite circuit inflow at source/drain. Gate displacement is not carrier tunneling through oxide.",
+      "run_ids": [
+        "20261010T073750Z-rodiag1-center050-2fde80ba",
+        "20261010T081041Z-rodiag1-wl-off-55dfc440",
+        "20261010T081707Z-rodiag1-wl-slow-5acda3af"
+      ],
+      "source_files_sha256": {
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/circuit.csv": "3a2d5c0854457bea57cf5786df79ae25afb3fa11fe2a419341b289d7f299b1a3",
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/device.csv": "ddba324ac1250c4c2cc26e36bcb842a38f5f613bb981fd7f533e4e5e7be9a768",
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/summary.json": "58a9399c73a01ad1cff7ed834b20a27722c6c23d4c80f9de65c71c22f3f946e3",
+        "experiments/dram-readout-offset-d1/data/20261010T081041Z-rodiag1-wl-off-55dfc440/circuit.csv": "1eae6dd2e586bd1923056198b6462fdb26e09a8a8931af1fa78d189117d503e3",
+        "experiments/dram-readout-offset-d1/data/20261010T081041Z-rodiag1-wl-off-55dfc440/device.csv": "e2c911722f6194e5348c15f8526c52aa2e1024148cbc8a9395b1f140885b8d79",
+        "experiments/dram-readout-offset-d1/data/20261010T081041Z-rodiag1-wl-off-55dfc440/summary.json": "31de9fd298227641151c8f520f02b3a7cbc5fab64c580d6825453d75ad364596",
+        "experiments/dram-readout-offset-d1/data/20261010T081707Z-rodiag1-wl-slow-5acda3af/circuit.csv": "e6799e4580aa6850a9e9d8c91fce96117e700a6557cdaddd9242fbd902d0461b",
+        "experiments/dram-readout-offset-d1/data/20261010T081707Z-rodiag1-wl-slow-5acda3af/device.csv": "c7ba58ee3a47a5596e0ce5c088623ecaf04f4ff448c1d178d3a58fa0105934c3",
+        "experiments/dram-readout-offset-d1/data/20261010T081707Z-rodiag1-wl-slow-5acda3af/summary.json": "b80c4dd8d5436873880fe1ea35b87d1b256157f02734d1cb833eb208446c3e2c"
+      },
+      "diagnostic_run_ids": [
+        "20261010T073750Z-rodiag1-center050-2fde80ba",
+        "20261010T081041Z-rodiag1-wl-off-55dfc440",
+        "20261010T081707Z-rodiag1-wl-slow-5acda3af"
+      ],
+      "historical_reference_run_ids": [],
+      "archive_sha256": {
+        "20261010T073750Z-rodiag1-center050-2fde80ba": "d06946f0e0a1be5cb4c65261a8cd0ae7c343f1a94815c3a6c7603b640d6bf769",
+        "20261010T081041Z-rodiag1-wl-off-55dfc440": "18196f0528dcb3eaa0d231064277333566fcabe1f08ada6beb6f9602c21d6370",
+        "20261010T081707Z-rodiag1-wl-slow-5acda3af": "824f01f95aba5d8de934a2a42c9716392284f1b9c44a50eb375a7bdbd681788b"
+      },
+      "files": {
+        "png": {
+          "path": "experiments/dram-readout-offset-d1/figures/02-wl-and-terminal-currents.png",
+          "sha256": "b387957f0ef9b1c19f8008ceb0afc8ef340165c7c4a8220a628eeb27aa9c86f9"
+        },
+        "svg": {
+          "path": "experiments/dram-readout-offset-d1/figures/02-wl-and-terminal-currents.svg",
+          "sha256": "3197cdcbdee9b8a307135df4bd48d301c848cb73a9ffd40719c425349b309ca1"
+        }
+      },
+      "kind": "DATA PLOT, not a Sentaurus Visual screenshot"
+    },
+    {
+      "figure": "03-port-integrals-and-closure",
+      "conditions": "L=0.25 um, no particle; signal branch Cstore=10 fF, CBL=100 fF; reference topology and WL vary by frozen case.",
+      "note": "All quantities are existing audit outputs; residuals show their differences, not a new acceptance test.",
+      "run_ids": [
+        "20261010T073147Z-rodiag1-bridge090-8db1e0b8",
+        "20261010T073750Z-rodiag1-center050-2fde80ba",
+        "20261010T074533Z-rodiag1-alpha-match-d0af10aa",
+        "20261010T075140Z-rodiag1-scan035-fd250135",
+        "20261010T075751Z-rodiag1-scan045-bbc7abd1",
+        "20261010T080358Z-rodiag1-scan055-02fe8094",
+        "20261010T081041Z-rodiag1-wl-off-55dfc440",
+        "20261010T081707Z-rodiag1-wl-slow-5acda3af",
+        "20261010T082741Z-rodiag1-matched-ref-r3-99f3de31"
+      ],
+      "source_files_sha256": {
+        "experiments/dram-readout-offset-d1/data/20261010T073147Z-rodiag1-bridge090-8db1e0b8/circuit.csv": "be988b11f29e116920993c735e976c52f62038b26e12086cafbd92c177f8137d",
+        "experiments/dram-readout-offset-d1/data/20261010T073147Z-rodiag1-bridge090-8db1e0b8/device.csv": "c8ca2e67f8fd43e1171d0d48accc87db97be538d702b74294b4ca436c52a46c3",
+        "experiments/dram-readout-offset-d1/data/20261010T073147Z-rodiag1-bridge090-8db1e0b8/summary.json": "6a949a02c3ea74e29be8bcb7d104ee566104ccdfd4031d63ae75d8f88369afb5",
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/circuit.csv": "3a2d5c0854457bea57cf5786df79ae25afb3fa11fe2a419341b289d7f299b1a3",
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/device.csv": "ddba324ac1250c4c2cc26e36bcb842a38f5f613bb981fd7f533e4e5e7be9a768",
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/summary.json": "58a9399c73a01ad1cff7ed834b20a27722c6c23d4c80f9de65c71c22f3f946e3",
+        "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/circuit.csv": "011aa42f1488a73d2e25ded11297fb6f227c855b7981372b15b6b6fcc9a58c4b",
+        "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/device.csv": "f7a1a3d14110deeb04f106102408141bf4c125d196d9e5050f087e8fd2578e21",
+        "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/summary.json": "cfabddd0986af975e1f7ee2a52b17c4307d4be54d122e49b9e6949b54eb6d2f9",
+        "experiments/dram-readout-offset-d1/data/20261010T075140Z-rodiag1-scan035-fd250135/circuit.csv": "9d9fda508a1b4c2b94eb2ea67977f0193f8c5c16254b5d526237fa6b44e7e833",
+        "experiments/dram-readout-offset-d1/data/20261010T075140Z-rodiag1-scan035-fd250135/device.csv": "6ac83d6d4920365756b75fd7aecf71f15b1d9c12b0eeda8167a4539d05d7007b",
+        "experiments/dram-readout-offset-d1/data/20261010T075140Z-rodiag1-scan035-fd250135/summary.json": "5bdf4be98e23becc46bea1ed606ce6e78d3de8794a170f133cf292e4ab0e42e9",
+        "experiments/dram-readout-offset-d1/data/20261010T075751Z-rodiag1-scan045-bbc7abd1/circuit.csv": "0514dda01424f4e7214d85f15f6f49706b32a7482aa5fd593864208653223bf2",
+        "experiments/dram-readout-offset-d1/data/20261010T075751Z-rodiag1-scan045-bbc7abd1/device.csv": "71c807eb751b62029ed10e6a6ca23c3566e9820b6a2bf107553ce12f3a6acd79",
+        "experiments/dram-readout-offset-d1/data/20261010T075751Z-rodiag1-scan045-bbc7abd1/summary.json": "463ec5e64f2acd6ab78548a7823e50a0ac764c3eec3c3a2a9da51983ab8f4dab",
+        "experiments/dram-readout-offset-d1/data/20261010T080358Z-rodiag1-scan055-02fe8094/circuit.csv": "50cdec17e696875a765038fbf42f1028cca3a6d2145c064c39c7ffd8b705170d",
+        "experiments/dram-readout-offset-d1/data/20261010T080358Z-rodiag1-scan055-02fe8094/device.csv": "8f5fac8060a40c7ec377b9fdc80fbb7e95471f435abb3458a202e36023c43104",
+        "experiments/dram-readout-offset-d1/data/20261010T080358Z-rodiag1-scan055-02fe8094/summary.json": "30b8f216277e18f3e72392e61eee93b13084f1d406a4f29a9f0ede24031206c6",
+        "experiments/dram-readout-offset-d1/data/20261010T081041Z-rodiag1-wl-off-55dfc440/circuit.csv": "1eae6dd2e586bd1923056198b6462fdb26e09a8a8931af1fa78d189117d503e3",
+        "experiments/dram-readout-offset-d1/data/20261010T081041Z-rodiag1-wl-off-55dfc440/device.csv": "e2c911722f6194e5348c15f8526c52aa2e1024148cbc8a9395b1f140885b8d79",
+        "experiments/dram-readout-offset-d1/data/20261010T081041Z-rodiag1-wl-off-55dfc440/summary.json": "31de9fd298227641151c8f520f02b3a7cbc5fab64c580d6825453d75ad364596",
+        "experiments/dram-readout-offset-d1/data/20261010T081707Z-rodiag1-wl-slow-5acda3af/circuit.csv": "e6799e4580aa6850a9e9d8c91fce96117e700a6557cdaddd9242fbd902d0461b",
+        "experiments/dram-readout-offset-d1/data/20261010T081707Z-rodiag1-wl-slow-5acda3af/device.csv": "c7ba58ee3a47a5596e0ce5c088623ecaf04f4ff448c1d178d3a58fa0105934c3",
+        "experiments/dram-readout-offset-d1/data/20261010T081707Z-rodiag1-wl-slow-5acda3af/summary.json": "b80c4dd8d5436873880fe1ea35b87d1b256157f02734d1cb833eb208446c3e2c",
+        "experiments/dram-readout-offset-d1/data/20261010T082741Z-rodiag1-matched-ref-r3-99f3de31/circuit.csv": "9993079c121f659f7e07121f68c2fcb78013933993ba28e3358dbc1def88766e",
+        "experiments/dram-readout-offset-d1/data/20261010T082741Z-rodiag1-matched-ref-r3-99f3de31/device.csv": "2a4d07bc196d95b85d4b00b3f167663f2c4309c7640c73c69f9351419bb2173e",
+        "experiments/dram-readout-offset-d1/data/20261010T082741Z-rodiag1-matched-ref-r3-99f3de31/summary.json": "cf486cb98748390ec682754c2309ef9faeb65511a312aaed3af1ab05d5a8d3ec"
+      },
+      "diagnostic_run_ids": [
+        "20261010T073147Z-rodiag1-bridge090-8db1e0b8",
+        "20261010T073750Z-rodiag1-center050-2fde80ba",
+        "20261010T074533Z-rodiag1-alpha-match-d0af10aa",
+        "20261010T075140Z-rodiag1-scan035-fd250135",
+        "20261010T075751Z-rodiag1-scan045-bbc7abd1",
+        "20261010T080358Z-rodiag1-scan055-02fe8094",
+        "20261010T081041Z-rodiag1-wl-off-55dfc440",
+        "20261010T081707Z-rodiag1-wl-slow-5acda3af",
+        "20261010T082741Z-rodiag1-matched-ref-r3-99f3de31"
+      ],
+      "historical_reference_run_ids": [],
+      "archive_sha256": {
+        "20261010T073147Z-rodiag1-bridge090-8db1e0b8": "9e84c195bedef98eb1d1cab9ac263d615ade3949d6abc5080e4fe5898cf7290d",
+        "20261010T073750Z-rodiag1-center050-2fde80ba": "d06946f0e0a1be5cb4c65261a8cd0ae7c343f1a94815c3a6c7603b640d6bf769",
+        "20261010T074533Z-rodiag1-alpha-match-d0af10aa": "4180ab071cf0be7c5d3e15551fc4033ba092c1ce56a72bea19cff016b65a85bb",
+        "20261010T075140Z-rodiag1-scan035-fd250135": "7ab2872a241b864e6c149c45185cbfee9a9e786ab5603bf8590809a9facad5e5",
+        "20261010T075751Z-rodiag1-scan045-bbc7abd1": "a621a3719d815e6f769748da1d34981f4318c9c76be7c018d9d01ae1495ac7ea",
+        "20261010T080358Z-rodiag1-scan055-02fe8094": "97cf5065eca790863bd46b59791c05a873944c0fcdca54b9ccd94406c94b1b82",
+        "20261010T081041Z-rodiag1-wl-off-55dfc440": "18196f0528dcb3eaa0d231064277333566fcabe1f08ada6beb6f9602c21d6370",
+        "20261010T081707Z-rodiag1-wl-slow-5acda3af": "824f01f95aba5d8de934a2a42c9716392284f1b9c44a50eb375a7bdbd681788b",
+        "20261010T082741Z-rodiag1-matched-ref-r3-99f3de31": "bff1675bb5510958c26314b9ddbdd1efd572dd850f91e16863e9ab0dd1716950"
+      },
+      "files": {
+        "png": {
+          "path": "experiments/dram-readout-offset-d1/figures/03-port-integrals-and-closure.png",
+          "sha256": "8d4130549eb84aa08aec87115a4a81ff3ed19052b0071a042cc93072a5c4fbab"
+        },
+        "svg": {
+          "path": "experiments/dram-readout-offset-d1/figures/03-port-integrals-and-closure.svg",
+          "sha256": "9eee3b10d43749374cea3627ef291a20d5a9d458485a9bc42b97d171a5f5b096"
+        }
+      },
+      "kind": "DATA PLOT, not a Sentaurus Visual screenshot"
+    },
+    {
+      "figure": "04-reference-readout-contrasts",
+      "conditions": "L=0.25 um, 50 ps WL ramp, 300 K. D1: no particle, signal target=0.3937277549 V, center target=0.5 V; physical REF adds an access cell.",
+      "note": "Prior alpha101: 5 MeV vertical particle, original stored bit 1, different carrier/field history; not a D1 case. Offline center trace uses linear interpolation, not new solver points. Pilot reference and thresholds remain unchanged.",
+      "run_ids": [
+        "20261010T074533Z-rodiag1-alpha-match-d0af10aa",
+        "20261010T073750Z-rodiag1-center050-2fde80ba",
+        "20261010T082741Z-rodiag1-matched-ref-r3-99f3de31",
+        "20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa"
+      ],
+      "source_files_sha256": {
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/circuit.csv": "3a2d5c0854457bea57cf5786df79ae25afb3fa11fe2a419341b289d7f299b1a3",
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/device.csv": "ddba324ac1250c4c2cc26e36bcb842a38f5f613bb981fd7f533e4e5e7be9a768",
+        "experiments/dram-readout-offset-d1/data/20261010T073750Z-rodiag1-center050-2fde80ba/summary.json": "58a9399c73a01ad1cff7ed834b20a27722c6c23d4c80f9de65c71c22f3f946e3",
+        "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/circuit.csv": "011aa42f1488a73d2e25ded11297fb6f227c855b7981372b15b6b6fcc9a58c4b",
+        "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/device.csv": "f7a1a3d14110deeb04f106102408141bf4c125d196d9e5050f087e8fd2578e21",
+        "experiments/dram-readout-offset-d1/data/20261010T074533Z-rodiag1-alpha-match-d0af10aa/summary.json": "cfabddd0986af975e1f7ee2a52b17c4307d4be54d122e49b9e6949b54eb6d2f9",
+        "experiments/dram-readout-offset-d1/data/20261010T082741Z-rodiag1-matched-ref-r3-99f3de31/circuit.csv": "9993079c121f659f7e07121f68c2fcb78013933993ba28e3358dbc1def88766e",
+        "experiments/dram-readout-offset-d1/data/20261010T082741Z-rodiag1-matched-ref-r3-99f3de31/device.csv": "2a4d07bc196d95b85d4b00b3f167663f2c4309c7640c73c69f9351419bb2173e",
+        "experiments/dram-readout-offset-d1/data/20261010T082741Z-rodiag1-matched-ref-r3-99f3de31/summary.json": "cf486cb98748390ec682754c2309ef9faeb65511a312aaed3af1ab05d5a8d3ec",
+        "experiments/dram-see-v2/data/tcad/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/circuit.csv": "cda95862de65720505ecfd76d89f49789d35610d6ddddd08ebed8dee707eebab",
+        "experiments/dram-see-v2/data/tcad/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/summary.json": "6deb9bd0242b542b7cceaeff5fb8de291cd7ff65c197557c20b16ebcb10955ac"
+      },
+      "diagnostic_run_ids": [
+        "20261010T074533Z-rodiag1-alpha-match-d0af10aa",
+        "20261010T073750Z-rodiag1-center050-2fde80ba",
+        "20261010T082741Z-rodiag1-matched-ref-r3-99f3de31"
+      ],
+      "historical_reference_run_ids": [
+        "20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa"
+      ],
+      "archive_sha256": {
+        "20261010T074533Z-rodiag1-alpha-match-d0af10aa": "4180ab071cf0be7c5d3e15551fc4033ba092c1ce56a72bea19cff016b65a85bb",
+        "20261010T073750Z-rodiag1-center050-2fde80ba": "d06946f0e0a1be5cb4c65261a8cd0ae7c343f1a94815c3a6c7603b640d6bf769",
+        "20261010T082741Z-rodiag1-matched-ref-r3-99f3de31": "bff1675bb5510958c26314b9ddbdd1efd572dd850f91e16863e9ab0dd1716950",
+        "20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa": "39f52270a4f4bc686af2f704084fffd20a174d8c464fbf35501ee7616736e0b3"
+      },
+      "files": {
+        "png": {
+          "path": "experiments/dram-readout-offset-d1/figures/04-reference-readout-contrasts.png",
+          "sha256": "a6d45b40a2fbb13c45ac68e8550af2cdf9431e8ab7d5bb79e4aaead67f220707"
+        },
+        "svg": {
+          "path": "experiments/dram-readout-offset-d1/figures/04-reference-readout-contrasts.svg",
+          "sha256": "1f0eb69aa0f00dba2614f87e83dd080f1bbfe806c033862504df2446b6752f27"
+        }
+      },
+      "kind": "DATA PLOT, not a Sentaurus Visual screenshot"
+    }
+  ],
+  "generated_files_sha256": {
+    "experiments/dram-readout-offset-d1/data/summary.csv": "c954de8ded583ce9a3cc3034a416488f0d5edc3d12fe3fbc690b0f91c70a8956",
+    "experiments/dram-readout-offset-d1/report.md": "4b8e0539d4f29799b0432d187a9e22157f9da604016c056de2af496cf2445db7"
+  },
+  "scope": "Presentation of existing audit outputs; no solver, reclassification, or new acceptance rules."
+}

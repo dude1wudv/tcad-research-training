@@ -1,0 +1,22 @@
+{
+  "runs": {
+    "coarse": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+    "coarse_control": "20261009T170632Z-control-l025-cd6c15bc",
+    "fine": "20261009T185046Z-refine-alpha5-l025-a0-27978762",
+    "fine_control": "20261009T190518Z-refine-control-l025-a0-f0526020"
+  },
+  "coarse_corrected_drop_V": 0.489018696031368,
+  "fine_corrected_drop_V": 0.489368380771801,
+  "difference_V": 0.00034968474043300946,
+  "tolerance_V": 0.024450934801568402,
+  "coarse_corrected_loss_fC": 4.89018696031368,
+  "fine_corrected_loss_fC": 4.89368380771801,
+  "difference_fC": 0.0034968474043299835,
+  "tolerance_fC": 0.24450934801568402,
+  "passed": true,
+  "coarse_trapezoid_vs_BE_fC": 0.07216104093552177,
+  "fine_trapezoid_vs_BE_fC": 0.03803157041029135,
+  "coarse_source_relative_error": 0.0021754731911375284,
+  "fine_source_relative_error": 0.007095233066278027,
+  "scope": "One representative point, simultaneous mesh/time refinement; not separate convergence orders or matrix-wide grid independence."
+}

@@ -1,0 +1,11 @@
+{
+  "provider": "existing-private-vm-ssh",
+  "base": "existing CentOS 7; no system upgrade",
+  "tcad": "existing Sentaurus W-2024.09",
+  "geant4_candidate": "10.7.3 official CentOS7 gcc8.3 binary; isolated user directory",
+  "compiler_observed": "GCC 10.2.0",
+  "cpu_policy": "single-threaded sequential solver; existing TCAD runner and lock",
+  "system_changes": [],
+  "witness": "seeded Geant4 energy-deposition event plus real SDevice solution; launch/version alone is insufficient",
+  "status": "not-yet-validated"
+}

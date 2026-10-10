@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "full_restart": {
+      "full_run_id": "20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc",
+      "restart_run_id": "20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa",
+      "D_difference_mV": 1.9984014443252818e-12,
+      "prestrike_difference_mV": 0.0,
+      "D_tolerance_mV": 0.1,
+      "initial_tolerance_mV": 0.001,
+      "passed": true,
+      "same_source_event": "l025-alpha-s202610101",
+      "bit": 1
+    },
+    "half_step": {
+      "selection": "closest absolute signed margin to any predeclared 2.5/5/10 mV boundary among all frozen completed responses; validation selection only, no change to event cohort",
+      "coarse_run_id": "20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa",
+      "fine_run_id": "20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46",
+      "coarse_control_run_id": "20261010T014743Z-v2-base-l025-b1-143253c7",
+      "fine_control_run_id": "20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b",
+      "coarse_D_mV": 2.4503010927919844,
+      "fine_D_mV": 2.4162681286550303,
+      "D_difference_mV": 0.034032964136954114,
+      "control_D_difference_mV": 0.0006876769240715674,
+      "control_corrected_D_difference_mV": 0.03472064106102568,
+      "D_tolerance_mV": 0.5,
+      "threshold_classifications": {
+        "2.5mV": {
+          "coarse": "uncertain",
+          "fine": "uncertain",
+          "control_coarse": "correct",
+          "control_fine": "correct",
+          "same_class": true,
+          "numerically_uncertain": false
+        },
+        "5mV": {
+          "coarse": "uncertain",
+          "fine": "uncertain",
+          "control_coarse": "correct",
+          "control_fine": "correct",
+          "same_class": true,
+          "numerically_uncertain": false
+        },
+        "10mV": {
+          "coarse": "uncertain",
+          "fine": "uncertain",
+          "control_coarse": "correct",
+          "control_fine": "correct",
+          "same_class": true,
+          "numerically_uncertain": false
+        }
+      },
+      "all_threshold_classes_stable": true,
+      "passed": true,
+      "coarse_class": "uncertain",
+      "fine_class": "uncertain",
+      "same_class": true,
+      "only_temporal_refinement": true,
+      "mesh_refinement_unverified": true,
+      "bit": 1,
+      "event": "l025-alpha-s202610101"
+    }
+  },
+  "scope": "numerical engineering checks; no physical calibration"
+}

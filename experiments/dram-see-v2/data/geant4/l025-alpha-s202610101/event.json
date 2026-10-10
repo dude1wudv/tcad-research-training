@@ -1,0 +1,45 @@
+{
+  "schema": "dram-see-v2",
+  "label": "l025-alpha-s202610101",
+  "gate_length_um": 0.25,
+  "particle": "alpha",
+  "energy_MeV": 5.0,
+  "angle_deg": 0,
+  "seed": 202610101,
+  "event_count": 1,
+  "surface_impact_um": [
+    0.7,
+    0,
+    0
+  ],
+  "launch_position_um": [
+    0.7,
+    -0.001,
+    0
+  ],
+  "direction": [
+    0,
+    1,
+    0
+  ],
+  "conversion_eV_per_pair": 3.6,
+  "converted": [
+    {
+      "event": 0,
+      "ionizing_MeV": 0.178057287517589,
+      "charge_pc": 0.007924422932613915,
+      "track_length_um": 1.2,
+      "let_pc_per_um": 0.006603685777178263
+    }
+  ],
+  "source_sha256": "8f3ec870dad0905be7516bf657ed033d8cf5c5ade7cef938a941622b2f483ce2",
+  "binary_sha256": "830cd8480bc11a27b243f6662d0e64a71d5b382a45bfd1e80f8e199bfdfdb67f",
+  "files_sha256": {
+    "steps.csv": "18bada17e01dfae587753e90de6a3a78c3f2325932a139f62524fe7a5d4f3788",
+    "events.csv": "3ae0a64bc62a2b37e90f5eea563097be673961c0b998cd587df763a43fcbc640"
+  },
+  "operation_exit_code": 0,
+  "operation_label": "g4-l025-alpha-s202610101",
+  "command": "${V1_INSTALLED_ROOT}/build/transport 0.25 alpha 5 0 202610101 1",
+  "scope": "independent random seed; fixed position/energy/angle; EM-only uniform equivalent track"
+}

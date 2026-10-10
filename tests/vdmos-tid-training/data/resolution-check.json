@@ -1,0 +1,24 @@
+[
+  {
+    "dose_krad_SiO2": 0.0,
+    "reference_run_id": "20261002T044057Z-vdmos-tid-pilot-v1-d408ee62",
+    "verification_run_id": "20261002T050808Z-vdmos-tid-fine-000-a49079eb",
+    "mesh_scale": 0.7,
+    "step_scale": 0.5,
+    "absolute_Vth_difference_V": 0.0011969014946990875,
+    "relative_ID_VG10_difference": 0.0003380643962167529,
+    "relative_BV_difference": 0.0004847119322282101,
+    "passed": true
+  },
+  {
+    "dose_krad_SiO2": 60.0,
+    "reference_run_id": "20261002T050511Z-vdmos-tid-dose-060-1a1ae2c5",
+    "verification_run_id": "20261002T051927Z-vdmos-tid-fine-060-2bcc58ba",
+    "mesh_scale": 0.7,
+    "step_scale": 0.5,
+    "absolute_Vth_difference_V": 0.0011428096829830814,
+    "relative_ID_VG10_difference": 0.00029701374481383436,
+    "relative_BV_difference": 0.000510292787047173,
+    "passed": true
+  }
+]

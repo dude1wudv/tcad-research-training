@@ -1,0 +1,51 @@
+{
+  "runs": [
+    {
+      "kind": "production",
+      "case_name": "dose-000",
+      "run_id": "20261002T044057Z-vdmos-tid-pilot-v1-d408ee62"
+    },
+    {
+      "kind": "production",
+      "case_name": "dose-010",
+      "run_id": "20261002T045000Z-vdmos-tid-dose-010-dbea45ef"
+    },
+    {
+      "kind": "production",
+      "case_name": "dose-020",
+      "run_id": "20261002T045315Z-vdmos-tid-dose-020-2cf3256f"
+    },
+    {
+      "kind": "production",
+      "case_name": "dose-030",
+      "run_id": "20261002T045619Z-vdmos-tid-dose-030-1979bca3"
+    },
+    {
+      "kind": "production",
+      "case_name": "dose-040",
+      "run_id": "20261002T045920Z-vdmos-tid-dose-040-d8c8a597"
+    },
+    {
+      "kind": "production",
+      "case_name": "dose-050",
+      "run_id": "20261002T050211Z-vdmos-tid-dose-050-6bbebff4"
+    },
+    {
+      "kind": "production",
+      "case_name": "dose-060",
+      "run_id": "20261002T050511Z-vdmos-tid-dose-060-1a1ae2c5"
+    },
+    {
+      "kind": "verification",
+      "case_name": "fine-000",
+      "run_id": "20261002T050808Z-vdmos-tid-fine-000-a49079eb"
+    },
+    {
+      "kind": "verification",
+      "case_name": "fine-060",
+      "run_id": "20261002T051927Z-vdmos-tid-fine-060-2bcc58ba"
+    }
+  ],
+  "notes": "Frozen pilot reused as 0-krad reference; no physics changes, no duplicate counting.",
+  "plan_sha256": "6731e441f80109d769ad67b59cb3146112de15510c49a13c6eb5b44a978233fb"
+}

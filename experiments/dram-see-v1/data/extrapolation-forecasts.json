@@ -1,0 +1,34 @@
+{
+  "l045-alpha-e5-a0": {
+    "registered_utc": "2026-10-09T18:32:21.201837+00:00",
+    "predicted_drop_V": 0.4837592100109481,
+    "model_sha256": "3cd946a3bbd4f37ad40846bbec54bb29b3f981183c6f48268b70a2b4fd373351",
+    "source_event_sha256": "05b2b95e93ed5664478385fafc978122edc03431382decc1ebf99d21b4aab3e5",
+    "reference_completed_at_registration": false,
+    "scope": "Two-stage forecast uses actual Geant4 Q; no TCAD response is read."
+  },
+  "l045-alpha-e5-a30": {
+    "registered_utc": "2026-10-09T18:36:05.724504+00:00",
+    "predicted_drop_V": 0.4485379732982027,
+    "model_sha256": "3cd946a3bbd4f37ad40846bbec54bb29b3f981183c6f48268b70a2b4fd373351",
+    "source_event_sha256": "6e0208e41dfeb43a7fc85c0b614ab16a0c0463d3f0bf6a4818968c299ea9304c",
+    "reference_completed_at_registration": false,
+    "scope": "Two-stage forecast uses actual Geant4 Q; TCAD voltage/current values are not used."
+  },
+  "l045-proton-e5-a0": {
+    "registered_utc": "2026-10-09T18:40:45.461965+00:00",
+    "predicted_drop_V": 0.021083886700739383,
+    "model_sha256": "3cd946a3bbd4f37ad40846bbec54bb29b3f981183c6f48268b70a2b4fd373351",
+    "source_event_sha256": "0d6fa9d04c06fd0ac445d58b29071f7af2db0a61c792c44967f9eb90a6035164",
+    "reference_completed_at_registration": false,
+    "scope": "Two-stage forecast uses actual Geant4 Q; TCAD voltage/current values are not used."
+  },
+  "l045-proton-e5-a30": {
+    "registered_utc": "2026-10-09T18:46:21.570953+00:00",
+    "predicted_drop_V": 0.018754134664752016,
+    "model_sha256": "3cd946a3bbd4f37ad40846bbec54bb29b3f981183c6f48268b70a2b4fd373351",
+    "source_event_sha256": "736ee67243ec269b5e2ce51da1dfa06273a06414cb122999f4c6721b3ddf8ffd",
+    "reference_completed_at_registration": false,
+    "scope": "Two-stage forecast uses actual Geant4 Q; TCAD voltage/current values are not used."
+  }
+}

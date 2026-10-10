@@ -1,0 +1,965 @@
+[
+  {
+    "run_id": "20261002T044057Z-vdmos-tid-pilot-v1-d408ee62",
+    "parameters": {
+      "dose_krad_SiO2": 0.0,
+      "not_cm2": 50000000000.0,
+      "nit_total_cm2": 10000000000.0,
+      "mesh_scale": 1.0,
+      "step_scale": 1.0,
+      "area_factor": 1,
+      "current_unit": "A/um; 2D half-cell, unit depth",
+      "interpretation": "Uncalibrated post-TID effective-defect training model",
+      "generator_sha256": "5193914170227fffe96e62eaaae02be1d85e90391489ff23a6fb1ea4045fe7aa"
+    },
+    "results_sha256": "3ac5a51c468cdbed561689405fb79a8c5ffb124a1f87a8000cebeefbad9d1afe",
+    "transfer_sources": [
+      "transfer_des.plt:last actual drain-initialization sample",
+      "idvg_transfer_des.plt"
+    ],
+    "input_sha256": {
+      "breakdown.cmd": "f4b404c52acc0c161b6e4115e94f6ecc761af297b9cd3c7e218f5c2215b55617",
+      "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+      "idvg.cmd": "d9815440e19afe26986a1b23e231ceb6f5d48f81e6c2fa6e2142198c07a3bb4b",
+      "parameters.json": "4d8820cf7b1c9b08c0315d889ebf9abc5256cd2dc69f3cf255809f50a54da6f9",
+      "project.json": "f61a79b324e758d1eeae7f2a30774896b5fa708c8dd7d23709888c2f17e9cef8"
+    },
+    "transfer_points": 108,
+    "breakdown_points": 79,
+    "vth": {
+      "value": 3.871339225889033,
+      "threshold": 1e-07,
+      "bracket": [
+        [
+          3.78703281257219,
+          4.9969233162004e-08
+        ],
+        [
+          3.88703281257219,
+          1.13785339289082e-07
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "bv_current_criterion": {
+      "value": 78.95368954271177,
+      "threshold": 1e-06,
+      "bracket": [
+        [
+          78.9362342526692,
+          8.71185469408188e-07
+        ],
+        [
+          78.9712877584259,
+          1.14915803249409e-06
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "id_vg10_A_per_um": 2.56037573872457e-06,
+    "id_vg0_A_per_um": 2.86637044892522e-17,
+    "last_inner_vd_V": 79.5143995263692,
+    "last_supply_vd_V": 134.071466968533,
+    "last_id_A_per_um": 5.45570674421632e-06,
+    "last_impact_ionization": {
+      "IntegrSemiconductor ImpactIonization": 3.40607607456667e+25
+    },
+    "avalanche_samples": [
+      {
+        "internal_vds_V": 78.9362342526692,
+        "drain_current_A_per_um": 8.71185469408188e-07,
+        "impact_ionization_current_A_per_um": 8.714221950733723e-07,
+        "generation_to_drain_current_ratio": 1.000271728206561
+      },
+      {
+        "internal_vds_V": 78.9712877584259,
+        "drain_current_A_per_um": 1.14915803249409e-06,
+        "impact_ionization_current_A_per_um": 1.1494685537983065e-06,
+        "generation_to_drain_current_ratio": 1.0002702163631425
+      },
+      {
+        "internal_vds_V": 79.5143995263692,
+        "drain_current_A_per_um": 5.45570674421632e-06,
+        "impact_ionization_current_A_per_um": 5.45713550029716e-06,
+        "generation_to_drain_current_ratio": 1.0002618828591463
+      }
+    ],
+    "last_semiconductor_peak_field": {
+      "MaxSemiconductor ElectricField": 357516.828198411,
+      "MaxSemiconductor X_ElectricField": 2.109375,
+      "MaxSemiconductor Y_ElectricField": 1.26796875
+    },
+    "transfer_balance": {
+      "maximum_residual_A_per_um": 1.0164395367051604e-20,
+      "worst_fraction_of_tolerance": 1.9996988481381042e-11
+    },
+    "breakdown_balance": {
+      "maximum_residual_A_per_um": 1.0926725019580474e-19,
+      "worst_fraction_of_tolerance": 2.0143342244089575e-11
+    },
+    "status": "Electrical contract passed; uncalibrated physical model",
+    "tdr_bytes": {
+      "vdmos_msh.tdr": 106660,
+      "transfer_des.tdr": 766052,
+      "breakdown_des.tdr": 812313
+    },
+    "kind": "production",
+    "case_name": "dose-000"
+  },
+  {
+    "run_id": "20261002T045000Z-vdmos-tid-dose-010-dbea45ef",
+    "parameters": {
+      "dose_krad_SiO2": 10.0,
+      "not_cm2": 74300000000.0,
+      "nit_total_cm2": 30000000000.0,
+      "mesh_scale": 1.0,
+      "step_scale": 1.0,
+      "area_factor": 1,
+      "current_unit": "A/um; 2D half-cell, unit depth",
+      "interpretation": "Uncalibrated post-TID effective-defect training model",
+      "generator_sha256": "5193914170227fffe96e62eaaae02be1d85e90391489ff23a6fb1ea4045fe7aa"
+    },
+    "results_sha256": "3dbba943e6c2c9fd8570b8ecbf5b0fa627652215cab74e6569aefefa785f6d8d",
+    "transfer_sources": [
+      "transfer_des.plt:last actual drain-initialization sample",
+      "idvg_transfer_des.plt"
+    ],
+    "input_sha256": {
+      "breakdown.cmd": "24ff7a8d0599fcf8a5bb2083704fccc9cde9620b3bbf0fa10e63be12ddb23037",
+      "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+      "idvg.cmd": "22f0f104ce246214e581cfe73e459820ace58ea3026480f0e8ae688a23a02957",
+      "parameters.json": "490652580c7b735784a581c93fd553d0ca7796599fc64554976524273cca8f7f",
+      "project.json": "b0c06f023c72ba5a364dd7605dfc00a7519e4a214d8fb868380cb79f7f519150"
+    },
+    "transfer_points": 108,
+    "breakdown_points": 77,
+    "vth": {
+      "value": 3.8392083706104523,
+      "threshold": 1e-07,
+      "bracket": [
+        [
+          3.78703281257219,
+          6.67431331286229e-08
+        ],
+        [
+          3.88703281257219,
+          1.44860511717597e-07
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "bv_current_criterion": {
+      "value": 78.93715285308849,
+      "threshold": 1e-06,
+      "bracket": [
+        [
+          78.9197496912172,
+          8.71390105307903e-07
+        ],
+        [
+          78.954765199867,
+          1.1494921672691e-06
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "id_vg10_A_per_um": 2.56304199143248e-06,
+    "id_vg0_A_per_um": -1.19202797991926e-16,
+    "last_inner_vd_V": 79.4972668207519,
+    "last_supply_vd_V": 134.06213008666,
+    "last_id_A_per_um": 5.45648632659072e-06,
+    "last_impact_ionization": {
+      "IntegrSemiconductor ImpactIonization": 3.40656277550214e+25
+    },
+    "avalanche_samples": [
+      {
+        "internal_vds_V": 78.9197496912172,
+        "drain_current_A_per_um": 8.71390105307903e-07,
+        "impact_ionization_current_A_per_um": 8.716268851918946e-07,
+        "generation_to_drain_current_ratio": 1.0002717266153809
+      },
+      {
+        "internal_vds_V": 78.954765199867,
+        "drain_current_A_per_um": 1.1494921672691e-06,
+        "impact_ionization_current_A_per_um": 1.1498027766966879e-06,
+        "generation_to_drain_current_ratio": 1.0002702144794302
+      },
+      {
+        "internal_vds_V": 79.4972668207519,
+        "drain_current_A_per_um": 5.45648632659072e-06,
+        "impact_ionization_current_A_per_um": 5.457915281163716e-06,
+        "generation_to_drain_current_ratio": 1.0002618818205466
+      }
+    ],
+    "last_semiconductor_peak_field": {
+      "MaxSemiconductor ElectricField": 357553.606308778,
+      "MaxSemiconductor X_ElectricField": 2.109375,
+      "MaxSemiconductor Y_ElectricField": 1.26796875
+    },
+    "transfer_balance": {
+      "maximum_residual_A_per_um": 1.0164395367051604e-20,
+      "worst_fraction_of_tolerance": 2.064803623518018e-11
+    },
+    "breakdown_balance": {
+      "maximum_residual_A_per_um": 8.978549240895584e-20,
+      "worst_fraction_of_tolerance": 2.0090943416728387e-11
+    },
+    "status": "Electrical contract passed; uncalibrated physical model",
+    "tdr_bytes": {
+      "vdmos_msh.tdr": 106660,
+      "transfer_des.tdr": 765330,
+      "breakdown_des.tdr": 811903
+    },
+    "kind": "production",
+    "case_name": "dose-010"
+  },
+  {
+    "run_id": "20261002T045315Z-vdmos-tid-dose-020-2cf3256f",
+    "parameters": {
+      "dose_krad_SiO2": 20.0,
+      "not_cm2": 98600000000.0,
+      "nit_total_cm2": 50000000000.0,
+      "mesh_scale": 1.0,
+      "step_scale": 1.0,
+      "area_factor": 1,
+      "current_unit": "A/um; 2D half-cell, unit depth",
+      "interpretation": "Uncalibrated post-TID effective-defect training model",
+      "generator_sha256": "5193914170227fffe96e62eaaae02be1d85e90391489ff23a6fb1ea4045fe7aa"
+    },
+    "results_sha256": "99ef2b85350dbd12f07d2a3ab94bfe619808e85dc3db312a4dc654022438576a",
+    "transfer_sources": [
+      "transfer_des.plt:last actual drain-initialization sample",
+      "idvg_transfer_des.plt"
+    ],
+    "input_sha256": {
+      "breakdown.cmd": "a359f90746e894a723ccbeb744bf9f01ca1cf7f33caab8467fe532e8033eefff",
+      "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+      "idvg.cmd": "85adae9afc0da1a394790378eaf84cbceb753d613353907413880c285aadbb88",
+      "parameters.json": "dfe1085bdc12787b4c0236f7d94ce2316702681a6a8481b9f18635ae898c2f6c",
+      "project.json": "efa09ca09e5ac83430ceeee452b075cc30ce32cad2aa5f21d5b69a0353183d5e"
+    },
+    "transfer_points": 108,
+    "breakdown_points": 76,
+    "vth": {
+      "value": 3.8049859494229703,
+      "threshold": 1e-07,
+      "bracket": [
+        [
+          3.78703281257219,
+          8.7809554945454e-08
+        ],
+        [
+          3.88703281257219,
+          1.81141231408418e-07
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "bv_current_criterion": {
+      "value": 78.92027446348935,
+      "threshold": 1e-06,
+      "bracket": [
+        [
+          78.9116866570978,
+          9.38804047117637e-07
+        ],
+        [
+          78.9493471971715,
+          1.23834995573431e-06
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "id_vg10_A_per_um": 2.56568745579701e-06,
+    "id_vg0_A_per_um": -4.59083175212744e-16,
+    "last_inner_vd_V": 79.4338921017694,
+    "last_supply_vd_V": 130.333194528234,
+    "last_id_A_per_um": 5.0899302426464e-06,
+    "last_impact_ionization": {
+      "IntegrSemiconductor ImpactIonization": 3.17771771430316e+25
+    },
+    "avalanche_samples": [
+      {
+        "internal_vds_V": 78.9116866570978,
+        "drain_current_A_per_um": 9.38804047117637e-07,
+        "impact_ionization_current_A_per_um": 9.390587620048673e-07,
+        "generation_to_drain_current_ratio": 1.0002713184801582
+      },
+      {
+        "internal_vds_V": 78.9493471971715,
+        "drain_current_A_per_um": 1.23834995573431e-06,
+        "impact_ionization_current_A_per_um": 1.238684074251409e-06,
+        "generation_to_drain_current_ratio": 1.0002698094472826
+      },
+      {
+        "internal_vds_V": 79.4338921017694,
+        "drain_current_A_per_um": 5.0899302426464e-06,
+        "impact_ionization_current_A_per_um": 5.09126507130441e-06,
+        "generation_to_drain_current_ratio": 1.0002622489099804
+      }
+    ],
+    "last_semiconductor_peak_field": {
+      "MaxSemiconductor ElectricField": 357589.764542918,
+      "MaxSemiconductor X_ElectricField": 2.109375,
+      "MaxSemiconductor Y_ElectricField": 1.26796875
+    },
+    "transfer_balance": {
+      "maximum_residual_A_per_um": 1.0164395367051604e-20,
+      "worst_fraction_of_tolerance": 2.6946172040125577e-11
+    },
+    "breakdown_balance": {
+      "maximum_residual_A_per_um": 9.063252535621014e-20,
+      "worst_fraction_of_tolerance": 2.209280502184557e-11
+    },
+    "status": "Electrical contract passed; uncalibrated physical model",
+    "tdr_bytes": {
+      "vdmos_msh.tdr": 106660,
+      "transfer_des.tdr": 765784,
+      "breakdown_des.tdr": 811257
+    },
+    "kind": "production",
+    "case_name": "dose-020"
+  },
+  {
+    "run_id": "20261002T045619Z-vdmos-tid-dose-030-1979bca3",
+    "parameters": {
+      "dose_krad_SiO2": 30.0,
+      "not_cm2": 122900000000.0,
+      "nit_total_cm2": 70000000000.0,
+      "mesh_scale": 1.0,
+      "step_scale": 1.0,
+      "area_factor": 1,
+      "current_unit": "A/um; 2D half-cell, unit depth",
+      "interpretation": "Uncalibrated post-TID effective-defect training model",
+      "generator_sha256": "5193914170227fffe96e62eaaae02be1d85e90391489ff23a6fb1ea4045fe7aa"
+    },
+    "results_sha256": "d99d437868c10b21fdf7ebb32ce803c941e94a0ad2a6181a255384f8c836dc4b",
+    "transfer_sources": [
+      "transfer_des.plt:last actual drain-initialization sample",
+      "idvg_transfer_des.plt"
+    ],
+    "input_sha256": {
+      "breakdown.cmd": "84462ad9fd35da1deb6c49c2d2dfdc3786758f37184a545f7394f7fc1d3a37f3",
+      "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+      "idvg.cmd": "8a8e6989816c194b2942007eb65ec90a707c96cbfd58c60f9f7b6ac2f5d27f55",
+      "parameters.json": "a45323f6ba44a200174c314daf6057cf9a121f8e89397afeb9ad5db8277b02cf",
+      "project.json": "ca3cdd21d1e71220fe7febf472608e8ffd8d41f7efa27a9ff3e3b37ff11a84a7"
+    },
+    "transfer_points": 108,
+    "breakdown_points": 80,
+    "vth": {
+      "value": 3.771395605935266,
+      "threshold": 1e-07,
+      "bracket": [
+        [
+          3.68703281257219,
+          5.00998285125369e-08
+        ],
+        [
+          3.78703281257219,
+          1.13667774178008e-07
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "bv_current_criterion": {
+      "value": 78.90279509971693,
+      "threshold": 1e-06,
+      "bracket": [
+        [
+          78.8724672052752,
+          7.58376743129114e-07
+        ],
+        [
+          78.9028354404465,
+          1.00036795464392e-06
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "id_vg10_A_per_um": 2.5683123889935e-06,
+    "id_vg0_A_per_um": -1.06441621039241e-15,
+    "last_inner_vd_V": 79.4301106747665,
+    "last_supply_vd_V": 131.400346533991,
+    "last_id_A_per_um": 5.1970235859224e-06,
+    "last_impact_ionization": {
+      "IntegrSemiconductor ImpactIonization": 3.24457729320789e+25
+    },
+    "avalanche_samples": [
+      {
+        "internal_vds_V": 78.8724672052752,
+        "drain_current_A_per_um": 7.58376743129114e-07,
+        "impact_ionization_current_A_per_um": 7.585833918936722e-07,
+        "generation_to_drain_current_ratio": 1.0002724882671183
+      },
+      {
+        "internal_vds_V": 78.9028354404465,
+        "drain_current_A_per_um": 1.00036795464392e-06,
+        "impact_ionization_current_A_per_um": 1.0006390254966122e-06,
+        "generation_to_drain_current_ratio": 1.0002709711476
+      },
+      {
+        "internal_vds_V": 79.4301106747665,
+        "drain_current_A_per_um": 5.1970235859224e-06,
+        "impact_ionization_current_A_per_um": 5.198385926384647e-06,
+        "generation_to_drain_current_ratio": 1.0002621385952408
+      }
+    ],
+    "last_semiconductor_peak_field": {
+      "MaxSemiconductor ElectricField": 357626.677597499,
+      "MaxSemiconductor X_ElectricField": 2.109375,
+      "MaxSemiconductor Y_ElectricField": 1.26796875
+    },
+    "transfer_balance": {
+      "maximum_residual_A_per_um": 1.0164395367051604e-20,
+      "worst_fraction_of_tolerance": 1.9944862280596246e-11
+    },
+    "breakdown_balance": {
+      "maximum_residual_A_per_um": 1.1011428314305904e-19,
+      "worst_fraction_of_tolerance": 2.3412484165033246e-11
+    },
+    "status": "Electrical contract passed; uncalibrated physical model",
+    "tdr_bytes": {
+      "vdmos_msh.tdr": 106660,
+      "transfer_des.tdr": 765689,
+      "breakdown_des.tdr": 811755
+    },
+    "kind": "production",
+    "case_name": "dose-030"
+  },
+  {
+    "run_id": "20261002T045920Z-vdmos-tid-dose-040-d8c8a597",
+    "parameters": {
+      "dose_krad_SiO2": 40.0,
+      "not_cm2": 147200000000.0,
+      "nit_total_cm2": 90000000000.0,
+      "mesh_scale": 1.0,
+      "step_scale": 1.0,
+      "area_factor": 1,
+      "current_unit": "A/um; 2D half-cell, unit depth",
+      "interpretation": "Uncalibrated post-TID effective-defect training model",
+      "generator_sha256": "5193914170227fffe96e62eaaae02be1d85e90391489ff23a6fb1ea4045fe7aa"
+    },
+    "results_sha256": "6308bdb4300e5197926ea628eefac833d588b51131cc33d2f4f946c5d3ed01fe",
+    "transfer_sources": [
+      "transfer_des.plt:last actual drain-initialization sample",
+      "idvg_transfer_des.plt"
+    ],
+    "input_sha256": {
+      "breakdown.cmd": "bdf6e8ca6a489bdbe1ea4ed816181dc452fa69f9714143dc26bb3c7d0789498b",
+      "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+      "idvg.cmd": "24d06ca8129b122e9e3d8cafa9bcf615678b839e63c84ea017d395aadbfe670a",
+      "parameters.json": "b65292bf6e527c632678ef2031da1d5ab43d2a8bcd952160a1433318728cd8bb",
+      "project.json": "c0398528ae856749d61984720734165f5429cf49267194d5174ffe4c36ed1695"
+    },
+    "transfer_points": 108,
+    "breakdown_points": 76,
+    "vth": {
+      "value": 3.739254895902473,
+      "threshold": 1e-07,
+      "bracket": [
+        [
+          3.68703281257219,
+          6.68012817852412e-08
+        ],
+        [
+          3.78703281257219,
+          1.44645245948907e-07
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "bv_current_criterion": {
+      "value": 78.88696926749199,
+      "threshold": 1e-06,
+      "bracket": [
+        [
+          78.8619698738513,
+          8.06874858366278e-07
+        ],
+        [
+          78.8942414466085,
+          1.06441146211864e-06
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "id_vg10_A_per_um": 2.57091704379142e-06,
+    "id_vg0_A_per_um": -1.85722753134119e-15,
+    "last_inner_vd_V": 79.426840011962,
+    "last_supply_vd_V": 132.513442259379,
+    "last_id_A_per_um": 5.30866022474155e-06,
+    "last_impact_ionization": {
+      "IntegrSemiconductor ImpactIonization": 3.31427329496606e+25
+    },
+    "avalanche_samples": [
+      {
+        "internal_vds_V": 78.8619698738513,
+        "drain_current_A_per_um": 8.06874858366278e-07,
+        "impact_ionization_current_A_per_um": 8.07094447322441e-07,
+        "generation_to_drain_current_ratio": 1.0002721474760132
+      },
+      {
+        "internal_vds_V": 78.8942414466085,
+        "drain_current_A_per_um": 1.06441146211864e-06,
+        "impact_ionization_current_A_per_um": 1.0646995262756653e-06,
+        "generation_to_drain_current_ratio": 1.0002706323327746
+      },
+      {
+        "internal_vds_V": 79.426840011962,
+        "drain_current_A_per_um": 5.30866022474155e-06,
+        "impact_ionization_current_A_per_um": 5.310051231884811e-06,
+        "generation_to_drain_current_ratio": 1.0002620260262238
+      }
+    ],
+    "last_semiconductor_peak_field": {
+      "MaxSemiconductor ElectricField": 357663.630716691,
+      "MaxSemiconductor X_ElectricField": 2.109375,
+      "MaxSemiconductor Y_ElectricField": 1.26796875
+    },
+    "transfer_balance": {
+      "maximum_residual_A_per_um": 1.0164395367051604e-20,
+      "worst_fraction_of_tolerance": 2.0678765315579237e-11
+    },
+    "breakdown_balance": {
+      "maximum_residual_A_per_um": 1.0079692072326174e-19,
+      "worst_fraction_of_tolerance": 1.8987261654736454e-11
+    },
+    "status": "Electrical contract passed; uncalibrated physical model",
+    "tdr_bytes": {
+      "vdmos_msh.tdr": 106660,
+      "transfer_des.tdr": 765384,
+      "breakdown_des.tdr": 811764
+    },
+    "kind": "production",
+    "case_name": "dose-040"
+  },
+  {
+    "run_id": "20261002T050211Z-vdmos-tid-dose-050-6bbebff4",
+    "parameters": {
+      "dose_krad_SiO2": 50.0,
+      "not_cm2": 171500000000.0,
+      "nit_total_cm2": 110000000000.0,
+      "mesh_scale": 1.0,
+      "step_scale": 1.0,
+      "area_factor": 1,
+      "current_unit": "A/um; 2D half-cell, unit depth",
+      "interpretation": "Uncalibrated post-TID effective-defect training model",
+      "generator_sha256": "5193914170227fffe96e62eaaae02be1d85e90391489ff23a6fb1ea4045fe7aa"
+    },
+    "results_sha256": "a62a9d691add6703d7233c04ce259f025aa975059ce486b6dc79665f879aef3b",
+    "transfer_sources": [
+      "transfer_des.plt:last actual drain-initialization sample",
+      "idvg_transfer_des.plt"
+    ],
+    "input_sha256": {
+      "breakdown.cmd": "e8ebbeba71b55cb202577dbcaa2bc802f8798b94cfbeeb14a96016a78ce2847d",
+      "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+      "idvg.cmd": "a9347c8f61675efdb0ab51c6afe8dbe163dd336d389f65a1fa64a710a5cbe10c",
+      "parameters.json": "8ad12400fdbc00842a3864738931cd3861757fc8200508a8967887e5edfc9830",
+      "project.json": "6cd05f76cba6b0c4527f33ae4ac36124d0a48086f42a5325476f5d9d8d1c4365"
+    },
+    "transfer_points": 108,
+    "breakdown_points": 78,
+    "vth": {
+      "value": 3.705061450303661,
+      "threshold": 1e-07,
+      "bracket": [
+        [
+          3.68703281257219,
+          8.77844749010122e-08
+        ],
+        [
+          3.78703281257219,
+          1.8082747345586e-07
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "bv_current_criterion": {
+      "value": 78.87069981716579,
+      "threshold": 1e-06,
+      "bracket": [
+        [
+          78.8561210555598,
+          8.92939516374955e-07
+        ],
+        [
+          78.8917806453685,
+          1.17790731848854e-06
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "id_vg10_A_per_um": 2.57350166865609e-06,
+    "id_vg0_A_per_um": -2.4015196794931e-15,
+    "last_inner_vd_V": 79.372101017233,
+    "last_supply_vd_V": 129.476293546022,
+    "last_id_A_per_um": 5.01041925287879e-06,
+    "last_impact_ionization": {
+      "IntegrSemiconductor ImpactIonization": 3.12807810083096e+25
+    },
+    "avalanche_samples": [
+      {
+        "internal_vds_V": 78.8561210555598,
+        "drain_current_A_per_um": 8.92939516374955e-07,
+        "impact_ionization_current_A_per_um": 8.931820312530421e-07,
+        "generation_to_drain_current_ratio": 1.0002715916068667
+      },
+      {
+        "internal_vds_V": 78.8917806453685,
+        "drain_current_A_per_um": 1.17790731848854e-06,
+        "impact_ionization_current_A_per_um": 1.178225448228498e-06,
+        "generation_to_drain_current_ratio": 1.0002700804511224
+      },
+      {
+        "internal_vds_V": 79.372101017233,
+        "drain_current_A_per_um": 5.01041925287879e-06,
+        "impact_ionization_current_A_per_um": 5.01173364247846e-06,
+        "generation_to_drain_current_ratio": 1.000262331260785
+      }
+    ],
+    "last_semiconductor_peak_field": {
+      "MaxSemiconductor ElectricField": 357699.73712898,
+      "MaxSemiconductor X_ElectricField": 2.109375,
+      "MaxSemiconductor Y_ElectricField": 1.26796875
+    },
+    "transfer_balance": {
+      "maximum_residual_A_per_um": 1.0164395367051604e-20,
+      "worst_fraction_of_tolerance": 2.965076185980921e-11
+    },
+    "breakdown_balance": {
+      "maximum_residual_A_per_um": 8.978549240895584e-20,
+      "worst_fraction_of_tolerance": 2.0002998259753693e-11
+    },
+    "status": "Electrical contract passed; uncalibrated physical model",
+    "tdr_bytes": {
+      "vdmos_msh.tdr": 106660,
+      "transfer_des.tdr": 765432,
+      "breakdown_des.tdr": 811345
+    },
+    "kind": "production",
+    "case_name": "dose-050"
+  },
+  {
+    "run_id": "20261002T050511Z-vdmos-tid-dose-060-1a1ae2c5",
+    "parameters": {
+      "dose_krad_SiO2": 60.0,
+      "not_cm2": 195800000000.0,
+      "nit_total_cm2": 130000000000.0,
+      "mesh_scale": 1.0,
+      "step_scale": 1.0,
+      "area_factor": 1,
+      "current_unit": "A/um; 2D half-cell, unit depth",
+      "interpretation": "Uncalibrated post-TID effective-defect training model",
+      "generator_sha256": "5193914170227fffe96e62eaaae02be1d85e90391489ff23a6fb1ea4045fe7aa"
+    },
+    "results_sha256": "e0290be6a111cff246f92144f5528eeac6259f02029ee93a66bdd8d19156928d",
+    "transfer_sources": [
+      "transfer_des.plt:last actual drain-initialization sample",
+      "idvg_transfer_des.plt"
+    ],
+    "input_sha256": {
+      "breakdown.cmd": "e6a44a246d98971784436b6d2c7bec113efca7fc38d4ac8e5ebb0289ab6f113e",
+      "geometry.scm": "41ad17875942d4f2fd9627844aab9f1c82b0a33aa0cecda6895aaad95181d149",
+      "idvg.cmd": "5745c11d1d439754f4355d018d2dfc016864d4e8bbc27772671e7944843ec9c4",
+      "parameters.json": "18592e8b7783d4c7088c3738748c0f672da366cb8dd881a10d3e105125cbf55c",
+      "project.json": "869217aa0867980701ad34ac0d6270f0a57a58e6762ef82de507a54ec6a81069"
+    },
+    "transfer_points": 108,
+    "breakdown_points": 74,
+    "vth": {
+      "value": 3.6716100897460624,
+      "threshold": 1e-07,
+      "bracket": [
+        [
+          3.58980573536775,
+          5.14600707023565e-08
+        ],
+        [
+          3.68980573536775,
+          1.15925052658147e-07
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "bv_current_criterion": {
+      "value": 78.85382348796884,
+      "threshold": 1e-06,
+      "bracket": [
+        [
+          78.8310561706328,
+          8.25690187961029e-07
+        ],
+        [
+          78.8640172816093,
+          1.08954240217329e-06
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "id_vg10_A_per_um": 2.5760665088054e-06,
+    "id_vg0_A_per_um": -2.1306618263167e-15,
+    "last_inner_vd_V": 79.3977147392382,
+    "last_supply_vd_V": 132.929790250159,
+    "last_id_A_per_um": 5.35320755109197e-06,
+    "last_impact_ionization": {
+      "IntegrSemiconductor ImpactIonization": 3.3420846851601e+25
+    },
+    "avalanche_samples": [
+      {
+        "internal_vds_V": 78.8310561706328,
+        "drain_current_A_per_um": 8.25690187961029e-07,
+        "impact_ionization_current_A_per_um": 8.259147925182748e-07,
+        "generation_to_drain_current_ratio": 1.0002720203782491
+      },
+      {
+        "internal_vds_V": 78.8640172816093,
+        "drain_current_A_per_um": 1.08954240217329e-06,
+        "impact_ionization_current_A_per_um": 1.0898371283573612e-06,
+        "generation_to_drain_current_ratio": 1.0002705045563012
+      },
+      {
+        "internal_vds_V": 79.3977147392382,
+        "drain_current_A_per_um": 5.35320755109197e-06,
+        "impact_ionization_current_A_per_um": 5.354609991412758e-06,
+        "generation_to_drain_current_ratio": 1.0002619813088514
+      }
+    ],
+    "last_semiconductor_peak_field": {
+      "MaxSemiconductor ElectricField": 357737.258393247,
+      "MaxSemiconductor X_ElectricField": 2.109375,
+      "MaxSemiconductor Y_ElectricField": 1.26796875
+    },
+    "transfer_balance": {
+      "maximum_residual_A_per_um": 1.0164395367051604e-20,
+      "worst_fraction_of_tolerance": 2.134656712432566e-11
+    },
+    "breakdown_balance": {
+      "maximum_residual_A_per_um": 9.063252535621014e-20,
+      "worst_fraction_of_tolerance": 2.0760708992338734e-11
+    },
+    "status": "Electrical contract passed; uncalibrated physical model",
+    "tdr_bytes": {
+      "vdmos_msh.tdr": 106660,
+      "transfer_des.tdr": 765523,
+      "breakdown_des.tdr": 811669
+    },
+    "kind": "production",
+    "case_name": "dose-060"
+  },
+  {
+    "run_id": "20261002T050808Z-vdmos-tid-fine-000-a49079eb",
+    "parameters": {
+      "dose_krad_SiO2": 0.0,
+      "not_cm2": 50000000000.0,
+      "nit_total_cm2": 10000000000.0,
+      "mesh_scale": 0.7,
+      "step_scale": 0.5,
+      "area_factor": 1,
+      "current_unit": "A/um; 2D half-cell, unit depth",
+      "interpretation": "Uncalibrated post-TID effective-defect training model",
+      "generator_sha256": "5193914170227fffe96e62eaaae02be1d85e90391489ff23a6fb1ea4045fe7aa"
+    },
+    "results_sha256": "acbd24c8d4b534be3f103fa38e76a9f2abcd5e3d8d91cdd5c95d690375c0d568",
+    "transfer_sources": [
+      "transfer_des.plt:last actual drain-initialization sample",
+      "idvg_transfer_des.plt"
+    ],
+    "input_sha256": {
+      "breakdown.cmd": "4058b8729fe996565cae26d2440023a59e81ebcd65a3664420f15e5297d784a7",
+      "geometry.scm": "d5fc70a1e1a4e8592213532877b562489f93cbf9ee83c57fa0fadd6507b50622",
+      "idvg.cmd": "cbc231761cf07bd331a84c575c7f513b7cd7c07164f337f7a8de25b92bc6c33c",
+      "parameters.json": "6577bed59e6406e152ad80da816e68106a5bd0d76a300a3dc3b24296e28095a8",
+      "project.json": "e68e7f3433337be345eab68c292f12456d9932f038da78aaa18c78f8c2642bb0"
+    },
+    "transfer_points": 205,
+    "breakdown_points": 96,
+    "vth": {
+      "value": 3.872536127383732,
+      "threshold": 1e-07,
+      "bracket": [
+        [
+          3.86665606261784,
+          9.57035222923012e-08
+        ],
+        [
+          3.91665606261784,
+          1.39028446564688e-07
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "bv_current_criterion": {
+      "value": 78.91541974729698,
+      "threshold": 1e-06,
+      "bracket": [
+        [
+          78.8902366008063,
+          8.06283816783165e-07
+        ],
+        [
+          78.9214775307323,
+          1.05315972379057e-06
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "id_vg10_A_per_um": 2.55951016684637e-06,
+    "id_vg0_A_per_um": 8.40411374109297e-17,
+    "last_inner_vd_V": 79.423524681741,
+    "last_supply_vd_V": 129.453074768638,
+    "last_id_A_per_um": 5.0029550086896e-06,
+    "last_impact_ionization": {
+      "IntegrSemiconductor ImpactIonization": 3.1343772909838e+25
+    },
+    "avalanche_samples": [
+      {
+        "internal_vds_V": 78.8902366008063,
+        "drain_current_A_per_um": 8.06283816783165e-07,
+        "impact_ionization_current_A_per_um": 8.095187883748887e-07,
+        "generation_to_drain_current_ratio": 1.0040121995808253
+      },
+      {
+        "internal_vds_V": 78.9214775307323,
+        "drain_current_A_per_um": 1.05315972379057e-06,
+        "impact_ionization_current_A_per_um": 1.0573467272578002e-06,
+        "generation_to_drain_current_ratio": 1.003975658556482
+      },
+      {
+        "internal_vds_V": 79.423524681741,
+        "drain_current_A_per_um": 5.0029550086896e-06,
+        "impact_ionization_current_A_per_um": 5.021826057754463e-06,
+        "generation_to_drain_current_ratio": 1.0037719805659029
+      }
+    ],
+    "last_semiconductor_peak_field": {
+      "MaxSemiconductor ElectricField": 357819.915681008,
+      "MaxSemiconductor X_ElectricField": 2.109375,
+      "MaxSemiconductor Y_ElectricField": 1.2208984375
+    },
+    "transfer_balance": {
+      "maximum_residual_A_per_um": 1.401839527705867e-19,
+      "worst_fraction_of_tolerance": 1.0899846379167987e-10
+    },
+    "breakdown_balance": {
+      "maximum_residual_A_per_um": 1.0037340424963459e-19,
+      "worst_fraction_of_tolerance": 4.918709225668487e-11
+    },
+    "status": "Electrical contract passed; uncalibrated physical model",
+    "tdr_bytes": {
+      "vdmos_msh.tdr": 254748,
+      "transfer_des.tdr": 1869694,
+      "breakdown_des.tdr": 2005857
+    },
+    "kind": "verification",
+    "case_name": "fine-000"
+  },
+  {
+    "run_id": "20261002T051927Z-vdmos-tid-fine-060-2bcc58ba",
+    "parameters": {
+      "dose_krad_SiO2": 60.0,
+      "not_cm2": 195800000000.0,
+      "nit_total_cm2": 130000000000.0,
+      "mesh_scale": 0.7,
+      "step_scale": 0.5,
+      "area_factor": 1,
+      "current_unit": "A/um; 2D half-cell, unit depth",
+      "interpretation": "Uncalibrated post-TID effective-defect training model",
+      "generator_sha256": "5193914170227fffe96e62eaaae02be1d85e90391489ff23a6fb1ea4045fe7aa"
+    },
+    "results_sha256": "8edf5f12cf99dfc2ec4f9cd27f6e9321a468147a8343caece452f401292a0997",
+    "transfer_sources": [
+      "transfer_des.plt:last actual drain-initialization sample",
+      "idvg_transfer_des.plt"
+    ],
+    "input_sha256": {
+      "breakdown.cmd": "ebd33f3476163aa9e72a92270027bf798db19d68503e61b9a40ab96c190ebb70",
+      "geometry.scm": "d5fc70a1e1a4e8592213532877b562489f93cbf9ee83c57fa0fadd6507b50622",
+      "idvg.cmd": "f8e486b2f4de70b23bc8540268f09c38b148629b0a2de34805b1ccc70096c014",
+      "parameters.json": "daf30b7b3592965d50f99e1dcb253fa799b020d6d3ed4803b8d4e848477819d0",
+      "project.json": "39ae9b7e3854b0f570ff39ded7d7f539f77b9198e657461edcc89d628a843295"
+    },
+    "transfer_points": 205,
+    "breakdown_points": 89,
+    "vth": {
+      "value": 3.6727528994290455,
+      "threshold": 1e-07,
+      "bracket": [
+        [
+          3.66712137546624,
+          9.59016286205013e-08
+        ],
+        [
+          3.71712137546624,
+          1.39054695113061e-07
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "bv_current_criterion": {
+      "value": 78.81358495061184,
+      "threshold": 1e-06,
+      "bracket": [
+        [
+          78.7857795624548,
+          7.82247214208281e-07
+        ],
+        [
+          78.8168372217855,
+          1.02914144827521e-06
+        ]
+      ],
+      "method": "log-current interpolation of two actual adjacent solver samples"
+    },
+    "id_vg10_A_per_um": 2.57530138164473e-06,
+    "id_vg0_A_per_um": -2.71679055343335e-15,
+    "last_inner_vd_V": 79.3475020337128,
+    "last_supply_vd_V": 131.608251704538,
+    "last_id_A_per_um": 5.22607496708236e-06,
+    "last_impact_ionization": {
+      "IntegrSemiconductor ImpactIonization": 3.27414523634479e+25
+    },
+    "avalanche_samples": [
+      {
+        "internal_vds_V": 78.7857795624548,
+        "drain_current_A_per_um": 7.82247214208281e-07,
+        "impact_ionization_current_A_per_um": 7.853890100841472e-07,
+        "generation_to_drain_current_ratio": 1.0040163720864714
+      },
+      {
+        "internal_vds_V": 78.8168372217855,
+        "drain_current_A_per_um": 1.02914144827521e-06,
+        "impact_ionization_current_A_per_um": 1.0332361928477848e-06,
+        "generation_to_drain_current_ratio": 1.0039787966750706
+      },
+      {
+        "internal_vds_V": 79.3475020337128,
+        "drain_current_A_per_um": 5.22607496708236e-06,
+        "impact_ionization_current_A_per_um": 5.24575899399403e-06,
+        "generation_to_drain_current_ratio": 1.0037665029751113
+      }
+    ],
+    "last_semiconductor_peak_field": {
+      "MaxSemiconductor ElectricField": 358058.775216205,
+      "MaxSemiconductor X_ElectricField": 2.109375,
+      "MaxSemiconductor Y_ElectricField": 1.2208984375
+    },
+    "transfer_balance": {
+      "maximum_residual_A_per_um": 1.401839527705867e-19,
+      "worst_fraction_of_tolerance": 9.840473864112343e-11
+    },
+    "breakdown_balance": {
+      "maximum_residual_A_per_um": 1.3044307387716225e-19,
+      "worst_fraction_of_tolerance": 4.956114725835563e-11
+    },
+    "status": "Electrical contract passed; uncalibrated physical model",
+    "tdr_bytes": {
+      "vdmos_msh.tdr": 254748,
+      "transfer_des.tdr": 1870031,
+      "breakdown_des.tdr": 2003433
+    },
+    "kind": "verification",
+    "case_name": "fine-060"
+  }
+]

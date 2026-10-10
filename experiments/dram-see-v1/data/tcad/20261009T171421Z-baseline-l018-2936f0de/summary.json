@@ -1,0 +1,50 @@
+{
+  "run_id": "20261009T171421Z-baseline-l018-2936f0de",
+  "parameters": {
+    "gate_length_um": 0.18,
+    "charge_pc": 0.0,
+    "angle_deg": 0.0,
+    "mesh_scale": 1.0,
+    "step_scale": 1.0,
+    "track_length_um": 1.2,
+    "let_pc_per_um": 0.0,
+    "capacitance_F": 1e-14,
+    "effective_thickness_um": 1,
+    "temperature_K": 300,
+    "track_radius_um": 0.03,
+    "source_event": null,
+    "restart_run": null,
+    "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+  },
+  "archive_sha256": "62f21205ce7ebdbd5b67b1863d355a333a9392007cd5b69ca8fb7a5a986d54af",
+  "input_sha256": {
+    "device.cmd": "2e136261574eceb90e915bc03ced3c8077a29ae8264dbb360e7ae721177be834",
+    "generator-sha256.txt": "b19a5c89d328564f5895e3bab0e7a03bc1bc3b7ebc85c0787e2e41f6c198237b",
+    "geometry.scm": "0d4865af7cdb17d59a2069e29610d62fd0467a19d939a20cd9827e3d31e526ff",
+    "parameters.json": "dc0cda593aab847431539215b379590ebaf2723e90fa425a322e9d52247b9581",
+    "project.json": "a5d67db01657d50371530ed41f9ca827defbc3f530108b91226666a853c31b52"
+  },
+  "solver_finished": true,
+  "final_time_s": 3e-09,
+  "circuit_samples": 439,
+  "device_samples": 439,
+  "prestrike_voltage_V": 0.962424117583997,
+  "final_voltage_V": 0.96242388953662,
+  "min_poststrike_voltage_V": 0.96242388953662,
+  "voltage_drop_V": 2.280473770932545e-07,
+  "capacitor_loss_C": 2.2804737709325453e-21,
+  "terminal_loss_C": 2.2804734065380678e-21,
+  "terminal_loss_trapezoid_C": 2.280473409471332e-21,
+  "charge_balance_residual_C": 3.6439447749818194e-28,
+  "max_kcl_residual_A": 3.2435478497875495e-16,
+  "peak_hold_current_A": 1.11242719529767e-12,
+  "radiation": {},
+  "tdr_sha256": {
+    "cell_msh.tdr": "8d567c250e447c7122819227a5f5502a585b492d342f0e0dd52232e2369a587b",
+    "prestrike_access_des.tdr": "5c429ac34f4c0860174d44b1a68389fe3da44a23db96d4ebed8b2574ca2ed262",
+    "strike_access_des.tdr": "3ff5146b8ea48a9985bba2f3c4c9e25d04c395c2853d5a65811006ca8c4eaed8",
+    "final_access_des.tdr": "e1dc0afdf2223bbf94c2a2c46ab4d1975def10cb5f261daf7567b8ed159639c4"
+  },
+  "scope": "Engineering and stated numerical contracts; uncalibrated 1T1C model",
+  "event_binding": "not_applicable"
+}

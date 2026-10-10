@@ -1,0 +1,866 @@
+{
+  "generated_utc": "2026-10-09T19:14:07.961469+00:00",
+  "scope": "Curated source, documentation, scalar/curve data and figures; excludes this self-referencing index, original solver archives, software and private configuration.",
+  "files": {
+    ".gitattributes": {
+      "bytes": 119,
+      "sha256": "8bee04406b1561c86a2aa706f7948a3ebf1cea681f81a655cb0319b326d550d6"
+    },
+    ".gitignore": {
+      "bytes": 149,
+      "sha256": "d3af766bd49f4c3550d949307e6cbecf356aae089cdd1fe5befac6a070134ac7"
+    },
+    "AGENTS.md": {
+      "bytes": 9544,
+      "sha256": "c5357d8fe75582fa487930ec4aaf8052e5ca9a192b2f413471b5b3f75ca9d8b4"
+    },
+    "config/connection.example.json": {
+      "bytes": 418,
+      "sha256": "967cd777efa59dedae00d948fbfa547f093b66c35ed08ee107dc272a81087e98"
+    },
+    "design-notes/mixedmode-evidence.md": {
+      "bytes": 3710,
+      "sha256": "fbb8ff1ab1290f0a23f7fc2da5c70035667504728367c131255467445fa203f5"
+    },
+    "design-notes/README.md": {
+      "bytes": 2696,
+      "sha256": "f53df668bf189cc1e3cd2f38d74813c7206d169f5565bd462752fc5771f118f4"
+    },
+    "design-notes/workflow.md": {
+      "bytes": 6490,
+      "sha256": "07259420af6d55a007a25939e90fbae8de6c589a8c275f4b94c5b7d353eda68d"
+    },
+    "docs/course-project-syllabus.md": {
+      "bytes": 4689,
+      "sha256": "849925f6780143bc8547e6f1718c38773401c0313cee1ea57bd296758ad69ae9"
+    },
+    "experiments/dram-see-v1/analysis-requirements.txt": {
+      "bytes": 176,
+      "sha256": "bd004fc52eabe79d6747e1182051c82b44862471e1dd4d0fc746e4dcb4e8168a"
+    },
+    "experiments/dram-see-v1/analyze.py": {
+      "bytes": 7934,
+      "sha256": "6b0df38bb4db9ff3a77bfaee1ead5ef3b794bf93999411bf016cc45ae526cabf"
+    },
+    "experiments/dram-see-v1/build_case.py": {
+      "bytes": 9843,
+      "sha256": "7a22e53bc939b236b0b612f42e382b952c362042b28e187414e481e77b9916bd"
+    },
+    "experiments/dram-see-v1/catalog_evidence.py": {
+      "bytes": 3016,
+      "sha256": "c208af15fe3677e9207df020ecc344cad41364077b17db999e21e7732d390c36"
+    },
+    "experiments/dram-see-v1/compare_refinement.py": {
+      "bytes": 2869,
+      "sha256": "a63c8af3d2fedb7b0bb0394d38415eb02191ec12abb5c74ba34d5dfcb6f8c451"
+    },
+    "experiments/dram-see-v1/data/analysis-environment.json": {
+      "bytes": 347,
+      "sha256": "19d4aba778a36f71166827ecfcab6ac57e610955126fdea543f108ba5d043c83"
+    },
+    "experiments/dram-see-v1/data/batch-ledger.json": {
+      "bytes": 14514,
+      "sha256": "910086156c3d2db77a2e66f730b9a07f158b865aa4f2792471d83a3d3f2545e0"
+    },
+    "experiments/dram-see-v1/data/environment-observed.json": {
+      "bytes": 942,
+      "sha256": "b980d8ec515ffedc74292d90fe88d2c619ba0df15460011e6086e783f5693118"
+    },
+    "experiments/dram-see-v1/data/extrapolation-forecasts.json": {
+      "bytes": 1877,
+      "sha256": "1b134ba3826f2883a64e3633b285471afcdddf7f05e8c69f348945dcc13f2867"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-alpha-e5-a0/event.json": {
+      "bytes": 979,
+      "sha256": "fd2966a5e44fd004f9968a1cc5a0b265c7850d9bea853bb3078dc3132a6779c9"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-alpha-e5-a0/events.csv": {
+      "bytes": 102,
+      "sha256": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-alpha-e5-a0/steps.csv": {
+      "bytes": 24946,
+      "sha256": "39f9d5a8324f33aa7f8474fbef7dce488c6a0933ed9c5482248de45b4d2ac0c3"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-alpha-e5-a30/event.json": {
+      "bytes": 997,
+      "sha256": "c94fe8c8e73c0ccfacc027022f0be03d08e64910eb7e2ed4b7587b680782557a"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-alpha-e5-a30/events.csv": {
+      "bytes": 101,
+      "sha256": "f52a28e732685137df5433c7dd439be56fd9f2c7c79e0a3ef461be2b7f8538da"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-alpha-e5-a30/steps.csv": {
+      "bytes": 27339,
+      "sha256": "7c494d8363cfdf10fdda1a4975a7390a80b5e75bb508ab0695013b85af094c83"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-proton-e5-a0/event.json": {
+      "bytes": 988,
+      "sha256": "ac107007cd1327cc2a067348068f8c6f4bcbf54482ea2d1a1b94a8b715fdf988"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-proton-e5-a0/events.csv": {
+      "bytes": 85,
+      "sha256": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-proton-e5-a0/steps.csv": {
+      "bytes": 6401,
+      "sha256": "85c675f5c006be61312ba7f48b25c6f06e3839fb8acd8fcd0d91a389b5d8bdb7"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-proton-e5-a30/event.json": {
+      "bytes": 1005,
+      "sha256": "5c5d2f126e7dca352bb89044b09abfaad1a9d910dcf73da6af64d53428614b8f"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-proton-e5-a30/events.csv": {
+      "bytes": 85,
+      "sha256": "a4eec640c14ccefaea8698407cbb3871e9b2ecbc12ce44a9f228f24830cd0787"
+    },
+    "experiments/dram-see-v1/data/geant4/l018-proton-e5-a30/steps.csv": {
+      "bytes": 6898,
+      "sha256": "1ecefd5c0bc213390833766714361a1841782e1dbebf6a28627af5e867c8e1be"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-alpha-e5-a0/event.json": {
+      "bytes": 979,
+      "sha256": "ba1eda8059e7b7db876dc89d0ce803dcd2ba59b48cd9c312c7da879d6a17743e"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-alpha-e5-a0/events.csv": {
+      "bytes": 102,
+      "sha256": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-alpha-e5-a0/steps.csv": {
+      "bytes": 24946,
+      "sha256": "19478204b1aa4c91adb96eda721c114bacb2f1f8b03f6440875535057a0a1e97"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-alpha-e5-a30/event.json": {
+      "bytes": 996,
+      "sha256": "d45d5dba3787c6d9d69ddac4de25c23cb9713f55fa42e4bc4066bb5af46412d0"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-alpha-e5-a30/events.csv": {
+      "bytes": 102,
+      "sha256": "86caaa389b84b30848ea48464d2f768b890fb2d905ce347c914d65b5d6bef1cd"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-alpha-e5-a30/steps.csv": {
+      "bytes": 28710,
+      "sha256": "1655b61e9dd2752e6a725d6bdf9e02ca60f0df2c260b3cad509c504e4b221466"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-proton-e5-a0/event.json": {
+      "bytes": 988,
+      "sha256": "5cd94960eb15901c5896f2b88368f3580fcf913db4f953dda4cfd28c3f9dbb60"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-proton-e5-a0/events.csv": {
+      "bytes": 85,
+      "sha256": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-proton-e5-a0/steps.csv": {
+      "bytes": 6397,
+      "sha256": "0018693ddde7f7c88d4551a8acd152d31bb0122b4a4b7fc28a76636a9de01508"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-proton-e5-a30/event.json": {
+      "bytes": 1004,
+      "sha256": "d63beae5ce276dc9b66b319a5d55b3ddeef5b04c4f957129bf45290d38f83679"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-proton-e5-a30/events.csv": {
+      "bytes": 84,
+      "sha256": "9a30a49626047f4579585a1a7e23e22e89da71b4d3413b094aa7752515d073f6"
+    },
+    "experiments/dram-see-v1/data/geant4/l025-proton-e5-a30/steps.csv": {
+      "bytes": 7407,
+      "sha256": "bafaa594b7d0b572a763dd8b8ba5f4c43d44e1ae50ca4f29f3c85f27bfa21e86"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-alpha-e5-a0/event.json": {
+      "bytes": 979,
+      "sha256": "737956ccdfa3516fe4461ec3bec51bcfe94d2107193af9498c38b49a2593cc4b"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-alpha-e5-a0/events.csv": {
+      "bytes": 102,
+      "sha256": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-alpha-e5-a0/steps.csv": {
+      "bytes": 24945,
+      "sha256": "75b6b3cc10f23aa579f82cd5e2f1e80866bc06ad7949bfbbe55470e40c672233"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-alpha-e5-a30/event.json": {
+      "bytes": 996,
+      "sha256": "3691571904712514bae4978b0820a1078f6471fd80f128a10bd2721624e94c23"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-alpha-e5-a30/events.csv": {
+      "bytes": 102,
+      "sha256": "86caaa389b84b30848ea48464d2f768b890fb2d905ce347c914d65b5d6bef1cd"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-alpha-e5-a30/steps.csv": {
+      "bytes": 28679,
+      "sha256": "d264e2af5e928c5de0e9869d7f39926d7f917183eb8e8dfada0e300be7743896"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-proton-e5-a0/event.json": {
+      "bytes": 988,
+      "sha256": "fc302b7e864e524d38efd8e76183744fdff6a09cd78fa71476f81446060d3601"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-proton-e5-a0/events.csv": {
+      "bytes": 85,
+      "sha256": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-proton-e5-a0/steps.csv": {
+      "bytes": 6397,
+      "sha256": "fffe9b1018b9a3a35333c0a60fe4b4c3712d66f38b5ebfce2d3d5af844cf5891"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-proton-e5-a30/event.json": {
+      "bytes": 1004,
+      "sha256": "a90bd2a379a1fb20d1c8f555acc6cca930f62c3a1dc7be1c763599a9adf305f1"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-proton-e5-a30/events.csv": {
+      "bytes": 84,
+      "sha256": "9a30a49626047f4579585a1a7e23e22e89da71b4d3413b094aa7752515d073f6"
+    },
+    "experiments/dram-see-v1/data/geant4/l035-proton-e5-a30/steps.csv": {
+      "bytes": 7400,
+      "sha256": "6cbc4006169612c56c43d19379dcd751681ed688f276a38d4c0b4cff802ad76f"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-alpha-e5-a0/event.json": {
+      "bytes": 979,
+      "sha256": "05b2b95e93ed5664478385fafc978122edc03431382decc1ebf99d21b4aab3e5"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-alpha-e5-a0/events.csv": {
+      "bytes": 102,
+      "sha256": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-alpha-e5-a0/steps.csv": {
+      "bytes": 24945,
+      "sha256": "ad0cc924205692be98c493c3f21947e030e45ee9e5e9140ccad18edff2ff65d7"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-alpha-e5-a30/event.json": {
+      "bytes": 996,
+      "sha256": "6e0208e41dfeb43a7fc85c0b614ab16a0c0463d3f0bf6a4818968c299ea9304c"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-alpha-e5-a30/events.csv": {
+      "bytes": 102,
+      "sha256": "86caaa389b84b30848ea48464d2f768b890fb2d905ce347c914d65b5d6bef1cd"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-alpha-e5-a30/steps.csv": {
+      "bytes": 28675,
+      "sha256": "2a785b94e1714590feed1af43982923981c3821d55a78a8226c0cd3dd1a04aa1"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-proton-e5-a0/event.json": {
+      "bytes": 988,
+      "sha256": "0d6fa9d04c06fd0ac445d58b29071f7af2db0a61c792c44967f9eb90a6035164"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-proton-e5-a0/events.csv": {
+      "bytes": 85,
+      "sha256": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-proton-e5-a0/steps.csv": {
+      "bytes": 6397,
+      "sha256": "3dae1def18bfbd96ad9fd1cb9c2a44ec6d998686223d5f3c0c3b1e3044cf6583"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-proton-e5-a30/event.json": {
+      "bytes": 1004,
+      "sha256": "736ee67243ec269b5e2ce51da1dfa06273a06414cb122999f4c6721b3ddf8ffd"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-proton-e5-a30/events.csv": {
+      "bytes": 84,
+      "sha256": "9a30a49626047f4579585a1a7e23e22e89da71b4d3413b094aa7752515d073f6"
+    },
+    "experiments/dram-see-v1/data/geant4/l045-proton-e5-a30/steps.csv": {
+      "bytes": 7400,
+      "sha256": "571bc14649a9160182d1ad91f6d6eb92d33b8866534b1080c81b4fe328571b33"
+    },
+    "experiments/dram-see-v1/data/geant4/pilot-alpha5-l025-a0/event.json": {
+      "bytes": 987,
+      "sha256": "d89b4e6304be0879f3dfe0ef3016ec3d08ab727bc5a97eb1bfda79427ed5857a"
+    },
+    "experiments/dram-see-v1/data/geant4/pilot-alpha5-l025-a0/events.csv": {
+      "bytes": 102,
+      "sha256": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+    },
+    "experiments/dram-see-v1/data/geant4/pilot-alpha5-l025-a0/steps.csv": {
+      "bytes": 24946,
+      "sha256": "19478204b1aa4c91adb96eda721c114bacb2f1f8b03f6440875535057a0a1e97"
+    },
+    "experiments/dram-see-v1/data/geant4/validation-alpha5-l025-a0/event.json": {
+      "bytes": 992,
+      "sha256": "da6e04565db3d4ef960a131377032d0315ee3beec38b957f4109116a43c7d96c"
+    },
+    "experiments/dram-see-v1/data/geant4/validation-alpha5-l025-a0/events.csv": {
+      "bytes": 102,
+      "sha256": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+    },
+    "experiments/dram-see-v1/data/geant4/validation-alpha5-l025-a0/steps.csv": {
+      "bytes": 24946,
+      "sha256": "19478204b1aa4c91adb96eda721c114bacb2f1f8b03f6440875535057a0a1e97"
+    },
+    "experiments/dram-see-v1/data/gui-evidence.json": {
+      "bytes": 1200,
+      "sha256": "3552447f22dfa03dace300830396e62b58e1848aeec41face1d11f651b7da0c2"
+    },
+    "experiments/dram-see-v1/data/model-frozen.json": {
+      "bytes": 1329,
+      "sha256": "3cd946a3bbd4f37ad40846bbec54bb29b3f981183c6f48268b70a2b4fd373351"
+    },
+    "experiments/dram-see-v1/data/numerical-validation.json": {
+      "bytes": 1029,
+      "sha256": "58480c7046fd320296b707ea38cd529519e42526e2f995b79992b1c72ba7c88f"
+    },
+    "experiments/dram-see-v1/data/operations-index.json": {
+      "bytes": 36494,
+      "sha256": "ca9ec07fddb05b1ea1a95e07be639cb28e436a9e0868e4eea53415ac09127b2f"
+    },
+    "experiments/dram-see-v1/data/predictions.csv": {
+      "bytes": 2588,
+      "sha256": "ae9f100ce0db3c848cc5d018b56ad5c5ff94f698ef0837995f99c3dd8283ccfe"
+    },
+    "experiments/dram-see-v1/data/request-validation.json": {
+      "bytes": 406,
+      "sha256": "131bd5bc2796c6d1b559737d077e549a38c88dbcb28f6e8949aacc8d5d24115c"
+    },
+    "experiments/dram-see-v1/data/restart-validation.json": {
+      "bytes": 251,
+      "sha256": "753aa6860eaa7856886ce5db0c02fc1d2e315c3a6e16a912280d54fa480ea544"
+    },
+    "experiments/dram-see-v1/data/results.json": {
+      "bytes": 14497,
+      "sha256": "b79cc9dd80d44863d0b127d3eb00ba907213ec96b0e7f60e25b62cca4f212e20"
+    },
+    "experiments/dram-see-v1/data/scalars.csv": {
+      "bytes": 5068,
+      "sha256": "69f6396b04ac72ee227b33158510dd6c1409b82636be10510eb9d8484ca3c2c9"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99/circuit.csv": {
+      "bytes": 46739,
+      "sha256": "31d45293f161e81d6b70fc6f187c6ce454b16529cc3c7f4ff539215b80ed8966"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99/device.csv": {
+      "bytes": 230268,
+      "sha256": "18abe0a6afec664fe9734f0ecad013758b3781e155fee4ba01b0237446155e02"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99/summary.json": {
+      "bytes": 2688,
+      "sha256": "6eab95a98653d16ed086010c0a2a51ce1db8dbdcb56174c2f415e2910f493bbd"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T170632Z-control-l025-cd6c15bc/circuit.csv": {
+      "bytes": 33072,
+      "sha256": "ef0409d2b7cc47532944158b3cd6e3f9709a7732cc69d1ae257fbde6d9e8ab6e"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T170632Z-control-l025-cd6c15bc/device.csv": {
+      "bytes": 153235,
+      "sha256": "c99dd412925e213e27b908943d916fd42a628070e697ce13d517eff84b82163b"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T170632Z-control-l025-cd6c15bc/summary.json": {
+      "bytes": 2654,
+      "sha256": "fde15d61f260a0379d4adc2bbdf976d557708597c9bf9e73c288b45998c244c6"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T170858Z-see-l025-alpha-e5-a0-c07e356d/circuit.csv": {
+      "bytes": 33058,
+      "sha256": "bcc6eaef2e072dedccbd076bb205e89522520211768e88a4633c5d183f28d907"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T170858Z-see-l025-alpha-e5-a0-c07e356d/device.csv": {
+      "bytes": 163331,
+      "sha256": "1bb336a07b6635c880c311a96f7a2529a23bacfb9513089e1bec7fa0b9b67527"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T170858Z-see-l025-alpha-e5-a0-c07e356d/summary.json": {
+      "bytes": 3116,
+      "sha256": "69085871b0382fd9eba12a506e063ef1a1ce3fd9f1a117f3a19d983bf7ca2605"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T171421Z-baseline-l018-2936f0de/circuit.csv": {
+      "bytes": 47610,
+      "sha256": "32b448df840e6d4e4c5bd5964f6a60f2f722d07e04354c0f4b99a9b52435bfa4"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T171421Z-baseline-l018-2936f0de/device.csv": {
+      "bytes": 236544,
+      "sha256": "15cf240791e937d12e4a9ef4311f45eaaa12ba91751b4b5f0b386ef88444a2d0"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T171421Z-baseline-l018-2936f0de/summary.json": {
+      "bytes": 2223,
+      "sha256": "5e68016d66f026611440513ddd855aa12ff4097a7f317583cbeec190ac078be8"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T172049Z-control-l018-e0d03b07/circuit.csv": {
+      "bytes": 33061,
+      "sha256": "8bb82f9f30d9dfe58cbea49cf68e38ca2c3557989326f0c56e6bc830fb04fe82"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T172049Z-control-l018-e0d03b07/device.csv": {
+      "bytes": 164232,
+      "sha256": "d69ff10bd6231870afa8f78d64f7588f8374161be412daff697e129695ec9d25"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T172049Z-control-l018-e0d03b07/summary.json": {
+      "bytes": 2645,
+      "sha256": "3052d8ec3c08c91fa2e4412b571bc7559a226ca3b729c1d85e55cf977d3696b3"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T172323Z-see-l018-alpha-e5-a0-c60200ef/circuit.csv": {
+      "bytes": 33051,
+      "sha256": "403988d2844e408458fbda1c7c47dab93bc5f90868f89be5bc3ae914dc7ecf0c"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T172323Z-see-l018-alpha-e5-a0-c60200ef/device.csv": {
+      "bytes": 165842,
+      "sha256": "de4faf57ccc3f811f2ef44a5d3b838456f254c02b6af28377eebbb54405271c9"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T172323Z-see-l018-alpha-e5-a0-c60200ef/summary.json": {
+      "bytes": 3666,
+      "sha256": "31c98d9ce0ad5501b3d1e15bb142b822d447a5be48aa8fb00b91ca4ee3c13ce5"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T172844Z-see-l018-alpha-e5-a30-bcfd55e1/circuit.csv": {
+      "bytes": 33065,
+      "sha256": "3e6ec0af5cb2a3a7b88cb822c19cd2b5f418239c64f0dd6e038a3832e285305f"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T172844Z-see-l018-alpha-e5-a30-bcfd55e1/device.csv": {
+      "bytes": 165928,
+      "sha256": "c9b389d3eb8bd60aca0155375d51a5207c0cefcdb5aa84db25039b857dc2da78"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T172844Z-see-l018-alpha-e5-a30-bcfd55e1/summary.json": {
+      "bytes": 3682,
+      "sha256": "14ee08370415bc7cee0c10125e2dd988c8ec45b5db2d84ea8eb5e07b72786b0d"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T173359Z-see-l018-proton-e5-a0-9e6d33d7/circuit.csv": {
+      "bytes": 33053,
+      "sha256": "9aa12dc49ffcc862a675e1ab88e3a7c5fe0089fbe5ccb2c80fb0f409ea3cc61b"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T173359Z-see-l018-proton-e5-a0-9e6d33d7/device.csv": {
+      "bytes": 166853,
+      "sha256": "3843a64e6adf4756d67230b4da56159daa18d3e7ae9deba1de9c79fbad6fa763"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T173359Z-see-l018-proton-e5-a0-9e6d33d7/summary.json": {
+      "bytes": 3677,
+      "sha256": "b1f3c68b7145b7f5da091e8b131800f75cd3e1597b8a1ffc4e7decf27fd8e398"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T173832Z-see-l018-proton-e5-a30-ebcd4acb/circuit.csv": {
+      "bytes": 33059,
+      "sha256": "3e96788753018bcbdfbd8590945cb1e9a909abd1a3a21fa72f7cf4547d9c8912"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T173832Z-see-l018-proton-e5-a30-ebcd4acb/device.csv": {
+      "bytes": 166852,
+      "sha256": "215a07794ebb9b5b6cd2446f781c2999fac337e2e6dfccbde75ae30f1800a421"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T173832Z-see-l018-proton-e5-a30-ebcd4acb/summary.json": {
+      "bytes": 3692,
+      "sha256": "b4fa71bef286dff7465347b1e7c4c233d19edf6a082b9a4482be159330b3c4f3"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T174305Z-see-l025-alpha-e5-a30-eede9033/circuit.csv": {
+      "bytes": 33057,
+      "sha256": "eb00445e5a0323865131e4fdae05e47083103229ffa4545a30a1e037a055b268"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T174305Z-see-l025-alpha-e5-a30-eede9033/device.csv": {
+      "bytes": 163393,
+      "sha256": "7ea4dd0f75438c2279ae46291d45250f119035a025008468c4d68b574615381a"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T174305Z-see-l025-alpha-e5-a30-eede9033/summary.json": {
+      "bytes": 3691,
+      "sha256": "c45c0ea698f9d0710412da3c93f3c72dc12f6ab103630672f51b4edb6d17bfdf"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T174802Z-see-l025-proton-e5-a0-3c53862f/circuit.csv": {
+      "bytes": 33077,
+      "sha256": "255ed9fa3a77f153467d03eb1c76dbff2d1cd586a6e706de5956dec703382be3"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T174802Z-see-l025-proton-e5-a0-3c53862f/device.csv": {
+      "bytes": 162472,
+      "sha256": "9b4a8e973a1f1285ae9a41ed558ae77f1975b3b6046e803e8c683c63b69b27a4"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T174802Z-see-l025-proton-e5-a0-3c53862f/summary.json": {
+      "bytes": 3684,
+      "sha256": "08270ac48686e95f7cbb0d8b050e2ed491256f900bfda83faac81972c90595c5"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T175229Z-see-l025-proton-e5-a30-9f014b6f/circuit.csv": {
+      "bytes": 33050,
+      "sha256": "f01c40c688ab3ff609dbc349427c1c1aa1465cb06df8fa18613ede23bfeade11"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T175229Z-see-l025-proton-e5-a30-9f014b6f/device.csv": {
+      "bytes": 162566,
+      "sha256": "9f93e361bce7f91c8a8db759551a8b846607b5ddd085d070684ded838d160f4b"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T175229Z-see-l025-proton-e5-a30-9f014b6f/summary.json": {
+      "bytes": 3698,
+      "sha256": "2a386eb8ac633ee9b67a09ccb6ace6510c863878bc702bf97bb7c0546993e184"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T175650Z-baseline-l035-a03f6fcd/circuit.csv": {
+      "bytes": 46982,
+      "sha256": "6ff79458392817afae9533e69b0bf45967875027e3b860ade6586a6f14b6f708"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T175650Z-baseline-l035-a03f6fcd/device.csv": {
+      "bytes": 221818,
+      "sha256": "cc9999e3ece471c054ac5b292ed269dd7a4564891d6287a76f46e2e8d1284164"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T175650Z-baseline-l035-a03f6fcd/summary.json": {
+      "bytes": 2224,
+      "sha256": "9632a145b9e6d2ceb7a835344d566247966c6e4c639a0f98a03c6f2efe04cc90"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T180207Z-control-l035-6c8aa748/circuit.csv": {
+      "bytes": 33055,
+      "sha256": "7e84efe9d1a85ac8b9ee1a20853901b19a3133f8abfe51a7f8da00c160bd239d"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T180207Z-control-l035-6c8aa748/device.csv": {
+      "bytes": 154141,
+      "sha256": "09fb065fcd92bd50ac34812b4e0f139d298822408418bd2ed3fbd330249d7962"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T180207Z-control-l035-6c8aa748/summary.json": {
+      "bytes": 2646,
+      "sha256": "d6cefdb067e691174a0d9617ba1fb467ae9e1de6c0f28a611327fc274ea8cd86"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T180432Z-see-l035-alpha-e5-a0-579b0628/circuit.csv": {
+      "bytes": 33063,
+      "sha256": "4a4e735fe0c4cece4b010f6e8717284be0c4773b03e432af85fe635969e3ac64"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T180432Z-see-l035-alpha-e5-a0-579b0628/device.csv": {
+      "bytes": 163348,
+      "sha256": "f244a29b74dcd8ac5a02cf950fab007811e87c46769685149891ecb805773b59"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T180432Z-see-l035-alpha-e5-a0-579b0628/summary.json": {
+      "bytes": 3662,
+      "sha256": "a1edc4d02ec75d9ee3b6736d88cdcab4414dbb62d120677482a67f1b6935e400"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T180923Z-see-l035-alpha-e5-a30-dd0e675c/circuit.csv": {
+      "bytes": 33041,
+      "sha256": "4026d1ef4fba966fbb122c4b6b61e46c2c2305ab84a44b11b4dff6123ab630d4"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T180923Z-see-l035-alpha-e5-a30-dd0e675c/device.csv": {
+      "bytes": 163436,
+      "sha256": "2e27b42f103a3b4693c07cb0dcdd17897e2eb36a4a231445864460719cf20916"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T180923Z-see-l035-alpha-e5-a30-dd0e675c/summary.json": {
+      "bytes": 3683,
+      "sha256": "ca6f9710a5baa81aba4cf3ac27109deaf48e3ee1c14c31bf2317e169bc955a48"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T181415Z-see-l035-proton-e5-a0-ed3e0095/circuit.csv": {
+      "bytes": 33068,
+      "sha256": "ba0bb22b74902ec42e7910afc82aaa8e59f05c02e64de5f135c7c37de10cf85c"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T181415Z-see-l035-proton-e5-a0-ed3e0095/device.csv": {
+      "bytes": 162890,
+      "sha256": "30d3f6b309f1dae8d9ddfa27b35cf375aad8203310964cb8be25a8aa5c93859d"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T181415Z-see-l035-proton-e5-a0-ed3e0095/summary.json": {
+      "bytes": 3677,
+      "sha256": "f17330170ec0f044601f57b81e639b91475928d795b82d6dd46647e2e5ef95b7"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T181844Z-see-l035-proton-e5-a30-b236cf98/circuit.csv": {
+      "bytes": 33044,
+      "sha256": "bde16c86e7ec9c46c8594b68d6c6dba3ddd34da3214776ebcd0a92fd4ec1c32a"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T181844Z-see-l035-proton-e5-a30-b236cf98/device.csv": {
+      "bytes": 162929,
+      "sha256": "076284272cb6a0d3baa65982be564bcd0f491b512928e611db21f526730cee18"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T181844Z-see-l035-proton-e5-a30-b236cf98/summary.json": {
+      "bytes": 3691,
+      "sha256": "1c38b212dd7dc573ea8d53042fc11e3151a2000efb32389e2be7b2dfd2a17a3a"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T182312Z-baseline-l045-2c348977/circuit.csv": {
+      "bytes": 45353,
+      "sha256": "6e01b8f1e60fc721e3bccfbb102081be02d62b6ced7eb36552ae7aa662f27e22"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T182312Z-baseline-l045-2c348977/device.csv": {
+      "bytes": 213798,
+      "sha256": "e880f0921c7f2c2ea79c6adecf2c0f7aad0a7bed6a9f8b6d92e7d92e15c8462e"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T182312Z-baseline-l045-2c348977/summary.json": {
+      "bytes": 2223,
+      "sha256": "00fed349de2a69323e76e9f549fc1aa185f2793f1007574e8272563a368df2c3"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T182731Z-control-l045-040583a3/circuit.csv": {
+      "bytes": 33060,
+      "sha256": "855a86ce6b182a0e9a9057f7aac20622a8c29c50c163160c6654ab34590bb48c"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T182731Z-control-l045-040583a3/device.csv": {
+      "bytes": 153948,
+      "sha256": "5f3962a20c042a2a4e13726fadd08fad34e75953cb0d9b4bfdd5e0e5aa677b63"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T182731Z-control-l045-040583a3/summary.json": {
+      "bytes": 2648,
+      "sha256": "9fdf928ca32300b8d78a04169f1256457fb5408983ede55463b256d5bda5b082"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T182956Z-see-l045-alpha-e5-a0-e30537b9/circuit.csv": {
+      "bytes": 33365,
+      "sha256": "b07c91403ca2fabc6b27e31286654cd4f4216a5f3496ae1212a971a138cc77e8"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T182956Z-see-l045-alpha-e5-a0-e30537b9/device.csv": {
+      "bytes": 164868,
+      "sha256": "e6e03cf7aabd96852586ff5614d0ae8d921945ccfb50cafcce2c6a79e2a5ebcb"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T182956Z-see-l045-alpha-e5-a0-e30537b9/summary.json": {
+      "bytes": 3660,
+      "sha256": "72b473a88dfb2036ec9743d23ef8c400c70627f3a997306b8828667877792459"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T183504Z-see-l045-alpha-e5-a30-d6bb7fb9/circuit.csv": {
+      "bytes": 33386,
+      "sha256": "52bb8c3b021758f09a822059a7c501f9d14f3964a080385f3dee5f3bb2d6603c"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T183504Z-see-l045-alpha-e5-a30-d6bb7fb9/device.csv": {
+      "bytes": 164984,
+      "sha256": "065fa531796370918a77f466003b09c4f7f69ab62dd7394c0d9a9c1e6c3574d9"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T183504Z-see-l045-alpha-e5-a30-d6bb7fb9/summary.json": {
+      "bytes": 3681,
+      "sha256": "80f7ae627b895f39ff989f5a2575acb9bb04beb4c973b8f664b74a44a1c34dc4"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T184010Z-see-l045-proton-e5-a0-6de5d89b/circuit.csv": {
+      "bytes": 33066,
+      "sha256": "fe1ec4f0f95d42db79ba9324a27d2520b7dadcdf5b73a6a4efcfb0c778572d6c"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T184010Z-see-l045-proton-e5-a0-6de5d89b/device.csv": {
+      "bytes": 162539,
+      "sha256": "e0efbde89590fb5bf8f3c763c727aedd54b5b38b79a98fb27b5e960e454bff27"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T184010Z-see-l045-proton-e5-a0-6de5d89b/summary.json": {
+      "bytes": 3673,
+      "sha256": "adc2d3495003d524733e7db1f6f1a2774619a65f0913cbc4ffa1f84a436b7878"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T184444Z-see-l045-proton-e5-a30-a438b3cf/circuit.csv": {
+      "bytes": 33067,
+      "sha256": "cf3be6981dad0cc4e84bd077b2e432490d067b2b7e6bdf57fe5cffbf8fb4f899"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T184444Z-see-l045-proton-e5-a30-a438b3cf/device.csv": {
+      "bytes": 162622,
+      "sha256": "63aa93b37f5c566f6a403a66f6b03c76f96bc0611c8ff9d59d5403685b936b34"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T184444Z-see-l045-proton-e5-a30-a438b3cf/summary.json": {
+      "bytes": 3693,
+      "sha256": "4ce4488c21a95fb06b004579f7d2f4ded0528ca0a83b51569c89f125a6dfd1f1"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T185046Z-refine-alpha5-l025-a0-27978762/circuit.csv": {
+      "bytes": 88618,
+      "sha256": "55ef2f8be3a9bec85bc103a3ec5aaa19de4b4530a98e465379e64c219d8ba2b5"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T185046Z-refine-alpha5-l025-a0-27978762/device.csv": {
+      "bytes": 432415,
+      "sha256": "b9f65a83c2b8883e4d034d84c4bde7c083a92724ccb10523cbc3a3927bdfb335"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T185046Z-refine-alpha5-l025-a0-27978762/summary.json": {
+      "bytes": 3236,
+      "sha256": "880770b57f46803f1f3c319f0804a99514366d987d2d2368adfa5eae0c90c6bd"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T190518Z-refine-control-l025-a0-f0526020/circuit.csv": {
+      "bytes": 65686,
+      "sha256": "c7c11a30069002f8fd1b7d6491a37cd85e8eee22313a7d6322a6c5d2644fa1db"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T190518Z-refine-control-l025-a0-f0526020/device.csv": {
+      "bytes": 302160,
+      "sha256": "85f624193e5dcfb771af0a4a6176635b8c984cdb28c3b22a83b8650d339339a2"
+    },
+    "experiments/dram-see-v1/data/tcad/20261009T190518Z-refine-control-l025-a0-f0526020/summary.json": {
+      "bytes": 2661,
+      "sha256": "294161259eafd916d85bd8482a1a8fc1af2ff748f5264979a694949570a69882"
+    },
+    "experiments/dram-see-v1/delivery.md": {
+      "bytes": 3777,
+      "sha256": "5023d45bb19185e790cf07667d412a87900218b551e500ec58f27a7f14082e65"
+    },
+    "experiments/dram-see-v1/env-spec.json": {
+      "bytes": 521,
+      "sha256": "c84b7d3b1af7f00b9fc375df3aa27b7c208800dd038ed33aa9a6c9d378ee2a85"
+    },
+    "experiments/dram-see-v1/environment.md": {
+      "bytes": 3618,
+      "sha256": "45ec81eb64196e5213c596343b6447c22d519ca8286dda65c01f9e4d3780ae8b"
+    },
+    "experiments/dram-see-v1/event_contract.py": {
+      "bytes": 2501,
+      "sha256": "6b945390eac122d669f0867ef1a7f1fbea4cc1e970b500ee1071fc19db7965ad"
+    },
+    "experiments/dram-see-v1/figures/mesh.png": {
+      "bytes": 142514,
+      "sha256": "81d4aae454dcf30b3cc90d7a21d8cf67f254bc62c992f35b7ee584a42d7f8269"
+    },
+    "experiments/dram-see-v1/figures/native-desktop.png": {
+      "bytes": 179365,
+      "sha256": "af9525b76ecbdb23eef9474ccf10480c1faacb3d43a8e8be58fcecb15aed35dd"
+    },
+    "experiments/dram-see-v1/figures/prediction.png": {
+      "bytes": 67662,
+      "sha256": "89cbf1b803767bd7c7a9f20bbe5f732353ece61536e8c8a24e84ce4094407326"
+    },
+    "experiments/dram-see-v1/figures/size-response.png": {
+      "bytes": 105926,
+      "sha256": "faae880b2235d97a16e07b17425e843ba0e7b8c63ead6253f121c4ec211fa801"
+    },
+    "experiments/dram-see-v1/figures/strike-electrons.png": {
+      "bytes": 74707,
+      "sha256": "f2a54835c0301b88ccc5e208140d56d5dd9476e2aa82cfda8fd506bfd065b59d"
+    },
+    "experiments/dram-see-v1/figures/strike-field.png": {
+      "bytes": 85595,
+      "sha256": "541046d60892365cda52a24f1e3414511dc4f6c122267366faee97a8fa9974b0"
+    },
+    "experiments/dram-see-v1/figures/structure.png": {
+      "bytes": 23042,
+      "sha256": "c3bc53e59dca278468c9a41a63de8f3c68ebf00afbf56e542483cfd90e38e5fa"
+    },
+    "experiments/dram-see-v1/figures/transients.png": {
+      "bytes": 98611,
+      "sha256": "106a5f7a84de9ba8e651fb18b5f7b18d3084711c65427f1ab23cc8a477397ad8"
+    },
+    "experiments/dram-see-v1/figures/write-hold-strike.png": {
+      "bytes": 67367,
+      "sha256": "1e5d789ca3ae95e337c529d9834fa253ab4c4e3fa69c200d720d1914e0c5f60a"
+    },
+    "experiments/dram-see-v1/forecast_pending.py": {
+      "bytes": 2712,
+      "sha256": "525ecdc597942c49232a6d79496128ac731ab65ab89a9d56c4673ff3ac0cb345"
+    },
+    "experiments/dram-see-v1/geant4_transport.cc": {
+      "bytes": 4596,
+      "sha256": "8f3ec870dad0905be7516bf657ed033d8cf5c5ade7cef938a941622b2f483ce2"
+    },
+    "experiments/dram-see-v1/independent-review.md": {
+      "bytes": 8506,
+      "sha256": "1e2e6f6c0e8c7b33fbfd6042040dd40569120a7368bb135a5a0ccb1bc90ee1ee"
+    },
+    "experiments/dram-see-v1/journal.md": {
+      "bytes": 14290,
+      "sha256": "bda94a30d6eacdf9a8062bd6159e4a0f531b58dca068cf1adfe0364a4bcf08b7"
+    },
+    "experiments/dram-see-v1/matrix-request.json": {
+      "bytes": 3495,
+      "sha256": "3c387648138d22751c587844ce4115ae50c0c9bf4d7c52d89adaf9f7668c8136"
+    },
+    "experiments/dram-see-v1/matrix.json": {
+      "bytes": 4410,
+      "sha256": "e74691aec1ec162a6c5298564502e76de8252c24cf47db29e4eab816338c0005"
+    },
+    "experiments/dram-see-v1/operate.py": {
+      "bytes": 1781,
+      "sha256": "0c151ab75bd674037e6f34f05d75fa9e6cb25b9c2c87f5239f368d73d95f9e92"
+    },
+    "experiments/dram-see-v1/plan.md": {
+      "bytes": 5627,
+      "sha256": "7579dbfec68d8f719d555a92a084a08e2fca56aa5bcb0d9e771b8e18a3a98e7a"
+    },
+    "experiments/dram-see-v1/README.md": {
+      "bytes": 2021,
+      "sha256": "644a24453a34398552f509d0a785adfe8110d6812067b85053f3d8e239f1d45e"
+    },
+    "experiments/dram-see-v1/reference-inputs/coarse-full/device.cmd": {
+      "bytes": 2205,
+      "sha256": "39bbdbfe6421c9c30f6173d7214b86c1408b7999837a3dcfdc6ac279c5291624"
+    },
+    "experiments/dram-see-v1/reference-inputs/coarse-full/generator-sha256.txt": {
+      "bytes": 66,
+      "sha256": "b19a5c89d328564f5895e3bab0e7a03bc1bc3b7ebc85c0787e2e41f6c198237b"
+    },
+    "experiments/dram-see-v1/reference-inputs/coarse-full/geometry.scm": {
+      "bytes": 2165,
+      "sha256": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17"
+    },
+    "experiments/dram-see-v1/reference-inputs/coarse-full/parameters.json": {
+      "bytes": 509,
+      "sha256": "2c4e721ea79d3867396eea8c448dc6029411e1dc36e725b368bd3f0054a81b55"
+    },
+    "experiments/dram-see-v1/reference-inputs/coarse-full/project.json": {
+      "bytes": 438,
+      "sha256": "5ab927ffaf4c24150cd1d9478b75374a17f55ac27d6e42e50f3ee4bbad53aeb2"
+    },
+    "experiments/dram-see-v1/reference-inputs/fine-full/device.cmd": {
+      "bytes": 2205,
+      "sha256": "ec5460f95aa0062a8497fd83e553d8a9d8f64b2ed95ebd8c0a6ded2fc288447e"
+    },
+    "experiments/dram-see-v1/reference-inputs/fine-full/generator-sha256.txt": {
+      "bytes": 66,
+      "sha256": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb"
+    },
+    "experiments/dram-see-v1/reference-inputs/fine-full/geometry.scm": {
+      "bytes": 2174,
+      "sha256": "dfc120ac79c18ee2b81081d57f747439fc407fc08c28ff0f4c1687b03b428fb6"
+    },
+    "experiments/dram-see-v1/reference-inputs/fine-full/parameters.json": {
+      "bytes": 823,
+      "sha256": "85515317e6d7fc1e20f0150000bb39546a371cbb1e1e41e2858bd8dc9c4c3564"
+    },
+    "experiments/dram-see-v1/reference-inputs/fine-full/project.json": {
+      "bytes": 436,
+      "sha256": "b925f9eda25c0e3ce877996493df8cc08a450ed9d87e7b599af018ca498f7ebb"
+    },
+    "experiments/dram-see-v1/reference-inputs/fine-full/source-event.json": {
+      "bytes": 987,
+      "sha256": "d89b4e6304be0879f3dfe0ef3016ec3d08ab727bc5a97eb1bfda79427ed5857a"
+    },
+    "experiments/dram-see-v1/reference-inputs/fine-full/source-events.csv": {
+      "bytes": 102,
+      "sha256": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+    },
+    "experiments/dram-see-v1/reference-inputs/fine-full/source-steps.csv": {
+      "bytes": 24946,
+      "sha256": "19478204b1aa4c91adb96eda721c114bacb2f1f8b03f6440875535057a0a1e97"
+    },
+    "experiments/dram-see-v1/reference-inputs/provenance.json": {
+      "bytes": 1712,
+      "sha256": "4358fcc2a80730a93c30951aad96e7654a4492edab38b0fa19496ce235632917"
+    },
+    "experiments/dram-see-v1/reference-inputs/README.md": {
+      "bytes": 842,
+      "sha256": "c5061aaacda7568239c33bca5008dadfd6f8fad0b29f7fe9d7032db25d96f1f5"
+    },
+    "experiments/dram-see-v1/report.md": {
+      "bytes": 15264,
+      "sha256": "6c8e655df6f901ceffe019c75bd640f8b25528f171038c49bfe9470874313c3c"
+    },
+    "experiments/dram-see-v1/request.json": {
+      "bytes": 2682,
+      "sha256": "d6ca484f849ab3128566b807815f63aa32aef3a3d2fc2119aa5966cbc496bd93"
+    },
+    "experiments/dram-see-v1/request_to_matrix.py": {
+      "bytes": 2081,
+      "sha256": "6efdbb39edc696c7745d506128539d3e6ccf86e00ccef95ced2c20836bc891bf"
+    },
+    "experiments/dram-see-v1/run-index.json": {
+      "bytes": 109540,
+      "sha256": "14d92d1a0ac644f81a36a709025b91b3c0681adc781f8c480386d80a0ff64d7f"
+    },
+    "experiments/dram-see-v1/run_batch.py": {
+      "bytes": 4203,
+      "sha256": "8fccee9e0d5e7f5943f4aab870315f4d10649cd22d52c7ee6d7e1326a2280d44"
+    },
+    "experiments/dram-see-v1/summarize.py": {
+      "bytes": 9782,
+      "sha256": "46f2afcd40415be4057294fe0764b749b4edb189d7664f52ece68f0ce2f68d00"
+    },
+    "experiments/dram-see-v1/test_contracts.py": {
+      "bytes": 2118,
+      "sha256": "7ba2066685b94cacad8c0637891cd9df7aff12c5845ae2220ad95d3f7bcb4d35"
+    },
+    "experiments/dram-see-v1/test_validation.py": {
+      "bytes": 5326,
+      "sha256": "cfc17c29b5ca4da70a4a26cec129d5185a24aa297c7aea8bf44af52cb2155c1f"
+    },
+    "experiments/dram-see-v1/transport.py": {
+      "bytes": 4000,
+      "sha256": "25134a3d6e9a36c8d9f4af0ed6f162f599d8ebbe8412bf00d76e387fea5417f5"
+    },
+    "experiments/dram-see-v1/validation.md": {
+      "bytes": 5402,
+      "sha256": "635f897bd45f8ae43ef857cd646153bfa1d66c0b66d327c82fab60fbe63808bc"
+    },
+    "experiments/dram-see-v1/visualize.tcl": {
+      "bytes": 2364,
+      "sha256": "70258b84acf698f5183b55922577919af70e1f8789dd2bab56021a0e55e8713f"
+    },
+    "experiments/dram-see-v1/workflow.md": {
+      "bytes": 7824,
+      "sha256": "ec9bde564284a96664f252f22976b913fc5969ecafd0575f97387b39bd5b1180"
+    },
+    "experiments/plan.md": {
+      "bytes": 37080,
+      "sha256": "b68f4f4dafe6675b8a6c4508cc2641abd463bf949ffd58ca6163edfbca7b3bab"
+    },
+    "experiments/roadmap.md": {
+      "bytes": 14345,
+      "sha256": "1468c91148c8c4fa53044a7dfd375faea8d5556771dd9d5982fa61bee71a0ab2"
+    },
+    "README.txt": {
+      "bytes": 7177,
+      "sha256": "b25aeb300e04287282f80469b68409df43f29319e32ec8709295720c0a69bedc"
+    },
+    "reports/outline.md": {
+      "bytes": 20466,
+      "sha256": "efb37ab3d260ba527ddcb0aa1556364ccac47079b9ff0d41176274bbcfe356a1"
+    },
+    "scripts/guest-bootstrap.sh": {
+      "bytes": 1405,
+      "sha256": "badf6e22278c2c50fb20419e3facccc716f1653d1abef39875f144a8e7d54827"
+    },
+    "scripts/start-vm.ps1": {
+      "bytes": 1211,
+      "sha256": "1a609d6d3c0f079d72ad44f8a9da73e2d49a6e6b3277bb3c21f499ba88f265f8"
+    },
+    "scripts/tcad.py": {
+      "bytes": 8802,
+      "sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5"
+    },
+    "tests/pn-field-desktop/desktop.py": {
+      "bytes": 2722,
+      "sha256": "c330f92d3dfda31f487f38688e2b0b7f6b57e19c5875f558dd6b1cfea08198c8"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "dram-see-v2",
+  "label": "l025-proton-s202610201",
+  "gate_length_um": 0.25,
+  "particle": "proton",
+  "energy_MeV": 5.0,
+  "angle_deg": 0,
+  "seed": 202610201,
+  "event_count": 1,
+  "surface_impact_um": [
+    0.7,
+    0,
+    0
+  ],
+  "launch_position_um": [
+    0.7,
+    -0.001,
+    0
+  ],
+  "direction": [
+    0,
+    1,
+    0
+  ],
+  "conversion_eV_per_pair": 3.6,
+  "converted": [
+    {
+      "event": 0,
+      "ionizing_MeV": 0.0122968230199606,
+      "charge_pc": 0.000547268958750394,
+      "track_length_um": 1.2,
+      "let_pc_per_um": 0.0004560574656253284
+    }
+  ],
+  "source_sha256": "8f3ec870dad0905be7516bf657ed033d8cf5c5ade7cef938a941622b2f483ce2",
+  "binary_sha256": "830cd8480bc11a27b243f6662d0e64a71d5b382a45bfd1e80f8e199bfdfdb67f",
+  "files_sha256": {
+    "steps.csv": "bdd2248fee8a600cf881feda0e910700d52a80ba6e380af6c0ce1d8b8dafdd89",
+    "events.csv": "5d921c44e0ef26a077bb650464ad6e86cdc97bd2ccf39ce4676a2c81f04ac452"
+  },
+  "operation_exit_code": 0,
+  "operation_label": "g4-l025-proton-s202610201",
+  "command": "${V1_INSTALLED_ROOT}/build/transport 0.25 proton 5 0 202610201 1",
+  "scope": "independent random seed; fixed position/energy/angle; EM-only uniform equivalent track"
+}

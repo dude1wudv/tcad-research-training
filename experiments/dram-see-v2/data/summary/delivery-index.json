@@ -1,0 +1,3634 @@
+{
+  "excluded_experiment_paths": [],
+  "excluded_sensitive_scope": "No connection configuration, keys, licenses, unrelated runs, archive extraction, or external path traversal.",
+  "experiment_artifacts": [
+    {
+      "path": "experiments/dram-see-v2/audit.py",
+      "present": true,
+      "sha256": "0ca60a603dbcdb74410c05eb6e2f7fb7f5ca8ecadbe3557e5fa3e20fdb2e845f",
+      "size_bytes": 12246
+    },
+    {
+      "path": "experiments/dram-see-v2/build_case.py",
+      "present": true,
+      "sha256": "861ddb0188dc5a4f70846b66da7302647dd92fbbad15c42a5087f29f6b3ed46b",
+      "size_bytes": 9757
+    },
+    {
+      "path": "experiments/dram-see-v2/capture_guest_window.py",
+      "present": true,
+      "sha256": "4fbdf4bd625bb3a9faf1ed0c73cf7b9cf9fbfb213d1f4814529ea8ac8ae7d280",
+      "size_bytes": 2935
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610101/event.json",
+      "present": true,
+      "sha256": "05afd168a947ee8cebac81ca0fc25675290ae20e3735e05ad8d6a168d85e2c93",
+      "size_bytes": 1260
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610101/events.csv",
+      "present": true,
+      "sha256": "3ae0a64bc62a2b37e90f5eea563097be673961c0b998cd587df763a43fcbc640",
+      "size_bytes": 102
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610101/steps.csv",
+      "present": true,
+      "sha256": "18bada17e01dfae587753e90de6a3a78c3f2325932a139f62524fe7a5d4f3788",
+      "size_bytes": 25398
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610102/event.json",
+      "present": true,
+      "sha256": "9efe5c29936fe875d1aa11fdc4ea3b826504326251f07cd4f42d01c519d173fc",
+      "size_bytes": 1260
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610102/events.csv",
+      "present": true,
+      "sha256": "8f8a8f098d139ce1632d72328e851a9ac3b403ec55b746eb30481c0cc51b86be",
+      "size_bytes": 102
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610102/steps.csv",
+      "present": true,
+      "sha256": "bd5a9750ee1fde2b16ff0a6a52c6898bf88c89017ea07d1ffe3bc699060012d3",
+      "size_bytes": 24058
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610103/event.json",
+      "present": true,
+      "sha256": "09dd92a0f4df25003114a86fca8da5cbf25e8ad739769379b79ae36a28deb994",
+      "size_bytes": 1260
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610103/events.csv",
+      "present": true,
+      "sha256": "f6ba949f9fa8ed708ce153a3af5efe33cab609519485fec9f98f9c041b88f5a6",
+      "size_bytes": 102
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610103/steps.csv",
+      "present": true,
+      "sha256": "68bfa6608ab331694df676aab89dfa700fbd08c5b091575cb901594a2c14da16",
+      "size_bytes": 20287
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610104/event.json",
+      "present": true,
+      "sha256": "b4e408499ab8579e98395be075ca708578438ad2ac6ff57d7a27fa2395ae6a6a",
+      "size_bytes": 1260
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610104/events.csv",
+      "present": true,
+      "sha256": "f5c9bcccded6d5784af0d64ffa5eea69483d8a7e2be4ef83a12a3f138edc9cbd",
+      "size_bytes": 100
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610104/steps.csv",
+      "present": true,
+      "sha256": "d522c9b84bd31b1e542c1ceb57b0148c3aa3784c7eb2de639725e55be1af2270",
+      "size_bytes": 23592
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610201/event.json",
+      "present": true,
+      "sha256": "067cf57076eed5b80712b3c1476443ca2ac4705280638c88b36d572a5c7b0eaf",
+      "size_bytes": 1266
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610201/events.csv",
+      "present": true,
+      "sha256": "5d921c44e0ef26a077bb650464ad6e86cdc97bd2ccf39ce4676a2c81f04ac452",
+      "size_bytes": 84
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610201/steps.csv",
+      "present": true,
+      "sha256": "bdd2248fee8a600cf881feda0e910700d52a80ba6e380af6c0ce1d8b8dafdd89",
+      "size_bytes": 7640
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610202/event.json",
+      "present": true,
+      "sha256": "1f257683c0ffdd73cef35396b1069cc86eddb69cc24aa3d588f457e27f1c46d4",
+      "size_bytes": 1267
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610202/events.csv",
+      "present": true,
+      "sha256": "ac07702949d08839d9e477fb63e70d375016bdafad69ba15be8e4fe9604bcdf8",
+      "size_bytes": 84
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610202/steps.csv",
+      "present": true,
+      "sha256": "802516ec8d9f52ddd93d94597b843d44099341929fe910d9b5453ab9a3cade05",
+      "size_bytes": 8541
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610203/event.json",
+      "present": true,
+      "sha256": "095b51364d4d9f19c6ac8cb800ce6d0d08eb1bb5b14f0f2dd2b216746702c289",
+      "size_bytes": 1263
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610203/events.csv",
+      "present": true,
+      "sha256": "e713edf8c644628011457102b32d1993b266604fb26981bcb1451ea39fc72645",
+      "size_bytes": 81
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610203/steps.csv",
+      "present": true,
+      "sha256": "d85fdce28255d83c8f49072c7fa456c6024974c66d2351547b19120ecdf8b4bc",
+      "size_bytes": 11894
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610204/event.json",
+      "present": true,
+      "sha256": "6e7afeb339905560939be5e2969d393b31339e20fe6b45d88eb11e69f0d2c590",
+      "size_bytes": 1267
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610204/events.csv",
+      "present": true,
+      "sha256": "28fb59e0f5de89fabe016cd037f35eb3f72c331782f379a211e6ba044f87db1f",
+      "size_bytes": 84
+    },
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-proton-s202610204/steps.csv",
+      "present": true,
+      "sha256": "7725554c319187aa71eba451fa175361bd147f7224441800515420f836dced04",
+      "size_bytes": 9614
+    },
+    {
+      "path": "experiments/dram-see-v2/data/summary/all-run-attempts.csv",
+      "present": true,
+      "sha256": "2533ffb2c8acfd2255ea19d7696a2a04b9c822c5427c9e270adfedd0439171cf",
+      "size_bytes": 7087
+    },
+    {
+      "path": "experiments/dram-see-v2/data/summary/baselines.csv",
+      "present": true,
+      "sha256": "c225839f2a4826bfc4fd2782da8ef44a5557f1f5c750c120916726ca4e5db879",
+      "size_bytes": 2335
+    },
+    {
+      "path": "experiments/dram-see-v2/data/summary/event-index.csv",
+      "present": true,
+      "sha256": "eb3754ccbd9f771003b3244da3832dfd1ccdb3e986e9ef921970d751cfe868c1",
+      "size_bytes": 5064
+    },
+    {
+      "path": "experiments/dram-see-v2/data/summary/numerical-checks.json",
+      "present": true,
+      "sha256": "61330180ac24fb8d7b8c9f24f63dc71c331b33fdbd73711526dc0c967e192615",
+      "size_bytes": 2487
+    },
+    {
+      "path": "experiments/dram-see-v2/data/summary/responses.csv",
+      "present": true,
+      "sha256": "3c7ad428811c705a9ca65fd384af1edb829dffde18ea18179eaeaf1acbe32534",
+      "size_bytes": 9573
+    },
+    {
+      "path": "experiments/dram-see-v2/data/summary/source-hashes.json",
+      "present": true,
+      "sha256": "34fa3c98db675fbb9c75523ed78eceadca6f0253b41ac45f1b702b98b64be305",
+      "size_bytes": 455
+    },
+    {
+      "path": "experiments/dram-see-v2/data/summary/statistics.csv",
+      "present": true,
+      "sha256": "15161c44447d8f2e902cb269cf120a0e77aa4d76e657d0c3d7b9f3b8ca9cd50c",
+      "size_bytes": 2986
+    },
+    {
+      "path": "experiments/dram-see-v2/data/summary/statistics.json",
+      "present": true,
+      "sha256": "a1a9d5fb04647fa405feb23951deb81fcb941b8a5d95d16ab4da24019078ea0b",
+      "size_bytes": 19608
+    },
+    {
+      "path": "experiments/dram-see-v2/data/summary/v1-preservation.json",
+      "present": true,
+      "sha256": "c1fcfdc6b774c3e41e32d5b331910ec87ba3b0f09dbca7867504e3d5caa7f2ac",
+      "size_bytes": 164
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T013752Z-v2-pilot-control-l025-b1-r4-6f25f848/circuit-raw.csv",
+      "present": true,
+      "sha256": "0e94fb39e593628df699788fa33bade7ffccff63410fe99cc6ab8c60ce57afbb",
+      "size_bytes": 133128
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T013752Z-v2-pilot-control-l025-b1-r4-6f25f848/circuit.csv",
+      "present": true,
+      "sha256": "e920b226e0e769f01159de72a0dfe9a690ad2e12751ec482ee0849f2666d7b32",
+      "size_bytes": 132217
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T013752Z-v2-pilot-control-l025-b1-r4-6f25f848/device.csv",
+      "present": true,
+      "sha256": "b3d2d19a5b68e61e7dad2f5630aa01a9088acabc07e44f16620c5c92678f7cd5",
+      "size_bytes": 378015
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T013752Z-v2-pilot-control-l025-b1-r4-6f25f848/summary.json",
+      "present": true,
+      "sha256": "82ba42149c9f89709cc87ed63488b2c41292fc762b891a367e9260df9d087b76",
+      "size_bytes": 3338
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T014743Z-v2-base-l025-b1-143253c7/circuit-raw.csv",
+      "present": true,
+      "sha256": "fd56e4bec51cf84d86069bf0feb1fe8611e05f5963eae710ffcd30a5dfa7e82c",
+      "size_bytes": 133111
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T014743Z-v2-base-l025-b1-143253c7/circuit.csv",
+      "present": true,
+      "sha256": "be988b11f29e116920993c735e976c52f62038b26e12086cafbd92c177f8137d",
+      "size_bytes": 132195
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T014743Z-v2-base-l025-b1-143253c7/device.csv",
+      "present": true,
+      "sha256": "c8ca2e67f8fd43e1171d0d48accc87db97be538d702b74294b4ca436c52a46c3",
+      "size_bytes": 377903
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T014743Z-v2-base-l025-b1-143253c7/summary.json",
+      "present": true,
+      "sha256": "ef24a355808e0589d7814bba7a6999725464bbbbb18463c2c4d79a276d98a5ac",
+      "size_bytes": 4697
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T015428Z-v2-base-l025-b0-c7f26462/circuit-raw.csv",
+      "present": true,
+      "sha256": "c86a8dc1a13655e54499c358a1d5c24f68b74a08625e58c2f6737a021c417b0e",
+      "size_bytes": 133395
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T015428Z-v2-base-l025-b0-c7f26462/circuit.csv",
+      "present": true,
+      "sha256": "69e10cde0fde90b5594e24c62fd21771134d8bca823368ed1be8e57438618a68",
+      "size_bytes": 132477
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T015428Z-v2-base-l025-b0-c7f26462/device.csv",
+      "present": true,
+      "sha256": "4dd3d3e7a217621c9ba916404161833fe96b6f75bd97fa0485bd2744457d37b9",
+      "size_bytes": 377650
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T015428Z-v2-base-l025-b0-c7f26462/summary.json",
+      "present": true,
+      "sha256": "9300ced0680d564f0f79e659962f9b3dd6573d88d1a7035c29d0022dc02a8089",
+      "size_bytes": 4704
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T020125Z-v2-base-l018-b1-2ec67cc7/circuit-raw.csv",
+      "present": true,
+      "sha256": "9bc433fd4390002746cc9c40b08e60b8a59e4a0fdd66b14672f4dce37ecd3e6e",
+      "size_bytes": 133077
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T020125Z-v2-base-l018-b1-2ec67cc7/circuit.csv",
+      "present": true,
+      "sha256": "9c6eee714f6caed3789c06f408329c165d4ca498b95b11e8b4e5930d8acc20cf",
+      "size_bytes": 132160
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T020125Z-v2-base-l018-b1-2ec67cc7/device.csv",
+      "present": true,
+      "sha256": "70513000b4c6b0a97fad3cb7bf826dab004c552a8b4d888a8476995d6f10d5f6",
+      "size_bytes": 390928
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T020125Z-v2-base-l018-b1-2ec67cc7/summary.json",
+      "present": true,
+      "sha256": "7041b44cb613a89d83598797186893f2d6fa1271a7bdf9671b65ccb24c899907",
+      "size_bytes": 4696
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T020746Z-v2-base-l018-b0-7fc642c3/circuit-raw.csv",
+      "present": true,
+      "sha256": "69c3442ebbfeccaf403c792d964e9ef82af29665b6735656dad27054bc8942c0",
+      "size_bytes": 133366
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T020746Z-v2-base-l018-b0-7fc642c3/circuit.csv",
+      "present": true,
+      "sha256": "61c16ccae9634d69b182831b0bc909667636f1e5b1df5a1aa354aa6dc3b8fb03",
+      "size_bytes": 132449
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T020746Z-v2-base-l018-b0-7fc642c3/device.csv",
+      "present": true,
+      "sha256": "bc58e8d5f6a6ed9b453b06fbf4cd7baec562f4153e8dfb8f440d598a14adb60e",
+      "size_bytes": 385884
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T020746Z-v2-base-l018-b0-7fc642c3/summary.json",
+      "present": true,
+      "sha256": "82da1ea46e54ef8d9a4e4d736daacb989713b94d0dd4ad9f593ece22d7d8f51b",
+      "size_bytes": 4704
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T021423Z-v2-base-l035-b1-e8e23dd5/circuit-raw.csv",
+      "present": true,
+      "sha256": "48c74060ac20b42218e3e00bdf37e114b7e6e163fb655c6de49a20f96ab7aa98",
+      "size_bytes": 133072
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T021423Z-v2-base-l035-b1-e8e23dd5/circuit.csv",
+      "present": true,
+      "sha256": "9f158bb860aac59b8a1353927b36d4582939b41952123c2e0a0112d38f9dbf3a",
+      "size_bytes": 132155
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T021423Z-v2-base-l035-b1-e8e23dd5/device.csv",
+      "present": true,
+      "sha256": "63dba5f7e2be7853a57b921322f29b9fa2fd6b35f38c0c5a993c7a7875be268f",
+      "size_bytes": 378048
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T021423Z-v2-base-l035-b1-e8e23dd5/summary.json",
+      "present": true,
+      "sha256": "2e32293acb9a8f98fbc4b052bb0a02108d13ccc54fca2a0eff5659a071792c64",
+      "size_bytes": 4690
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T022330Z-v2-base-l035-b0-b94ca8fd/circuit-raw.csv",
+      "present": true,
+      "sha256": "38eca9ba356cbb90fff6aae441f2e271b6bab286f4f5734bfa44e6748ad5ce40",
+      "size_bytes": 133294
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T022330Z-v2-base-l035-b0-b94ca8fd/circuit.csv",
+      "present": true,
+      "sha256": "bcbda8ff0731a59c0937d398456c216e070ee64b20521ce291bafbda81573586",
+      "size_bytes": 132377
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T022330Z-v2-base-l035-b0-b94ca8fd/device.csv",
+      "present": true,
+      "sha256": "c07b11db6e471608ef1022c0d12eeda5acb111e9ba83c93f5e74fea6c0c30277",
+      "size_bytes": 377232
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T022330Z-v2-base-l035-b0-b94ca8fd/summary.json",
+      "present": true,
+      "sha256": "cc99515078398596fc28427348f9b0f26e350b9aadd52687d49ba17d6b18eddb",
+      "size_bytes": 4700
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T023000Z-v2-base-l045-b1-33bed107/circuit-raw.csv",
+      "present": true,
+      "sha256": "61025ef8c89c9f0308558d62f5d895f4444396b06e2c93aa4d8a06d1d5940deb",
+      "size_bytes": 133076
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T023000Z-v2-base-l045-b1-33bed107/circuit.csv",
+      "present": true,
+      "sha256": "7e1c78a73bc9937c848b05006054a66124bb25ac625bd5f12e1aebb3f3f9be21",
+      "size_bytes": 132160
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T023000Z-v2-base-l045-b1-33bed107/device.csv",
+      "present": true,
+      "sha256": "41e159ea9dde9f4c8ecf767709921e1d4c90e5e4e8344f8473787c22419d37d9",
+      "size_bytes": 378090
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T023000Z-v2-base-l045-b1-33bed107/summary.json",
+      "present": true,
+      "sha256": "8a1ca535abc4a12fa237afa6928c2f619373537c2af0b4a9e5a574b0b0be1293",
+      "size_bytes": 4702
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T023625Z-v2-base-l045-b0-09c9d309/circuit-raw.csv",
+      "present": true,
+      "sha256": "22ceeef7085eadb7594e4959a1fe69d52f638be6e88f02b652d44187c8850ae7",
+      "size_bytes": 133384
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T023625Z-v2-base-l045-b0-09c9d309/circuit.csv",
+      "present": true,
+      "sha256": "770d4df74e21d64eb0627adc72682b826247636bd35f247fa3a86059885dbac7",
+      "size_bytes": 132462
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T023625Z-v2-base-l045-b0-09c9d309/device.csv",
+      "present": true,
+      "sha256": "8c93b72e2f1a517813c07272b1ddb46a6672d3fd45e8b3aeb5db89c387cd0892",
+      "size_bytes": 377979
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T023625Z-v2-base-l045-b0-09c9d309/summary.json",
+      "present": true,
+      "sha256": "bb97214ce0ccc2051c52f277d7edb3a83d9da99a30195651a164887e70c33110",
+      "size_bytes": 4706
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/circuit-raw.csv",
+      "present": true,
+      "sha256": "e3a780b4db319d81332400ba736cf624968eab934a69aa7e50a51bae9df96b0b",
+      "size_bytes": 117295
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/circuit.csv",
+      "present": true,
+      "sha256": "cda95862de65720505ecfd76d89f49789d35610d6ddddd08ebed8dee707eebab",
+      "size_bytes": 116783
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/device.csv",
+      "present": true,
+      "sha256": "30656fdbfd3f6579a42b5827ad82fc5c9951685d5fcf7e625fcae42451126a19",
+      "size_bytes": 327312
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/summary.json",
+      "present": true,
+      "sha256": "6deb9bd0242b542b7cceaeff5fb8de291cd7ff65c197557c20b16ebcb10955ac",
+      "size_bytes": 5597
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T025148Z-v2-l025-alpha-s202610101-b0-27677f7e/circuit-raw.csv",
+      "present": true,
+      "sha256": "9410a1dc7f281ec2b77f1d55e226601877400b3053e2b013916ef7b4c24f421e",
+      "size_bytes": 117173
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T025148Z-v2-l025-alpha-s202610101-b0-27677f7e/circuit.csv",
+      "present": true,
+      "sha256": "8fee0b085ab0f938a770fe710fc66deaafb36b1267a772296602d2ea418454a1",
+      "size_bytes": 116667
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T025148Z-v2-l025-alpha-s202610101-b0-27677f7e/device.csv",
+      "present": true,
+      "sha256": "a9217ea8609c697456b49d1cb07fc07818da5ee2ae3a193dafeb9bcb521a583b",
+      "size_bytes": 329620
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T025148Z-v2-l025-alpha-s202610101-b0-27677f7e/summary.json",
+      "present": true,
+      "sha256": "d07f51fd5ea9850fe59d8b82fa713d9f322e328004161cdc87e7e58ec35a25ff",
+      "size_bytes": 5577
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T030047Z-v2-l025-proton-s202610201-b1-dd04209c/circuit-raw.csv",
+      "present": true,
+      "sha256": "38ecf74bbaf759c31d69c419e50c601cd2a2944554c90b1f06c3df89ca389c80",
+      "size_bytes": 116899
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T030047Z-v2-l025-proton-s202610201-b1-dd04209c/circuit.csv",
+      "present": true,
+      "sha256": "0867e5c413e84227280e943b6631214e323f60fd1021688507d81ddac0c212fa",
+      "size_bytes": 116390
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T030047Z-v2-l025-proton-s202610201-b1-dd04209c/device.csv",
+      "present": true,
+      "sha256": "8ed84a44e12f27c89c514b0d326d3c949b1369871484476d405e39d1ed020a4e",
+      "size_bytes": 325657
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T030047Z-v2-l025-proton-s202610201-b1-dd04209c/summary.json",
+      "present": true,
+      "sha256": "2b35d6d729aa3a352b7acf0e39436d5df9a78515769f5e51ad3e8fbf3bd97ee7",
+      "size_bytes": 5586
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T030819Z-v2-l025-proton-s202610201-b0-65414de2/circuit-raw.csv",
+      "present": true,
+      "sha256": "f97b735d48ea10bc14f994ae4e35c6a1baf910809f99c9e17cc87a6259e833b6",
+      "size_bytes": 117469
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T030819Z-v2-l025-proton-s202610201-b0-65414de2/circuit.csv",
+      "present": true,
+      "sha256": "3e6e4f8b89ef5eefebdbb09be19fae2a7f35250c2f8f159e032058b20ad274db",
+      "size_bytes": 116954
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T030819Z-v2-l025-proton-s202610201-b0-65414de2/device.csv",
+      "present": true,
+      "sha256": "42da558e1c8a9f35f0048518c69d480a38824bb11be7dd90fd5def9834d01aef",
+      "size_bytes": 327046
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T030819Z-v2-l025-proton-s202610201-b0-65414de2/summary.json",
+      "present": true,
+      "sha256": "084ebafc550edadc143a586e46735cdd1a2d1c409072c33aa1f210526f24fdf4",
+      "size_bytes": 5599
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc/circuit-raw.csv",
+      "present": true,
+      "sha256": "8f4d0c1398b607ea90e99a91778c22dc98a2096bedf9a0590ec6bd7158b00ee5",
+      "size_bytes": 133637
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc/circuit.csv",
+      "present": true,
+      "sha256": "0044156cf6baf4b1506fe363a654360e9e7dc1510e97ef528bce5ee947efa421",
+      "size_bytes": 132718
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc/device.csv",
+      "present": true,
+      "sha256": "f41d57530a9d21d0524fb472986d132323d8b47328dac1e8a4474a4e8741f3d8",
+      "size_bytes": 390628
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc/summary.json",
+      "present": true,
+      "sha256": "1fc90837ec579cdc4d09633a1c7c8c805b4c771d9b8214e7ac42ac5fb24ef83c",
+      "size_bytes": 5570
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T032608Z-v2-l025-alpha-s202610102-b1-939da166/circuit-raw.csv",
+      "present": true,
+      "sha256": "779c536c5a39434089656ba3879fd5c4dd498a7ef74baeb2a7d80119898665ed",
+      "size_bytes": 117123
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T032608Z-v2-l025-alpha-s202610102-b1-939da166/circuit.csv",
+      "present": true,
+      "sha256": "42f2657287aa1c7f3620347a1086acf0bada18d5b6967d88b9c8cbb914923032",
+      "size_bytes": 116614
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T032608Z-v2-l025-alpha-s202610102-b1-939da166/device.csv",
+      "present": true,
+      "sha256": "0f578eaf26704e1e60b3757fd5f1eb93eac91de5f02d64b7d9f4cd34bc5ba350",
+      "size_bytes": 326752
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T032608Z-v2-l025-alpha-s202610102-b1-939da166/summary.json",
+      "present": true,
+      "sha256": "5a4396721b6f557e8fa4ff4d33e439d402d644d95bc401be276cea5571215695",
+      "size_bytes": 5592
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T033323Z-v2-l025-alpha-s202610102-b0-691a66eb/circuit-raw.csv",
+      "present": true,
+      "sha256": "ec9f3ce21c5e7af7cd6eb85952615bdc3204f3e676b0e96b0e37d7d38314bd25",
+      "size_bytes": 117144
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T033323Z-v2-l025-alpha-s202610102-b0-691a66eb/circuit.csv",
+      "present": true,
+      "sha256": "0dab6a47fc5214961ce907b9bc1e5f229f2c0260f29b8530c8b2693f08bb2f27",
+      "size_bytes": 116632
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T033323Z-v2-l025-alpha-s202610102-b0-691a66eb/device.csv",
+      "present": true,
+      "sha256": "cd72ab468bae3f02a865f42342804089ae3a046ebd660a17e05a18e4aed12c90",
+      "size_bytes": 329593
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T033323Z-v2-l025-alpha-s202610102-b0-691a66eb/summary.json",
+      "present": true,
+      "sha256": "a3c18c582359413e5e0be75e35b7ef78418df1c73588b0f1cd65fef2f7cb13bb",
+      "size_bytes": 5586
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T034059Z-v2-l025-alpha-s202610103-b1-516898d5/circuit-raw.csv",
+      "present": true,
+      "sha256": "87e9b70cc2fa5c989e37a59361c59fe8ff8e85c434b7fbbed170dfde1b918dbe",
+      "size_bytes": 117084
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T034059Z-v2-l025-alpha-s202610103-b1-516898d5/circuit.csv",
+      "present": true,
+      "sha256": "a73452475924ffce3dce33e53d4677032b5e34afb3f9ee352c6f4c93e01e243a",
+      "size_bytes": 116574
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T034059Z-v2-l025-alpha-s202610103-b1-516898d5/device.csv",
+      "present": true,
+      "sha256": "527eee15c9ff138a1bc2138767c8b8b55d526389591a2bdfa3033fec125b1fc2",
+      "size_bytes": 326537
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T034059Z-v2-l025-alpha-s202610103-b1-516898d5/summary.json",
+      "present": true,
+      "sha256": "437b09948d4589a47755efcd27a2fd90017061272e0953ec2109d9dfe496d0f2",
+      "size_bytes": 5579
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T034756Z-v2-l025-alpha-s202610103-b0-2b2ce290/circuit-raw.csv",
+      "present": true,
+      "sha256": "f5f66849ae039cb739a2a25b2787ac6882ca7a61738dc5c875416ddee0b953bc",
+      "size_bytes": 116902
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T034756Z-v2-l025-alpha-s202610103-b0-2b2ce290/circuit.csv",
+      "present": true,
+      "sha256": "804c7f357619d8eead04d8e023c6f48f2de093a4ea8283135f880dd7c87545e5",
+      "size_bytes": 116392
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T034756Z-v2-l025-alpha-s202610103-b0-2b2ce290/device.csv",
+      "present": true,
+      "sha256": "8f018bb1f959458349ff5477e9fa24ea2d30715fd5ab7d2b4374e35fa5a76fa4",
+      "size_bytes": 329114
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T034756Z-v2-l025-alpha-s202610103-b0-2b2ce290/summary.json",
+      "present": true,
+      "sha256": "e9e099ae01e9d08d34b1a401fb631dca14071ee44371aba1bd1ab46126e68ba3",
+      "size_bytes": 5588
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T035519Z-v2-l025-alpha-s202610104-b1-297065fa/circuit-raw.csv",
+      "present": true,
+      "sha256": "9b186211d0b3df621f48bea827a70e582cad9dc4213d15374fcc6dcfb654653a",
+      "size_bytes": 117153
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T035519Z-v2-l025-alpha-s202610104-b1-297065fa/circuit.csv",
+      "present": true,
+      "sha256": "e8de4367da67296bc6eb785c8af63c63ca17ed14e7baa21af3d2dedd2da1e2a9",
+      "size_bytes": 116643
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T035519Z-v2-l025-alpha-s202610104-b1-297065fa/device.csv",
+      "present": true,
+      "sha256": "1523501af8eb94dc7aa43454f6d3a57f818f725362b80892829166a77871ce11",
+      "size_bytes": 326711
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T035519Z-v2-l025-alpha-s202610104-b1-297065fa/summary.json",
+      "present": true,
+      "sha256": "933059c0dc044b3d5d279c75f9b082e1463d359ebebd5a7f330444ad206f425d",
+      "size_bytes": 5584
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T040226Z-v2-l025-alpha-s202610104-b0-a644ccdc/circuit-raw.csv",
+      "present": true,
+      "sha256": "09f17f42c5ac9e703168aaa63b1883fe48d358db7d625694ed1f4ccd54692b9e",
+      "size_bytes": 116997
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T040226Z-v2-l025-alpha-s202610104-b0-a644ccdc/circuit.csv",
+      "present": true,
+      "sha256": "be9ce4ec62e95e375a24324d27c4260303365d639c07c77626dfcd89c3d0ec89",
+      "size_bytes": 116485
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T040226Z-v2-l025-alpha-s202610104-b0-a644ccdc/device.csv",
+      "present": true,
+      "sha256": "06a7b56024807ab2bdc4b9db02ef174927d0efc378d7d5165aa8a31c13ca7291",
+      "size_bytes": 329157
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T040226Z-v2-l025-alpha-s202610104-b0-a644ccdc/summary.json",
+      "present": true,
+      "sha256": "1c54f84bbf1d782d3e7f45e5b866fd32467ed0399d524bb0050fbdec9877a3fb",
+      "size_bytes": 5586
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T040947Z-v2-l025-proton-s202610202-b1-9b762333/circuit-raw.csv",
+      "present": true,
+      "sha256": "f9d44a31a58eb4aefbf0e3aa2b3e8ed4ea2056f31ae32d56c2c013b512b8221b",
+      "size_bytes": 117068
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T040947Z-v2-l025-proton-s202610202-b1-9b762333/circuit.csv",
+      "present": true,
+      "sha256": "409c134fc49fedb158feaaf0ee7504586069c771fffbbd6ae8e4e382fb70af18",
+      "size_bytes": 116557
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T040947Z-v2-l025-proton-s202610202-b1-9b762333/device.csv",
+      "present": true,
+      "sha256": "0998ed15d2edb4d13d441998fdd0b00309e73d3634e52d6bf44bec3d2a6074a5",
+      "size_bytes": 326277
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T040947Z-v2-l025-proton-s202610202-b1-9b762333/summary.json",
+      "present": true,
+      "sha256": "46a558046c77486cbebd5d5e3d182778668664679e6fafa5ddeae2eb1551340e",
+      "size_bytes": 5589
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T041652Z-v2-l025-proton-s202610202-b0-ceb2241b/circuit-raw.csv",
+      "present": true,
+      "sha256": "a5269a18bac21ca9a990c46e34e54e57fb29899085b3d073156ba6414172ec57",
+      "size_bytes": 117504
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T041652Z-v2-l025-proton-s202610202-b0-ceb2241b/circuit.csv",
+      "present": true,
+      "sha256": "a766dc464737db86c24ee6cfbedf214497f636a8b443fb427dc9e6a11649c588",
+      "size_bytes": 116990
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T041652Z-v2-l025-proton-s202610202-b0-ceb2241b/device.csv",
+      "present": true,
+      "sha256": "64b1b9171e78324f50a8acc7be40e34e5a62fa12c4e2b5db4da37adb61e1d1cd",
+      "size_bytes": 327112
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T041652Z-v2-l025-proton-s202610202-b0-ceb2241b/summary.json",
+      "present": true,
+      "sha256": "224f3e1695e946d4591b1a02acbc1f62c6d57ba7a530e7cd502fa5b8725890f8",
+      "size_bytes": 5605
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T042350Z-v2-l025-proton-s202610203-b1-fbf361f1/circuit-raw.csv",
+      "present": true,
+      "sha256": "719ea766403f976e88a8fb5340e4d0a06c42b6d18d5e474cdcbefc1df905583f",
+      "size_bytes": 116894
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T042350Z-v2-l025-proton-s202610203-b1-fbf361f1/circuit.csv",
+      "present": true,
+      "sha256": "885641f6e0886fc39dfe7c79c37526906305b2b5e358ff781a102dc3db26a828",
+      "size_bytes": 116382
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T042350Z-v2-l025-proton-s202610203-b1-fbf361f1/device.csv",
+      "present": true,
+      "sha256": "e4382e32f7b76075f42da95f6f5e8999923e99f13251e526abcd9719f7b1a7d1",
+      "size_bytes": 325799
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T042350Z-v2-l025-proton-s202610203-b1-fbf361f1/summary.json",
+      "present": true,
+      "sha256": "f4ffc922c55968b131cedcf0beea55b05e95bfdca7ccc8321707d146db273b01",
+      "size_bytes": 5588
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T043046Z-v2-l025-proton-s202610203-b0-e036e27a/circuit-raw.csv",
+      "present": true,
+      "sha256": "21f983e9efd29383cb514e33e64561b7716734b64ff9b17a33b66a8d8fa4c6d3",
+      "size_bytes": 117667
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T043046Z-v2-l025-proton-s202610203-b0-e036e27a/circuit.csv",
+      "present": true,
+      "sha256": "21e9008877e37fb7c63a91c9179e0a930a941d24123c924d9f0056ae4c1e0422",
+      "size_bytes": 117154
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T043046Z-v2-l025-proton-s202610203-b0-e036e27a/device.csv",
+      "present": true,
+      "sha256": "3709b89413cf06902fbf8a51d387b6b2778236d0e722c95468d9c0d6506aa4fa",
+      "size_bytes": 327662
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T043046Z-v2-l025-proton-s202610203-b0-e036e27a/summary.json",
+      "present": true,
+      "sha256": "c6da2038afc0fcee2310b73729d5a421f284bc614d128086b24ceec8f3be76e3",
+      "size_bytes": 5591
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T043750Z-v2-l025-proton-s202610204-b1-af7c6937/circuit-raw.csv",
+      "present": true,
+      "sha256": "7b041f4c552a7cd156cf2125772ce868e888c44713acb98b36c1695d5a01cf24",
+      "size_bytes": 116924
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T043750Z-v2-l025-proton-s202610204-b1-af7c6937/circuit.csv",
+      "present": true,
+      "sha256": "93db06652a4878bfdd776301e7248db85e95c6324b5793192a9f2e98a5e139f6",
+      "size_bytes": 116414
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T043750Z-v2-l025-proton-s202610204-b1-af7c6937/device.csv",
+      "present": true,
+      "sha256": "74138966a60447bc598666c10d62e5188ebb09a39751a5197b916781aaea9f19",
+      "size_bytes": 325745
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T043750Z-v2-l025-proton-s202610204-b1-af7c6937/summary.json",
+      "present": true,
+      "sha256": "1ca5daec639770c59c855fbade6492e8a0cd6449e77ebfa152aa24461acce63d",
+      "size_bytes": 5586
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T044452Z-v2-l025-proton-s202610204-b0-86d0723a/circuit-raw.csv",
+      "present": true,
+      "sha256": "abdf5fd79da5eee2900eb2910a9f992ad3271774615a48172af3c7518c9b5fc7",
+      "size_bytes": 117675
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T044452Z-v2-l025-proton-s202610204-b0-86d0723a/circuit.csv",
+      "present": true,
+      "sha256": "27dd267705b521c74293941414ea6be1d5030dbe4ecca7f66efa22bfa097f8b9",
+      "size_bytes": 117163
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T044452Z-v2-l025-proton-s202610204-b0-86d0723a/device.csv",
+      "present": true,
+      "sha256": "5f13385c4bde1f9de0702a069a9c7b8ae17e6aa647c8f1914a231ceed4327e67",
+      "size_bytes": 327536
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T044452Z-v2-l025-proton-s202610204-b0-86d0723a/summary.json",
+      "present": true,
+      "sha256": "19895549a80576680ab5b3d0fb83a7e03d128ddc192e8cdc4e83ce63302ae794",
+      "size_bytes": 5604
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b/circuit-raw.csv",
+      "present": true,
+      "sha256": "3a791debab1caf9a326f1f0481d661472e8c0c6a5548133d877398f7a49ccebf",
+      "size_bytes": 256328
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b/circuit.csv",
+      "present": true,
+      "sha256": "65cec46181da4906e97a3f9e24c5be6fe8792515cc5c6989e8749a73902d0bf9",
+      "size_bytes": 255410
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b/device.csv",
+      "present": true,
+      "sha256": "9f07bd85da715f08546e23abb4f4566b40a2c9099402447cf63a22a3af4355f6",
+      "size_bytes": 722911
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b/summary.json",
+      "present": true,
+      "sha256": "79495476631afd2733c0e4a4955cfc65fabb1ba531d2011e5538ab8717e98857",
+      "size_bytes": 4715
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46/circuit-raw.csv",
+      "present": true,
+      "sha256": "a0abb19091164df9ab28578d44a2cb09872a577f35bafa1e2d2486b5dea8ecfe",
+      "size_bytes": 228675
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46/circuit.csv",
+      "present": true,
+      "sha256": "dfc1c35aaf5b51523bbe6425a3a7d2e5821eba55c1a04838ff93f7ae4a432e14",
+      "size_bytes": 228168
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46/device.csv",
+      "present": true,
+      "sha256": "3917ca09e639466ae2b7796cd9c656f4486e64a0df7e6302e9db2cb0850ec13c",
+      "size_bytes": 636507
+    },
+    {
+      "path": "experiments/dram-see-v2/data/tcad/20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46/summary.json",
+      "present": true,
+      "sha256": "6b2a6a06b437ad260c31779ff936a13725516e794d986173d6386bdcb983a0aa",
+      "size_bytes": 5636
+    },
+    {
+      "path": "experiments/dram-see-v2/deliverable_index.py",
+      "present": true,
+      "sha256": "a6e3f341a25593b8c12a3a5fef2534d22b0c8cc966a807979767ac240c7a73a3",
+      "size_bytes": 14123
+    },
+    {
+      "path": "experiments/dram-see-v2/event_audit.py",
+      "present": true,
+      "sha256": "4e77890e2adc621b92494e45a545e2fec9bdada38a651a4e75ebedd868be3b02",
+      "size_bytes": 3386
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/01-uniform-initialization.png",
+      "present": true,
+      "sha256": "d0ee3263f4f4d4ddf0948d3f6ab4e6dcb0ab2fa9438119e857ff6e04feaae862",
+      "size_bytes": 216050
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/01-uniform-initialization.svg",
+      "present": true,
+      "sha256": "027aa35018f00c1c1a272c87cc9c8b23e9b735e632f83a789abd0c7e2a952aa1",
+      "size_bytes": 76960
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/02-hold-transients.png",
+      "present": true,
+      "sha256": "e68aa3da450f9ca728eeadb0ddd305f5e8d86f5d1f86d9bbdd625267500d00d5",
+      "size_bytes": 235900
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/02-hold-transients.svg",
+      "present": true,
+      "sha256": "5e68918eda74df9703f2786d8a5ff755386ad6e5c9c6e73e3b3695de0c536449",
+      "size_bytes": 51675
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/03-readout-differential.png",
+      "present": true,
+      "sha256": "ed8c5944a8d17672ec6be181b77d4f4d85e97cbdd42fd44a4360d4d131a89692",
+      "size_bytes": 264973
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/03-readout-differential.svg",
+      "present": true,
+      "sha256": "4917aa309b146d43ae1c19e1a8eebd566a98d50b8ad5c6ec50dfae0be9a926bc",
+      "size_bytes": 92093
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/04-event-statistics.png",
+      "present": true,
+      "sha256": "17fca696a6ad58d0ecb7be689660905563047892a05edfa4c7e4632843bf8c42",
+      "size_bytes": 200604
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/04-event-statistics.svg",
+      "present": true,
+      "sha256": "0d4c541ab43a1176e29b953a9d6834d93d36f9fa82760dabe7b4368fea1c4274",
+      "size_bytes": 38599
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/05-threshold-sensitivity.png",
+      "present": true,
+      "sha256": "4df6cce638b2938405e03dbfe90ddde0c80557ecc8c4d12a929a7af7a48edd97",
+      "size_bytes": 189430
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/05-threshold-sensitivity.svg",
+      "present": true,
+      "sha256": "23b24927da58a73ec061dca8073fffb8a96947233a51c3a42b5c9b6d80c5be81",
+      "size_bytes": 40329
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/06-control-readout.png",
+      "present": true,
+      "sha256": "3b98b38f3faf88e0dae725178accb232222a61394413405308f0a089f410fda7",
+      "size_bytes": 190538
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/06-control-readout.svg",
+      "present": true,
+      "sha256": "e4a1eb9c47bead0b20b23a61f8b37e2c9218552f3d638b159eee73b9588e3435",
+      "size_bytes": 45499
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/07-read-window-and-thresholds.png",
+      "present": true,
+      "sha256": "f93ee0bce0e8ac3d99aa7ceeed45760f2d0b66a1517287388d7d7b2c38726de7",
+      "size_bytes": 198243
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/07-read-window-and-thresholds.svg",
+      "present": true,
+      "sha256": "87a5480934ed595a04e615e3797e4d6f3b4dcebda30510f6b56295c8d4b84e87",
+      "size_bytes": 39342
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/figure-evidence.json",
+      "present": true,
+      "sha256": "5b2871ee3710bebaa630a325f34011972cf6fd5613933ca0eb2d525f21bdabe0",
+      "size_bytes": 19984
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T014743Z-v2-base-l025-b1-143253c7/evidence.json",
+      "present": true,
+      "sha256": "c78be7d1b1389380eb727f99a6c1119d8bbc4009dfddaf81148111a6bfdf5b13",
+      "size_bytes": 4274
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T014743Z-v2-base-l025-b1-143253c7/final-field-native.png",
+      "present": true,
+      "sha256": "1592358d45a985760d7cc0bfbb1fbfa33bd196afebcc81d9b1d80eefd7e44815",
+      "size_bytes": 84102
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T014743Z-v2-base-l025-b1-143253c7/native-proof.txt",
+      "present": true,
+      "sha256": "e378be7d7ae358c72fcfb3024d3ea0e98a6a01afcbc38cd5c563f3793c4b4003",
+      "size_bytes": 535
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T014743Z-v2-base-l025-b1-143253c7/own-pid.txt",
+      "present": true,
+      "sha256": "e38eb88fb9a3cde701f51a3d8a01b3760f22c3655470a0e4dfea878b86b77973",
+      "size_bytes": 7
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T014743Z-v2-base-l025-b1-143253c7/own-window.png",
+      "present": true,
+      "sha256": "f2ab952a13501ab8eb52ca3443adfd8f58c64fb668b668143e2b26c9d62e8243",
+      "size_bytes": 194452
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T014743Z-v2-base-l025-b1-143253c7/view.tcl",
+      "present": true,
+      "sha256": "d3f764d29b17b26250772db07aa4e23225c167a984eb1635b5684b83b71ab64d",
+      "size_bytes": 991
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T014743Z-v2-base-l025-b1-143253c7/visual.log",
+      "present": true,
+      "sha256": "33826da61aa2f7fc8cd8532626e041f2e310d1501e9448dd0e85c76a867f1255",
+      "size_bytes": 2000
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/evidence.json",
+      "present": true,
+      "sha256": "a02d8a2f1e9aa5f16af69121062039d03a6efb59a154e1319a4728067a51fc63",
+      "size_bytes": 5191
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/final-field-native.png",
+      "present": true,
+      "sha256": "f38b58de49f1968729b3be0dd4841698e15433e3fe190bca1d7f4e3f69cca45b",
+      "size_bytes": 84275
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/native-proof.txt",
+      "present": true,
+      "sha256": "c44b5f318933c2d9d659429521ee504ff24b681cd744ab7295d5d690e252082a",
+      "size_bytes": 588
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/own-pid.txt",
+      "present": true,
+      "sha256": "3120bf55b5f04605a92f48c0c44ab682c40528d7e3e9e94127442ff9d1c8cea2",
+      "size_bytes": 7
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/own-window.png",
+      "present": true,
+      "sha256": "1c100ef6bb93f85b0b54dc3bcf2d5972575555e9a25e1c58cf6226fc8f735304",
+      "size_bytes": 195622
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/view.tcl",
+      "present": true,
+      "sha256": "7b02b3056db20b77c8be70f8fe08d3e3124c6da6fa8b08099f18a8958b4b3c8d",
+      "size_bytes": 1051
+    },
+    {
+      "path": "experiments/dram-see-v2/figures/native/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/visual.log",
+      "present": true,
+      "sha256": "33826da61aa2f7fc8cd8532626e041f2e310d1501e9448dd0e85c76a867f1255",
+      "size_bytes": 2000
+    },
+    {
+      "path": "experiments/dram-see-v2/finish_batch.py",
+      "present": true,
+      "sha256": "98e1cac1ab513bef7838483760ef9daf408b6becfb3f912ab8422d58b574febc",
+      "size_bytes": 2989
+    },
+    {
+      "path": "experiments/dram-see-v2/gui_evidence.py",
+      "present": true,
+      "sha256": "dc98bad955e534e9f35582e84ad7d888fa092f2afe10792b92b2e8777428d606",
+      "size_bytes": 4803
+    },
+    {
+      "path": "experiments/dram-see-v2/journal.md",
+      "present": true,
+      "sha256": "45f1e344619c41842c3706143183d513d57c3d8571867c3953107382df29463b",
+      "size_bytes": 8058
+    },
+    {
+      "path": "experiments/dram-see-v2/make_report.py",
+      "present": true,
+      "sha256": "ef417f2f41cd8a8d9e00ad21d08519aa9328c16e06f6856bb89f523a6bbc1e83",
+      "size_bytes": 18657
+    },
+    {
+      "path": "experiments/dram-see-v2/numerical_checks.py",
+      "present": true,
+      "sha256": "1119acd2d0bd6f08d8af58ea5c72dff4562ade08e264d9f57e019ffc8bbbba4c",
+      "size_bytes": 4961
+    },
+    {
+      "path": "experiments/dram-see-v2/operate.py",
+      "present": true,
+      "sha256": "5c15a614b0534225eb4a8570869cb1f1143072ae104eb5094362c2791ae2c903",
+      "size_bytes": 1227
+    },
+    {
+      "path": "experiments/dram-see-v2/plan.md",
+      "present": true,
+      "sha256": "a4405194bfed2ea7752fa8f1536642cb28b1ac583b5838fd306c20e6584dd4cc",
+      "size_bytes": 5798
+    },
+    {
+      "path": "experiments/dram-see-v2/plot_results.py",
+      "present": true,
+      "sha256": "1674661bf4c3685a17edcdf7b4d069fa49935c81de47f87ad072c0a50e79f426",
+      "size_bytes": 12530
+    },
+    {
+      "path": "experiments/dram-see-v2/README.md",
+      "present": true,
+      "sha256": "ad59535e04619b6160b241b2ee1d2b5b859ecc3ed0251298a8b3cd2bba1ef477",
+      "size_bytes": 2112
+    },
+    {
+      "path": "experiments/dram-see-v2/report.md",
+      "present": true,
+      "sha256": "898778305bdbf0703db5de6b75b393c1d49bde22fba293a9bd6c3901c391474d",
+      "size_bytes": 18478
+    },
+    {
+      "path": "experiments/dram-see-v2/run_stage.py",
+      "present": true,
+      "sha256": "81e56a5dfe5633b8e7dcf7e5c059515fff529638916c4c88ff2dd520602a22dd",
+      "size_bytes": 11584
+    },
+    {
+      "path": "experiments/dram-see-v2/statistics.py",
+      "present": true,
+      "sha256": "f5e0978d6bff953489af73b8903390ff050dd9696121d5379061aa447ee1cfee",
+      "size_bytes": 1223
+    },
+    {
+      "path": "experiments/dram-see-v2/stats-design.json",
+      "present": true,
+      "sha256": "f85653a58316c6d43858898ecb9976ec6b42bcb3e88da45cfa302d941f263170",
+      "size_bytes": 6446
+    },
+    {
+      "path": "experiments/dram-see-v2/summarize.py",
+      "present": true,
+      "sha256": "92672ad4fff9291e0d185b09ca815c5bed615be9931ed615287c85ff00c3a2e8",
+      "size_bytes": 12891
+    },
+    {
+      "path": "experiments/dram-see-v2/takeover.md",
+      "present": true,
+      "sha256": "0fbafd4d9e6e5accd23f1b09c5bf4c23d16bd5e425a4d2c619c7f6c4cff6462d",
+      "size_bytes": 7813
+    },
+    {
+      "path": "experiments/dram-see-v2/test_contracts.py",
+      "present": true,
+      "sha256": "ed6423ddd1dab328e7cc2ab363147eeba7866633b0f8399af2dba2ab24ca1604",
+      "size_bytes": 3752
+    },
+    {
+      "path": "experiments/dram-see-v2/transport.py",
+      "present": true,
+      "sha256": "5dcb7adcc8bd19c3fdd7ff0f087f1a9d97a13e6810991b3082e33219eb9b7ecb",
+      "size_bytes": 3318
+    },
+    {
+      "path": "experiments/dram-see-v2/validation/check_statistics.json",
+      "present": true,
+      "sha256": "4f86c5af487d9142fdfa7e11f09d9b3ef642716e1a5d945fc5cb9a03a9ba28be",
+      "size_bytes": 1729
+    },
+    {
+      "path": "experiments/dram-see-v2/validation/check_statistics.py",
+      "present": true,
+      "sha256": "7a1c03479f782ca7ad8be4173087e33c8866284031f40ec190d9088eceb0e9e6",
+      "size_bytes": 2874
+    },
+    {
+      "path": "experiments/dram-see-v2/validation/independent_r4.json",
+      "present": true,
+      "sha256": "a3851904082932c2dd3fa23d7bdddda97043985d60a48ef14c5059c76cd47edd",
+      "size_bytes": 19214
+    },
+    {
+      "path": "experiments/dram-see-v2/validation/independent_r4.py",
+      "present": true,
+      "sha256": "9dc9d4105a4356dbff72919d20e029697e0d55ee2b1b0c94e64e383e8ce3db05",
+      "size_bytes": 4597
+    },
+    {
+      "path": "experiments/dram-see-v2/validation/r4-independent-acceptance-20261010.md",
+      "present": true,
+      "sha256": "476f4b9b0c0ea59677a162f9421aabe969a74fda5330d692dda043331aa3e263",
+      "size_bytes": 7854
+    },
+    {
+      "path": "experiments/dram-see-v2/validation/static-review-20261010.md",
+      "present": true,
+      "sha256": "323a6bde9e67b0b9718339937240c79fa1b49d7ccfbc5170a0d94c76442a6f51",
+      "size_bytes": 6342
+    },
+    {
+      "path": "experiments/dram-see-v2/validation/static-review-r4-20261010.md",
+      "present": true,
+      "sha256": "82f4f954b43c71f0b0d21b7c7db5e98e0404b5a283440d2e75ea314e8de43131",
+      "size_bytes": 5516
+    },
+    {
+      "path": "experiments/dram-see-v2/validation/statistics-review-20261010.md",
+      "present": true,
+      "sha256": "77eea765b379d6ea3c402350113aeae837089f5b0d72b4bd6e4b68b82c4013d2",
+      "size_bytes": 5958
+    },
+    {
+      "path": "experiments/dram-see-v2/workflow.md",
+      "present": true,
+      "sha256": "6967b63e215eaa59b0334b0ebcb21d4f6e4e1c80330e92b74574cb05d83959b1",
+      "size_bytes": 15223
+    }
+  ],
+  "frozen_design": {
+    "content": {
+      "analysis_sha256_at_freeze": {
+        "audit.py": "0ca60a603dbcdb74410c05eb6e2f7fb7f5ca8ecadbe3557e5fa3e20fdb2e845f",
+        "event_audit.py": "4e77890e2adc621b92494e45a545e2fec9bdada38a651a4e75ebedd868be3b02",
+        "numerical_checks.py": "1119acd2d0bd6f08d8af58ea5c72dff4562ade08e264d9f57e019ffc8bbbba4c",
+        "statistics.py": "f5e0978d6bff953489af73b8903390ff050dd9696121d5379061aa447ee1cfee",
+        "summarize.py": "92672ad4fff9291e0d185b09ca815c5bed615be9931ed615287c85ff00c3a2e8"
+      },
+      "baseline_run_ids": [
+        "20261010T014743Z-v2-base-l025-b1-143253c7",
+        "20261010T015428Z-v2-base-l025-b0-c7f26462",
+        "20261010T020125Z-v2-base-l018-b1-2ec67cc7",
+        "20261010T020746Z-v2-base-l018-b0-7fc642c3",
+        "20261010T021423Z-v2-base-l035-b1-e8e23dd5",
+        "20261010T022330Z-v2-base-l035-b0-b94ca8fd",
+        "20261010T023000Z-v2-base-l045-b1-33bed107",
+        "20261010T023625Z-v2-base-l045-b0-09c9d309"
+      ],
+      "epsilon_mV": [
+        2.5,
+        5,
+        10
+      ],
+      "events": [
+        {
+          "angle_deg": 0,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "energy_MeV": 5,
+          "event_count": 1,
+          "gate_length_um": 0.25,
+          "label": "l025-alpha-s202610101",
+          "paired_bits": [
+            0,
+            1
+          ],
+          "particle": "alpha",
+          "replicate": 0,
+          "role": "independent_event_pilot",
+          "seed": 202610101,
+          "surface_impact_um": [
+            0.7,
+            0,
+            0
+          ]
+        },
+        {
+          "angle_deg": 0,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "energy_MeV": 5,
+          "event_count": 1,
+          "gate_length_um": 0.25,
+          "label": "l025-alpha-s202610102",
+          "paired_bits": [
+            0,
+            1
+          ],
+          "particle": "alpha",
+          "replicate": 1,
+          "role": "independent_event_pilot",
+          "seed": 202610102,
+          "surface_impact_um": [
+            0.7,
+            0,
+            0
+          ]
+        },
+        {
+          "angle_deg": 0,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "energy_MeV": 5,
+          "event_count": 1,
+          "gate_length_um": 0.25,
+          "label": "l025-alpha-s202610103",
+          "paired_bits": [
+            0,
+            1
+          ],
+          "particle": "alpha",
+          "replicate": 2,
+          "role": "independent_event_pilot",
+          "seed": 202610103,
+          "surface_impact_um": [
+            0.7,
+            0,
+            0
+          ]
+        },
+        {
+          "angle_deg": 0,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "energy_MeV": 5,
+          "event_count": 1,
+          "gate_length_um": 0.25,
+          "label": "l025-alpha-s202610104",
+          "paired_bits": [
+            0,
+            1
+          ],
+          "particle": "alpha",
+          "replicate": 3,
+          "role": "independent_event_pilot",
+          "seed": 202610104,
+          "surface_impact_um": [
+            0.7,
+            0,
+            0
+          ]
+        },
+        {
+          "angle_deg": 0,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "energy_MeV": 5,
+          "event_count": 1,
+          "gate_length_um": 0.25,
+          "label": "l025-proton-s202610201",
+          "paired_bits": [
+            0,
+            1
+          ],
+          "particle": "proton",
+          "replicate": 0,
+          "role": "independent_event_pilot",
+          "seed": 202610201,
+          "surface_impact_um": [
+            0.7,
+            0,
+            0
+          ]
+        },
+        {
+          "angle_deg": 0,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "energy_MeV": 5,
+          "event_count": 1,
+          "gate_length_um": 0.25,
+          "label": "l025-proton-s202610202",
+          "paired_bits": [
+            0,
+            1
+          ],
+          "particle": "proton",
+          "replicate": 1,
+          "role": "independent_event_pilot",
+          "seed": 202610202,
+          "surface_impact_um": [
+            0.7,
+            0,
+            0
+          ]
+        },
+        {
+          "angle_deg": 0,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "energy_MeV": 5,
+          "event_count": 1,
+          "gate_length_um": 0.25,
+          "label": "l025-proton-s202610203",
+          "paired_bits": [
+            0,
+            1
+          ],
+          "particle": "proton",
+          "replicate": 2,
+          "role": "independent_event_pilot",
+          "seed": 202610203,
+          "surface_impact_um": [
+            0.7,
+            0,
+            0
+          ]
+        },
+        {
+          "angle_deg": 0,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "energy_MeV": 5,
+          "event_count": 1,
+          "gate_length_um": 0.25,
+          "label": "l025-proton-s202610204",
+          "paired_bits": [
+            0,
+            1
+          ],
+          "particle": "proton",
+          "replicate": 3,
+          "role": "independent_event_pilot",
+          "seed": 202610204,
+          "surface_impact_um": [
+            0.7,
+            0,
+            0
+          ]
+        }
+      ],
+      "frozen_utc": "2026-10-10T02:43:38.577837+00:00",
+      "generator_sha256": "861ddb0188dc5a4f70846b66da7302647dd92fbbad15c42a5087f29f6b3ed46b",
+      "independent_event_count": 8,
+      "main_epsilon_mV": 5,
+      "n_per_particle": 4,
+      "numerical_selection": "closest margin to any registered threshold; require raw, control and corrected D differences <=0.5 mV and all threshold classifications stable; no change to event denominator",
+      "prior_transport_exposure": [
+        {
+          "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610101/event.json",
+          "sha256": "05afd168a947ee8cebac81ca0fc25675290ae20e3735e05ad8d6a168d85e2c93"
+        }
+      ],
+      "prior_transport_exposure_scope": "Existing source energy may have been seen; no v2 particle TCAD response submitted before freeze, no seed excluded or replaced",
+      "resource_basis": "4 independent events per particle frozen before any v2 particle response; observed first five v2 controls 352.10-390.08 s, archived v1 focus particles 242.03-271.65 s without the new readout; conservative 450 s per new response plus eight controls, debug and numerical validation within 4 single-core solver hours",
+      "sampling": "fixed position, 5 MeV, vertical; one unique seed per event; paired states not independent events",
+      "schema": "dram-see-v2",
+      "scope": "small event pilot at L=0.25 um; no cross section or calibrated population probability",
+      "solver_budget_s": 14400,
+      "solver_wallclock_before_freeze_s": 2976.59,
+      "stopping": "budget or numerical failure only, never observed class; incomplete counts disclosed",
+      "tcad_paired_response_count": 16
+    },
+    "file": {
+      "path": "experiments/dram-see-v2/stats-design.json",
+      "present": true,
+      "sha256": "f85653a58316c6d43858898ecb9976ec6b42bcb3e88da45cfa302d941f263170",
+      "size_bytes": 6446
+    }
+  },
+  "ledger_file": {
+    "path": "local_runtime/dram-see-v2/ledger.json",
+    "present": true,
+    "sha256": "67b136c1dfdb5e7e26e46269b5d23cdfadd0beb106524a7015fae224ee6fc0c7",
+    "size_bytes": 18182
+  },
+  "ledger_items_without_archive": [],
+  "path_base": "repository root; all indexed paths are relative",
+  "publication_precondition": "No active local controller/VM solve; caller confirms processes independently. Filesystem activity guards are not a scheduler lock.",
+  "runs": [
+    {
+      "archive_collection_success": false,
+      "audit_observation": {
+        "L_um": "",
+        "audit_state": "not_complete",
+        "bit": "",
+        "results_sha256": "520b155c8892a09ed9a78daeab5b67ffc7d6e02bd93f55d333dde4d08fff6a2a",
+        "run_id": "20261010T012717Z-v2-pilot-control-l025-b1-fed51e56",
+        "runner_state": "FAILED_COLLECTED",
+        "seed": "",
+        "solver_completion": "",
+        "solver_wallclock_s": "",
+        "ssh_exit_code": "2"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [
+        {
+          "field": "ssh_exit_code",
+          "source": "manifest",
+          "value": 2
+        },
+        {
+          "field": "ssh_exit_code",
+          "source": "all-run-attempts.csv",
+          "value": "2"
+        }
+      ],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T012717Z-v2-pilot-control-l025-b1-fed51e56/console.log",
+          "present": true,
+          "sha256": "0abbe6d9d4aede934146d21bbf5e216a8b030b6a982956038e638983885d2cbe",
+          "size_bytes": 614444
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T012717Z-v2-pilot-control-l025-b1-fed51e56/inputs.tar",
+          "present": true,
+          "sha256": "65dc6d8320f780e932e00e39dae3b193c4c44b2fa0aaeda6dfd5d85a04de4da6",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T012717Z-v2-pilot-control-l025-b1-fed51e56/manifest.json",
+          "present": true,
+          "sha256": "f79aecc7339ddfbd67faa38b5c5c1c88ff325f61ce56934e34e8e7045b8a0ce2",
+          "size_bytes": 1539
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T012717Z-v2-pilot-control-l025-b1-fed51e56/results.tar",
+          "present": true,
+          "sha256": "520b155c8892a09ed9a78daeab5b67ffc7d6e02bd93f55d333dde4d08fff6a2a",
+          "size_bytes": 5335040
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [],
+      "manifest_results_sha256": "520b155c8892a09ed9a78daeab5b67ffc7d6e02bd93f55d333dde4d08fff6a2a",
+      "manifest_state": "FAILED_COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "historical_debug",
+      "role_basis": "v2 archive outside official baseline/event/validation tags",
+      "run_id": "20261010T012717Z-v2-pilot-control-l025-b1-fed51e56",
+      "ssh_exit_code": 2,
+      "tag": "v2-pilot-control-l025-b1"
+    },
+    {
+      "archive_collection_success": false,
+      "audit_observation": {
+        "L_um": "",
+        "audit_state": "not_complete",
+        "bit": "",
+        "results_sha256": "0e96fe381dd8552b8d1752a530f3292e45e43b4dca52409240e1b3a818adf079",
+        "run_id": "20261010T013430Z-v2-pilot-control-l025-b1-r2-c2e79b3c",
+        "runner_state": "FAILED_COLLECTED",
+        "seed": "",
+        "solver_completion": "",
+        "solver_wallclock_s": "",
+        "ssh_exit_code": "143"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [
+        {
+          "field": "ssh_exit_code",
+          "source": "manifest",
+          "value": 143
+        },
+        {
+          "field": "ssh_exit_code",
+          "source": "all-run-attempts.csv",
+          "value": "143"
+        }
+      ],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T013430Z-v2-pilot-control-l025-b1-r2-c2e79b3c/console.log",
+          "present": true,
+          "sha256": "8f09f3acd1831c74984f0b7be96ac2a6ac884faec4e8beb8ed57496b51f59503",
+          "size_bytes": 274799
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T013430Z-v2-pilot-control-l025-b1-r2-c2e79b3c/inputs.tar",
+          "present": true,
+          "sha256": "7d8d1ead8e2090c32023c1aa995b943764927a12abb626a335fbfbb45f0cff45",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T013430Z-v2-pilot-control-l025-b1-r2-c2e79b3c/manifest.json",
+          "present": true,
+          "sha256": "b3e4d0322ddb0d8019a23e7fdf76e5ed33ae91740b5b9c95c04fca18f52c88dd",
+          "size_bytes": 1547
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T013430Z-v2-pilot-control-l025-b1-r2-c2e79b3c/results.tar",
+          "present": true,
+          "sha256": "0e96fe381dd8552b8d1752a530f3292e45e43b4dca52409240e1b3a818adf079",
+          "size_bytes": 1945600
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [],
+      "manifest_results_sha256": "0e96fe381dd8552b8d1752a530f3292e45e43b4dca52409240e1b3a818adf079",
+      "manifest_state": "FAILED_COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "historical_debug",
+      "role_basis": "v2 archive outside official baseline/event/validation tags",
+      "run_id": "20261010T013430Z-v2-pilot-control-l025-b1-r2-c2e79b3c",
+      "ssh_exit_code": 143,
+      "tag": "v2-pilot-control-l025-b1-r2"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "06017856cc2764da8d5f8be76200171fc642f77d5f09cc1ff2307cd6235310bd",
+        "run_id": "20261010T013752Z-v2-pilot-control-l025-b1-r4-6f25f848",
+        "runner_state": "COLLECTED",
+        "seed": "",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 21:44:55 2026  (EDT)).",
+        "solver_wallclock_s": "397.67",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T013752Z-v2-pilot-control-l025-b1-r4-6f25f848/console.log",
+          "present": true,
+          "sha256": "7a70850e5df09624a6e3c7c4ee70dbc20954274146a4bc919f97f0c819e3e7ea",
+          "size_bytes": 1015821
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T013752Z-v2-pilot-control-l025-b1-r4-6f25f848/inputs.tar",
+          "present": true,
+          "sha256": "f8f696b80032e68ecd9cb9f92cdfb7275901938f96f0cfc61ecb2d8f8305c92d",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T013752Z-v2-pilot-control-l025-b1-r4-6f25f848/manifest.json",
+          "present": true,
+          "sha256": "db76471b5894ceabbf0988915ae4249661507c444bb27fce91e35940741ba350",
+          "size_bytes": 1538
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T013752Z-v2-pilot-control-l025-b1-r4-6f25f848/results.tar",
+          "present": true,
+          "sha256": "06017856cc2764da8d5f8be76200171fc642f77d5f09cc1ff2307cd6235310bd",
+          "size_bytes": 7249920
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [],
+      "manifest_results_sha256": "06017856cc2764da8d5f8be76200171fc642f77d5f09cc1ff2307cd6235310bd",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "historical_debug",
+      "role_basis": "v2 archive outside official baseline/event/validation tags",
+      "run_id": "20261010T013752Z-v2-pilot-control-l025-b1-r4-6f25f848",
+      "ssh_exit_code": 0,
+      "tag": "v2-pilot-control-l025-b1-r4"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "eedc22375894b860cac6770dd5317a0409a94d2cf3b24dd4525c695accca9981",
+        "run_id": "20261010T014743Z-v2-base-l025-b1-143253c7",
+        "runner_state": "COLLECTED",
+        "seed": "",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 21:54:26 2026  (EDT)).",
+        "solver_wallclock_s": "371.12",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T014743Z-v2-base-l025-b1-143253c7/console.log",
+          "present": true,
+          "sha256": "9e8c6cdbbf31b21812793e3b56d437dd9bead7baaa8c6eadca4d9d8e0d228fef",
+          "size_bytes": 1015510
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T014743Z-v2-base-l025-b1-143253c7/inputs.tar",
+          "present": true,
+          "sha256": "1ac57e5bc8ad42a4271ccde3efdedbec0255c669d3649a2a936b62b2ef243d7a",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T014743Z-v2-base-l025-b1-143253c7/manifest.json",
+          "present": true,
+          "sha256": "6da924fdc74b894d0ac62d72af478e2aa6f23cd6b4e58e888caa5f18a42c1df8",
+          "size_bytes": 1514
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T014743Z-v2-base-l025-b1-143253c7/results.tar",
+          "present": true,
+          "sha256": "eedc22375894b860cac6770dd5317a0409a94d2cf3b24dd4525c695accca9981",
+          "size_bytes": 7249920
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": null,
+          "finished_utc": "2026-10-10T01:54:27.509619+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-base-l025-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": null,
+          "run_id": "20261010T014743Z-v2-base-l025-b1-143253c7",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T01:47:42.460937+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-base-l025-b1",
+          "wallclock_s": 371.12
+        }
+      ],
+      "manifest_results_sha256": "eedc22375894b860cac6770dd5317a0409a94d2cf3b24dd4525c695accca9981",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "official_baseline",
+      "role_basis": "frozen baseline_run_ids or explicit baseline ledger tag",
+      "run_id": "20261010T014743Z-v2-base-l025-b1-143253c7",
+      "ssh_exit_code": 0,
+      "tag": "v2-base-l025-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "d62d68f77462db37d240b05f3bd9ec60f3c941cce53e257d3de1682df4a881ee",
+        "run_id": "20261010T015428Z-v2-base-l025-b0-c7f26462",
+        "runner_state": "COLLECTED",
+        "seed": "",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 22:01:24 2026  (EDT)).",
+        "solver_wallclock_s": "389.98",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T015428Z-v2-base-l025-b0-c7f26462/console.log",
+          "present": true,
+          "sha256": "f5ac27bfa41dc65041a0a05db45a4564c3d3e4b83767f9a483ced56cc1fd0bbf",
+          "size_bytes": 1015039
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T015428Z-v2-base-l025-b0-c7f26462/inputs.tar",
+          "present": true,
+          "sha256": "4375723e170faacd17e5dddddfd0f6331116c220eb729bc9341f04ac90c359e8",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T015428Z-v2-base-l025-b0-c7f26462/manifest.json",
+          "present": true,
+          "sha256": "9302758ba82555642a9f9383c84b899ab48403a8c60b339f3b10089ae57e18eb",
+          "size_bytes": 1514
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T015428Z-v2-base-l025-b0-c7f26462/results.tar",
+          "present": true,
+          "sha256": "d62d68f77462db37d240b05f3bd9ec60f3c941cce53e257d3de1682df4a881ee",
+          "size_bytes": 7219200
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": null,
+          "finished_utc": "2026-10-10T02:01:24.990330+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-base-l025-b0",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": null,
+          "run_id": "20261010T015428Z-v2-base-l025-b0-c7f26462",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T01:54:27.651781+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-base-l025-b0",
+          "wallclock_s": 389.98
+        }
+      ],
+      "manifest_results_sha256": "d62d68f77462db37d240b05f3bd9ec60f3c941cce53e257d3de1682df4a881ee",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "official_baseline",
+      "role_basis": "frozen baseline_run_ids or explicit baseline ledger tag",
+      "run_id": "20261010T015428Z-v2-base-l025-b0-c7f26462",
+      "ssh_exit_code": 0,
+      "tag": "v2-base-l025-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.18",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "0dbffa0f49c96d4cca6bff74b21e2ba9089026a9c6333e329ec8525786027102",
+        "run_id": "20261010T020125Z-v2-base-l018-b1-2ec67cc7",
+        "runner_state": "COLLECTED",
+        "seed": "",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 22:07:44 2026  (EDT)).",
+        "solver_wallclock_s": "352.1",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T020125Z-v2-base-l018-b1-2ec67cc7/console.log",
+          "present": true,
+          "sha256": "046bc6e3e9d945fe9a5abedf4df74381f1df8088f9a555e0ce06a122ec1862c2",
+          "size_bytes": 1015110
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T020125Z-v2-base-l018-b1-2ec67cc7/inputs.tar",
+          "present": true,
+          "sha256": "c0a34b6af1692ba09cada7d0197130bd2ee504e79ba51d2c4795d60d2233cd99",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T020125Z-v2-base-l018-b1-2ec67cc7/manifest.json",
+          "present": true,
+          "sha256": "3df8c417759912761fcf011c5a4c80c2d3882737d92d9c9d7d0d69b8f35a778f",
+          "size_bytes": 1514
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T020125Z-v2-base-l018-b1-2ec67cc7/results.tar",
+          "present": true,
+          "sha256": "0dbffa0f49c96d4cca6bff74b21e2ba9089026a9c6333e329ec8525786027102",
+          "size_bytes": 7321600
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": null,
+          "finished_utc": "2026-10-10T02:07:45.432070+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-base-l018-b1",
+          "length_um": 0.18,
+          "mesh": 1,
+          "parent": null,
+          "run_id": "20261010T020125Z-v2-base-l018-b1-2ec67cc7",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T02:01:25.120713+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-base-l018-b1",
+          "wallclock_s": 352.1
+        }
+      ],
+      "manifest_results_sha256": "0dbffa0f49c96d4cca6bff74b21e2ba9089026a9c6333e329ec8525786027102",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "official_baseline",
+      "role_basis": "frozen baseline_run_ids or explicit baseline ledger tag",
+      "run_id": "20261010T020125Z-v2-base-l018-b1-2ec67cc7",
+      "ssh_exit_code": 0,
+      "tag": "v2-base-l018-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.18",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "9e563f777a95e076560bdc59cc309ad92dda1e9ca037a36aad01d662345139cb",
+        "run_id": "20261010T020746Z-v2-base-l018-b0-7fc642c3",
+        "runner_state": "COLLECTED",
+        "seed": "",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 22:14:21 2026  (EDT)).",
+        "solver_wallclock_s": "371.13",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T020746Z-v2-base-l018-b0-7fc642c3/console.log",
+          "present": true,
+          "sha256": "0b0da0d7569beb9984915c59ab1e7a53ef9cea3867c6634b5ffc3bcc1fd2c617",
+          "size_bytes": 1014408
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T020746Z-v2-base-l018-b0-7fc642c3/inputs.tar",
+          "present": true,
+          "sha256": "f2e3c44da42528fdcf751d3c5f666474db95a48ce57faa20b772e091d340b35a",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T020746Z-v2-base-l018-b0-7fc642c3/manifest.json",
+          "present": true,
+          "sha256": "f3d2af91429d3652d6a831ec6e40f4d5424776381943d2374144c9e73bf125a0",
+          "size_bytes": 1514
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T020746Z-v2-base-l018-b0-7fc642c3/results.tar",
+          "present": true,
+          "sha256": "9e563f777a95e076560bdc59cc309ad92dda1e9ca037a36aad01d662345139cb",
+          "size_bytes": 7270400
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": null,
+          "finished_utc": "2026-10-10T02:14:22.157497+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-base-l018-b0",
+          "length_um": 0.18,
+          "mesh": 1,
+          "parent": null,
+          "run_id": "20261010T020746Z-v2-base-l018-b0-7fc642c3",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T02:07:45.569568+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-base-l018-b0",
+          "wallclock_s": 371.13
+        }
+      ],
+      "manifest_results_sha256": "9e563f777a95e076560bdc59cc309ad92dda1e9ca037a36aad01d662345139cb",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "official_baseline",
+      "role_basis": "frozen baseline_run_ids or explicit baseline ledger tag",
+      "run_id": "20261010T020746Z-v2-base-l018-b0-7fc642c3",
+      "ssh_exit_code": 0,
+      "tag": "v2-base-l018-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.35",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "7a44816e7b0c450959388eb6e28429163946fdd493767e044ed84a529ebeffb3",
+        "run_id": "20261010T021423Z-v2-base-l035-b1-e8e23dd5",
+        "runner_state": "COLLECTED",
+        "seed": "",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 22:21:18 2026  (EDT)).",
+        "solver_wallclock_s": "390.08",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T021423Z-v2-base-l035-b1-e8e23dd5/console.log",
+          "present": true,
+          "sha256": "f0e138ad5169063784f6430cb5d5d9a7f7c4dc259a8ce78e909108f7fea916c0",
+          "size_bytes": 1016919
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T021423Z-v2-base-l035-b1-e8e23dd5/inputs.tar",
+          "present": true,
+          "sha256": "c727dd03f12274f9003cbb792695600236196b902074c6b94b63cccda84d1d77",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T021423Z-v2-base-l035-b1-e8e23dd5/manifest.json",
+          "present": true,
+          "sha256": "9155942e38ed4bc3bc784722355f8272a644b84aba28b0045d8df7010396d5e8",
+          "size_bytes": 1514
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T021423Z-v2-base-l035-b1-e8e23dd5/results.tar",
+          "present": true,
+          "sha256": "7a44816e7b0c450959388eb6e28429163946fdd493767e044ed84a529ebeffb3",
+          "size_bytes": 7208960
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": null,
+          "finished_time_source": "Existing successful collection manifest modification time; host callback was suspended",
+          "finished_utc": "2026-10-10T02:21:19.580182+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-base-l035-b1",
+          "length_um": 0.35,
+          "mesh": 1,
+          "parent": null,
+          "recovered_utc": "2026-10-10T02:23:27.042325+00:00",
+          "recovery": "Suspended orphan host controller; existing COLLECTED archive audited; no resubmission",
+          "run_id": "20261010T021423Z-v2-base-l035-b1-e8e23dd5",
+          "runner_exit_code": null,
+          "runner_exit_code_evidence": "Host child exit status not retained after suspended Dot controller. Remote exit=0 and successful COLLECTED archive/CLI completion text independently verified.",
+          "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 22:21:18 2026  (EDT)).",
+          "started_utc": "2026-10-10T02:14:22.344527+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-base-l035-b1",
+          "wallclock_s": 390.08
+        }
+      ],
+      "manifest_results_sha256": "7a44816e7b0c450959388eb6e28429163946fdd493767e044ed84a529ebeffb3",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "official_baseline",
+      "role_basis": "frozen baseline_run_ids or explicit baseline ledger tag",
+      "run_id": "20261010T021423Z-v2-base-l035-b1-e8e23dd5",
+      "ssh_exit_code": 0,
+      "tag": "v2-base-l035-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.35",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "c2002c42743a533d65a719dbe2f1806bdc748e1801f0140133bfc79b53c39449",
+        "run_id": "20261010T022330Z-v2-base-l035-b0-b94ca8fd",
+        "runner_state": "COLLECTED",
+        "seed": "",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 22:29:58 2026  (EDT)).",
+        "solver_wallclock_s": "364.43",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T022330Z-v2-base-l035-b0-b94ca8fd/console.log",
+          "present": true,
+          "sha256": "e87490d48809ecfea22d5b30a16ed185817cfe9edae2678277d4227f75f76438",
+          "size_bytes": 1015740
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T022330Z-v2-base-l035-b0-b94ca8fd/inputs.tar",
+          "present": true,
+          "sha256": "d5eb487390239ebb6f692d2436f4767c1f38695e0f584bc7955d45cf8df0ac69",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T022330Z-v2-base-l035-b0-b94ca8fd/manifest.json",
+          "present": true,
+          "sha256": "dab1805d7d6b56e24d34ffda92af221ccf6af749370b3d2f0b0a2d2b87cc3446",
+          "size_bytes": 1514
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T022330Z-v2-base-l035-b0-b94ca8fd/results.tar",
+          "present": true,
+          "sha256": "c2002c42743a533d65a719dbe2f1806bdc748e1801f0140133bfc79b53c39449",
+          "size_bytes": 7188480
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": null,
+          "finished_utc": "2026-10-10T02:29:59.559279+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-base-l035-b0",
+          "length_um": 0.35,
+          "mesh": 1,
+          "parent": null,
+          "run_id": "20261010T022330Z-v2-base-l035-b0-b94ca8fd",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T02:23:30.040496+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-base-l035-b0",
+          "wallclock_s": 364.43
+        }
+      ],
+      "manifest_results_sha256": "c2002c42743a533d65a719dbe2f1806bdc748e1801f0140133bfc79b53c39449",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "official_baseline",
+      "role_basis": "frozen baseline_run_ids or explicit baseline ledger tag",
+      "run_id": "20261010T022330Z-v2-base-l035-b0-b94ca8fd",
+      "ssh_exit_code": 0,
+      "tag": "v2-base-l035-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.45",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "088629809dbe1611205d7a3bb19a8a65c722f407087d338bf8723be4eef757b0",
+        "run_id": "20261010T023000Z-v2-base-l045-b1-33bed107",
+        "runner_state": "COLLECTED",
+        "seed": "",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 22:36:24 2026  (EDT)).",
+        "solver_wallclock_s": "360.07",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T023000Z-v2-base-l045-b1-33bed107/console.log",
+          "present": true,
+          "sha256": "042bb6fd040da5bce10ae49e73b65eac8d72570031ee09e3cc441ed282694886",
+          "size_bytes": 1017540
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T023000Z-v2-base-l045-b1-33bed107/inputs.tar",
+          "present": true,
+          "sha256": "0468832b717ebeb9baa0f57145739b7a3fb9e55205fa0fb019d61caa4bc32b4e",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T023000Z-v2-base-l045-b1-33bed107/manifest.json",
+          "present": true,
+          "sha256": "6e67a6c0dcd27b2688c315e20c6429d9b3c131e4f19f3d2148def5c8a680d4f0",
+          "size_bytes": 1514
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T023000Z-v2-base-l045-b1-33bed107/results.tar",
+          "present": true,
+          "sha256": "088629809dbe1611205d7a3bb19a8a65c722f407087d338bf8723be4eef757b0",
+          "size_bytes": 7260160
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": null,
+          "finished_utc": "2026-10-10T02:36:25.018913+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-base-l045-b1",
+          "length_um": 0.45,
+          "mesh": 1,
+          "parent": null,
+          "run_id": "20261010T023000Z-v2-base-l045-b1-33bed107",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T02:29:59.751748+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-base-l045-b1",
+          "wallclock_s": 360.07
+        }
+      ],
+      "manifest_results_sha256": "088629809dbe1611205d7a3bb19a8a65c722f407087d338bf8723be4eef757b0",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "official_baseline",
+      "role_basis": "frozen baseline_run_ids or explicit baseline ledger tag",
+      "run_id": "20261010T023000Z-v2-base-l045-b1-33bed107",
+      "ssh_exit_code": 0,
+      "tag": "v2-base-l045-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.45",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "322c559cd09268f512fbad1c38e6c00bc4ebbf1642953a7f2f4d412d3107864c",
+        "run_id": "20261010T023625Z-v2-base-l045-b0-09c9d309",
+        "runner_state": "COLLECTED",
+        "seed": "",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 22:43:06 2026  (EDT)).",
+        "solver_wallclock_s": "377.68",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T023625Z-v2-base-l045-b0-09c9d309/console.log",
+          "present": true,
+          "sha256": "09221738c1853369eda352bb57218506f85017c4c92a54c19bfc4d51b34f9349",
+          "size_bytes": 1016439
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T023625Z-v2-base-l045-b0-09c9d309/inputs.tar",
+          "present": true,
+          "sha256": "7d535d89345aab2d7d51943c3df8c2736c022d7f8a517b81411be300b764f931",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T023625Z-v2-base-l045-b0-09c9d309/manifest.json",
+          "present": true,
+          "sha256": "8c6188c6d2de6e4b7deb30f0ec013136307717d5c5975bdff2df7c2b4ede94f1",
+          "size_bytes": 1514
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T023625Z-v2-base-l045-b0-09c9d309/results.tar",
+          "present": true,
+          "sha256": "322c559cd09268f512fbad1c38e6c00bc4ebbf1642953a7f2f4d412d3107864c",
+          "size_bytes": 7178240
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": null,
+          "finished_utc": "2026-10-10T02:43:07.579508+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-base-l045-b0",
+          "length_um": 0.45,
+          "mesh": 1,
+          "parent": null,
+          "run_id": "20261010T023625Z-v2-base-l045-b0-09c9d309",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T02:36:25.151028+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-base-l045-b0",
+          "wallclock_s": 377.68
+        }
+      ],
+      "manifest_results_sha256": "322c559cd09268f512fbad1c38e6c00bc4ebbf1642953a7f2f4d412d3107864c",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "official_baseline",
+      "role_basis": "frozen baseline_run_ids or explicit baseline ledger tag",
+      "run_id": "20261010T023625Z-v2-base-l045-b0-09c9d309",
+      "ssh_exit_code": 0,
+      "tag": "v2-base-l045-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "39f52270a4f4bc686af2f704084fffd20a174d8c464fbf35501ee7616736e0b3",
+        "run_id": "20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa",
+        "runner_state": "COLLECTED",
+        "seed": "202610101",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 22:51:47 2026  (EDT)).",
+        "solver_wallclock_s": "466.04",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/console.log",
+          "present": true,
+          "sha256": "be6164fe89c489cfdc10e83551f0dc5b365964222d94f205d39f0e81e2b2c0aa",
+          "size_bytes": 895032
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/inputs.tar",
+          "present": true,
+          "sha256": "4f00fcb96fc41221dda5adec3d1e8c0279606ec81d908ae107d6e873d0c96ebd",
+          "size_bytes": 450560
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/manifest.json",
+          "present": true,
+          "sha256": "3bb70141d217c303fe0247aa8a74971b35bebf59a779094c93dbc8d56173a8db",
+          "size_bytes": 2036
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa/results.tar",
+          "present": true,
+          "sha256": "39f52270a4f4bc686af2f704084fffd20a174d8c464fbf35501ee7616736e0b3",
+          "size_bytes": 7004160
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 1,
+        "event_label": "l025-alpha-s202610101"
+      },
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610101/event.json",
+          "finished_utc": "2026-10-10T02:51:47.782945+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-alpha-s202610101-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T014743Z-v2-base-l025-b1-143253c7",
+          "run_id": "20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T02:43:42.246194+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-alpha-s202610101-b1",
+          "wallclock_s": 466.04
+        }
+      ],
+      "manifest_results_sha256": "39f52270a4f4bc686af2f704084fffd20a174d8c464fbf35501ee7616736e0b3",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T024342Z-v2-l025-alpha-s202610101-b1-43ecbaaa",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-alpha-s202610101-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "382dfd7407600b5302113e8abcf7d66d7211e280fea76e824ea38d491835cc47",
+        "run_id": "20261010T025148Z-v2-l025-alpha-s202610101-b0-27677f7e",
+        "runner_state": "COLLECTED",
+        "seed": "202610101",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 23:00:40 2026  (EDT)).",
+        "solver_wallclock_s": "515.34",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T025148Z-v2-l025-alpha-s202610101-b0-27677f7e/console.log",
+          "present": true,
+          "sha256": "9f2e4cfcb7b372f8028edf3ec5de0762d17a6ed96c136a14c3535cbd6fe6eff8",
+          "size_bytes": 894859
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T025148Z-v2-l025-alpha-s202610101-b0-27677f7e/inputs.tar",
+          "present": true,
+          "sha256": "b826b88d0790a45feff88d0fff31c682a9e9c793f31d20ce46909b0894f07b2c",
+          "size_bytes": 450560
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T025148Z-v2-l025-alpha-s202610101-b0-27677f7e/manifest.json",
+          "present": true,
+          "sha256": "11b85eda78d17820d052afbc46a3ec51710e6e78d0a94bd0fe50a95ccf9e3a08",
+          "size_bytes": 2036
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T025148Z-v2-l025-alpha-s202610101-b0-27677f7e/results.tar",
+          "present": true,
+          "sha256": "382dfd7407600b5302113e8abcf7d66d7211e280fea76e824ea38d491835cc47",
+          "size_bytes": 7034880
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 0,
+        "event_label": "l025-alpha-s202610101"
+      },
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610101/event.json",
+          "finished_utc": "2026-10-10T03:00:40.763980+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-alpha-s202610101-b0",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T015428Z-v2-base-l025-b0-c7f26462",
+          "run_id": "20261010T025148Z-v2-l025-alpha-s202610101-b0-27677f7e",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T02:51:47.959639+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-alpha-s202610101-b0",
+          "wallclock_s": 515.34
+        }
+      ],
+      "manifest_results_sha256": "382dfd7407600b5302113e8abcf7d66d7211e280fea76e824ea38d491835cc47",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T025148Z-v2-l025-alpha-s202610101-b0-27677f7e",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-alpha-s202610101-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "484c283ef701489dfa6a5cf330ff32f6c498d36dca0f224236462d77f0079ae6",
+        "run_id": "20261010T030047Z-v2-l025-proton-s202610201-b1-dd04209c",
+        "runner_state": "COLLECTED",
+        "seed": "202610201",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 23:08:17 2026  (EDT)).",
+        "solver_wallclock_s": "431.96",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T030047Z-v2-l025-proton-s202610201-b1-dd04209c/console.log",
+          "present": true,
+          "sha256": "e278f4ce93e86b2ccf44353920386e6fae5c8565f911d00cebb2a66d23cf1e88",
+          "size_bytes": 882740
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T030047Z-v2-l025-proton-s202610201-b1-dd04209c/inputs.tar",
+          "present": true,
+          "sha256": "d3b682ae07f413115656132b73ba9f042bed2c4bb88417bcc8f04d27323ce305",
+          "size_bytes": 430080
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T030047Z-v2-l025-proton-s202610201-b1-dd04209c/manifest.json",
+          "present": true,
+          "sha256": "ac8f140d9425cffecd839c8a6ed89b7455e9d1d337ccb05d15b94373de3a57df",
+          "size_bytes": 2038
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T030047Z-v2-l025-proton-s202610201-b1-dd04209c/results.tar",
+          "present": true,
+          "sha256": "484c283ef701489dfa6a5cf330ff32f6c498d36dca0f224236462d77f0079ae6",
+          "size_bytes": 6963200
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 1,
+        "event_label": "l025-proton-s202610201"
+      },
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": "experiments/dram-see-v2/data/geant4/l025-proton-s202610201/event.json",
+          "finished_utc": "2026-10-10T03:08:18.309731+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-proton-s202610201-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T014743Z-v2-base-l025-b1-143253c7",
+          "run_id": "20261010T030047Z-v2-l025-proton-s202610201-b1-dd04209c",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T03:00:46.861055+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-proton-s202610201-b1",
+          "wallclock_s": 431.96
+        }
+      ],
+      "manifest_results_sha256": "484c283ef701489dfa6a5cf330ff32f6c498d36dca0f224236462d77f0079ae6",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T030047Z-v2-l025-proton-s202610201-b1-dd04209c",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-proton-s202610201-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "adbb45bb2d1428fabaa89bd55e16e77ffbecc8e6346db5dd016a8bc865238787",
+        "run_id": "20261010T030819Z-v2-l025-proton-s202610201-b0-65414de2",
+        "runner_state": "COLLECTED",
+        "seed": "202610201",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 23:16:08 2026  (EDT)).",
+        "solver_wallclock_s": "451.92",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T030819Z-v2-l025-proton-s202610201-b0-65414de2/console.log",
+          "present": true,
+          "sha256": "846a282ca1b42b180218a562088f9ee9796337fd2f3ddb4f89607e6edfecc5ee",
+          "size_bytes": 890569
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T030819Z-v2-l025-proton-s202610201-b0-65414de2/inputs.tar",
+          "present": true,
+          "sha256": "905c0e3983fee574a76c5c11b9d3896bd51e331eb8671ed84fc2666a92ec5639",
+          "size_bytes": 430080
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T030819Z-v2-l025-proton-s202610201-b0-65414de2/manifest.json",
+          "present": true,
+          "sha256": "5a2fb0f288f81d1fe589f1eb511bcd246870f8666a4e61c87d16b3cf82f0cfef",
+          "size_bytes": 2038
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T030819Z-v2-l025-proton-s202610201-b0-65414de2/results.tar",
+          "present": true,
+          "sha256": "adbb45bb2d1428fabaa89bd55e16e77ffbecc8e6346db5dd016a8bc865238787",
+          "size_bytes": 6973440
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 0,
+        "event_label": "l025-proton-s202610201"
+      },
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": "experiments/dram-see-v2/data/geant4/l025-proton-s202610201/event.json",
+          "finished_utc": "2026-10-10T03:16:09.548536+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-proton-s202610201-b0",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T015428Z-v2-base-l025-b0-c7f26462",
+          "run_id": "20261010T030819Z-v2-l025-proton-s202610201-b0-65414de2",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T03:08:18.503021+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-proton-s202610201-b0",
+          "wallclock_s": 451.92
+        }
+      ],
+      "manifest_results_sha256": "adbb45bb2d1428fabaa89bd55e16e77ffbecc8e6346db5dd016a8bc865238787",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T030819Z-v2-l025-proton-s202610201-b0-65414de2",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-proton-s202610201-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "d31adf30d0feb9b0c46dd3718ea55020fdfa930d7cc3588b9c0eaed3b83373f4",
+        "run_id": "20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc",
+        "runner_state": "COLLECTED",
+        "seed": "202610101",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 23:25:23 2026  (EDT)).",
+        "solver_wallclock_s": "499.99",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc/console.log",
+          "present": true,
+          "sha256": "0a82f4d1c43f11872e3171e1cba99d1a5bc484d99ca64abede0ac9fc599bf06f",
+          "size_bytes": 1070852
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc/inputs.tar",
+          "present": true,
+          "sha256": "a0779ce88052275e39c5a1444af0755f8c21e1b62d3de230b44f4631f602653a",
+          "size_bytes": 61440
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc/manifest.json",
+          "present": true,
+          "sha256": "e2810426e749557fd93637d4c03dd0fd90edfafc8d5cd8388e8e8751f847228d",
+          "size_bytes": 1847
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc/results.tar",
+          "present": true,
+          "sha256": "d31adf30d0feb9b0c46dd3718ea55020fdfa930d7cc3588b9c0eaed3b83373f4",
+          "size_bytes": 7516160
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610101/event.json",
+          "finished_utc": "2026-10-10T03:25:24.555442+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-validate-full-l025-alpha-s202610101-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": null,
+          "run_id": "20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T03:16:36.698619+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-validate-full-l025-alpha-s202610101-b1",
+          "wallclock_s": 499.99
+        }
+      ],
+      "manifest_results_sha256": "d31adf30d0feb9b0c46dd3718ea55020fdfa930d7cc3588b9c0eaed3b83373f4",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "numerical_validation",
+      "role_basis": "validation run tag; does not add an independent event",
+      "run_id": "20261010T031637Z-v2-validate-full-l025-alpha-s202610101-b1-78b9eddc",
+      "ssh_exit_code": 0,
+      "tag": "v2-validate-full-l025-alpha-s202610101-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "9b2b2601b387a46761d218b832235ee02e3188fc06d992dac07c6b58d031dc91",
+        "run_id": "20261010T032608Z-v2-l025-alpha-s202610102-b1-939da166",
+        "runner_state": "COLLECTED",
+        "seed": "202610102",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 23:33:21 2026  (EDT)).",
+        "solver_wallclock_s": "415.43",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T032608Z-v2-l025-alpha-s202610102-b1-939da166/console.log",
+          "present": true,
+          "sha256": "6c4199397d382f53e3eb9156ff849ac484e592fed3d1cf7f56ef696f835f8399",
+          "size_bytes": 892051
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T032608Z-v2-l025-alpha-s202610102-b1-939da166/inputs.tar",
+          "present": true,
+          "sha256": "36cdb1a69153ac4e6ef735ccd255f5c1336e359b9c4a31ed3e57cb4d7283e47b",
+          "size_bytes": 450560
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T032608Z-v2-l025-alpha-s202610102-b1-939da166/manifest.json",
+          "present": true,
+          "sha256": "ce23773acbf143efeab866fc6090e4f94837fa13b3e57830197ae80360316f98",
+          "size_bytes": 2036
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T032608Z-v2-l025-alpha-s202610102-b1-939da166/results.tar",
+          "present": true,
+          "sha256": "9b2b2601b387a46761d218b832235ee02e3188fc06d992dac07c6b58d031dc91",
+          "size_bytes": 6973440
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 1,
+        "event_label": "l025-alpha-s202610102"
+      },
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610102/event.json",
+          "finished_utc": "2026-10-10T03:33:22.387295+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-alpha-s202610102-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T014743Z-v2-base-l025-b1-143253c7",
+          "run_id": "20261010T032608Z-v2-l025-alpha-s202610102-b1-939da166",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T03:26:07.492706+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-alpha-s202610102-b1",
+          "wallclock_s": 415.43
+        }
+      ],
+      "manifest_results_sha256": "9b2b2601b387a46761d218b832235ee02e3188fc06d992dac07c6b58d031dc91",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T032608Z-v2-l025-alpha-s202610102-b1-939da166",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-alpha-s202610102-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "b5466d3cdcd4f0e4cd00e25c5fcd6be7319e12f6aa176277bfe3fbf54a0fb872",
+        "run_id": "20261010T033323Z-v2-l025-alpha-s202610102-b0-691a66eb",
+        "runner_state": "COLLECTED",
+        "seed": "202610102",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 23:40:52 2026  (EDT)).",
+        "solver_wallclock_s": "432.08",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T033323Z-v2-l025-alpha-s202610102-b0-691a66eb/console.log",
+          "present": true,
+          "sha256": "f6aa02ea61baeabc2bd04e8a2e226d283c4172fc468d156f6c821891dc62022b",
+          "size_bytes": 894937
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T033323Z-v2-l025-alpha-s202610102-b0-691a66eb/inputs.tar",
+          "present": true,
+          "sha256": "2259adfc9ad34ea7bb7f688ead2f8413dd51ffa98ff496a9af98b8953e2e42b1",
+          "size_bytes": 440320
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T033323Z-v2-l025-alpha-s202610102-b0-691a66eb/manifest.json",
+          "present": true,
+          "sha256": "f10b53b0d2b2e01f72920b8fbf6a87e055c3844a305bf127751c59b22528e354",
+          "size_bytes": 2036
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T033323Z-v2-l025-alpha-s202610102-b0-691a66eb/results.tar",
+          "present": true,
+          "sha256": "b5466d3cdcd4f0e4cd00e25c5fcd6be7319e12f6aa176277bfe3fbf54a0fb872",
+          "size_bytes": 7034880
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 0,
+        "event_label": "l025-alpha-s202610102"
+      },
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610102/event.json",
+          "finished_utc": "2026-10-10T03:40:53.526403+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-alpha-s202610102-b0",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T015428Z-v2-base-l025-b0-c7f26462",
+          "run_id": "20261010T033323Z-v2-l025-alpha-s202610102-b0-691a66eb",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T03:33:22.620326+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-alpha-s202610102-b0",
+          "wallclock_s": 432.08
+        }
+      ],
+      "manifest_results_sha256": "b5466d3cdcd4f0e4cd00e25c5fcd6be7319e12f6aa176277bfe3fbf54a0fb872",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T033323Z-v2-l025-alpha-s202610102-b0-691a66eb",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-alpha-s202610102-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "c02bc6288bd73e2ab1c99130c09b2242aa6bded75f761f8ca71747d1547a46cf",
+        "run_id": "20261010T034059Z-v2-l025-alpha-s202610103-b1-516898d5",
+        "runner_state": "COLLECTED",
+        "seed": "202610103",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 23:47:55 2026  (EDT)).",
+        "solver_wallclock_s": "397.56",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T034059Z-v2-l025-alpha-s202610103-b1-516898d5/console.log",
+          "present": true,
+          "sha256": "7255f0e0122c6310f7f5ceb60cdc15f4ce1f6edc4375fcc862d54114343890d5",
+          "size_bytes": 889321
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T034059Z-v2-l025-alpha-s202610103-b1-516898d5/inputs.tar",
+          "present": true,
+          "sha256": "6571eb4d95057f2d2b89401a2b8d73ae4df8ee5e7b9329973af2759ac8dcf67b",
+          "size_bytes": 440320
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T034059Z-v2-l025-alpha-s202610103-b1-516898d5/manifest.json",
+          "present": true,
+          "sha256": "88975cfd94f02d15d2d2f2c67ea052616f849b947b341cf43603e38dbb596009",
+          "size_bytes": 2036
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T034059Z-v2-l025-alpha-s202610103-b1-516898d5/results.tar",
+          "present": true,
+          "sha256": "c02bc6288bd73e2ab1c99130c09b2242aa6bded75f761f8ca71747d1547a46cf",
+          "size_bytes": 6993920
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 1,
+        "event_label": "l025-alpha-s202610103"
+      },
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610103/event.json",
+          "finished_utc": "2026-10-10T03:47:55.676856+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-alpha-s202610103-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T014743Z-v2-base-l025-b1-143253c7",
+          "run_id": "20261010T034059Z-v2-l025-alpha-s202610103-b1-516898d5",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T03:40:59.035650+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-alpha-s202610103-b1",
+          "wallclock_s": 397.56
+        }
+      ],
+      "manifest_results_sha256": "c02bc6288bd73e2ab1c99130c09b2242aa6bded75f761f8ca71747d1547a46cf",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T034059Z-v2-l025-alpha-s202610103-b1-516898d5",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-alpha-s202610103-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "7ad86442a96d8eb5e6cce34922ead70677d8efe486eff8b38661cc696281aaa9",
+        "run_id": "20261010T034756Z-v2-l025-alpha-s202610103-b0-2b2ce290",
+        "runner_state": "COLLECTED",
+        "seed": "202610103",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Fri Oct  9 23:55:11 2026  (EDT)).",
+        "solver_wallclock_s": "418.06",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T034756Z-v2-l025-alpha-s202610103-b0-2b2ce290/console.log",
+          "present": true,
+          "sha256": "49d68f17d0694dc2caee8c37786f4987567d506e1de25d525a9e9f10a56a2287",
+          "size_bytes": 889760
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T034756Z-v2-l025-alpha-s202610103-b0-2b2ce290/inputs.tar",
+          "present": true,
+          "sha256": "463a7541c86636b3a23817fa74b024a41242daf0ae4544377c7392d83f00a115",
+          "size_bytes": 440320
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T034756Z-v2-l025-alpha-s202610103-b0-2b2ce290/manifest.json",
+          "present": true,
+          "sha256": "8e2d5ce7d560e7066effa42914532804e3953235b1b703b650b228ed88e239e6",
+          "size_bytes": 2036
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T034756Z-v2-l025-alpha-s202610103-b0-2b2ce290/results.tar",
+          "present": true,
+          "sha256": "7ad86442a96d8eb5e6cce34922ead70677d8efe486eff8b38661cc696281aaa9",
+          "size_bytes": 7014400
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 0,
+        "event_label": "l025-alpha-s202610103"
+      },
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610103/event.json",
+          "finished_utc": "2026-10-10T03:55:11.842941+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-alpha-s202610103-b0",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T015428Z-v2-base-l025-b0-c7f26462",
+          "run_id": "20261010T034756Z-v2-l025-alpha-s202610103-b0-2b2ce290",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T03:47:55.898666+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-alpha-s202610103-b0",
+          "wallclock_s": 418.06
+        }
+      ],
+      "manifest_results_sha256": "7ad86442a96d8eb5e6cce34922ead70677d8efe486eff8b38661cc696281aaa9",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T034756Z-v2-l025-alpha-s202610103-b0-2b2ce290",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-alpha-s202610103-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "981ce98ac5c5caa6270c5b8968417b542fd7e6f81dc1e915f468571a4d7fc562",
+        "run_id": "20261010T035519Z-v2-l025-alpha-s202610104-b1-297065fa",
+        "runner_state": "COLLECTED",
+        "seed": "202610104",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Sat Oct 10 00:02:25 2026  (EDT)).",
+        "solver_wallclock_s": "409.68",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T035519Z-v2-l025-alpha-s202610104-b1-297065fa/console.log",
+          "present": true,
+          "sha256": "bb76a572e3610e0f207ddbdfb0361a254bb63afea8acc9a5b1caba493675785c",
+          "size_bytes": 891193
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T035519Z-v2-l025-alpha-s202610104-b1-297065fa/inputs.tar",
+          "present": true,
+          "sha256": "8f37766debcc4b3955007ecf28a042b1e48467f64b7d5831e60466ec649ba569",
+          "size_bytes": 450560
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T035519Z-v2-l025-alpha-s202610104-b1-297065fa/manifest.json",
+          "present": true,
+          "sha256": "c5aa7913499ec93fcca9fc1a0a19bfa2526740d70c5fbde88d6011127c31c7cb",
+          "size_bytes": 2036
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T035519Z-v2-l025-alpha-s202610104-b1-297065fa/results.tar",
+          "present": true,
+          "sha256": "981ce98ac5c5caa6270c5b8968417b542fd7e6f81dc1e915f468571a4d7fc562",
+          "size_bytes": 6993920
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 1,
+        "event_label": "l025-alpha-s202610104"
+      },
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610104/event.json",
+          "finished_utc": "2026-10-10T04:02:25.873598+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-alpha-s202610104-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T014743Z-v2-base-l025-b1-143253c7",
+          "run_id": "20261010T035519Z-v2-l025-alpha-s202610104-b1-297065fa",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T03:55:18.378493+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-alpha-s202610104-b1",
+          "wallclock_s": 409.68
+        }
+      ],
+      "manifest_results_sha256": "981ce98ac5c5caa6270c5b8968417b542fd7e6f81dc1e915f468571a4d7fc562",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T035519Z-v2-l025-alpha-s202610104-b1-297065fa",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-alpha-s202610104-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "3cc8263c593e437d8f0f25eedb6614f95b61ab5d9fef09b455105e9bb594dabd",
+        "run_id": "20261010T040226Z-v2-l025-alpha-s202610104-b0-a644ccdc",
+        "runner_state": "COLLECTED",
+        "seed": "202610104",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Sat Oct 10 00:09:41 2026  (EDT)).",
+        "solver_wallclock_s": "418.58",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T040226Z-v2-l025-alpha-s202610104-b0-a644ccdc/console.log",
+          "present": true,
+          "sha256": "0403dcb28a3ddd055b0eaa4cb55d24c5340b82efd11bc2da30d918db03b3e781",
+          "size_bytes": 889760
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T040226Z-v2-l025-alpha-s202610104-b0-a644ccdc/inputs.tar",
+          "present": true,
+          "sha256": "e30c78a3c3e5b19fccc845da5b9b79f5d7b3a2bc0de768dd3ff00f5d8a0211e7",
+          "size_bytes": 440320
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T040226Z-v2-l025-alpha-s202610104-b0-a644ccdc/manifest.json",
+          "present": true,
+          "sha256": "17e2e58aa43ce71c6dd329c9eef06b9a95435203ee778faa70fb6c8ca962f527",
+          "size_bytes": 2036
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T040226Z-v2-l025-alpha-s202610104-b0-a644ccdc/results.tar",
+          "present": true,
+          "sha256": "3cc8263c593e437d8f0f25eedb6614f95b61ab5d9fef09b455105e9bb594dabd",
+          "size_bytes": 7024640
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 0,
+        "event_label": "l025-alpha-s202610104"
+      },
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610104/event.json",
+          "finished_utc": "2026-10-10T04:09:41.859319+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-alpha-s202610104-b0",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T015428Z-v2-base-l025-b0-c7f26462",
+          "run_id": "20261010T040226Z-v2-l025-alpha-s202610104-b0-a644ccdc",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T04:02:26.096571+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-alpha-s202610104-b0",
+          "wallclock_s": 418.58
+        }
+      ],
+      "manifest_results_sha256": "3cc8263c593e437d8f0f25eedb6614f95b61ab5d9fef09b455105e9bb594dabd",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T040226Z-v2-l025-alpha-s202610104-b0-a644ccdc",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-alpha-s202610104-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "851a08af01fe3e70c03e1ec8884c0bbe04a50c372d5b3882ab3a4ce2f9102c05",
+        "run_id": "20261010T040947Z-v2-l025-proton-s202610202-b1-9b762333",
+        "runner_state": "COLLECTED",
+        "seed": "202610202",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Sat Oct 10 00:16:51 2026  (EDT)).",
+        "solver_wallclock_s": "407.38",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T040947Z-v2-l025-proton-s202610202-b1-9b762333/console.log",
+          "present": true,
+          "sha256": "26f86212d6dd2ac36fb42cc3d542ccdb00b64ca4cd785acf8d43cf29f4a8122f",
+          "size_bytes": 887605
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T040947Z-v2-l025-proton-s202610202-b1-9b762333/inputs.tar",
+          "present": true,
+          "sha256": "e71d1bb9964763ab295b89953a64d76b131e500978b90815d5552dc2dde0500c",
+          "size_bytes": 430080
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T040947Z-v2-l025-proton-s202610202-b1-9b762333/manifest.json",
+          "present": true,
+          "sha256": "8fa214a06e950081f868134bb1a5c407c0b240afb63e27084147417b7390035f",
+          "size_bytes": 2038
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T040947Z-v2-l025-proton-s202610202-b1-9b762333/results.tar",
+          "present": true,
+          "sha256": "851a08af01fe3e70c03e1ec8884c0bbe04a50c372d5b3882ab3a4ce2f9102c05",
+          "size_bytes": 6973440
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 1,
+        "event_label": "l025-proton-s202610202"
+      },
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": "experiments/dram-see-v2/data/geant4/l025-proton-s202610202/event.json",
+          "finished_utc": "2026-10-10T04:16:51.918143+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-proton-s202610202-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T014743Z-v2-base-l025-b1-143253c7",
+          "run_id": "20261010T040947Z-v2-l025-proton-s202610202-b1-9b762333",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T04:09:46.907840+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-proton-s202610202-b1",
+          "wallclock_s": 407.38
+        }
+      ],
+      "manifest_results_sha256": "851a08af01fe3e70c03e1ec8884c0bbe04a50c372d5b3882ab3a4ce2f9102c05",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T040947Z-v2-l025-proton-s202610202-b1-9b762333",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-proton-s202610202-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "ed7da19acd1bc45b51fb7c64ed46dccf8ffc5a1e26ef1341be9affc55381633c",
+        "run_id": "20261010T041652Z-v2-l025-proton-s202610202-b0-ceb2241b",
+        "runner_state": "COLLECTED",
+        "seed": "202610202",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Sat Oct 10 00:23:43 2026  (EDT)).",
+        "solver_wallclock_s": "394.92",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T041652Z-v2-l025-proton-s202610202-b0-ceb2241b/console.log",
+          "present": true,
+          "sha256": "ff5c72fd47441bb7c9c5d1c0f372c36f3dbcbc534de62d096a55eedf9f727eb3",
+          "size_bytes": 890257
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T041652Z-v2-l025-proton-s202610202-b0-ceb2241b/inputs.tar",
+          "present": true,
+          "sha256": "04a417916c4960ab1f41220f62a024dddb66ce2fa15854af4be156d8a0495dc5",
+          "size_bytes": 430080
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T041652Z-v2-l025-proton-s202610202-b0-ceb2241b/manifest.json",
+          "present": true,
+          "sha256": "eb3bbe97325023b5ecd26ad01d66fdbb65b84716d6a43d8158c1b995ca366206",
+          "size_bytes": 2038
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T041652Z-v2-l025-proton-s202610202-b0-ceb2241b/results.tar",
+          "present": true,
+          "sha256": "ed7da19acd1bc45b51fb7c64ed46dccf8ffc5a1e26ef1341be9affc55381633c",
+          "size_bytes": 6963200
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 0,
+        "event_label": "l025-proton-s202610202"
+      },
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": "experiments/dram-see-v2/data/geant4/l025-proton-s202610202/event.json",
+          "finished_utc": "2026-10-10T04:23:44.606302+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-proton-s202610202-b0",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T015428Z-v2-base-l025-b0-c7f26462",
+          "run_id": "20261010T041652Z-v2-l025-proton-s202610202-b0-ceb2241b",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T04:16:52.194664+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-proton-s202610202-b0",
+          "wallclock_s": 394.92
+        }
+      ],
+      "manifest_results_sha256": "ed7da19acd1bc45b51fb7c64ed46dccf8ffc5a1e26ef1341be9affc55381633c",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T041652Z-v2-l025-proton-s202610202-b0-ceb2241b",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-proton-s202610202-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "0ebe7c15d12a1c556392524620c45b17fe97876396ec777647d02ee4e563b58a",
+        "run_id": "20261010T042350Z-v2-l025-proton-s202610203-b1-fbf361f1",
+        "runner_state": "COLLECTED",
+        "seed": "202610203",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Sat Oct 10 00:30:44 2026  (EDT)).",
+        "solver_wallclock_s": "397.16",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T042350Z-v2-l025-proton-s202610203-b1-fbf361f1/console.log",
+          "present": true,
+          "sha256": "5db94bc37b227c8547a554609466f1cbcf42dbafca997dcbbbb7d67e39d60059",
+          "size_bytes": 885626
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T042350Z-v2-l025-proton-s202610203-b1-fbf361f1/inputs.tar",
+          "present": true,
+          "sha256": "b6a01e3e2fd5263f2a4f4b0700d63ce6717d5990a0e775a2caf085ffe89c9803",
+          "size_bytes": 440320
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T042350Z-v2-l025-proton-s202610203-b1-fbf361f1/manifest.json",
+          "present": true,
+          "sha256": "6cc6ab09aacfd8d77fe546b6e180a859348925ed62f1030f57dc2cc3878be5a8",
+          "size_bytes": 2038
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T042350Z-v2-l025-proton-s202610203-b1-fbf361f1/results.tar",
+          "present": true,
+          "sha256": "0ebe7c15d12a1c556392524620c45b17fe97876396ec777647d02ee4e563b58a",
+          "size_bytes": 6973440
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 1,
+        "event_label": "l025-proton-s202610203"
+      },
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": "experiments/dram-see-v2/data/geant4/l025-proton-s202610203/event.json",
+          "finished_utc": "2026-10-10T04:30:45.145592+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-proton-s202610203-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T014743Z-v2-base-l025-b1-143253c7",
+          "run_id": "20261010T042350Z-v2-l025-proton-s202610203-b1-fbf361f1",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T04:23:49.665897+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-proton-s202610203-b1",
+          "wallclock_s": 397.16
+        }
+      ],
+      "manifest_results_sha256": "0ebe7c15d12a1c556392524620c45b17fe97876396ec777647d02ee4e563b58a",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T042350Z-v2-l025-proton-s202610203-b1-fbf361f1",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-proton-s202610203-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "6d00d2e6ca97f2e41c56098916b3d698feea8ba3d82f31b3ee4c2ccadb88ee67",
+        "run_id": "20261010T043046Z-v2-l025-proton-s202610203-b0-e036e27a",
+        "runner_state": "COLLECTED",
+        "seed": "202610203",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Sat Oct 10 00:37:43 2026  (EDT)).",
+        "solver_wallclock_s": "400.02",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T043046Z-v2-l025-proton-s202610203-b0-e036e27a/console.log",
+          "present": true,
+          "sha256": "f2a9b37b60c0660ee7c7ea3427379aa4c9ac26daf025eb4a47fcff00cfb0f464",
+          "size_bytes": 893796
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T043046Z-v2-l025-proton-s202610203-b0-e036e27a/inputs.tar",
+          "present": true,
+          "sha256": "5eff5ed5700e659805753b42a0b70a5d988007991d5072110239f0acaa836b40",
+          "size_bytes": 430080
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T043046Z-v2-l025-proton-s202610203-b0-e036e27a/manifest.json",
+          "present": true,
+          "sha256": "d3ddbbca1798f81c5e0f14e9904ed2dc9ec4b4f9e85cf1996e6a666bb7b2880b",
+          "size_bytes": 2038
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T043046Z-v2-l025-proton-s202610203-b0-e036e27a/results.tar",
+          "present": true,
+          "sha256": "6d00d2e6ca97f2e41c56098916b3d698feea8ba3d82f31b3ee4c2ccadb88ee67",
+          "size_bytes": 6973440
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 0,
+        "event_label": "l025-proton-s202610203"
+      },
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": "experiments/dram-see-v2/data/geant4/l025-proton-s202610203/event.json",
+          "finished_utc": "2026-10-10T04:37:44.378342+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-proton-s202610203-b0",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T015428Z-v2-base-l025-b0-c7f26462",
+          "run_id": "20261010T043046Z-v2-l025-proton-s202610203-b0-e036e27a",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T04:30:45.445159+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-proton-s202610203-b0",
+          "wallclock_s": 400.02
+        }
+      ],
+      "manifest_results_sha256": "6d00d2e6ca97f2e41c56098916b3d698feea8ba3d82f31b3ee4c2ccadb88ee67",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T043046Z-v2-l025-proton-s202610203-b0-e036e27a",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-proton-s202610203-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "130fa1e886f945986bc4ae3c930edc22833feba6c8a3d101a84f2b1ea4986e1e",
+        "run_id": "20261010T043750Z-v2-l025-proton-s202610204-b1-af7c6937",
+        "runner_state": "COLLECTED",
+        "seed": "202610204",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Sat Oct 10 00:44:50 2026  (EDT)).",
+        "solver_wallclock_s": "402.94",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T043750Z-v2-l025-proton-s202610204-b1-af7c6937/console.log",
+          "present": true,
+          "sha256": "e2e394cfb7ad4523dc56fd628265e2604059a161336e7e43b217334b1da685ae",
+          "size_bytes": 883979
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T043750Z-v2-l025-proton-s202610204-b1-af7c6937/inputs.tar",
+          "present": true,
+          "sha256": "5c3f2ca7d888ddb2a23b13b81e3561d9737365632eeb7ae6f6ab9a84ba60fff6",
+          "size_bytes": 430080
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T043750Z-v2-l025-proton-s202610204-b1-af7c6937/manifest.json",
+          "present": true,
+          "sha256": "5d93ffcf3244cc9695d5426a2bac79aa00073d463d4519eff1f02d29bab7ed6d",
+          "size_bytes": 2038
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T043750Z-v2-l025-proton-s202610204-b1-af7c6937/results.tar",
+          "present": true,
+          "sha256": "130fa1e886f945986bc4ae3c930edc22833feba6c8a3d101a84f2b1ea4986e1e",
+          "size_bytes": 6973440
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 1,
+        "event_label": "l025-proton-s202610204"
+      },
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": "experiments/dram-see-v2/data/geant4/l025-proton-s202610204/event.json",
+          "finished_utc": "2026-10-10T04:44:51.139865+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-proton-s202610204-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T014743Z-v2-base-l025-b1-143253c7",
+          "run_id": "20261010T043750Z-v2-l025-proton-s202610204-b1-af7c6937",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T04:37:49.498258+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-proton-s202610204-b1",
+          "wallclock_s": 402.94
+        }
+      ],
+      "manifest_results_sha256": "130fa1e886f945986bc4ae3c930edc22833feba6c8a3d101a84f2b1ea4986e1e",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T043750Z-v2-l025-proton-s202610204-b1-af7c6937",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-proton-s202610204-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "0",
+        "results_sha256": "2ea81b74361fa0e17d939adf1c7b2a115ebb714f698fdee2b13a87885d6ff103",
+        "run_id": "20261010T044452Z-v2-l025-proton-s202610204-b0-86d0723a",
+        "runner_state": "COLLECTED",
+        "seed": "202610204",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Sat Oct 10 00:52:29 2026  (EDT)).",
+        "solver_wallclock_s": "442.01",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T044452Z-v2-l025-proton-s202610204-b0-86d0723a/console.log",
+          "present": true,
+          "sha256": "ae9586655650100613439ae7e52f3c049a4c3b269d3812f8e1b1695af6c79918",
+          "size_bytes": 894726
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T044452Z-v2-l025-proton-s202610204-b0-86d0723a/inputs.tar",
+          "present": true,
+          "sha256": "21f9d6545335f17817f3c9c882cf629b207e59f45c4cb4982abb4519a5353571",
+          "size_bytes": 430080
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T044452Z-v2-l025-proton-s202610204-b0-86d0723a/manifest.json",
+          "present": true,
+          "sha256": "d610ea045e5aaffdad9d3fd944799c3969882242f37e85ac53d1271e302fb17d",
+          "size_bytes": 2038
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T044452Z-v2-l025-proton-s202610204-b0-86d0723a/results.tar",
+          "present": true,
+          "sha256": "2ea81b74361fa0e17d939adf1c7b2a115ebb714f698fdee2b13a87885d6ff103",
+          "size_bytes": 6973440
+        }
+      },
+      "frozen_event_pair": {
+        "bit": 0,
+        "event_label": "l025-proton-s202610204"
+      },
+      "ledger_observations": [
+        {
+          "bit": 0,
+          "event": "experiments/dram-see-v2/data/geant4/l025-proton-s202610204/event.json",
+          "finished_utc": "2026-10-10T04:52:30.429567+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-l025-proton-s202610204-b0",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T015428Z-v2-base-l025-b0-c7f26462",
+          "run_id": "20261010T044452Z-v2-l025-proton-s202610204-b0-86d0723a",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T04:44:51.410161+00:00",
+          "state": "VERIFIED",
+          "step": 1,
+          "tag": "v2-l025-proton-s202610204-b0",
+          "wallclock_s": 442.01
+        }
+      ],
+      "manifest_results_sha256": "2ea81b74361fa0e17d939adf1c7b2a115ebb714f698fdee2b13a87885d6ff103",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "independent_event_response",
+      "role_basis": "exact frozen event label and paired bit tag",
+      "run_id": "20261010T044452Z-v2-l025-proton-s202610204-b0-86d0723a",
+      "ssh_exit_code": 0,
+      "tag": "v2-l025-proton-s202610204-b0"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "467e953d86730d0916bea1b3628fbbc0f3120a45bdce87ad2214b47914e01a54",
+        "run_id": "20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b",
+        "runner_state": "COLLECTED",
+        "seed": "",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Sat Oct 10 01:04:02 2026  (EDT)).",
+        "solver_wallclock_s": "643.39",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b/console.log",
+          "present": true,
+          "sha256": "62948677751712d49f3ea8a9f0a5e9db6cda5c1cbd232676759b07b0d9a39ce7",
+          "size_bytes": 1891793
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b/inputs.tar",
+          "present": true,
+          "sha256": "5c7bf92bbb4885c874302e16d9930cd9dfcccbdab6addcd872c190db95f15928",
+          "size_bytes": 20480
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b/manifest.json",
+          "present": true,
+          "sha256": "fa5e24e3a790ded7b441f21a7bd45626808e830a1f2fbe18a48e66e5cbf39db3",
+          "size_bytes": 1546
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b/results.tar",
+          "present": true,
+          "sha256": "467e953d86730d0916bea1b3628fbbc0f3120a45bdce87ad2214b47914e01a54",
+          "size_bytes": 9748480
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": null,
+          "finished_utc": "2026-10-10T05:04:03.651469+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-validate-halfstep-control-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": null,
+          "run_id": "20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T04:52:55.410812+00:00",
+          "state": "VERIFIED",
+          "step": 0.5,
+          "tag": "v2-validate-halfstep-control-b1",
+          "wallclock_s": 643.39
+        }
+      ],
+      "manifest_results_sha256": "467e953d86730d0916bea1b3628fbbc0f3120a45bdce87ad2214b47914e01a54",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "numerical_validation",
+      "role_basis": "validation run tag; does not add an independent event",
+      "run_id": "20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b",
+      "ssh_exit_code": 0,
+      "tag": "v2-validate-halfstep-control-b1"
+    },
+    {
+      "archive_collection_success": true,
+      "audit_observation": {
+        "L_um": "0.25",
+        "audit_state": "verified",
+        "bit": "1",
+        "results_sha256": "64773abf04d0cd96af9785f7a427b9daf83f703616aee894a2e3a6611513d4af",
+        "run_id": "20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46",
+        "runner_state": "COLLECTED",
+        "seed": "202610101",
+        "solver_completion": "Sentaurus Device simulation finished (Date: Sat Oct 10 01:16:32 2026  (EDT)).",
+        "solver_wallclock_s": "732.18",
+        "ssh_exit_code": "0"
+      },
+      "audit_runner_state_matches_manifest": true,
+      "failure_reasons": [],
+      "files": {
+        "console.log": {
+          "path": "local_runtime/runs/20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46/console.log",
+          "present": true,
+          "sha256": "8d7d37a3ad7e1c231baf6e968fab67f186c8b7149c939f9d184d4feb7d632a4c",
+          "size_bytes": 1675459
+        },
+        "inputs.tar": {
+          "path": "local_runtime/runs/20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46/inputs.tar",
+          "present": true,
+          "sha256": "559ec8ef881abb0510391e3f85a20684e9ab4b91e15f6d31b4a86392aafaf106",
+          "size_bytes": 450560
+        },
+        "manifest.json": {
+          "path": "local_runtime/runs/20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46/manifest.json",
+          "present": true,
+          "sha256": "cd7b9b14f21a393b24ecc30ec80a93fb7079e61f650a0fca5336ed66ec3e16a6",
+          "size_bytes": 2072
+        },
+        "results.tar": {
+          "path": "local_runtime/runs/20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46/results.tar",
+          "present": true,
+          "sha256": "64773abf04d0cd96af9785f7a427b9daf83f703616aee894a2e3a6611513d4af",
+          "size_bytes": 9226240
+        }
+      },
+      "frozen_event_pair": null,
+      "ledger_observations": [
+        {
+          "bit": 1,
+          "event": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610101/event.json",
+          "finished_utc": "2026-10-10T05:16:33.555780+00:00",
+          "input_directory": "local_runtime\\dram-see-v2\\inputs\\v2-validate-halfstep-l025-alpha-s202610101-b1",
+          "length_um": 0.25,
+          "mesh": 1,
+          "parent": "20261010T045256Z-v2-validate-halfstep-control-b1-7d0a349b",
+          "run_id": "20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46",
+          "runner_exit_code": 0,
+          "started_utc": "2026-10-10T05:04:03.931183+00:00",
+          "state": "VERIFIED",
+          "step": 0.5,
+          "tag": "v2-validate-halfstep-l025-alpha-s202610101-b1",
+          "wallclock_s": 732.18
+        }
+      ],
+      "manifest_results_sha256": "64773abf04d0cd96af9785f7a427b9daf83f703616aee894a2e3a6611513d4af",
+      "manifest_state": "COLLECTED",
+      "results_hash_matches_manifest": true,
+      "role": "numerical_validation",
+      "role_basis": "validation run tag; does not add an independent event",
+      "run_id": "20261010T050404Z-v2-validate-halfstep-l025-alpha-s202610101-b1-d9502d46",
+      "ssh_exit_code": 0,
+      "tag": "v2-validate-halfstep-l025-alpha-s202610101-b1"
+    }
+  ],
+  "scan_allowlist": [
+    "experiments/dram-see-v2",
+    "local_runtime/runs/<timestamp>-v2-<tag>-<8hex>/{inputs.tar,results.tar,manifest.json,console.log}",
+    "local_runtime/dram-see-v2/ledger.json"
+  ],
+  "schema": "dram-see-v2-delivery-index-v1",
+  "scope": "Local navigation and actual byte hashes only; not a scientific reclassification or completion certificate.",
+  "statistics_policy": "Frozen design, classifications, counts and intervals are preserved in their existing files. Paired bit responses and validation runs do not create new independent events."
+}

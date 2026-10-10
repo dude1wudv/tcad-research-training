@@ -1,0 +1,150 @@
+{
+  "request": "栅长 0.18,0.25,0.35,0.45 um；粒子 alpha,proton；能量 5 MeV；角度 0,30 deg",
+  "parser_scope": "Constrained Chinese template compiled by deterministic rules; AI authored workflow, no autonomous external LLM API",
+  "cases": [
+    {
+      "id": "l018-alpha-e5-a0",
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l018-alpha-e5-a30",
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l018-proton-e5-a0",
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l018-proton-e5-a30",
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l025-alpha-e5-a0",
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l025-alpha-e5-a30",
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l025-proton-e5-a0",
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l025-proton-e5-a30",
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l035-alpha-e5-a0",
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l035-alpha-e5-a30",
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l035-proton-e5-a0",
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l035-proton-e5-a30",
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l045-alpha-e5-a0",
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l045-alpha-e5-a30",
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l045-proton-e5-a0",
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1
+    },
+    {
+      "id": "l045-proton-e5-a30",
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1
+    }
+  ]
+}

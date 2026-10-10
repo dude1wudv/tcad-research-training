@@ -1,0 +1,16 @@
+{
+  "gate_length_um": 0.25,
+  "charge_pc": 0.007659403595125654,
+  "angle_deg": 0.0,
+  "mesh_scale": 1.0,
+  "step_scale": 1.0,
+  "track_length_um": 1.2,
+  "let_pc_per_um": 0.006382836329271379,
+  "capacitance_F": 1e-14,
+  "effective_thickness_um": 1,
+  "temperature_K": 300,
+  "track_radius_um": 0.03,
+  "source_event": "experiments/dram-see-v1/data/geant4/pilot-alpha5-l025-a0/event.json",
+  "restart_run": null,
+  "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+}

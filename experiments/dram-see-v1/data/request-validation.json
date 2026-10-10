@@ -1,0 +1,9 @@
+{
+  "compiled_16_case_request": "matrix-request.json",
+  "matches_frozen_matrix_ignoring_split": true,
+  "rejected_request": "栅长 0.01 um；粒子 alpha；能量 5 MeV；角度 0 deg",
+  "rejected_exit_code": 1,
+  "created_rejected_input": false,
+  "stderr": "ValueError: Request outside frozen v1 bounds",
+  "scope": "Deterministic constrained Chinese parser, not general LLM understanding"
+}

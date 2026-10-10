@@ -1,0 +1,247 @@
+{
+  "schema": "dram-see-v2",
+  "frozen_utc": "2026-10-10T02:43:38.577837+00:00",
+  "n_per_particle": 4,
+  "independent_event_count": 8,
+  "tcad_paired_response_count": 16,
+  "events": [
+    {
+      "label": "l025-alpha-s202610101",
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5,
+      "angle_deg": 0,
+      "seed": 202610101,
+      "replicate": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "role": "independent_event_pilot"
+    },
+    {
+      "label": "l025-alpha-s202610102",
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5,
+      "angle_deg": 0,
+      "seed": 202610102,
+      "replicate": 1,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "role": "independent_event_pilot"
+    },
+    {
+      "label": "l025-alpha-s202610103",
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5,
+      "angle_deg": 0,
+      "seed": 202610103,
+      "replicate": 2,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "role": "independent_event_pilot"
+    },
+    {
+      "label": "l025-alpha-s202610104",
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5,
+      "angle_deg": 0,
+      "seed": 202610104,
+      "replicate": 3,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "role": "independent_event_pilot"
+    },
+    {
+      "label": "l025-proton-s202610201",
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5,
+      "angle_deg": 0,
+      "seed": 202610201,
+      "replicate": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "role": "independent_event_pilot"
+    },
+    {
+      "label": "l025-proton-s202610202",
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5,
+      "angle_deg": 0,
+      "seed": 202610202,
+      "replicate": 1,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "role": "independent_event_pilot"
+    },
+    {
+      "label": "l025-proton-s202610203",
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5,
+      "angle_deg": 0,
+      "seed": 202610203,
+      "replicate": 2,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "role": "independent_event_pilot"
+    },
+    {
+      "label": "l025-proton-s202610204",
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5,
+      "angle_deg": 0,
+      "seed": 202610204,
+      "replicate": 3,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "role": "independent_event_pilot"
+    }
+  ],
+  "epsilon_mV": [
+    2.5,
+    5,
+    10
+  ],
+  "main_epsilon_mV": 5,
+  "sampling": "fixed position, 5 MeV, vertical; one unique seed per event; paired states not independent events",
+  "scope": "small event pilot at L=0.25 um; no cross section or calibrated population probability",
+  "solver_budget_s": 14400,
+  "stopping": "budget or numerical failure only, never observed class; incomplete counts disclosed",
+  "resource_basis": "4 independent events per particle frozen before any v2 particle response; observed first five v2 controls 352.10-390.08 s, archived v1 focus particles 242.03-271.65 s without the new readout; conservative 450 s per new response plus eight controls, debug and numerical validation within 4 single-core solver hours",
+  "generator_sha256": "861ddb0188dc5a4f70846b66da7302647dd92fbbad15c42a5087f29f6b3ed46b",
+  "analysis_sha256_at_freeze": {
+    "audit.py": "0ca60a603dbcdb74410c05eb6e2f7fb7f5ca8ecadbe3557e5fa3e20fdb2e845f",
+    "numerical_checks.py": "1119acd2d0bd6f08d8af58ea5c72dff4562ade08e264d9f57e019ffc8bbbba4c",
+    "summarize.py": "92672ad4fff9291e0d185b09ca815c5bed615be9931ed615287c85ff00c3a2e8",
+    "statistics.py": "f5e0978d6bff953489af73b8903390ff050dd9696121d5379061aa447ee1cfee",
+    "event_audit.py": "4e77890e2adc621b92494e45a545e2fec9bdada38a651a4e75ebedd868be3b02"
+  },
+  "numerical_selection": "closest margin to any registered threshold; require raw, control and corrected D differences <=0.5 mV and all threshold classifications stable; no change to event denominator",
+  "prior_transport_exposure": [
+    {
+      "path": "experiments/dram-see-v2/data/geant4/l025-alpha-s202610101/event.json",
+      "sha256": "05afd168a947ee8cebac81ca0fc25675290ae20e3735e05ad8d6a168d85e2c93"
+    }
+  ],
+  "prior_transport_exposure_scope": "Existing source energy may have been seen; no v2 particle TCAD response submitted before freeze, no seed excluded or replaced",
+  "baseline_run_ids": [
+    "20261010T014743Z-v2-base-l025-b1-143253c7",
+    "20261010T015428Z-v2-base-l025-b0-c7f26462",
+    "20261010T020125Z-v2-base-l018-b1-2ec67cc7",
+    "20261010T020746Z-v2-base-l018-b0-7fc642c3",
+    "20261010T021423Z-v2-base-l035-b1-e8e23dd5",
+    "20261010T022330Z-v2-base-l035-b0-b94ca8fd",
+    "20261010T023000Z-v2-base-l045-b1-33bed107",
+    "20261010T023625Z-v2-base-l045-b0-09c9d309"
+  ],
+  "solver_wallclock_before_freeze_s": 2976.59
+}

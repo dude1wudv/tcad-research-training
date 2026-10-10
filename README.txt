@@ -1,9 +1,25 @@
 TCAD 科研训练工作区
 ===================
-研究主线：AI 辅助 TCAD 迭代仿真与自动化处理的项目报告。
-具体器件题目等待老师下发；不默认采用 PN 结，不继承旧项目的器件、辐照剂量或结论。
+研究主线：AI 辅助 Geant4/TCAD 多特征尺寸 DRAM 单粒子效应评估、拟合、外推与验证。
+项目设计题目：AI辅助下的存储器单粒子效应评估（指导教师：李洋）。
+题目原文提取稿：docs/course-project-syllabus.md；题目要点与任务卡：experiments/plan.md 第 0.1、10 节。
+实施路线与近期任务：experiments/roadmap.md；报告与作品演示：reports/outline.md。
+“多特征尺寸”来自大纲文件名及基本要求；封面最终题名由指导教师确认。
+不默认采用 PN 结，不继承旧项目的器件、辐照剂量或结论。
 私有仓库：https://github.com/dude1wudv/tcad-research-training
 实验方案：experiments/plan.md；报告提纲：reports/outline.md。
+
+当前状态（2026-10-09）
+---------------------
+课程题目已接入；用户授权的第一版探索实验已完成真实 Geant4→TCAD 16 点矩阵，
+含四种栅长、两种粒子、两个方向、匹配无粒子对照及域内/域外预测验证。
+报告、图表、失败复盘与复现入口：experiments/dram-see-v1/README.md。
+代表点网格/时间步细化已通过；最终数值状态以该实验报告为准。
+模型是未校准二维 NMOS + 理想电容的 1T1C，不能当成实验室 DRAM 模型或商业工艺节点。
+仍需实验室模型/参数来源、物理校准、独立事件统计及课程审核与正式交付；
+已有 PN/VDMOS 材料仅复用操作经验，没有混入本次数据。
+项目设计评分：导师评价20%、项目报告20%、答辩或作品演示60%；
+原“科研训练”课程的字数、阅读量及60%/40%评分要求单列，仅在确认兼报时适用。
 
 设计参考：
 https://github.com/dude1wudv/vdmos-tid-research
@@ -22,12 +38,14 @@ E:/TCAD-Workspace/local/                 本机部署材料，绝不入库
 仓库结构
 --------
 AGENTS.md                             仓库级 Agent 操作、验收和安全规范
+docs/course-project-syllabus.md       项目设计课程大纲原文提取及来源指纹
 scripts/tcad.py                        Python 标准库运行器
 simulation/qualification/pn-diode/      实际 SDE/SDevice 环境基准
 config/connection.example.json         无秘密的连接配置示例
 records/                               人工审核后的环境及实验记录
 design-notes/                          可复用设计流程、排障经验及验证边界（入口 README.md）
-experiments/                           器件无关实验方案及题目下发后的冻结定义
+experiments/                           已下发题目的执行方案及冻结定义
+experiments/roadmap.md                 核心需求映射、阶段安排与近期任务
 reports/                               报告提纲及后续正式报告
 local_runtime/                         被忽略的连接配置、主机公钥、日志和原始结果
 
@@ -55,7 +73,7 @@ Sentaurus 版本探测不等于许可证有效；只有实际求解成功才证�
 ------------
 题目/文献与单位约定 -> 器件结构与接触 -> 掺杂/网格 -> 平衡解 -> 偏压 ramp
 -> 基线标定 -> 网格/步长敏感性 -> 单因素扫描 -> 参数提取 -> 图件与科研报告。
-题目确定后再建立正式工程，不以环境二极管冒充作业结果。
+题目范围与器件定义冻结后再建立正式工程，不以环境二极管冒充作业结果。
 正式 Workbench 工程需保留原生项目文件、参数表、节点关系和对应 deck；
 运行器只接受已解析的命令文件，不自行替换 @node@ 等 Workbench 占位符。
 

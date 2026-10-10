@@ -1,0 +1,49 @@
+{
+  "scope": "pure helper tests only; synthetic classes, no physical simulation or summaries generated",
+  "checks": 101,
+  "status": "passed",
+  "zero_of_six": {
+    "planned_n": 6,
+    "completed_n": 6,
+    "missing_or_failed_n": 0,
+    "correct": 6,
+    "definite_flip": 0,
+    "uncertain": 0,
+    "planned_definite_fraction_lower": 0.0,
+    "planned_flip_uncertain_missing_fraction_upper": 0.0,
+    "complete_planned_stratum": true,
+    "wilson_95_definite": [
+      0.0,
+      0.3903342879021653
+    ],
+    "wilson_95_flip_or_uncertain": [
+      0.0,
+      0.3903342879021653
+    ],
+    "zero_definite_flip_exact_one_sided_95_upper": 0.39303776899708276,
+    "zero_flip_or_uncertain_exact_one_sided_95_upper": 0.39303776899708276,
+    "n_independent_events": 6,
+    "definite_flip_fraction": 0.0
+  },
+  "zero_completed_of_six": {
+    "planned_n": 6,
+    "completed_n": 0,
+    "missing_or_failed_n": 6,
+    "correct": 0,
+    "definite_flip": 0,
+    "uncertain": 0,
+    "planned_definite_fraction_lower": 0.0,
+    "planned_flip_uncertain_missing_fraction_upper": 1.0,
+    "complete_planned_stratum": false,
+    "wilson_95_definite": null,
+    "wilson_95_flip_or_uncertain": null,
+    "zero_definite_flip_exact_one_sided_95_upper": null,
+    "zero_flip_or_uncertain_exact_one_sided_95_upper": null
+  },
+  "hashes": {
+    "summarize.py": "6f0c7e30b60f5595060438b276e5339d5d25953ee13e977c063dad1d89cad43d",
+    "statistics.py": "f5e0978d6bff953489af73b8903390ff050dd9696121d5379061aa447ee1cfee",
+    "plot_results.py": "c57812500a6d1f1e246cab65240e9beebec72a2fcf79d227ad4f1aa47d83d5a4",
+    "run_stage.py": "a154843e9f991bb389f8e7551b7eff0864073b74bfeb58a6908fb21b7e1125a5"
+  }
+}

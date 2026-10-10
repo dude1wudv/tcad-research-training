@@ -1,0 +1,16 @@
+{
+  "spec_sha256": "2d5ece1663f5a891633300e096cbfa1cf215a29c88673849136f6d9260d68ee9",
+  "provider": "existing-private-vm-ssh",
+  "environment_status": "Real Geant4/SDevice coupled 16-case matrix completed; independent archive/prediction audit and representative combined mesh/time refinement passed; uncalibrated prototype",
+  "kernel_witness": "python experiments/dram-see-v1/transport.py validation-alpha5-l025-a0 --length 0.25 --particle alpha --energy 5 --angle 0",
+  "validation_exit_code": 0,
+  "binary_rebuild_cmp_exit_code": 0,
+  "full_scientific_validation": false,
+  "tcad_witness_run": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+  "tcad_witness_ssh_exit_code": 0,
+  "source_binding_validation_tests": 6,
+  "source_binding_validation_exit_code": 0,
+  "completed_matrix_cases": 16,
+  "numerical_refinement_passed": true,
+  "numerical_validation": "experiments/dram-see-v1/data/numerical-validation.json"
+}

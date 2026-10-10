@@ -1,0 +1,28 @@
+{
+  "label": "l045-proton-e5-a30",
+  "gate_length_um": 0.45,
+  "particle": "proton",
+  "energy_MeV": 5.0,
+  "angle_deg": 30,
+  "seed": 20261009,
+  "event_count": 1,
+  "conversion_eV_per_pair": 3.6,
+  "converted": [
+    {
+      "event": 0,
+      "ionizing_MeV": 0.0107384440922983,
+      "charge_pc": 0.0004779134502832133,
+      "track_length_um": 1.3856406460551016,
+      "let_pc_per_um": 0.00034490432396294506,
+      "step_sum_relative_error": 2.2616059137555605e-15
+    }
+  ],
+  "source_sha256": "8f3ec870dad0905be7516bf657ed033d8cf5c5ade7cef938a941622b2f483ce2",
+  "files_sha256": {
+    "events.csv": "9a30a49626047f4579585a1a7e23e22e89da71b4d3413b094aa7752515d073f6",
+    "steps.csv": "571bc14649a9160182d1ad91f6d6eb92d33b8866534b1080c81b4fe328571b33"
+  },
+  "command": "${EXPERIMENT_ROOT}/build/transport 0.45 proton 5.0 30 20261009 1",
+  "operation_exit_code": 0,
+  "scope": "EM-only slab event, projected to uniform straight track; not full 3D deposition mapping"
+}

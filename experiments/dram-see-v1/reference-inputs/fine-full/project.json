@@ -1,0 +1,27 @@
+{
+  "name": "refine-alpha5-l025-a0",
+  "steps": [
+    {
+      "tool": "sde",
+      "args": [
+        "-e",
+        "-l",
+        "geometry.scm"
+      ],
+      "outputs": [
+        "cell_msh.tdr"
+      ]
+    },
+    {
+      "tool": "sdevice",
+      "args": [
+        "device.cmd"
+      ],
+      "outputs": [
+        "circuit.plt",
+        "transient_des.log",
+        "final_access_des.tdr"
+      ]
+    }
+  ]
+}

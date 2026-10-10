@@ -1,0 +1,181 @@
+{
+  "status": "frozen before particle-response results",
+  "response_target": "baseline-corrected storage voltage drop at 3ns relative to 0.95ns",
+  "train_lengths_um": [
+    0.18,
+    0.35
+  ],
+  "interpolation_length_um": 0.25,
+  "extrapolation_length_um": 0.45,
+  "regression_features": [
+    "1",
+    "Qdep_fC",
+    "Qdep_fC/L_um",
+    "Qdep_fC*sin(angle)"
+  ],
+  "regression": "ordinary least squares; compare training-mean baseline; no test-based hyperparameter tuning",
+  "limitation": "two-stage surrogate requires Geant4 deposited charge as input; not a standalone particle-to-effect model",
+  "target_max_abs_error_V": 0.05,
+  "cases": [
+    {
+      "id": "l018-alpha-e5-a0",
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1,
+      "split": "train"
+    },
+    {
+      "id": "l018-alpha-e5-a30",
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1,
+      "split": "train"
+    },
+    {
+      "id": "l018-proton-e5-a0",
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1,
+      "split": "train"
+    },
+    {
+      "id": "l018-proton-e5-a30",
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1,
+      "split": "train"
+    },
+    {
+      "id": "l025-alpha-e5-a0",
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1,
+      "split": "interpolation_test"
+    },
+    {
+      "id": "l025-alpha-e5-a30",
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1,
+      "split": "interpolation_test"
+    },
+    {
+      "id": "l025-proton-e5-a0",
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1,
+      "split": "interpolation_test"
+    },
+    {
+      "id": "l025-proton-e5-a30",
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1,
+      "split": "interpolation_test"
+    },
+    {
+      "id": "l035-alpha-e5-a0",
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1,
+      "split": "train"
+    },
+    {
+      "id": "l035-alpha-e5-a30",
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1,
+      "split": "train"
+    },
+    {
+      "id": "l035-proton-e5-a0",
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1,
+      "split": "train"
+    },
+    {
+      "id": "l035-proton-e5-a30",
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1,
+      "split": "train"
+    },
+    {
+      "id": "l045-alpha-e5-a0",
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1,
+      "split": "extrapolation_test"
+    },
+    {
+      "id": "l045-alpha-e5-a30",
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1,
+      "split": "extrapolation_test"
+    },
+    {
+      "id": "l045-proton-e5-a0",
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "seed": 20261009,
+      "events": 1,
+      "split": "extrapolation_test"
+    },
+    {
+      "id": "l045-proton-e5-a30",
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "seed": 20261009,
+      "events": 1,
+      "split": "extrapolation_test"
+    }
+  ]
+}

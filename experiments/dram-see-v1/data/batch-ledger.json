@@ -1,0 +1,318 @@
+{
+  "matrix_sha256": "e74691aec1ec162a6c5298564502e76de8252c24cf47db29e4eab816338c0005",
+  "runs": {
+    "control-l025": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:06:31.962153+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\control-l025",
+      "run_id": "20261009T170632Z-control-l025-cd6c15bc",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T17:08:51.031440+00:00",
+      "voltage_drop_V": 1.9035140130796435e-09
+    },
+    "see-l025-alpha-e5-a0": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:08:57.621229+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l025-alpha-e5-a0",
+      "run_id": "20261009T170858Z-see-l025-alpha-e5-a0-c07e356d",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T17:13:47.299186+00:00",
+      "voltage_drop_V": 0.489018697934879
+    },
+    "baseline-l018": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:14:21.038943+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\baseline-l018",
+      "run_id": "20261009T171421Z-baseline-l018-2936f0de",
+      "runner_exit_code": null,
+      "archive_ssh_exit_code": 0,
+      "voltage_drop_V": 2.280473770932545e-07,
+      "recovered_utc": "2026-10-09T17:20:45.946583+00:00",
+      "recovery": "Controller stopped for metadata fix; retained tcad.py child completed COLLECTED, archive hashes and analyze passed. Local parent return code unavailable."
+    },
+    "control-l018": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:20:48.801058+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\control-l018",
+      "run_id": "20261009T172049Z-control-l018-e0d03b07",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T17:23:15.852400+00:00",
+      "voltage_drop_V": 2.2804736499182354e-07
+    },
+    "see-l018-alpha-e5-a0": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:23:22.735101+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l018-alpha-e5-a0",
+      "run_id": "20261009T172323Z-see-l018-alpha-e5-a0-c60200ef",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T17:28:36.882019+00:00",
+      "voltage_drop_V": 0.48810782914168505
+    },
+    "see-l018-alpha-e5-a30": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:28:43.953986+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l018-alpha-e5-a30",
+      "run_id": "20261009T172844Z-see-l018-alpha-e5-a30-bcfd55e1",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T17:33:53.134477+00:00",
+      "voltage_drop_V": 0.41820608747883303
+    },
+    "see-l018-proton-e5-a0": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:33:58.499202+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l018-proton-e5-a0",
+      "run_id": "20261009T173359Z-see-l018-proton-e5-a0-9e6d33d7",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T17:38:26.160185+00:00",
+      "voltage_drop_V": 0.020260711463886083
+    },
+    "see-l018-proton-e5-a30": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:38:31.270967+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l018-proton-e5-a30",
+      "run_id": "20261009T173832Z-see-l018-proton-e5-a30-ebcd4acb",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T17:42:58.919309+00:00",
+      "voltage_drop_V": 0.018553068703088038
+    },
+    "see-l025-alpha-e5-a30": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:43:04.566197+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l025-alpha-e5-a30",
+      "run_id": "20261009T174305Z-see-l025-alpha-e5-a30-eede9033",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T17:47:56.343707+00:00",
+      "voltage_drop_V": 0.43823986777914703
+    },
+    "see-l025-proton-e5-a0": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:48:01.904658+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l025-proton-e5-a0",
+      "run_id": "20261009T174802Z-see-l025-proton-e5-a0-3c53862f",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T17:52:23.500780+00:00",
+      "voltage_drop_V": 0.02039451238238199
+    },
+    "see-l025-proton-e5-a30": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:52:28.561023+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l025-proton-e5-a30",
+      "run_id": "20261009T175229Z-see-l025-proton-e5-a30-9f014b6f",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T17:56:49.144049+00:00",
+      "voltage_drop_V": 0.018694238112804018
+    },
+    "baseline-l035": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T17:56:49.205633+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\baseline-l035",
+      "run_id": "20261009T175650Z-baseline-l035-a03f6fcd",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:02:06.126173+00:00",
+      "voltage_drop_V": 3.134499326762352e-10
+    },
+    "control-l035": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T18:02:06.193028+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\control-l035",
+      "run_id": "20261009T180207Z-control-l035-6c8aa748",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:04:25.213206+00:00",
+      "voltage_drop_V": 3.134760229173139e-10
+    },
+    "see-l035-alpha-e5-a0": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T18:04:31.972678+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l035-alpha-e5-a0",
+      "run_id": "20261009T180432Z-see-l035-alpha-e5-a0-579b0628",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:09:17.202590+00:00",
+      "voltage_drop_V": 0.490138090927195
+    },
+    "see-l035-alpha-e5-a30": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T18:09:22.322794+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l035-alpha-e5-a30",
+      "run_id": "20261009T180923Z-see-l035-alpha-e5-a30-dd0e675c",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:14:08.747932+00:00",
+      "voltage_drop_V": 0.446428162548913
+    },
+    "see-l035-proton-e5-a0": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T18:14:14.354415+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l035-proton-e5-a0",
+      "run_id": "20261009T181415Z-see-l035-proton-e5-a0-ed3e0095",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:18:37.094658+00:00",
+      "voltage_drop_V": 0.020592449144078984
+    },
+    "see-l035-proton-e5-a30": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T18:18:43.872789+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l035-proton-e5-a30",
+      "run_id": "20261009T181844Z-see-l035-proton-e5-a30-b236cf98",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:23:11.559361+00:00",
+      "voltage_drop_V": 0.01908144209795204
+    },
+    "baseline-l045": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T18:23:11.617235+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\baseline-l045",
+      "run_id": "20261009T182312Z-baseline-l045-2c348977",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:27:30.472226+00:00",
+      "voltage_drop_V": 1.6747592201937778e-10
+    },
+    "control-l045": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T18:27:30.520985+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\control-l045",
+      "run_id": "20261009T182731Z-control-l045-040583a3",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:29:49.964268+00:00",
+      "voltage_drop_V": 1.6747392361793345e-10
+    },
+    "see-l045-alpha-e5-a0": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T18:29:55.131108+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l045-alpha-e5-a0",
+      "run_id": "20261009T182956Z-see-l045-alpha-e5-a0-e30537b9",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:34:58.816339+00:00",
+      "voltage_drop_V": 0.490764478050029
+    },
+    "see-l045-alpha-e5-a30": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T18:35:03.965981+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l045-alpha-e5-a30",
+      "run_id": "20261009T183504Z-see-l045-alpha-e5-a30-d6bb7fb9",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:40:04.801305+00:00",
+      "voltage_drop_V": 0.454142990118389
+    },
+    "see-l045-proton-e5-a0": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T18:40:09.965519+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l045-proton-e5-a0",
+      "run_id": "20261009T184010Z-see-l045-proton-e5-a0-6de5d89b",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:44:37.758266+00:00",
+      "voltage_drop_V": 0.02076667714885494
+    },
+    "see-l045-proton-e5-a30": {
+      "state": "VERIFIED",
+      "started_utc": "2026-10-09T18:44:43.379863+00:00",
+      "input_directory": "local_runtime\\dram-see-v1\\inputs\\see-l045-proton-e5-a30",
+      "run_id": "20261009T184444Z-see-l045-proton-e5-a30-a438b3cf",
+      "runner_exit_code": 0,
+      "finished_utc": "2026-10-09T18:49:08.778025+00:00",
+      "voltage_drop_V": 0.019481006145175006
+    }
+  },
+  "cases": {
+    "l025-alpha-e5-a0": {
+      "run_id": "20261009T170858Z-see-l025-alpha-e5-a0-c07e356d",
+      "baseline_run": "20261009T170632Z-control-l025-cd6c15bc",
+      "split": "interpolation_test",
+      "event": "experiments/dram-see-v1/data/geant4/l025-alpha-e5-a0/event.json"
+    },
+    "l018-alpha-e5-a0": {
+      "run_id": "20261009T172323Z-see-l018-alpha-e5-a0-c60200ef",
+      "baseline_run": "20261009T172049Z-control-l018-e0d03b07",
+      "split": "train",
+      "event": "experiments/dram-see-v1/data/geant4/l018-alpha-e5-a0/event.json"
+    },
+    "l018-alpha-e5-a30": {
+      "run_id": "20261009T172844Z-see-l018-alpha-e5-a30-bcfd55e1",
+      "baseline_run": "20261009T172049Z-control-l018-e0d03b07",
+      "split": "train",
+      "event": "experiments/dram-see-v1/data/geant4/l018-alpha-e5-a30/event.json"
+    },
+    "l018-proton-e5-a0": {
+      "run_id": "20261009T173359Z-see-l018-proton-e5-a0-9e6d33d7",
+      "baseline_run": "20261009T172049Z-control-l018-e0d03b07",
+      "split": "train",
+      "event": "experiments/dram-see-v1/data/geant4/l018-proton-e5-a0/event.json"
+    },
+    "l018-proton-e5-a30": {
+      "run_id": "20261009T173832Z-see-l018-proton-e5-a30-ebcd4acb",
+      "baseline_run": "20261009T172049Z-control-l018-e0d03b07",
+      "split": "train",
+      "event": "experiments/dram-see-v1/data/geant4/l018-proton-e5-a30/event.json"
+    },
+    "l025-alpha-e5-a30": {
+      "run_id": "20261009T174305Z-see-l025-alpha-e5-a30-eede9033",
+      "baseline_run": "20261009T170632Z-control-l025-cd6c15bc",
+      "split": "interpolation_test",
+      "event": "experiments/dram-see-v1/data/geant4/l025-alpha-e5-a30/event.json"
+    },
+    "l025-proton-e5-a0": {
+      "run_id": "20261009T174802Z-see-l025-proton-e5-a0-3c53862f",
+      "baseline_run": "20261009T170632Z-control-l025-cd6c15bc",
+      "split": "interpolation_test",
+      "event": "experiments/dram-see-v1/data/geant4/l025-proton-e5-a0/event.json"
+    },
+    "l025-proton-e5-a30": {
+      "run_id": "20261009T175229Z-see-l025-proton-e5-a30-9f014b6f",
+      "baseline_run": "20261009T170632Z-control-l025-cd6c15bc",
+      "split": "interpolation_test",
+      "event": "experiments/dram-see-v1/data/geant4/l025-proton-e5-a30/event.json"
+    },
+    "l035-alpha-e5-a0": {
+      "run_id": "20261009T180432Z-see-l035-alpha-e5-a0-579b0628",
+      "baseline_run": "20261009T180207Z-control-l035-6c8aa748",
+      "split": "train",
+      "event": "experiments/dram-see-v1/data/geant4/l035-alpha-e5-a0/event.json"
+    },
+    "l035-alpha-e5-a30": {
+      "run_id": "20261009T180923Z-see-l035-alpha-e5-a30-dd0e675c",
+      "baseline_run": "20261009T180207Z-control-l035-6c8aa748",
+      "split": "train",
+      "event": "experiments/dram-see-v1/data/geant4/l035-alpha-e5-a30/event.json"
+    },
+    "l035-proton-e5-a0": {
+      "run_id": "20261009T181415Z-see-l035-proton-e5-a0-ed3e0095",
+      "baseline_run": "20261009T180207Z-control-l035-6c8aa748",
+      "split": "train",
+      "event": "experiments/dram-see-v1/data/geant4/l035-proton-e5-a0/event.json"
+    },
+    "l035-proton-e5-a30": {
+      "run_id": "20261009T181844Z-see-l035-proton-e5-a30-b236cf98",
+      "baseline_run": "20261009T180207Z-control-l035-6c8aa748",
+      "split": "train",
+      "event": "experiments/dram-see-v1/data/geant4/l035-proton-e5-a30/event.json"
+    },
+    "l045-alpha-e5-a0": {
+      "run_id": "20261009T182956Z-see-l045-alpha-e5-a0-e30537b9",
+      "baseline_run": "20261009T182731Z-control-l045-040583a3",
+      "split": "extrapolation_test",
+      "event": "experiments/dram-see-v1/data/geant4/l045-alpha-e5-a0/event.json"
+    },
+    "l045-alpha-e5-a30": {
+      "run_id": "20261009T183504Z-see-l045-alpha-e5-a30-d6bb7fb9",
+      "baseline_run": "20261009T182731Z-control-l045-040583a3",
+      "split": "extrapolation_test",
+      "event": "experiments/dram-see-v1/data/geant4/l045-alpha-e5-a30/event.json"
+    },
+    "l045-proton-e5-a0": {
+      "run_id": "20261009T184010Z-see-l045-proton-e5-a0-6de5d89b",
+      "baseline_run": "20261009T182731Z-control-l045-040583a3",
+      "split": "extrapolation_test",
+      "event": "experiments/dram-see-v1/data/geant4/l045-proton-e5-a0/event.json"
+    },
+    "l045-proton-e5-a30": {
+      "run_id": "20261009T184444Z-see-l045-proton-e5-a30-a438b3cf",
+      "baseline_run": "20261009T182731Z-control-l045-040583a3",
+      "split": "extrapolation_test",
+      "event": "experiments/dram-see-v1/data/geant4/l045-proton-e5-a30/event.json"
+    }
+  },
+  "parents": {
+    "0.25": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+    "0.18": "20261009T171421Z-baseline-l018-2936f0de",
+    "0.35": "20261009T175650Z-baseline-l035-a03f6fcd",
+    "0.45": "20261009T182312Z-baseline-l045-2c348977"
+  }
+}

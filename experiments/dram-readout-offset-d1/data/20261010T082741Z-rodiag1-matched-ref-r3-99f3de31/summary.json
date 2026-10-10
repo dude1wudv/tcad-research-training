@@ -1,0 +1,220 @@
+{
+  "run_id": "20261010T082741Z-rodiag1-matched-ref-r3-99f3de31",
+  "parameters": {
+    "schema": "dram-readout-offset-d1",
+    "case": {
+      "tag": "rodiag1-matched-ref-r3",
+      "sn_target_V": 0.393727754888742,
+      "variant": "matched_ref",
+      "order": 8
+    },
+    "base_run_id": "20261010T014743Z-v2-base-l025-b1-143253c7",
+    "base_results_sha256": "eedc22375894b860cac6770dd5317a0409a94d2cf3b24dd4525c695accca9981",
+    "inherited_v2_parameters": {
+      "schema": "dram-see-v2",
+      "gate_length_um": 0.25,
+      "stored_bit": 1,
+      "target_voltage_V": 0.9,
+      "initialization_tolerance_V": 0.001,
+      "capacitance_F": 1e-14,
+      "bitline_capacitance_F": 1e-13,
+      "reference_capacitance_F": 1e-13,
+      "precharge_V": 0.5,
+      "read_threshold_V": 0.005,
+      "precharge_resistance_on_ohm": 100,
+      "precharge_resistance_off_ohm": 1e+20,
+      "precharge_ramp_end_s": 2.9e-09,
+      "precharge_tolerance_V": 1e-05,
+      "mesh_scale": 1,
+      "step_scale": 1,
+      "prestrike_s": 9.5e-10,
+      "strike_s": 1e-09,
+      "hold_end_s": 2.8e-09,
+      "precharge_end_s": 3e-09,
+      "read_sample_s": 4e-09,
+      "effective_thickness_um": 1,
+      "temperature_K": 300,
+      "charge_pc": 0.0,
+      "angle_deg": 0,
+      "parent_run": null,
+      "initialization": "ideal SN clamp released at 0.6 ns; not calibrated transistor write",
+      "interpretation": "uncalibrated 1T1C, criterion readout error; no latch or restoration",
+      "model_contract_sha256": "260cf0d13fdef3cb977791a78dfd84c463d43e2795254365dd6b6379279090e6",
+      "model_contract": {
+        "schema": "dram-see-v2",
+        "gate_length_um": 0.25,
+        "stored_bit": 1,
+        "target_voltage_V": 0.9,
+        "initialization_tolerance_V": 0.001,
+        "capacitance_F": 1e-14,
+        "bitline_capacitance_F": 1e-13,
+        "reference_capacitance_F": 1e-13,
+        "precharge_V": 0.5,
+        "read_threshold_V": 0.005,
+        "precharge_resistance_on_ohm": 100,
+        "precharge_resistance_off_ohm": 1e+20,
+        "precharge_ramp_end_s": 2.9e-09,
+        "precharge_tolerance_V": 1e-05,
+        "mesh_scale": 1,
+        "step_scale": 1,
+        "prestrike_s": 9.5e-10,
+        "strike_s": 1e-09,
+        "hold_end_s": 2.8e-09,
+        "precharge_end_s": 3e-09,
+        "read_sample_s": 4e-09,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "initialization": "ideal SN clamp released at 0.6 ns; not calibrated transistor write",
+        "geometry_sha256": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "physics": "Fermi OldSlotboom Mobility(DopingDep HighFieldSaturation Enormal) SRH(DopingDep) Auger; Digits5 ErrRef1e7; BE Blocked ParDiSo; gate_work_function4.6",
+        "circuit_revision": "v2-finite-ramp-rpre100-off1e20-wl0-initialize-read3.05to3.10ns-1.8V-snclamp-release0.6ns"
+      }
+    },
+    "sn_target_V": 0.393727754888742,
+    "variant": "matched_ref",
+    "particle": null,
+    "reference_cell_SN_target_V": 0.5,
+    "independent_particle_events": 0,
+    "scope": "deterministic diagnostic; does not replace pilot or its thresholds",
+    "frozen_geometry_sha256": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+    "frozen_mesh_sha256": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+    "builder_sha256": "ea93df2861321a2ea1870084210c8bed5e858dd5b0f2857e35905cd8f3d6272b",
+    "reference_instance": "refcell"
+  },
+  "archive_sha256": "bff1675bb5510958c26314b9ddbdd1efd572dd850f91e16863e9ab0dd1716950",
+  "final_time_s": 4e-09,
+  "initial_SN_V": 0.39372775469285,
+  "read_SN_V": 0.393777669739371,
+  "read_BL_V": 0.49999618538351,
+  "final_SN_V": 0.502454960555311,
+  "final_BL_V": 0.502454960555357,
+  "final_REF_V": 0.512369996600362,
+  "D_mV": -9.915036045004989,
+  "two_capacitor_D_mV": -9.6562287976667,
+  "offset_mV": -0.2588072473382885,
+  "charge_predicted_offset_mV": -0.2588072473382278,
+  "SN_BL_gain_fC": 1.3326504253441007,
+  "source_drain_outflow_fC": 1.332650425363391,
+  "gate_body_inflow_fC": 1.3326504253633886,
+  "port_integrals_fC": {
+    "source": {
+      "TotalCurrent": -0.245877517185411,
+      "eCurrent": -0.2160249488302653,
+      "hCurrent": 4.402986449190744e-14,
+      "DisplacementCurrent": -0.0298525683551891
+    },
+    "drain": {
+      "TotalCurrent": -1.08677290817798,
+      "eCurrent": -1.0598142951494578,
+      "hCurrent": 4.374876354132231e-14,
+      "DisplacementCurrent": -0.026958613028566523
+    },
+    "gate": {
+      "TotalCurrent": 1.4635697010216833,
+      "eCurrent": 0.0,
+      "hCurrent": 0.0,
+      "DisplacementCurrent": 1.4635697010216833
+    },
+    "body": {
+      "TotalCurrent": -0.13091927565829453,
+      "eCurrent": -6.795733927406578e-13,
+      "hCurrent": -0.13091930560837384,
+      "DisplacementCurrent": 2.9950758810176125e-08
+    }
+  },
+  "reference_port_integrals_fC": {
+    "source": {
+      "TotalCurrent": -1.2373811114142308,
+      "eCurrent": -1.2076298619854342,
+      "hCurrent": 4.403548383891723e-14,
+      "DisplacementCurrent": -0.029751249428839412
+    },
+    "drain": {
+      "TotalCurrent": -0.12314871716508913,
+      "eCurrent": -0.09338080293292582,
+      "hCurrent": 4.3873221863725415e-14,
+      "DisplacementCurrent": -0.02976791423220795
+    },
+    "gate": {
+      "TotalCurrent": 1.4641070283473023,
+      "eCurrent": 0.0,
+      "hCurrent": 0.0,
+      "DisplacementCurrent": 1.4641070283473023
+    },
+    "body": {
+      "TotalCurrent": -0.1035771997679837,
+      "eCurrent": -6.792804661058544e-13,
+      "hCurrent": -0.10357722959768706,
+      "DisplacementCurrent": 2.983038243130294e-08
+    }
+  },
+  "capacitor_balances": {
+    "hold_sn": {
+      "capacitor_gain_fC": -1.0352829704629585e-08,
+      "circuit_inflow_fC": -1.0353765559787861e-08,
+      "residual_fC": 9.35855158276503e-13
+    },
+    "hold_snr": {
+      "capacitor_gain_fC": -1.142641981033421e-08,
+      "circuit_inflow_fC": -1.1426598558025373e-08,
+      "residual_fC": 1.7874769116345298e-13
+    },
+    "precharge_sn": {
+      "capacitor_gain_fC": 0.0004991608180399121,
+      "circuit_inflow_fC": 0.0004991608181177149,
+      "residual_fC": 7.780278157842879e-14
+    },
+    "precharge_bl": {
+      "capacitor_gain_fC": 49.999618538351,
+      "circuit_inflow_fC": 49.99961853834594,
+      "residual_fC": 5.059064278611913e-12
+    },
+    "precharge_snr": {
+      "capacitor_gain_fC": 0.0005512625082598754,
+      "circuit_inflow_fC": 0.0005512625083719946,
+      "residual_fC": 1.1211918980041924e-13
+    },
+    "precharge_ref": {
+      "capacitor_gain_fC": 49.999618548625506,
+      "circuit_inflow_fC": 49.999618548620504,
+      "residual_fC": 5.002220859751105e-12
+    },
+    "read_sn": {
+      "capacitor_gain_fC": 1.0867729081594002,
+      "circuit_inflow_fC": 1.0867729081779751,
+      "residual_fC": 1.857491938039857e-11
+    },
+    "read_bl": {
+      "capacitor_gain_fC": 0.24587751718470055,
+      "circuit_inflow_fC": 0.24587751718540596,
+      "residual_fC": 7.054079542712088e-13
+    },
+    "read_snr": {
+      "capacitor_gain_fC": 0.12314871708300036,
+      "circuit_inflow_fC": 0.123148717165084,
+      "residual_fC": 8.208364543627056e-11
+    },
+    "read_ref": {
+      "capacitor_gain_fC": 1.2373811114106958,
+      "circuit_inflow_fC": 1.2373811114142255,
+      "residual_fC": 3.5296210398882977e-12
+    }
+  },
+  "max_kcl_A": {
+    "hold_sn": 1.0457096611706468e-15,
+    "hold_snr": 1.8559603588672297e-16,
+    "precharge_sn": 7.27269162721232e-16,
+    "precharge_bl": 1.278305529575249e-15,
+    "precharge_snr": 8.432380798977089e-16,
+    "precharge_ref": 1.3661706312022958e-15,
+    "read_sn": 1.2187499555861268e-15,
+    "read_bl": 3.2035220178125987e-16,
+    "read_snr": 5.276163386367169e-15,
+    "read_ref": 5.900219688829919e-16
+  },
+  "reference_drift_mV": 12.373811114106958,
+  "SN_BL_endpoint_separation_mV": -4.596323321948148e-11,
+  "newton_retries": 0,
+  "solver_s": 716.69,
+  "interpretation": "Four-port charge balance; gate displacement establishes coupling contribution, not unique nonlinear mechanism decomposition; no bit classification."
+}

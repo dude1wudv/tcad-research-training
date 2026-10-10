@@ -1,0 +1,826 @@
+{
+  "schema": "dram-readout-offset-d1-independent-final-recheck",
+  "checks": [
+    {
+      "check": "frozen design, source, dependency hashes",
+      "passed": true,
+      "detail": {
+        "build.py": "ea93df2861321a2ea1870084210c8bed5e858dd5b0f2857e35905cd8f3d6272b",
+        "audit.py": "95c7afcfceb132b9cb5623cf2649ea1e4546e9207d533b9a9d41c1d2063db364",
+        "run.py": "6cac0356e06b38412092ba0973def5eed2fe586268da7b9bea4666e48f8551df"
+      }
+    },
+    {
+      "check": "r1/r2 preservation and r3 reference-instance-only amendment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "terminal ledger identity",
+      "passed": true,
+      "detail": {
+        "rodiag1-bridge090": "VERIFIED",
+        "rodiag1-center050": "VERIFIED",
+        "rodiag1-alpha-match": "VERIFIED",
+        "rodiag1-scan035": "VERIFIED",
+        "rodiag1-scan045": "VERIFIED",
+        "rodiag1-scan055": "VERIFIED",
+        "rodiag1-wl-off": "VERIFIED",
+        "rodiag1-wl-slow": "VERIFIED",
+        "rodiag1-matched-ref-r3": "VERIFIED"
+      }
+    },
+    {
+      "check": "original v1/v2 and indexed pilot archive preservation",
+      "passed": true,
+      "detail": {
+        "file_count": 536
+      }
+    },
+    {
+      "check": "immutable archive and independent electrical checks",
+      "passed": true,
+      "detail": "rodiag1-bridge090"
+    },
+    {
+      "check": "immutable archive and independent electrical checks",
+      "passed": true,
+      "detail": "rodiag1-center050"
+    },
+    {
+      "check": "immutable archive and independent electrical checks",
+      "passed": true,
+      "detail": "rodiag1-alpha-match"
+    },
+    {
+      "check": "immutable archive and independent electrical checks",
+      "passed": true,
+      "detail": "rodiag1-scan035"
+    },
+    {
+      "check": "immutable archive and independent electrical checks",
+      "passed": true,
+      "detail": "rodiag1-scan045"
+    },
+    {
+      "check": "immutable archive and independent electrical checks",
+      "passed": true,
+      "detail": "rodiag1-scan055"
+    },
+    {
+      "check": "immutable archive and independent electrical checks",
+      "passed": true,
+      "detail": "rodiag1-wl-off"
+    },
+    {
+      "check": "immutable archive and independent electrical checks",
+      "passed": true,
+      "detail": "rodiag1-wl-slow"
+    },
+    {
+      "check": "immutable archive and independent electrical checks",
+      "passed": true,
+      "detail": "rodiag1-matched-ref-r3"
+    },
+    {
+      "check": "physical/offline reference and alpha read-start pairing",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "case_results": [
+    {
+      "tag": "rodiag1-bridge090",
+      "run_id": "20261010T073147Z-rodiag1-bridge090-8db1e0b8",
+      "results_sha256": "9e84c195bedef98eb1d1cab9ac263d615ade3949d6abc5080e4fe5898cf7290d",
+      "circuit_final_time_s": 4e-09,
+      "device_final_time_s": 4e-09,
+      "read_start_V": {
+        "sn": 0.900077175465742,
+        "bl": 0.499996185923781,
+        "ref": 0.5
+      },
+      "final_V": {
+        "sn": 0.549604330680479,
+        "bl": 0.549604330680522,
+        "ref": 0.5
+      },
+      "reference_device": null,
+      "circuit_capacitor_balance": {
+        "sn": {
+          "capacitor_delta_C": -3.50472844785263e-15,
+          "BE_port_integral_C": -3.504728435733668e-15,
+          "residual_fC": -1.2118961642296463e-08
+        },
+        "bl": {
+          "capacitor_delta_C": 4.960814475674097e-15,
+          "BE_port_integral_C": 4.960814475676196e-15,
+          "residual_fC": -2.0991588687931124e-12
+        }
+      },
+      "port_integrals_C": {
+        "source": {
+          "TotalCurrent": -4.9608144756762015e-15,
+          "eCurrent": -4.931446416578346e-15,
+          "hCurrent": 4.4058125147951816e-29,
+          "DisplacementCurrent": -2.936805909789451e-17
+        },
+        "drain": {
+          "TotalCurrent": 3.5047284357336623e-15,
+          "eCurrent": 3.545874601250788e-15,
+          "hCurrent": 4.4346974298524693e-29,
+          "DisplacementCurrent": -4.1146165517169174e-17
+        },
+        "gate": {
+          "TotalCurrent": 1.4661987476495732e-15,
+          "eCurrent": 0.0,
+          "hCurrent": 0.0,
+          "DisplacementCurrent": 1.4661987476495732e-15
+        },
+        "body": {
+          "TotalCurrent": -1.0112707707034198e-17,
+          "eCurrent": -6.789640886436172e-28,
+          "hCurrent": -1.0112748926195526e-17,
+          "DisplacementCurrent": 4.12198401205515e-23
+        }
+      },
+      "external_net_charge_C": 1.456086027821467e-15,
+      "source_drain_outflow_C": 1.4560860399425393e-15,
+      "gate_body_inflow_C": 1.456086039942539e-15,
+      "D_mV": 49.60433068052195,
+      "closed_capacitor_D_mV": 36.367184973050136,
+      "offset_mV": 13.237145707471809,
+      "offset_identity_mV": 13.237145707471788
+    },
+    {
+      "tag": "rodiag1-center050",
+      "run_id": "20261010T073750Z-rodiag1-center050-2fde80ba",
+      "results_sha256": "d06946f0e0a1be5cb4c65261a8cd0ae7c343f1a94815c3a6c7603b640d6bf769",
+      "circuit_final_time_s": 4e-09,
+      "device_final_time_s": 4e-09,
+      "read_start_V": {
+        "sn": 0.50005512489201,
+        "bl": 0.499996185486255,
+        "ref": 0.5
+      },
+      "final_V": {
+        "sn": 0.512369996600309,
+        "bl": 0.512369996600362,
+        "ref": 0.5
+      },
+      "reference_device": null,
+      "circuit_capacitor_balance": {
+        "sn": {
+          "capacitor_delta_C": 1.2314871708299035e-16,
+          "BE_port_integral_C": 1.2314871716509307e-16,
+          "residual_fC": -8.210272016694644e-11
+        },
+        "bl": {
+          "capacitor_delta_C": 1.2373811114106959e-15,
+          "BE_port_integral_C": 1.2373811114146727e-15,
+          "residual_fC": -3.976845038445426e-12
+        }
+      },
+      "port_integrals_C": {
+        "source": {
+          "TotalCurrent": -1.2373811114146779e-15,
+          "eCurrent": -1.2076298620168423e-15,
+          "hCurrent": 4.4035483842718363e-29,
+          "DisplacementCurrent": -2.975124939788039e-17
+        },
+        "drain": {
+          "TotalCurrent": -1.231487171650982e-16,
+          "eCurrent": -9.338080288231503e-17,
+          "hCurrent": 4.387322186391645e-29,
+          "DisplacementCurrent": -2.976791428282724e-17
+        },
+        "gate": {
+          "TotalCurrent": 1.4641070283473019e-15,
+          "eCurrent": 0.0,
+          "hCurrent": 0.0,
+          "DisplacementCurrent": 1.4641070283473019e-15
+        },
+        "body": {
+          "TotalCurrent": -1.0357719976752682e-16,
+          "eCurrent": -6.789650137864478e-28,
+          "hCurrent": -1.0357722959767938e-16,
+          "DisplacementCurrent": 2.98308317899944e-23
+        }
+      },
+      "external_net_charge_C": 1.3605298284936863e-15,
+      "source_drain_outflow_C": 1.3605298285797761e-15,
+      "gate_body_inflow_C": 1.3605298285797751e-15,
+      "D_mV": 12.369996600361976,
+      "closed_capacitor_D_mV": 0.0015436140509139662,
+      "offset_mV": 12.368452986311063,
+      "offset_identity_mV": 12.368452986311054
+    },
+    {
+      "tag": "rodiag1-alpha-match",
+      "run_id": "20261010T074533Z-rodiag1-alpha-match-d0af10aa",
+      "results_sha256": "4180ab071cf0be7c5d3e15551fc4033ba092c1ce56a72bea19cff016b65a85bb",
+      "circuit_final_time_s": 4e-09,
+      "device_final_time_s": 4e-09,
+      "read_start_V": {
+        "sn": 0.393777669739371,
+        "bl": 0.49999618538351,
+        "ref": 0.5
+      },
+      "final_V": {
+        "sn": 0.502454960555311,
+        "bl": 0.502454960555355,
+        "ref": 0.5
+      },
+      "reference_device": null,
+      "circuit_capacitor_balance": {
+        "sn": {
+          "capacitor_delta_C": 1.0867729081594001e-15,
+          "BE_port_integral_C": 1.0867729082313247e-15,
+          "residual_fC": -7.192459024875205e-11
+        },
+        "bl": {
+          "capacitor_delta_C": 2.4587751718450067e-16,
+          "BE_port_integral_C": 2.458775171869806e-16,
+          "residual_fC": -2.4799321669819796e-12
+        }
+      },
+      "port_integrals_C": {
+        "source": {
+          "TotalCurrent": -2.4587751718698563e-16,
+          "eCurrent": -2.1602494889732195e-16,
+          "hCurrent": 4.402924869781713e-29,
+          "DisplacementCurrent": -2.9852568289708124e-17
+        },
+        "drain": {
+          "TotalCurrent": -1.0867729082313296e-15,
+          "eCurrent": -1.0598142950868802e-15,
+          "hCurrent": 4.374882414685348e-29,
+          "DisplacementCurrent": -2.6958613144493593e-17
+        },
+        "gate": {
+          "TotalCurrent": 1.463569701021686e-15,
+          "eCurrent": 0.0,
+          "hCurrent": 0.0,
+          "DisplacementCurrent": 1.463569701021686e-15
+        },
+        "body": {
+          "TotalCurrent": -1.3091927560337269e-16,
+          "eCurrent": -6.797948529837657e-28,
+          "hCurrent": -1.3091930560836656e-16,
+          "DisplacementCurrent": 3.000567374517416e-23
+        }
+      },
+      "external_net_charge_C": 1.3326504253439007e-15,
+      "source_drain_outflow_C": 1.3326504254183152e-15,
+      "gate_body_inflow_C": 1.3326504254183132e-15,
+      "D_mV": 2.4549605553549902,
+      "closed_capacitor_D_mV": -9.66004331141168,
+      "offset_mV": 12.11500386676667,
+      "offset_identity_mV": 12.115003866766731
+    },
+    {
+      "tag": "rodiag1-scan035",
+      "run_id": "20261010T075140Z-rodiag1-scan035-fd250135",
+      "results_sha256": "7ab2872a241b864e6c149c45185cbfee9a9e786ab5603bf8590809a9facad5e5",
+      "circuit_final_time_s": 4e-09,
+      "device_final_time_s": 4e-09,
+      "read_start_V": {
+        "sn": 0.350047852347033,
+        "bl": 0.499996185342717,
+        "ref": 0.5
+      },
+      "final_V": {
+        "sn": 0.498371811872219,
+        "bl": 0.498371811872262,
+        "ref": 0.5
+      },
+      "reference_device": null,
+      "circuit_capacitor_balance": {
+        "sn": {
+          "capacitor_delta_C": 1.4832395952518601e-15,
+          "BE_port_integral_C": 1.4832395958701713e-15,
+          "residual_fC": -6.183111496644921e-10
+        },
+        "bl": {
+          "capacitor_delta_C": -1.6243734704550207e-16,
+          "BE_port_integral_C": -1.6243734634698719e-16,
+          "residual_fC": -6.985148844173453e-10
+        }
+      },
+      "port_integrals_C": {
+        "source": {
+          "TotalCurrent": 1.624373463469822e-16,
+          "eCurrent": 1.9233155431606342e-16,
+          "hCurrent": 4.402766870576216e-29,
+          "DisplacementCurrent": -2.989420796912567e-17
+        },
+        "drain": {
+          "TotalCurrent": -1.4832395958701762e-15,
+          "eCurrent": -1.457404205297985e-15,
+          "hCurrent": 4.369731313829198e-29,
+          "DisplacementCurrent": -2.5835390572235413e-17
+        },
+        "gate": {
+          "TotalCurrent": 1.4633439286643221e-15,
+          "eCurrent": 0.0,
+          "hCurrent": 0.0,
+          "DisplacementCurrent": 1.4633439286643221e-15
+        },
+        "body": {
+          "TotalCurrent": -1.4254167914112894e-16,
+          "eCurrent": -6.8015247362155065e-28,
+          "hCurrent": -1.4254171046852158e-16,
+          "DisplacementCurrent": 3.132807243136725e-23
+        }
+      },
+      "external_net_charge_C": 1.320802248206358e-15,
+      "source_drain_outflow_C": 1.320802249523194e-15,
+      "gate_body_inflow_C": 1.3208022495231932e-15,
+      "D_mV": -1.6281881277380172,
+      "closed_capacitor_D_mV": -13.635481293254259,
+      "offset_mV": 12.007293165516241,
+      "offset_identity_mV": 12.007293165516252
+    },
+    {
+      "tag": "rodiag1-scan045",
+      "run_id": "20261010T075751Z-rodiag1-scan045-bbc7abd1",
+      "results_sha256": "a621a3719d815e6f769748da1d34981f4318c9c76be7c018d9d01ae1495ac7ea",
+      "circuit_final_time_s": 4e-09,
+      "device_final_time_s": 4e-09,
+      "read_start_V": {
+        "sn": 0.450052638821446,
+        "bl": 0.499996185437255,
+        "ref": 0.5
+      },
+      "final_V": {
+        "sn": 0.507706471591499,
+        "bl": 0.507706471591548,
+        "ref": 0.5
+      },
+      "reference_device": null,
+      "circuit_capacitor_balance": {
+        "sn": {
+          "capacitor_delta_C": 5.765383277005292e-16,
+          "BE_port_integral_C": 5.765383169165704e-16,
+          "residual_fC": 1.0783958823147942e-08
+        },
+        "bl": {
+          "capacitor_delta_C": 7.710286154293034e-16,
+          "BE_port_integral_C": 7.710286117672935e-16,
+          "residual_fC": 3.6620098623108147e-09
+        }
+      },
+      "port_integrals_C": {
+        "source": {
+          "TotalCurrent": -7.710286117672987e-16,
+          "eCurrent": -7.412296740939084e-16,
+          "hCurrent": 4.4032809321453495e-29,
+          "DisplacementCurrent": -2.979893767343431e-17
+        },
+        "drain": {
+          "TotalCurrent": -5.765383169165754e-16,
+          "eCurrent": -5.481055375330539e-16,
+          "hCurrent": 4.3814100620799823e-29,
+          "DisplacementCurrent": -2.843277938356638e-17
+        },
+        "gate": {
+          "TotalCurrent": 1.463855487089879e-15,
+          "eCurrent": 0.0,
+          "hCurrent": 0.0,
+          "DisplacementCurrent": 1.463855487089879e-15
+        },
+        "body": {
+          "TotalCurrent": -1.1628855840600268e-16,
+          "eCurrent": -6.789782346954782e-28,
+          "hCurrent": -1.1628857379062799e-16,
+          "DisplacementCurrent": 1.5385303991451314e-23
+        }
+      },
+      "external_net_charge_C": 1.3475669431298325e-15,
+      "source_drain_outflow_C": 1.347566928683874e-15,
+      "gate_body_inflow_C": 1.3475669286838764e-15,
+      "D_mV": 7.706471591548025,
+      "closed_capacitor_D_mV": -4.544136982363945,
+      "offset_mV": 12.25060857391197,
+      "offset_identity_mV": 12.25060857391203
+    },
+    {
+      "tag": "rodiag1-scan055",
+      "run_id": "20261010T080358Z-rodiag1-scan055-02fe8094",
+      "results_sha256": "97cf5065eca790863bd46b59791c05a873944c0fcdca54b9ccd94406c94b1b82",
+      "circuit_final_time_s": 4e-09,
+      "device_final_time_s": 4e-09,
+      "read_start_V": {
+        "sn": 0.55005767254013,
+        "bl": 0.499996185536485,
+        "ref": 0.5
+      },
+      "final_V": {
+        "sn": 0.517031202470799,
+        "bl": 0.517031202470839,
+        "ref": 0.5
+      },
+      "reference_device": null,
+      "circuit_capacitor_balance": {
+        "sn": {
+          "capacitor_delta_C": -3.3026470069331014e-16,
+          "BE_port_integral_C": -3.302647005502471e-16,
+          "residual_fC": -1.430630313016448e-10
+        },
+        "bl": {
+          "capacitor_delta_C": 1.7035016934353998e-15,
+          "BE_port_integral_C": 1.7035016934467136e-15,
+          "residual_fC": -1.1313843102679751e-11
+        }
+      },
+      "port_integrals_C": {
+        "source": {
+          "TotalCurrent": -1.703501693446719e-15,
+          "eCurrent": -1.6737981780400021e-15,
+          "hCurrent": 4.4038233426002666e-29,
+          "DisplacementCurrent": -2.9703515406760733e-17
+        },
+        "drain": {
+          "TotalCurrent": 3.302647005502419e-16,
+          "eCurrent": 3.61389866227752e-16,
+          "hCurrent": 4.393309231913783e-29,
+          "DisplacementCurrent": -3.112516567755352e-17
+        },
+        "gate": {
+          "TotalCurrent": 1.464358067840825e-15,
+          "eCurrent": 0.0,
+          "hCurrent": 0.0,
+          "DisplacementCurrent": 1.464358067840825e-15
+        },
+        "body": {
+          "TotalCurrent": -9.112107494435007e-17,
+          "eCurrent": -6.797250515427028e-28,
+          "hCurrent": -9.112110475761754e-17,
+          "DisplacementCurrent": 2.981394735302189e-23
+        }
+      },
+      "external_net_charge_C": 1.3732369927420895e-15,
+      "source_drain_outflow_C": 1.3732369928964771e-15,
+      "gate_body_inflow_C": 1.373236992896475e-15,
+      "D_mV": 17.031202470839002,
+      "closed_capacitor_D_mV": 4.547229809543696,
+      "offset_mV": 12.483972661295306,
+      "offset_identity_mV": 12.483972661295358
+    },
+    {
+      "tag": "rodiag1-wl-off",
+      "run_id": "20261010T081041Z-rodiag1-wl-off-55dfc440",
+      "results_sha256": "18196f0528dcb3eaa0d231064277333566fcabe1f08ada6beb6f9602c21d6370",
+      "circuit_final_time_s": 4e-09,
+      "device_final_time_s": 4e-09,
+      "read_start_V": {
+        "sn": 0.50005512489201,
+        "bl": 0.499996185486255,
+        "ref": 0.5
+      },
+      "final_V": {
+        "sn": 0.500055116220579,
+        "bl": 0.499996184259422,
+        "ref": 0.5
+      },
+      "reference_device": null,
+      "circuit_capacitor_balance": {
+        "sn": {
+          "capacitor_delta_C": -8.671431017681642e-23,
+          "BE_port_integral_C": -8.671447322052947e-23,
+          "residual_fC": 1.6304371304931732e-13
+        },
+        "bl": {
+          "capacitor_delta_C": -1.2268330240594595e-22,
+          "BE_port_integral_C": -1.2268332694490873e-22,
+          "residual_fC": 2.4538962778344868e-14
+        }
+      },
+      "port_integrals_C": {
+        "source": {
+          "TotalCurrent": 1.2268332194498505e-22,
+          "eCurrent": 1.2274347987453201e-22,
+          "hCurrent": 6.051080780914181e-29,
+          "DisplacementCurrent": -6.021844035456841e-26
+        },
+        "drain": {
+          "TotalCurrent": 8.671446821997831e-23,
+          "eCurrent": 8.682217577529732e-23,
+          "hCurrent": 5.963290813861679e-29,
+          "DisplacementCurrent": -1.0776718822719955e-25
+        },
+        "gate": {
+          "TotalCurrent": 4.403299077254205e-23,
+          "eCurrent": 0.0,
+          "hCurrent": 0.0,
+          "DisplacementCurrent": 4.403299077254205e-23
+        },
+        "body": {
+          "TotalCurrent": -2.5343078093750555e-22,
+          "eCurrent": -6.734536933030946e-28,
+          "hCurrent": -2.8317484386186543e-22,
+          "DisplacementCurrent": 2.974473637805371e-23
+        }
+      },
+      "external_net_charge_C": -2.0939761258276237e-22,
+      "source_drain_outflow_C": -2.0939779016496337e-22,
+      "gate_body_inflow_C": -2.093977901649635e-22,
+      "D_mV": -0.003815740578005933,
+      "closed_capacitor_D_mV": 0.0015436140509139662,
+      "offset_mV": -0.005359354628919899,
+      "offset_identity_mV": -0.0053593546289299925
+    },
+    {
+      "tag": "rodiag1-wl-slow",
+      "run_id": "20261010T081707Z-rodiag1-wl-slow-5acda3af",
+      "results_sha256": "824f01f95aba5d8de934a2a42c9716392284f1b9c44a50eb375a7bdbd681788b",
+      "circuit_final_time_s": 4e-09,
+      "device_final_time_s": 4e-09,
+      "read_start_V": {
+        "sn": 0.50005512489201,
+        "bl": 0.499996185486255,
+        "ref": 0.5
+      },
+      "final_V": {
+        "sn": 0.51236999660031,
+        "bl": 0.512369996600361,
+        "ref": 0.5
+      },
+      "reference_device": null,
+      "circuit_capacitor_balance": {
+        "sn": {
+          "capacitor_delta_C": 1.2314871708300036e-16,
+          "BE_port_integral_C": 1.2314871740985023e-16,
+          "residual_fC": -3.2684987284777306e-10
+        },
+        "bl": {
+          "capacitor_delta_C": 1.237381111410596e-15,
+          "BE_port_integral_C": 1.2373811113731424e-15,
+          "residual_fC": 3.74535380580832e-11
+        }
+      },
+      "port_integrals_C": {
+        "source": {
+          "TotalCurrent": -1.2373811113731475e-15,
+          "eCurrent": -1.2076298619434696e-15,
+          "hCurrent": 4.508920997627587e-29,
+          "DisplacementCurrent": -2.975124942972152e-17
+        },
+        "drain": {
+          "TotalCurrent": -1.2314871740985536e-16,
+          "eCurrent": -9.338080296481983e-17,
+          "hCurrent": 4.4923984466681797e-29,
+          "DisplacementCurrent": -2.976791444508046e-17
+        },
+        "gate": {
+          "TotalCurrent": 1.4641070283473125e-15,
+          "eCurrent": 0.0,
+          "hCurrent": 0.0,
+          "DisplacementCurrent": 1.4641070283473125e-15
+        },
+        "body": {
+          "TotalCurrent": -1.0357719956431171e-16,
+          "eCurrent": -6.792125671137633e-28,
+          "hCurrent": -1.0357722959782544e-16,
+          "DisplacementCurrent": 3.003419289228606e-23
+        }
+      },
+      "external_net_charge_C": 1.3605298284935962e-15,
+      "source_drain_outflow_C": 1.3605298287830029e-15,
+      "gate_body_inflow_C": 1.3605298287830009e-15,
+      "D_mV": 12.369996600360977,
+      "closed_capacitor_D_mV": 0.0015436140509139662,
+      "offset_mV": 12.368452986310064,
+      "offset_identity_mV": 12.368452986310054
+    },
+    {
+      "tag": "rodiag1-matched-ref-r3",
+      "run_id": "20261010T082741Z-rodiag1-matched-ref-r3-99f3de31",
+      "results_sha256": "bff1675bb5510958c26314b9ddbdd1efd572dd850f91e16863e9ab0dd1716950",
+      "circuit_final_time_s": 4e-09,
+      "device_final_time_s": 4e-09,
+      "read_start_V": {
+        "sn": 0.393777669739371,
+        "bl": 0.49999618538351,
+        "ref": 0.499996185486255
+      },
+      "final_V": {
+        "sn": 0.502454960555311,
+        "bl": 0.502454960555357,
+        "ref": 0.512369996600362
+      },
+      "reference_device": {
+        "final_time_s": 4e-09,
+        "max_four_terminal_KCL_A": 8.046812998915853e-20,
+        "port_integrals_C": {
+          "source": {
+            "TotalCurrent": -1.2373811114142308e-15,
+            "eCurrent": -1.207629861985435e-15,
+            "hCurrent": 4.403548383891721e-29,
+            "DisplacementCurrent": -2.975124942883942e-17
+          },
+          "drain": {
+            "TotalCurrent": -1.2314871716508905e-16,
+            "eCurrent": -9.338080293292585e-17,
+            "hCurrent": 4.3873221863725396e-29,
+            "DisplacementCurrent": -2.9767914232207937e-17
+          },
+          "gate": {
+            "TotalCurrent": 1.4641070283473023e-15,
+            "eCurrent": 0.0,
+            "hCurrent": 0.0,
+            "DisplacementCurrent": 1.4641070283473023e-15
+          },
+          "body": {
+            "TotalCurrent": -1.0357719976798367e-16,
+            "eCurrent": -6.792804661058547e-28,
+            "hCurrent": -1.0357722959768704e-16,
+            "DisplacementCurrent": 2.983038243125651e-23
+          }
+        },
+        "external_node_balances": {
+          "snr": {
+            "capacitor_delta_C": 1.2314871708300036e-16,
+            "BE_port_integral_C": 1.2314871716508392e-16,
+            "residual_fC": -8.208356563809153e-11
+          },
+          "ref": {
+            "capacitor_delta_C": 1.2373811114106959e-15,
+            "BE_port_integral_C": 1.2373811114142257e-15,
+            "residual_fC": -3.5297581204114173e-12
+          }
+        },
+        "source_drain_outflow_C": 1.3605298285793198e-15,
+        "gate_body_inflow_C": 1.3605298285793186e-15
+      },
+      "circuit_capacitor_balance": {
+        "sn": {
+          "capacitor_delta_C": 1.0867729081594001e-15,
+          "BE_port_integral_C": 1.0867729081779752e-15,
+          "residual_fC": -1.857511052001286e-11
+        },
+        "bl": {
+          "capacitor_delta_C": 2.4587751718470055e-16,
+          "BE_port_integral_C": 2.458775171854058e-16,
+          "residual_fC": -7.052416492675846e-13
+        }
+      },
+      "port_integrals_C": {
+        "source": {
+          "TotalCurrent": -2.458775171854108e-16,
+          "eCurrent": -2.160249488302652e-16,
+          "hCurrent": 4.4029864491907437e-29,
+          "DisplacementCurrent": -2.9852568355189076e-17
+        },
+        "drain": {
+          "TotalCurrent": -1.0867729081779802e-15,
+          "eCurrent": -1.0598142951494584e-15,
+          "hCurrent": 4.374876354132229e-29,
+          "DisplacementCurrent": -2.6958613028566532e-17
+        },
+        "gate": {
+          "TotalCurrent": 1.4635697010216846e-15,
+          "eCurrent": 0.0,
+          "hCurrent": 0.0,
+          "DisplacementCurrent": 1.4635697010216846e-15
+        },
+        "body": {
+          "TotalCurrent": -1.3091927565829454e-16,
+          "eCurrent": -6.795733927406575e-28,
+          "hCurrent": -1.3091930560837403e-16,
+          "DisplacementCurrent": 2.995075881019307e-23
+        }
+      },
+      "external_net_charge_C": 1.3326504253441007e-15,
+      "source_drain_outflow_C": 1.332650425363391e-15,
+      "gate_body_inflow_C": 1.3326504253633901e-15,
+      "D_mV": -9.915036045004989,
+      "closed_capacitor_D_mV": -9.6562287976667,
+      "offset_mV": -0.2588072473382885,
+      "offset_identity_mV": -0.2588072473382278
+    }
+  ],
+  "classification": "diagnostic only; no particle-event identity or device-calibration claim",
+  "historical_failed_attempt": {
+    "tag": "rodiag1-matched-ref",
+    "run_id": "20261010T082333Z-rodiag1-matched-ref-a289c12b",
+    "manifest_state": "FAILED_COLLECTED",
+    "ssh_exit_code": 5,
+    "results_sha256": "482bd0b8241c6f7e2518270b0e368f587550c1e6f3b0cd2c87374993ec6cf919",
+    "counted_as_verified": false
+  },
+  "recovery_collection": {
+    "run_id": "20261010T082741Z-rodiag1-matched-ref-r3-99f3de31",
+    "original_execution_ssh_exit_code": null,
+    "remote_runner_exit_code": 0,
+    "ssh_exit_code": 0,
+    "ssh_exit_code_scope": "recovery_collection_only",
+    "no_resubmission": true,
+    "manifest_before_sha256": "1cca9c05abd35b07146296dcdd2db1485929a71ab4f2b2c14bb38ee4bf3ef89d",
+    "ledger_before_sha256": "ae2262dd6aae0e8cbe525bde78d06d48e8b27a68f4152b817f235c2ea0a10755",
+    "recovery_proof_sha256": "7373ccc97acd06089f1772fc8ca18794e03a737c0334d8af2bbb2fcb2286eccb",
+    "pre_recovery_manifest_state": "RUNNING",
+    "pre_recovery_ledger_state": "RUNNING",
+    "collector_sha256": "02d5901039a60e785217a3bee5fb5c6a0006dfcfef22ce47caf11d30096b7208",
+    "raw_stream_marker_present": false,
+    "archive_exit_code_file": "0",
+    "device_finished_marker_present": true,
+    "same_run_id_no_resubmit": true
+  },
+  "batch_metrics": {
+    "solver_seconds_total": 3548.78,
+    "newton_retries_total": 0,
+    "max_initial_SN_deviation_mV": 3.10350967147599e-07,
+    "max_read_start_SN_deviation_mV": 0.0771754657419299,
+    "max_reference_SN_initial_deviation_mV": 2.1617602152801396e-07,
+    "max_reference_SN_read_start_deviation_mV": 0.05512489200798498,
+    "max_BL_precharge_deviation_uV": 3.8146572829966807,
+    "max_REF_precharge_deviation_uV": 3.8145137449818733,
+    "max_circuit_KCL_A": 1.1870869899634091e-12,
+    "max_device_four_terminal_KCL_A": 1.9862922613113343e-19,
+    "max_BE_residual_fC": 1.2118962278151457e-08,
+    "max_case_metrics": {
+      "rodiag1-bridge090": {
+        "initial_SN_deviation_mV": 3.10350967147599e-07,
+        "read_start_SN_deviation_mV": 0.0771754657419299,
+        "solver_seconds": 340.33,
+        "newton_retries": 0,
+        "max_circuit_KCL_A": 1.1870869899634091e-12,
+        "max_BE_residual_fC": 1.2118962278151457e-08
+      },
+      "rodiag1-center050": {
+        "initial_SN_deviation_mV": 2.1617602152801396e-07,
+        "read_start_SN_deviation_mV": 0.055124892009983384,
+        "solver_seconds": 343.4,
+        "newton_retries": 0,
+        "max_circuit_KCL_A": 5.2736534465919e-15,
+        "max_BE_residual_fC": 8.210282453902096e-11
+      },
+      "rodiag1-alpha-match": {
+        "initial_SN_deviation_mV": 1.9589202482350743e-07,
+        "read_start_SN_deviation_mV": 0.04991485062899592,
+        "solver_seconds": 343.84,
+        "newton_retries": 0,
+        "max_circuit_KCL_A": 3.5473016451029246e-15,
+        "max_BE_residual_fC": 7.192459024875205e-11
+      },
+      "rodiag1-scan035": {
+        "initial_SN_deviation_mV": 1.8800699885801464e-07,
+        "read_start_SN_deviation_mV": 0.04785234703302832,
+        "solver_seconds": 350.6,
+        "newton_retries": 0,
+        "max_circuit_KCL_A": 6.679462197157042e-14,
+        "max_BE_residual_fC": 6.98514884822643e-10
+      },
+      "rodiag1-scan045": {
+        "initial_SN_deviation_mV": 2.064289850167711e-07,
+        "read_start_SN_deviation_mV": 0.05263882144601606,
+        "solver_seconds": 344.64,
+        "newton_retries": 0,
+        "max_circuit_KCL_A": 1.0897091652766576e-12,
+        "max_BE_residual_fC": 1.0783958823147942e-08
+      },
+      "rodiag1-scan055": {
+        "initial_SN_deviation_mV": 2.2635104901524983e-07,
+        "read_start_SN_deviation_mV": 0.05767254013000489,
+        "solver_seconds": 379.9,
+        "newton_retries": 0,
+        "max_circuit_KCL_A": 6.9690319494649985e-15,
+        "max_BE_residual_fC": 1.430630313016448e-10
+      },
+      "rodiag1-wl-off": {
+        "initial_SN_deviation_mV": 2.1617602152801396e-07,
+        "read_start_SN_deviation_mV": 0.055124892009983384,
+        "solver_seconds": 364.23,
+        "newton_retries": 0,
+        "max_circuit_KCL_A": 1.3661706312022958e-15,
+        "max_BE_residual_fC": 5.066169705969514e-12
+      },
+      "rodiag1-wl-slow": {
+        "initial_SN_deviation_mV": 2.1617602152801396e-07,
+        "read_start_SN_deviation_mV": 0.055124892009983384,
+        "solver_seconds": 365.15,
+        "newton_retries": 0,
+        "max_circuit_KCL_A": 2.7049297783343384e-14,
+        "max_BE_residual_fC": 3.26849880494251e-10
+      },
+      "rodiag1-matched-ref-r3": {
+        "initial_SN_deviation_mV": 1.9589202482350743e-07,
+        "read_start_SN_deviation_mV": 0.04991485062899592,
+        "solver_seconds": 716.69,
+        "newton_retries": 0,
+        "max_circuit_KCL_A": 5.276163386367169e-15,
+        "max_BE_residual_fC": 8.208364543627056e-11
+      }
+    },
+    "active_verified_run_count": 9,
+    "historical_parser_failure_count": 1
+  },
+  "comparisons": {
+    "offline_D_mV": -9.915036045006985,
+    "physical_D_mV": -9.915036045004989,
+    "difference_mV": 1.9984014443252818e-12,
+    "alpha_read_SN_error_mV": 0.04991485062899592
+  },
+  "status": "passed"
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "Exact self-authored text inputs copied from completed runner archives; original files not modified. Coarse legacy event metadata was never embedded.",
+  "archives": [
+    {
+      "label": "coarse-full",
+      "run_id": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+      "files": {
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "device.cmd": "39bbdbfe6421c9c30f6173d7214b86c1408b7999837a3dcfdc6ac279c5291624",
+        "project.json": "5ab927ffaf4c24150cd1d9478b75374a17f55ac27d6e42e50f3ee4bbad53aeb2",
+        "parameters.json": "2c4e721ea79d3867396eea8c448dc6029411e1dc36e725b368bd3f0054a81b55",
+        "generator-sha256.txt": "b19a5c89d328564f5895e3bab0e7a03bc1bc3b7ebc85c0787e2e41f6c198237b"
+      }
+    },
+    {
+      "label": "fine-full",
+      "run_id": "20261009T185046Z-refine-alpha5-l025-a0-27978762",
+      "files": {
+        "geometry.scm": "dfc120ac79c18ee2b81081d57f747439fc407fc08c28ff0f4c1687b03b428fb6",
+        "device.cmd": "ec5460f95aa0062a8497fd83e553d8a9d8f64b2ed95ebd8c0a6ded2fc288447e",
+        "project.json": "b925f9eda25c0e3ce877996493df8cc08a450ed9d87e7b599af018ca498f7ebb",
+        "parameters.json": "85515317e6d7fc1e20f0150000bb39546a371cbb1e1e41e2858bd8dc9c4c3564",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "source-event.json": "d89b4e6304be0879f3dfe0ef3016ec3d08ab727bc5a97eb1bfda79427ed5857a",
+        "source-events.csv": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469",
+        "source-steps.csv": "19478204b1aa4c91adb96eda721c114bacb2f1f8b03f6440875535057a0a1e97"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "label": "l025-alpha-e5-a30",
+  "gate_length_um": 0.25,
+  "particle": "alpha",
+  "energy_MeV": 5.0,
+  "angle_deg": 30,
+  "seed": 20261009,
+  "event_count": 1,
+  "conversion_eV_per_pair": 3.6,
+  "converted": [
+    {
+      "event": 0,
+      "ionizing_MeV": 0.197541385763679,
+      "charge_pc": 0.008791560903292963,
+      "track_length_um": 1.3856406460551016,
+      "let_pc_per_um": 0.006344762567641478,
+      "step_sum_relative_error": 9.835358224217004e-16
+    }
+  ],
+  "source_sha256": "8f3ec870dad0905be7516bf657ed033d8cf5c5ade7cef938a941622b2f483ce2",
+  "files_sha256": {
+    "events.csv": "86caaa389b84b30848ea48464d2f768b890fb2d905ce347c914d65b5d6bef1cd",
+    "steps.csv": "1655b61e9dd2752e6a725d6bdf9e02ca60f0df2c260b3cad509c504e4b221466"
+  },
+  "command": "${EXPERIMENT_ROOT}/build/transport 0.25 alpha 5.0 30 20261009 1",
+  "operation_exit_code": 0,
+  "scope": "EM-only slab event, projected to uniform straight track; not full 3D deposition mapping"
+}

@@ -1,0 +1,7 @@
+{
+  "full_run": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+  "restart_run": "20261009T170858Z-see-l025-alpha-e5-a0-c07e356d",
+  "absolute_voltage_drop_difference_V": 2.9976021664879227e-15,
+  "threshold_V": 0.0001,
+  "passed": true
+}

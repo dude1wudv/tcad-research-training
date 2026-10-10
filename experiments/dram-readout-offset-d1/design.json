@@ -1,0 +1,161 @@
+{
+  "schema": "dram-readout-offset-d1",
+  "frozen_utc": "2026-10-10T07:31:34.006570+00:00",
+  "cases": [
+    {
+      "tag": "rodiag1-bridge090",
+      "sn_target_V": 0.9,
+      "variant": "standard",
+      "order": 0,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "864a45cde754c16a15579e6e4f16cf647d90cc738d5bcab783c44977067cec53",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "8fa156396f969aeebcc24988af3a585227d227acc1d7d05e9752786a9e5c8b84",
+        "project.json": "1113630fafa8f9e2d7f13c1f326092742bbd40c9f16815c9afa698bce0c522b6"
+      }
+    },
+    {
+      "tag": "rodiag1-center050",
+      "sn_target_V": 0.5,
+      "variant": "standard",
+      "order": 1,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "756635b7b84da324c44b94298ebefa3670105b70cbbdfd3bde8efcb63b4067fc",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "75ee9402713d19792fe2280432a7f974462306f970ad82dd94a2697390ebb85c",
+        "project.json": "8f63cd89706a54c7010bde6fa729da941fbff51e4c5f69f8929176df14195392"
+      }
+    },
+    {
+      "tag": "rodiag1-alphaSN",
+      "sn_target_V": 0.393727754888742,
+      "variant": "standard",
+      "order": 2,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "24ee8c23b05c003ff8caf3b2124079f7649fa8a5689fb9a89407209be00656ff",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "d438872144d21ca993764d83f560ac0cc8fa8be72e31fbcf63d0281890b123a2",
+        "project.json": "57b74f53a68955e380ceab0eed7e1a9f1abed1a4c1ad5313cb4cc566954ae691"
+      }
+    },
+    {
+      "tag": "rodiag1-scan035",
+      "sn_target_V": 0.35,
+      "variant": "standard",
+      "order": 3,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "c18217554e788aa6498447362efff3cc9ec646909df47e5c0647578651c69205",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "e0c37f204e2fa46ceb33ef2264ab738b3e331160519454b6245d47362cf7ba8b",
+        "project.json": "b38f77428c6f6e16a6d5d78cc045f91076c8b6c522d9a9f46ded3e8bca83a4ea"
+      }
+    },
+    {
+      "tag": "rodiag1-scan045",
+      "sn_target_V": 0.45,
+      "variant": "standard",
+      "order": 4,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "1e086f3e426fb73f0d6ca334d5d7f1a994dec6729a5848e8e81d405dee46c010",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "8f0b0a686a9564475e89c8ba78f76dc086d5baf1ad5a867ae2777ceb1caef000",
+        "project.json": "ab26db3e3030e743aaf091e87eb52dcd1c8c8d6c69c9912c4b35218165205983"
+      }
+    },
+    {
+      "tag": "rodiag1-scan055",
+      "sn_target_V": 0.55,
+      "variant": "standard",
+      "order": 5,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "06e006a451ce430426635351b8ccddf9bb7ea9df6a90a266b68a2715039a4e0d",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "da0da67791e67488fa4a4625c728910db5f2c44f4b59a591469233c64e141bf6",
+        "project.json": "05e783b8bca371e80d8b55374c88b4c0ee8084c839a94ca9f4b8bcd97e557864"
+      }
+    },
+    {
+      "tag": "rodiag1-wl-off",
+      "sn_target_V": 0.5,
+      "variant": "wl_off",
+      "order": 6,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "0ff956a46c8090768b3d591e3c37d80ac90c258a30643b9169b62bb4fba71b18",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "8d63a1b0ca138499626285c656cca3c4088c9db38433e60fd916360d26c308ec",
+        "project.json": "1330f3ec1d38713b0d89da3d3b76c1f035f8de449e9d9ce50ebca3dda416b40d"
+      }
+    },
+    {
+      "tag": "rodiag1-wl-slow",
+      "sn_target_V": 0.5,
+      "variant": "wl_slow",
+      "order": 7,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "23358beb57e472e9885dd29a848822af346b870b4d4cd1fa95b42817964b222e",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "b97ef6fb1ef3c8a3c5197b0504cf175646d5eed886c7812f9e7f466521d14cb0",
+        "project.json": "76e768db16541040427d86bbe8d75b59a41bb6e05761edee8b678b1d9226a5e3"
+      }
+    },
+    {
+      "tag": "rodiag1-matched-ref",
+      "sn_target_V": 0.393727754888742,
+      "variant": "matched_ref",
+      "order": 8,
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "device.cmd": "f90f5a11e5bf92ae409a5ada1497106e6e8282fe7f32a38844c4f8e776f994c2",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "62480d0075ed284110acdc150d2d9151f95df5551bc19a9453ad7e405b636e79",
+        "project.json": "19ca403f9715aa313e262fe7d4a4c33ab3f8d003099731fc12bcfa4681e44387"
+      }
+    }
+  ],
+  "new_run_count": 9,
+  "solver_budget_s": 5400,
+  "single_run_inspection_s": 1200,
+  "serial_threads": 1,
+  "original_baseline": "20261010T014743Z-v2-base-l025-b1-143253c7",
+  "original_pilot_design_sha256": "f85653a58316c6d43858898ecb9976ec6b42bcb3e88da45cfa302d941f263170",
+  "source_sha256": {
+    "build.py": "7a8a685a14c02fe01da1c32d5d0d0ad91dc66e47926752e5703e5bd8d05e8c55",
+    "audit.py": "e20b07b7ff1b2984396249f72636fc2366c68d060d1d6cdd3b7991917b4e4fa4",
+    "run.py": "0af4d100d737d1244b4bc341dcfe34f732f2c5a71ea0ba42d4fdafa86baf5476"
+  },
+  "dependency_sha256": {
+    "experiments/dram-see-v1/analyze.py": "6b0df38bb4db9ff3a77bfaee1ead5ef3b794bf93999411bf016cc45ae526cabf",
+    "experiments/dram-see-v2/audit.py": "0ca60a603dbcdb74410c05eb6e2f7fb7f5ca8ecadbe3557e5fa3e20fdb2e845f",
+    "scripts/tcad.py": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5"
+  },
+  "prior_evidence": "v2 observed alpha small positive D; raw port-charge inspection preceded this diagnostic freeze; this is not prospective particle sampling",
+  "hypotheses": [
+    "WL actuation supplies a substantial gate-displacement contribution to SN+BL net charge; quantify body and carrier terms separately",
+    "ideal REF omits an access-cell read common-mode response; compare one physical matched reference with offline center-trace subtraction"
+  ],
+  "gates": {
+    "bridge_D_abs_difference_mV": 0.01,
+    "initial_tolerance_mV": 1,
+    "matched_reference_vs_offline_tolerance_mV": 0.1,
+    "conservation": "KCL 1pA+0.1% local current; BE max(0.001fC,0.1% gain); four-port closure max(0.002fC,0.1% gain)",
+    "hypothesis_outcomes": "negative/null mechanism contrasts are valid results, not grounds to change samples"
+  },
+  "analysis_plan": {
+    "scan": "D at4ns versus actual SN at3ns; two-capacitor prediction uses actual BL3/REF3; no fit extrapolation",
+    "ports": "BE right-endpoint integrals over3\u20134ns of total/e/h/displacement for source/drain/gate/body; device current opposite circuit node inflow",
+    "reference": "ideal REF drift; offline Dmatched=BLcase4-BLcenter4; physical twin reference neutral SN=.5 with identical BL precharge and WL; no calibrated sense latch",
+    "wl": "same SN=.5, WL held0 and same-start 200ps rise compared with50ps rise; compare gate peak and total/net charge",
+    "alpha_match": "compare no-particle scalar SN=.393727754888742 with original alpha101 read SN; carrier/field histories are not assumed equal"
+  },
+  "pilot_unchanged": true,
+  "particle_event_count": 0,
+  "no_new_probability_estimates": true
+}

@@ -1,0 +1,2 @@
+Abs(ElectricField-V) Abs(TotalCurrentDensity-V) Abs(eCurrentDensity-V) Abs(hCurrentDensity-V) DopingConcentration ElectricField-V ElectricField-X ElectricField-Y ElectrostaticPotential LatticeTemperature QuasiFermiPotential TotalCurrentDensity-V TotalCurrentDensity-X TotalCurrentDensity-Y X Y eCurrentDensity-V eCurrentDensity-X eCurrentDensity-Y eDensity eQuasiFermiPotential hCurrentDensity-V hCurrentDensity-X hCurrentDensity-Y hDensity hQuasiFermiPotential
+V2_NATIVE_TDR_EXPORT_COMPLETED 20261010T014743Z-v2-base-l025-b1-143253c7

@@ -1,0 +1,2495 @@
+{
+  "generated_utc": "2026-10-09T19:12:14.363884+00:00",
+  "scope": "Actual local evidence; COLLECTED and numerical acceptance do not establish physical calibration.",
+  "runs": [
+    {
+      "run_id": "20261009T163601Z-baseline-l025-1741a303",
+      "state": "FAILED_COLLECTED",
+      "ssh_exit_code": 5,
+      "results_sha256": "1246e7195ef71a177143226a511b14a0c9450cc6f371a2d15db213fb63aed3b5",
+      "input_sha256": {
+        "device.cmd": "3fac41ecb17e5938dc5cf263253fded0bb332b94633cc4257908434dac502662",
+        "generator-sha256.txt": "041e1e9f663f5621e76f03e0bc46301a795a88a2c20aa630728037d5e2550720",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "0fbd5a2e46a6d73ec9886b6dfeb111ae0b6dde4f89e2128c46f7c075ad6ef87a",
+        "project.json": "365f60c3338768586407e828115a87646c19d1605f4c4fc66fe663bb4c66ad96"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sde",
+          "args": [
+            "-e",
+            "-l",
+            "geometry.scm"
+          ],
+          "outputs": [
+            "cell_msh.tdr"
+          ]
+        },
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient.log",
+            "final_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0,
+        "angle_deg": 0,
+        "mesh_scale": 1,
+        "step_scale": 1,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.0,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": null,
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T163601Z-baseline-l025-1741a303",
+      "files": {
+        "console.log": {
+          "bytes": 39364,
+          "sha256": "d46f41e090c29893a7bcb6f4a0a0ef0a84747a65329ccf1d710a49bbcef77cc1"
+        },
+        "inputs.tar": {
+          "bytes": 20480,
+          "sha256": "78ab0953dba70752f864e50a15531b9c92d927b899ad9e57d8b2685efed8f8fd"
+        },
+        "manifest.json": {
+          "bytes": 1400,
+          "sha256": "99df663018288599e4f60c35c8fb9b6b8a89e140923debf99d8a46c0173b1f3e"
+        },
+        "results.tar": {
+          "bytes": 235520,
+          "sha256": "1246e7195ef71a177143226a511b14a0c9450cc6f371a2d15db213fb63aed3b5"
+        },
+        "run.sh": {
+          "bytes": 953,
+          "sha256": "840c15133fb46e054634d84045a90bcef5002717ff70900d9f26a11b0f875743"
+        }
+      },
+      "completed_solver_wallclock_s": null,
+      "solver_completion_in_console": false
+    },
+    {
+      "run_id": "20261009T163759Z-baseline-l025-r2-1b03a605",
+      "state": "FAILED_COLLECTED",
+      "ssh_exit_code": 1,
+      "results_sha256": "05006faf3050242b5aad4aab0547297971fce5bf4ae6e761ba7413d83142b805",
+      "input_sha256": {
+        "device.cmd": "0a40d0c7546b21dad1061dc45748d0e651041d4d9fc7bc92d72a7245e75187d0",
+        "generator-sha256.txt": "3ab2c18b0c961dec936058963b03d04caf89f503d59d4e87459ffc7d4457cff7",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "0fbd5a2e46a6d73ec9886b6dfeb111ae0b6dde4f89e2128c46f7c075ad6ef87a",
+        "project.json": "f3ea4d1277f5f0b9df6c54a945700079ae0c0b9d819002b89332bcd663a35550"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sde",
+          "args": [
+            "-e",
+            "-l",
+            "geometry.scm"
+          ],
+          "outputs": [
+            "cell_msh.tdr"
+          ]
+        },
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient.log",
+            "final_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0,
+        "angle_deg": 0,
+        "mesh_scale": 1,
+        "step_scale": 1,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.0,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": null,
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T163759Z-baseline-l025-r2-1b03a605",
+      "files": {
+        "console.log": {
+          "bytes": 644898,
+          "sha256": "0b00cc692cb812c3dfd88f714dea1694eb20e0e9f8a1fafe78d21776e2c866ab"
+        },
+        "inputs.tar": {
+          "bytes": 20480,
+          "sha256": "212ea7a780c1be9f680a8ac27eb3212b62360932f10b957b4d6fce496ad5a5f9"
+        },
+        "manifest.json": {
+          "bytes": 1406,
+          "sha256": "f2238e7e83d9e39cf8851d85156351dc762c2b51acfd02be85775ff4d75ffcc9"
+        },
+        "results.tar": {
+          "bytes": 5079040,
+          "sha256": "05006faf3050242b5aad4aab0547297971fce5bf4ae6e761ba7413d83142b805"
+        },
+        "run.sh": {
+          "bytes": 956,
+          "sha256": "14144fbb0daffd8d06039995c3ae30ba37a4b3fa68a338b05ae12ee2af0138eb"
+        }
+      },
+      "completed_solver_wallclock_s": 364.91,
+      "solver_completion_in_console": true
+    },
+    {
+      "run_id": "20261009T164529Z-pilot-alpha5-l025-a0-1685a0e8",
+      "state": "FAILED_COLLECTED",
+      "ssh_exit_code": 5,
+      "results_sha256": "019daa2d53a77ee6e3786f7120d00142ad6a932f08e1f09753d1f02856dd6340",
+      "input_sha256": {
+        "device.cmd": "a65bb4508a4a1a74655c8dcc02e4a634abc8b2737aff4b72808a445db1f8c5f8",
+        "generator-sha256.txt": "306caf0445d9d378a22938a5b4dc82c1822fb63816992dedbe09ecab0900e9f7",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "c0f1c0ac5bedbf784f639cd9482327fdab5305d073304e4b20d428715230be87",
+        "project.json": "0bdba5d4b31577ab81364d57b9145470782021af89588251503a47b7106f3e4a"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sde",
+          "args": [
+            "-e",
+            "-l",
+            "geometry.scm"
+          ],
+          "outputs": [
+            "cell_msh.tdr"
+          ]
+        },
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0.007659403595125654,
+        "angle_deg": 0.0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.006382836329271379,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments\\dram-see-v1\\data\\geant4\\pilot-alpha5-l025-a0\\event.json",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T164529Z-pilot-alpha5-l025-a0-1685a0e8",
+      "files": {
+        "console.log": {
+          "bytes": 39754,
+          "sha256": "1aace53be1f74b6e1959f648ed8faa92625f8893778214c63d330d613290a9e0"
+        },
+        "inputs.tar": {
+          "bytes": 20480,
+          "sha256": "e8e61b964515b8623af2a8b018917cbfa52e02d1b54b38d14328597007762910"
+        },
+        "manifest.json": {
+          "bytes": 1421,
+          "sha256": "63ff1d74f66dce4ad637092ae12823cf4749e04a3b9e7a60f83b6b5542c7e7a5"
+        },
+        "results.tar": {
+          "bytes": 235520,
+          "sha256": "019daa2d53a77ee6e3786f7120d00142ad6a932f08e1f09753d1f02856dd6340"
+        },
+        "run.sh": {
+          "bytes": 967,
+          "sha256": "d7e65787c368524531afaaf3469a236361fb3546de892a63898f7f364c4fc03a"
+        }
+      },
+      "completed_solver_wallclock_s": null,
+      "solver_completion_in_console": false
+    },
+    {
+      "run_id": "20261009T164646Z-pilot-alpha5-l025-a0-r2-8c335cf9",
+      "state": "FAILED_COLLECTED",
+      "ssh_exit_code": 143,
+      "results_sha256": "83b413da8f1a60c5fc984d1d3284129719b10ce8e37776cbbb1153552b814026",
+      "input_sha256": {
+        "device.cmd": "d4efdf412e28d83841fcc8b4bce7155f3299ac6aeaa4a47c69719702f46250a2",
+        "generator-sha256.txt": "bc3bf5e71561340c48046475b53849900198550ded5d52988b7415c1cc9d98d6",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "4da0be2a7e471619dcd983158e154181bce6f0959465758ca9c2615a161b6dbb",
+        "project.json": "080e31e3701653aaecce9fadd8e350d55434b8e568fb1801e067237da843a367"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sde",
+          "args": [
+            "-e",
+            "-l",
+            "geometry.scm"
+          ],
+          "outputs": [
+            "cell_msh.tdr"
+          ]
+        },
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0.007659403595125654,
+        "angle_deg": 0.0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.006382836329271379,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/pilot-alpha5-l025-a0/event.json",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T164646Z-pilot-alpha5-l025-a0-r2-8c335cf9",
+      "files": {
+        "console.log": {
+          "bytes": 84071,
+          "sha256": "7494a655b17a4aeaa2f373edd75ed52874af6dd7d287d437bf63c4dc233fc710"
+        },
+        "inputs.tar": {
+          "bytes": 20480,
+          "sha256": "ac0b4409682c4600bcfa7840d0e37e2c1c8f8eeefbdc382f6e8f6aaea9c8f5e7"
+        },
+        "manifest.json": {
+          "bytes": 1429,
+          "sha256": "3a0077a364d24ac8358f063065bbd769752a688d9dc36bb6266a8b7ea823738b"
+        },
+        "results.tar": {
+          "bytes": 358400,
+          "sha256": "83b413da8f1a60c5fc984d1d3284129719b10ce8e37776cbbb1153552b814026"
+        },
+        "run.sh": {
+          "bytes": 970,
+          "sha256": "05dc49856d7ade279b9bcd813a110c887dd9991e120a987708c3038c1addfda4"
+        }
+      },
+      "completed_solver_wallclock_s": null,
+      "solver_completion_in_console": false
+    },
+    {
+      "run_id": "20261009T165104Z-pilot-alpha5-l025-a0-r3-257b11ae",
+      "state": "FAILED_COLLECTED",
+      "ssh_exit_code": 1,
+      "results_sha256": "f942a593cf87c372d8efed65fcee51dcdfab95b0d3a33fa042d3762d518cc8ca",
+      "input_sha256": {
+        "device.cmd": "94b1ef1fd2911438f17486d7b46645feef7200849af0f2fc8613add518e8a5f2",
+        "generator-sha256.txt": "f7b234eb98b6d58f926d48d54ecf209390bcb228ea5a8ea6e3e12ba5d5870a63",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "4da0be2a7e471619dcd983158e154181bce6f0959465758ca9c2615a161b6dbb",
+        "project.json": "b83335e51dff9b30b2f1e85cdc6abdd162b64b67a6a8be478ab3394708915098"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sde",
+          "args": [
+            "-e",
+            "-l",
+            "geometry.scm"
+          ],
+          "outputs": [
+            "cell_msh.tdr"
+          ]
+        },
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0.007659403595125654,
+        "angle_deg": 0.0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.006382836329271379,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/pilot-alpha5-l025-a0/event.json",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T165104Z-pilot-alpha5-l025-a0-r3-257b11ae",
+      "files": {
+        "console.log": {
+          "bytes": 696293,
+          "sha256": "baeb90ea66931d476611d537510b3a735f231ff717452f3a15218601b4980706"
+        },
+        "inputs.tar": {
+          "bytes": 20480,
+          "sha256": "b304169f07572729ad640230e51d953fd010b68c05e4c06a3ef90ed6e6f8d86e"
+        },
+        "manifest.json": {
+          "bytes": 1427,
+          "sha256": "43ecff52a62ce5211f236ea8d59ab4a72548fc534e3a7364f2c6a004127ba20c"
+        },
+        "results.tar": {
+          "bytes": 5560320,
+          "sha256": "f942a593cf87c372d8efed65fcee51dcdfab95b0d3a33fa042d3762d518cc8ca"
+        },
+        "run.sh": {
+          "bytes": 970,
+          "sha256": "af570c95c7ba4f97cbf237f3a5f3aa3882e27f81bbb3eea562849471cb152335"
+        }
+      },
+      "completed_solver_wallclock_s": 385.74,
+      "solver_completion_in_console": true
+    },
+    {
+      "run_id": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "5675f981dd1a08ea5ed64a8c3b4eb50c8f8e201c066c79ff0c92d21d53f50001",
+      "input_sha256": {
+        "device.cmd": "39bbdbfe6421c9c30f6173d7214b86c1408b7999837a3dcfdc6ac279c5291624",
+        "generator-sha256.txt": "b19a5c89d328564f5895e3bab0e7a03bc1bc3b7ebc85c0787e2e41f6c198237b",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "2c4e721ea79d3867396eea8c448dc6029411e1dc36e725b368bd3f0054a81b55",
+        "project.json": "5ab927ffaf4c24150cd1d9478b75374a17f55ac27d6e42e50f3ee4bbad53aeb2"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sde",
+          "args": [
+            "-e",
+            "-l",
+            "geometry.scm"
+          ],
+          "outputs": [
+            "cell_msh.tdr"
+          ]
+        },
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0.007659403595125654,
+        "angle_deg": 0.0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.006382836329271379,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/pilot-alpha5-l025-a0/event.json",
+        "restart_run": null,
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+      "files": {
+        "console.log": {
+          "bytes": 696315,
+          "sha256": "b0ec18128eefcf9e9c4cf4f9c04b30de55bfca58ce858ee1065e0c2af51dd935"
+        },
+        "inputs.tar": {
+          "bytes": 20480,
+          "sha256": "c20ab6adef200738a6b751eac8d906140954942e01ab297e52103e58a36e8f79"
+        },
+        "manifest.json": {
+          "bytes": 1424,
+          "sha256": "5da755b17c97bc6b3ffbdbd7c04c5ad33c3bd6894768ca7e6506466990c4e33e"
+        },
+        "results.tar": {
+          "bytes": 5560320,
+          "sha256": "5675f981dd1a08ea5ed64a8c3b4eb50c8f8e201c066c79ff0c92d21d53f50001"
+        },
+        "run.sh": {
+          "bytes": 974,
+          "sha256": "f939fd041c93863678ae538ea23d1381db797f5028c61056983632f61e639742"
+        }
+      },
+      "completed_solver_wallclock_s": 411.2,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "6eab95a98653d16ed086010c0a2a51ce1db8dbdcb56174c2f415e2910f493bbd"
+    },
+    {
+      "run_id": "20261009T170632Z-control-l025-cd6c15bc",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "6b296f4dd9d51bbf3249395e82db66881ad420b5150bbc10fb436a415d45c6c9",
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "charged_access_des.sav": "88b95ee35a2ab7169c16422dec27292cfac651f6034f76e0fbc2644d75b23cbf",
+        "charged_circuit_des.sav": "b812f95e78bfed145e2178ce45f358494027cbf53f760c0355b33fc4c8928c17",
+        "device.cmd": "c16a3beff97ce2b235470e6a026108139bee4f4b541b09a00ad27cc66bef9c0b",
+        "generator-sha256.txt": "b19a5c89d328564f5895e3bab0e7a03bc1bc3b7ebc85c0787e2e41f6c198237b",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "70d39882d1316ae91f6aca70583c64a382f36b1d6b991b8400766fa972cfd145",
+        "project.json": "55ecf8b7c375cac5112256ab9bc400d77a95bdec7b31983e0d757ffdc1e31eee",
+        "restart-provenance.json": "29bdf0fa9926ec90009a8d2f2b8ab2e625f2291afe00ee285b4365d1cdac408f"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0.0,
+        "angle_deg": 0.0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.0,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": null,
+        "restart_run": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T170632Z-control-l025-cd6c15bc",
+      "files": {
+        "console.log": {
+          "bytes": 424179,
+          "sha256": "583c79720ba40e3bb4e2c95d71ee918aa8e713d5cd1a5f5a03eba1f713f50d3e"
+        },
+        "inputs.tar": {
+          "bytes": 409600,
+          "sha256": "b6e0ac0292868498badcab24ecc06ec103bd6b6dde36cfa8072a5e0e4a3e34f2"
+        },
+        "manifest.json": {
+          "bytes": 1619,
+          "sha256": "58ac7cec29c5608cea6e0d122ee2bdd429f1eb4f501c5bf972dd2367ecb0c285"
+        },
+        "results.tar": {
+          "bytes": 4771840,
+          "sha256": "6b296f4dd9d51bbf3249395e82db66881ad420b5150bbc10fb436a415d45c6c9"
+        },
+        "run.sh": {
+          "bytes": 863,
+          "sha256": "2dd05d3e5c38d4e49956861e94098a4f49414273cf4604948ad4dc82bb42f17b"
+        }
+      },
+      "completed_solver_wallclock_s": 119.25,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "fde15d61f260a0379d4adc2bbdf976d557708597c9bf9e73c288b45998c244c6"
+    },
+    {
+      "run_id": "20261009T170858Z-see-l025-alpha-e5-a0-c07e356d",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "f6264c67483e9eaf319c1b1b370f7e3ab637f827511ea1e52ae18d762896343c",
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "charged_access_des.sav": "88b95ee35a2ab7169c16422dec27292cfac651f6034f76e0fbc2644d75b23cbf",
+        "charged_circuit_des.sav": "b812f95e78bfed145e2178ce45f358494027cbf53f760c0355b33fc4c8928c17",
+        "device.cmd": "f8533a1a37ebe9d15371dac9803e4833081891f211e011abc01206df02205c3a",
+        "generator-sha256.txt": "b19a5c89d328564f5895e3bab0e7a03bc1bc3b7ebc85c0787e2e41f6c198237b",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "b6618b06da0dc3eff1cd6c0ea5f7e7011ed8b8acd523d5796ffb7d21fda82071",
+        "project.json": "bddb2cb30056f15227b50eebd8ea93040b7b63882f29898b55281ed57d6c6756",
+        "restart-provenance.json": "29bdf0fa9926ec90009a8d2f2b8ab2e625f2291afe00ee285b4365d1cdac408f"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0.007659403595125654,
+        "angle_deg": 0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.006382836329271379,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l025-alpha-e5-a0/event.json",
+        "restart_run": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T170858Z-see-l025-alpha-e5-a0-c07e356d",
+      "files": {
+        "console.log": {
+          "bytes": 475174,
+          "sha256": "e43cfbca5356e8c2352cb29c12f07c7ebc8303da6f98e6e9db44111d372bb270"
+        },
+        "inputs.tar": {
+          "bytes": 409600,
+          "sha256": "dd3db437d9c857fee6525c3ecb26de76e0f90a3e175dde30c27bb7cf3902c77e"
+        },
+        "manifest.json": {
+          "bytes": 1635,
+          "sha256": "2580a454caac55a2ff80e21fee1172ab5b02737321ca9ef61d68d7b48778639e"
+        },
+        "results.tar": {
+          "bytes": 4966400,
+          "sha256": "f6264c67483e9eaf319c1b1b370f7e3ab637f827511ea1e52ae18d762896343c"
+        },
+        "run.sh": {
+          "bytes": 871,
+          "sha256": "4ae9f421e491c05131b12f9ca1b0476ff58903b5e4e8d9bf28ce1be997ff9c10"
+        }
+      },
+      "completed_solver_wallclock_s": 271.05,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "69085871b0382fd9eba12a506e063ef1a1ce3fd9f1a117f3a19d983bf7ca2605"
+    },
+    {
+      "run_id": "20261009T171421Z-baseline-l018-2936f0de",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "62f21205ce7ebdbd5b67b1863d355a333a9392007cd5b69ca8fb7a5a986d54af",
+      "input_sha256": {
+        "device.cmd": "2e136261574eceb90e915bc03ced3c8077a29ae8264dbb360e7ae721177be834",
+        "generator-sha256.txt": "b19a5c89d328564f5895e3bab0e7a03bc1bc3b7ebc85c0787e2e41f6c198237b",
+        "geometry.scm": "0d4865af7cdb17d59a2069e29610d62fd0467a19d939a20cd9827e3d31e526ff",
+        "parameters.json": "dc0cda593aab847431539215b379590ebaf2723e90fa425a322e9d52247b9581",
+        "project.json": "a5d67db01657d50371530ed41f9ca827defbc3f530108b91226666a853c31b52"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sde",
+          "args": [
+            "-e",
+            "-l",
+            "geometry.scm"
+          ],
+          "outputs": [
+            "cell_msh.tdr"
+          ]
+        },
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.18,
+        "charge_pc": 0.0,
+        "angle_deg": 0.0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.0,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": null,
+        "restart_run": null,
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T171421Z-baseline-l018-2936f0de",
+      "files": {
+        "console.log": {
+          "bytes": 668837,
+          "sha256": "22a98a0d924ce6e45e0dcd49e14ef9a15ddcdbe19f445517295d158b61b70281"
+        },
+        "inputs.tar": {
+          "bytes": 20480,
+          "sha256": "53f551dcbf123c22d421aa1f7e0fbe26c1c445ba7a06ef44253005bcfadfd5a9"
+        },
+        "manifest.json": {
+          "bytes": 1404,
+          "sha256": "d9d1ee5892961c564b2c16dfcec97b9585cd9a586eb578e512222818c196c541"
+        },
+        "results.tar": {
+          "bytes": 5509120,
+          "sha256": "62f21205ce7ebdbd5b67b1863d355a333a9392007cd5b69ca8fb7a5a986d54af"
+        },
+        "run.sh": {
+          "bytes": 964,
+          "sha256": "31291725221d9c31aecbad08b3c19d37afd9946d6e2b35128b61aea2558fd0a9"
+        }
+      },
+      "completed_solver_wallclock_s": 337.33,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "5e68016d66f026611440513ddd855aa12ff4097a7f317583cbeec190ac078be8"
+    },
+    {
+      "run_id": "20261009T172049Z-control-l018-e0d03b07",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "eb2f12f42692bd2569d46c1aaa17497c5eac7039e65681b47339710e68476104",
+      "input_sha256": {
+        "cell_msh.tdr": "8d567c250e447c7122819227a5f5502a585b492d342f0e0dd52232e2369a587b",
+        "charged_access_des.sav": "5d853f5de6065ddf266d90b9ba92a31aeb497646a5effbdf539c02a57ed8b4ae",
+        "charged_circuit_des.sav": "73efd730b456e8c3516245a051d093f3085aa992646650f4595fb8618c89aeaf",
+        "device.cmd": "c16a3beff97ce2b235470e6a026108139bee4f4b541b09a00ad27cc66bef9c0b",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "0d4865af7cdb17d59a2069e29610d62fd0467a19d939a20cd9827e3d31e526ff",
+        "parameters.json": "1a3b0956c4efc0db9df432fb8d78b196ddc3497fcd52c0b97d99b045dc0db2c1",
+        "project.json": "9aa7374adf6a374c9219da4fbadabbff92b96d9e690a84524f1a7b5f05c37dd5",
+        "restart-provenance.json": "b391d5088381d16d193bc3aba39df52fcd846a63a571299c08ee7771dde08002"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.18,
+        "charge_pc": 0.0,
+        "angle_deg": 0.0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.0,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": null,
+        "restart_run": "20261009T171421Z-baseline-l018-2936f0de",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T172049Z-control-l018-e0d03b07",
+      "files": {
+        "console.log": {
+          "bytes": 424173,
+          "sha256": "680e036237b48eba011cb3b59317d5408623e59e4cfb512e256dbb43bbaaf4cb"
+        },
+        "inputs.tar": {
+          "bytes": 419840,
+          "sha256": "68df52285131a7697596b1de7b59fff273bbbbc104e8fdeb1603cb6dc84bdf45"
+        },
+        "manifest.json": {
+          "bytes": 1619,
+          "sha256": "a274b8649a17026017ad995ed7e739fd5cc847534888824ba9851012934c80df"
+        },
+        "results.tar": {
+          "bytes": 4874240,
+          "sha256": "eb2f12f42692bd2569d46c1aaa17497c5eac7039e65681b47339710e68476104"
+        },
+        "run.sh": {
+          "bytes": 863,
+          "sha256": "0c1fb20447d7cab4a4f74f865eebae8689534475ba3115a6c9d116c78d330bc1"
+        }
+      },
+      "completed_solver_wallclock_s": 125.06,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "3052d8ec3c08c91fa2e4412b571bc7559a226ca3b729c1d85e55cf977d3696b3"
+    },
+    {
+      "run_id": "20261009T172323Z-see-l018-alpha-e5-a0-c60200ef",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "e10fc7ef25c3c15fc7d5ba926ee543d46754b7364f1d8863ba13cbff101d47ae",
+      "input_sha256": {
+        "cell_msh.tdr": "8d567c250e447c7122819227a5f5502a585b492d342f0e0dd52232e2369a587b",
+        "charged_access_des.sav": "5d853f5de6065ddf266d90b9ba92a31aeb497646a5effbdf539c02a57ed8b4ae",
+        "charged_circuit_des.sav": "73efd730b456e8c3516245a051d093f3085aa992646650f4595fb8618c89aeaf",
+        "device.cmd": "8a0dbb139a3d5be0e8395c0d6d72429a55972259a0aa4443e871329c05c6ce44",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "0d4865af7cdb17d59a2069e29610d62fd0467a19d939a20cd9827e3d31e526ff",
+        "parameters.json": "e34ba80a516d21fa38b10b748a88a08d73fed96bfc62f2481f4b17800d24ec95",
+        "project.json": "b806605f03b37b616346f4a44fafbea44dcd53e1f7b1bfadffe13bba995a610f",
+        "restart-provenance.json": "b391d5088381d16d193bc3aba39df52fcd846a63a571299c08ee7771dde08002",
+        "source-event.json": "fd2966a5e44fd004f9968a1cc5a0b265c7850d9bea853bb3078dc3132a6779c9",
+        "source-events.csv": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469",
+        "source-steps.csv": "39f9d5a8324f33aa7f8474fbef7dce488c6a0933ed9c5482248de45b4d2ac0c3"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.18,
+        "charge_pc": 0.007659403595125654,
+        "angle_deg": 0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.006382836329271379,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l018-alpha-e5-a0/event.json",
+        "restart_run": "20261009T171421Z-baseline-l018-2936f0de",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "fd2966a5e44fd004f9968a1cc5a0b265c7850d9bea853bb3078dc3132a6779c9",
+          "source-steps.csv": "39f9d5a8324f33aa7f8474fbef7dce488c6a0933ed9c5482248de45b4d2ac0c3",
+          "source-events.csv": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T172323Z-see-l018-alpha-e5-a0-c60200ef",
+      "files": {
+        "console.log": {
+          "bytes": 478060,
+          "sha256": "b5c58701e5618d875e0864f469cc18fb1fd45f2be1015b6773cdfc23f80ca1fb"
+        },
+        "inputs.tar": {
+          "bytes": 450560,
+          "sha256": "a29be18fffa931e0decec1f07a8eb260b79d7600a221b0cd0a2c5aee2da8b5c0"
+        },
+        "manifest.json": {
+          "bytes": 1916,
+          "sha256": "b8ae8e596f6dfc9e89bfc32c783e6a3a765df6ef9b007d45fdf0057cf687b4f5"
+        },
+        "results.tar": {
+          "bytes": 5079040,
+          "sha256": "e10fc7ef25c3c15fc7d5ba926ee543d46754b7364f1d8863ba13cbff101d47ae"
+        },
+        "run.sh": {
+          "bytes": 871,
+          "sha256": "1d2d4f30b4f47c711707be92f60a1ee41e132551c8bc880a90942cebbcf91020"
+        }
+      },
+      "completed_solver_wallclock_s": 292.95,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "31c98d9ce0ad5501b3d1e15bb142b822d447a5be48aa8fb00b91ca4ee3c13ce5"
+    },
+    {
+      "run_id": "20261009T172844Z-see-l018-alpha-e5-a30-bcfd55e1",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "7a238a036d2103b11c2f777fdf960978c8be32a615c5721809e1e881bf2a3ee0",
+      "input_sha256": {
+        "cell_msh.tdr": "8d567c250e447c7122819227a5f5502a585b492d342f0e0dd52232e2369a587b",
+        "charged_access_des.sav": "5d853f5de6065ddf266d90b9ba92a31aeb497646a5effbdf539c02a57ed8b4ae",
+        "charged_circuit_des.sav": "73efd730b456e8c3516245a051d093f3085aa992646650f4595fb8618c89aeaf",
+        "device.cmd": "21eda3a0137204ae16217fc6f9316bbff86b422e5dd45237d42a9f471b076dbf",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "0d4865af7cdb17d59a2069e29610d62fd0467a19d939a20cd9827e3d31e526ff",
+        "parameters.json": "1683e10d40795b1618b3bfc2555e5c33fda0e61ed009906121ce4d69f345ee61",
+        "project.json": "c96ab9fefb2d3d1f32eb6d014bc3c9ec4dd1d6626a12b5651e9a871867c9e2af",
+        "restart-provenance.json": "b391d5088381d16d193bc3aba39df52fcd846a63a571299c08ee7771dde08002",
+        "source-event.json": "c94fe8c8e73c0ccfacc027022f0be03d08e64910eb7e2ed4b7587b680782557a",
+        "source-events.csv": "f52a28e732685137df5433c7dd439be56fd9f2c7c79e0a3ef461be2b7f8538da",
+        "source-steps.csv": "7c494d8363cfdf10fdda1a4975a7390a80b5e75bb508ab0695013b85af094c83"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.18,
+        "charge_pc": 0.007940490808087744,
+        "angle_deg": 30,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2600000000000002,
+        "let_pc_per_um": 0.006301976831815668,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l018-alpha-e5-a30/event.json",
+        "restart_run": "20261009T171421Z-baseline-l018-2936f0de",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "c94fe8c8e73c0ccfacc027022f0be03d08e64910eb7e2ed4b7587b680782557a",
+          "source-steps.csv": "7c494d8363cfdf10fdda1a4975a7390a80b5e75bb508ab0695013b85af094c83",
+          "source-events.csv": "f52a28e732685137df5433c7dd439be56fd9f2c7c79e0a3ef461be2b7f8538da"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T172844Z-see-l018-alpha-e5-a30-bcfd55e1",
+      "files": {
+        "console.log": {
+          "bytes": 475409,
+          "sha256": "2ecc69b0f8a5549c49c0bf230e3e10cc64a5f1cec3ac83443e20d0c89a670109"
+        },
+        "inputs.tar": {
+          "bytes": 460800,
+          "sha256": "e70a265be4f5a212a89cb4084c7d17f237f0d6b59f38f609e15ff172b84d4abb"
+        },
+        "manifest.json": {
+          "bytes": 1918,
+          "sha256": "e7943cadf3c722489329f484fea874423b654a6b0c1ac4702074426efa931390"
+        },
+        "results.tar": {
+          "bytes": 5324800,
+          "sha256": "7a238a036d2103b11c2f777fdf960978c8be32a615c5721809e1e881bf2a3ee0"
+        },
+        "run.sh": {
+          "bytes": 872,
+          "sha256": "c7b2e38ef6ad00a2cecb0f46e38ef5049f4856f24c0e386c72d2304e31e4ae4c"
+        }
+      },
+      "completed_solver_wallclock_s": 287.74,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "14ee08370415bc7cee0c10125e2dd988c8ec45b5db2d84ea8eb5e07b72786b0d"
+    },
+    {
+      "run_id": "20261009T173359Z-see-l018-proton-e5-a0-9e6d33d7",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "9da53406e614faa39ed3419d7717b0ab18dd938d3ea12edbfcf24ca144593b47",
+      "input_sha256": {
+        "cell_msh.tdr": "8d567c250e447c7122819227a5f5502a585b492d342f0e0dd52232e2369a587b",
+        "charged_access_des.sav": "5d853f5de6065ddf266d90b9ba92a31aeb497646a5effbdf539c02a57ed8b4ae",
+        "charged_circuit_des.sav": "73efd730b456e8c3516245a051d093f3085aa992646650f4595fb8618c89aeaf",
+        "device.cmd": "7eb7c8b3ff82ced9d36fca1e1cd46ccc6030e8f22ca6c449548d49950158b61a",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "0d4865af7cdb17d59a2069e29610d62fd0467a19d939a20cd9827e3d31e526ff",
+        "parameters.json": "ae85cae0067f4148fa0235a9a93a23e78d489f7edd3bfa97913e34a9e65c68d3",
+        "project.json": "370f309f3112dce245dc5e3a375f32a08d1d45229f8c1ad342373cc360159696",
+        "restart-provenance.json": "b391d5088381d16d193bc3aba39df52fcd846a63a571299c08ee7771dde08002",
+        "source-event.json": "ac107007cd1327cc2a067348068f8c6f4bcbf54482ea2d1a1b94a8b715fdf988",
+        "source-events.csv": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952",
+        "source-steps.csv": "85c675f5c006be61312ba7f48b25c6f06e3839fb8acd8fcd0d91a389b5d8bdb7"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.18,
+        "charge_pc": 0.00042286140884984657,
+        "angle_deg": 0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.00035238450737487217,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l018-proton-e5-a0/event.json",
+        "restart_run": "20261009T171421Z-baseline-l018-2936f0de",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "ac107007cd1327cc2a067348068f8c6f4bcbf54482ea2d1a1b94a8b715fdf988",
+          "source-steps.csv": "85c675f5c006be61312ba7f48b25c6f06e3839fb8acd8fcd0d91a389b5d8bdb7",
+          "source-events.csv": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T173359Z-see-l018-proton-e5-a0-9e6d33d7",
+      "files": {
+        "console.log": {
+          "bytes": 469474,
+          "sha256": "df99c95e21fa85902456b2ff44b335dd45e90432128c75232cfe2d0b841936ac"
+        },
+        "inputs.tar": {
+          "bytes": 430080,
+          "sha256": "6676f5f3dd500d42cf8be24ea0c8502bc5c8dd34562f2182b290c0e81156fe7a"
+        },
+        "manifest.json": {
+          "bytes": 1918,
+          "sha256": "726ef8ae8a813ed83e9bd931ac408ac84b0a1ba8fa997276a191ebb51925f724"
+        },
+        "results.tar": {
+          "bytes": 5058560,
+          "sha256": "9da53406e614faa39ed3419d7717b0ab18dd938d3ea12edbfcf24ca144593b47"
+        },
+        "run.sh": {
+          "bytes": 872,
+          "sha256": "84210e653d00a20be203fde8e3406acc8816784fe952cdbf2a43d456543a4864"
+        }
+      },
+      "completed_solver_wallclock_s": 249.74,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "b1f3c68b7145b7f5da091e8b131800f75cd3e1597b8a1ffc4e7decf27fd8e398"
+    },
+    {
+      "run_id": "20261009T173832Z-see-l018-proton-e5-a30-ebcd4acb",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "9bc818318bbc7155a03c5778f897c53ecf390650baa461b9d90409718e9fee49",
+      "input_sha256": {
+        "cell_msh.tdr": "8d567c250e447c7122819227a5f5502a585b492d342f0e0dd52232e2369a587b",
+        "charged_access_des.sav": "5d853f5de6065ddf266d90b9ba92a31aeb497646a5effbdf539c02a57ed8b4ae",
+        "charged_circuit_des.sav": "73efd730b456e8c3516245a051d093f3085aa992646650f4595fb8618c89aeaf",
+        "device.cmd": "4c9eb2698ca7dc5332ad0ca495fe7070535f6f8ad5368c81b3702631c433c909",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "0d4865af7cdb17d59a2069e29610d62fd0467a19d939a20cd9827e3d31e526ff",
+        "parameters.json": "cbe7cc200143047e807f52160e07d834d02865b912534db81a879b60e68fb77c",
+        "project.json": "8b1403943968c6d84f00eaf0a3beddd34c96b1d0e2a461bac0d7804c52a9eb1a",
+        "restart-provenance.json": "b391d5088381d16d193bc3aba39df52fcd846a63a571299c08ee7771dde08002",
+        "source-event.json": "5c5d2f126e7dca352bb89044b09abfaad1a9d910dcf73da6af64d53428614b8f",
+        "source-events.csv": "a4eec640c14ccefaea8698407cbb3871e9b2ecbc12ce44a9f228f24830cd0787",
+        "source-steps.csv": "1ecefd5c0bc213390833766714361a1841782e1dbebf6a28627af5e867c8e1be"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.18,
+        "charge_pc": 0.0004404774688842683,
+        "angle_deg": 30,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2600000000000002,
+        "let_pc_per_um": 0.00034958529276529223,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l018-proton-e5-a30/event.json",
+        "restart_run": "20261009T171421Z-baseline-l018-2936f0de",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "5c5d2f126e7dca352bb89044b09abfaad1a9d910dcf73da6af64d53428614b8f",
+          "source-steps.csv": "1ecefd5c0bc213390833766714361a1841782e1dbebf6a28627af5e867c8e1be",
+          "source-events.csv": "a4eec640c14ccefaea8698407cbb3871e9b2ecbc12ce44a9f228f24830cd0787"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T173832Z-see-l018-proton-e5-a30-ebcd4acb",
+      "files": {
+        "console.log": {
+          "bytes": 468857,
+          "sha256": "d5815a50edc76a75958025ce7f500ff69062de2a9283b3a751ed369eecff551a"
+        },
+        "inputs.tar": {
+          "bytes": 440320,
+          "sha256": "bd4d34a22502fcd54094de8ed2d0282c2a6a6eabc7ffc17aa7f5bc32e6daf86b"
+        },
+        "manifest.json": {
+          "bytes": 1920,
+          "sha256": "803e9e4144f3c50e944ffe6bffe061f0a8c39c43947e11bb86eb8850c772ba18"
+        },
+        "results.tar": {
+          "bytes": 5304320,
+          "sha256": "9bc818318bbc7155a03c5778f897c53ecf390650baa461b9d90409718e9fee49"
+        },
+        "run.sh": {
+          "bytes": 873,
+          "sha256": "c03e366b862edc449d6fde9e0cb563b567655b5dde34d827ecb9bcc43f46fc16"
+        }
+      },
+      "completed_solver_wallclock_s": 249.51,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "b4fa71bef286dff7465347b1e7c4c233d19edf6a082b9a4482be159330b3c4f3"
+    },
+    {
+      "run_id": "20261009T174305Z-see-l025-alpha-e5-a30-eede9033",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "1b714b73663221ce4f28c64e3ec26271575a304451df47a91044a7d9691d632e",
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "charged_access_des.sav": "88b95ee35a2ab7169c16422dec27292cfac651f6034f76e0fbc2644d75b23cbf",
+        "charged_circuit_des.sav": "b812f95e78bfed145e2178ce45f358494027cbf53f760c0355b33fc4c8928c17",
+        "device.cmd": "e8170f428a2c44ffbec8186ae39aa945ad8e2bbb96d995c571c2e9bf856f3239",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "cc097eaa5c97bcda70b8d20fd5b45166f81dda4ca92fb9c4573b83ff4ba0fd78",
+        "project.json": "4b6d023474dacd460ea7189ba52e909da92f264e6642552359368cfb748504b0",
+        "restart-provenance.json": "29bdf0fa9926ec90009a8d2f2b8ab2e625f2291afe00ee285b4365d1cdac408f",
+        "source-event.json": "d45d5dba3787c6d9d69ddac4de25c23cb9713f55fa42e4bc4066bb5af46412d0",
+        "source-events.csv": "86caaa389b84b30848ea48464d2f768b890fb2d905ce347c914d65b5d6bef1cd",
+        "source-steps.csv": "1655b61e9dd2752e6a725d6bdf9e02ca60f0df2c260b3cad509c504e4b221466"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0.008791560903292963,
+        "angle_deg": 30,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.3856406460551016,
+        "let_pc_per_um": 0.006344762567641478,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l025-alpha-e5-a30/event.json",
+        "restart_run": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "d45d5dba3787c6d9d69ddac4de25c23cb9713f55fa42e4bc4066bb5af46412d0",
+          "source-steps.csv": "1655b61e9dd2752e6a725d6bdf9e02ca60f0df2c260b3cad509c504e4b221466",
+          "source-events.csv": "86caaa389b84b30848ea48464d2f768b890fb2d905ce347c914d65b5d6bef1cd"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T174305Z-see-l025-alpha-e5-a30-eede9033",
+      "files": {
+        "console.log": {
+          "bytes": 475958,
+          "sha256": "28836cd644da26d47d4ee57686b97d2578d53632c096e12dc75d37dffef919ea"
+        },
+        "inputs.tar": {
+          "bytes": 450560,
+          "sha256": "7487d01c1844ab5f56972fa5a00d8b03bf43e16b36465c1c97200451a200b944"
+        },
+        "manifest.json": {
+          "bytes": 1918,
+          "sha256": "441285e26d5e7994170d74e3c2dc40dc22e8bb45fbd91f9947b4133579824a29"
+        },
+        "results.tar": {
+          "bytes": 5253120,
+          "sha256": "1b714b73663221ce4f28c64e3ec26271575a304451df47a91044a7d9691d632e"
+        },
+        "run.sh": {
+          "bytes": 872,
+          "sha256": "ed19c8590ad068a4d016fcb331f576a7c4b51cbc08138aa5c243af344ccd3eab"
+        }
+      },
+      "completed_solver_wallclock_s": 271.65,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "c45c0ea698f9d0710412da3c93f3c72dc12f6ab103630672f51b4edb6d17bfdf"
+    },
+    {
+      "run_id": "20261009T174802Z-see-l025-proton-e5-a0-3c53862f",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "f4e4fd88be573027a6168063049c335007cce948b17cc704c9df72aff90e5969",
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "charged_access_des.sav": "88b95ee35a2ab7169c16422dec27292cfac651f6034f76e0fbc2644d75b23cbf",
+        "charged_circuit_des.sav": "b812f95e78bfed145e2178ce45f358494027cbf53f760c0355b33fc4c8928c17",
+        "device.cmd": "a720c74400268de35104733a1971447384de359a1f0f51c6cc97715c1d4485e3",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "3f8f48ef0a79966be747fd6fbbbac61357b920f370525ed162279b9b3d40ba51",
+        "project.json": "b90993aa2490f85852e6b79863590305f8bc9abad35181be2b23d11bd600032a",
+        "restart-provenance.json": "29bdf0fa9926ec90009a8d2f2b8ab2e625f2291afe00ee285b4365d1cdac408f",
+        "source-event.json": "5cd94960eb15901c5896f2b88368f3580fcf913db4f953dda4cfd28c3f9dbb60",
+        "source-events.csv": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952",
+        "source-steps.csv": "0018693ddde7f7c88d4551a8acd152d31bb0122b4a4b7fc28a76636a9de01508"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0.00042286140884984657,
+        "angle_deg": 0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.00035238450737487217,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l025-proton-e5-a0/event.json",
+        "restart_run": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "5cd94960eb15901c5896f2b88368f3580fcf913db4f953dda4cfd28c3f9dbb60",
+          "source-steps.csv": "0018693ddde7f7c88d4551a8acd152d31bb0122b4a4b7fc28a76636a9de01508",
+          "source-events.csv": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T174802Z-see-l025-proton-e5-a0-3c53862f",
+      "files": {
+        "console.log": {
+          "bytes": 467290,
+          "sha256": "b07d47d1ae8d9964cecae5faa1db36c09117ae340cc4380e32200891f867ec0d"
+        },
+        "inputs.tar": {
+          "bytes": 419840,
+          "sha256": "2334fa1009a4170d1e796974e30c431b0752a4534b0968701aa380ac16f69d18"
+        },
+        "manifest.json": {
+          "bytes": 1918,
+          "sha256": "cc9569adc1b7d30f47002455a18710aa32ca5acafe37c982eb59123bed7b8e85"
+        },
+        "results.tar": {
+          "bytes": 4966400,
+          "sha256": "f4e4fd88be573027a6168063049c335007cce948b17cc704c9df72aff90e5969"
+        },
+        "run.sh": {
+          "bytes": 872,
+          "sha256": "2635f6ac1747717ff92c295f41d71f2498666d7c24039519c3a0b5d4e325ca6b"
+        }
+      },
+      "completed_solver_wallclock_s": 242.03,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "08270ac48686e95f7cbb0d8b050e2ed491256f900bfda83faac81972c90595c5"
+    },
+    {
+      "run_id": "20261009T175229Z-see-l025-proton-e5-a30-9f014b6f",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "c2c1d4ebcc08e0fea3a254a6c841bdff2cf662c5e8b30cf0a41273c254c8dc49",
+      "input_sha256": {
+        "cell_msh.tdr": "9c5bbcc270e2bf4fb32fd3a848c2b70a5e38cb10b208fe512f6e844d4b9c41ad",
+        "charged_access_des.sav": "88b95ee35a2ab7169c16422dec27292cfac651f6034f76e0fbc2644d75b23cbf",
+        "charged_circuit_des.sav": "b812f95e78bfed145e2178ce45f358494027cbf53f760c0355b33fc4c8928c17",
+        "device.cmd": "55760a80e15ba6d7e9c49efaf870edba3d21142e9bc31bae0c12b1e163b3ef94",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "38edde3447505e95fa6ee952991ca731933d52a47166b51f44a339fc785cde17",
+        "parameters.json": "8d8fc9b7e1e30ef4c353bc52c8f5bfa32cec3f8bb237ddbfa56d8ccc95a31c62",
+        "project.json": "c46cc1f8b742f1583294fea2c26cc6de168efe4ee8d733e5d79e901f6d8194c7",
+        "restart-provenance.json": "29bdf0fa9926ec90009a8d2f2b8ab2e625f2291afe00ee285b4365d1cdac408f",
+        "source-event.json": "d63beae5ce276dc9b66b319a5d55b3ddeef5b04c4f957129bf45290d38f83679",
+        "source-events.csv": "9a30a49626047f4579585a1a7e23e22e89da71b4d3413b094aa7752515d073f6",
+        "source-steps.csv": "bafaa594b7d0b572a763dd8b8ba5f4c43d44e1ae50ca4f29f3c85f27bfa21e86"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0.0004779134502832133,
+        "angle_deg": 30,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.3856406460551016,
+        "let_pc_per_um": 0.00034490432396294506,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l025-proton-e5-a30/event.json",
+        "restart_run": "20261009T165901Z-pilot-alpha5-l025-a0-r4-078fde99",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "d63beae5ce276dc9b66b319a5d55b3ddeef5b04c4f957129bf45290d38f83679",
+          "source-steps.csv": "bafaa594b7d0b572a763dd8b8ba5f4c43d44e1ae50ca4f29f3c85f27bfa21e86",
+          "source-events.csv": "9a30a49626047f4579585a1a7e23e22e89da71b4d3413b094aa7752515d073f6"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T175229Z-see-l025-proton-e5-a30-9f014b6f",
+      "files": {
+        "console.log": {
+          "bytes": 467924,
+          "sha256": "d75925a00e8c3fdd4410b2cdcaad5427598588a3a918f096db6677116e8b67c6"
+        },
+        "inputs.tar": {
+          "bytes": 419840,
+          "sha256": "3f9e5512cae709b2adcd955c669dcf48f72134f6db5c082e337c626d67e7e0d1"
+        },
+        "manifest.json": {
+          "bytes": 1920,
+          "sha256": "5548e535832b32c74acae085a89d303181d262f25b68b28be14a20ce92d69469"
+        },
+        "results.tar": {
+          "bytes": 5222400,
+          "sha256": "c2c1d4ebcc08e0fea3a254a6c841bdff2cf662c5e8b30cf0a41273c254c8dc49"
+        },
+        "run.sh": {
+          "bytes": 873,
+          "sha256": "f0d05128474c193af64816aa2f4bde750ef487707ae1951e6ad70cffb7028235"
+        }
+      },
+      "completed_solver_wallclock_s": 242.5,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "2a386eb8ac633ee9b67a09ccb6ace6510c863878bc702bf97bb7c0546993e184"
+    },
+    {
+      "run_id": "20261009T175650Z-baseline-l035-a03f6fcd",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "6e14bbdd2adc156415cdce74c13ab9197a8c1b8dece306ccb5cb17d288f679e0",
+      "input_sha256": {
+        "device.cmd": "2e136261574eceb90e915bc03ced3c8077a29ae8264dbb360e7ae721177be834",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "dd9a26f5296c2683046d382dba6b053a0e1546b8019ec5e1cf2c22c93df79b7e",
+        "parameters.json": "0dd142d7b1b6165b28a468bc136c24b9c0c6c7d9096dc74232eb9bd144e88fb9",
+        "project.json": "19989534ddd90cd6d24c9c27bc08616080b2919dfd765d974854bb31c19df85e"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sde",
+          "args": [
+            "-e",
+            "-l",
+            "geometry.scm"
+          ],
+          "outputs": [
+            "cell_msh.tdr"
+          ]
+        },
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.35,
+        "charge_pc": 0.0,
+        "angle_deg": 0.0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.0,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": null,
+        "restart_run": null,
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T175650Z-baseline-l035-a03f6fcd",
+      "files": {
+        "console.log": {
+          "bytes": 650537,
+          "sha256": "68ce957b564f16858c4bdfcbec28b897d817d31a42557cc7c273ab2dade45bc0"
+        },
+        "inputs.tar": {
+          "bytes": 20480,
+          "sha256": "5d5fcac8fef9738132a36d70001f9843c667c3f3f092a173cb343719f9827168"
+        },
+        "manifest.json": {
+          "bytes": 1404,
+          "sha256": "f8c6da3a195f5139be47def15aa3b26f90dd3f8aaa93a7c58654f2d3c1e5628c"
+        },
+        "results.tar": {
+          "bytes": 5304320,
+          "sha256": "6e14bbdd2adc156415cdce74c13ab9197a8c1b8dece306ccb5cb17d288f679e0"
+        },
+        "run.sh": {
+          "bytes": 964,
+          "sha256": "e3e22991452d1f4fa8f1d917c2cbf8dd39450d8eb489e58b4030845b24e8e334"
+        }
+      },
+      "completed_solver_wallclock_s": 291.52,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "9632a145b9e6d2ceb7a835344d566247966c6e4c639a0f98a03c6f2efe04cc90"
+    },
+    {
+      "run_id": "20261009T180207Z-control-l035-6c8aa748",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "0b2ceef9efa64e2233bbb93a49dcf226b1c9d32c287ff6f849f7411b76883989",
+      "input_sha256": {
+        "cell_msh.tdr": "72a9a19974e882aa1caeece3a3867d97a21abe081cdc6567526daefc593f32cc",
+        "charged_access_des.sav": "ee70cdb74e9f6187d15a8cbcae6e2355b36b3446d972c23ad1889b08ffb58c99",
+        "charged_circuit_des.sav": "6a253aaab5ace9f9a57d25e973d57b34c83cf3b04abb64f8fd0c9f1b6d175fb0",
+        "device.cmd": "c16a3beff97ce2b235470e6a026108139bee4f4b541b09a00ad27cc66bef9c0b",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "dd9a26f5296c2683046d382dba6b053a0e1546b8019ec5e1cf2c22c93df79b7e",
+        "parameters.json": "5eb49fff9f6340f26ecdfd9c4f9fceecac347aac7f6abf337fa572b60598bfcd",
+        "project.json": "4caefafd5a8942ab3477a1033a7c54a83c792d4bf90710319b3364e4458a0700",
+        "restart-provenance.json": "f3ef6df48951ce88f55cac02f7ec7d436aac11992d150487c9cc8688ba17bfb3"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.35,
+        "charge_pc": 0.0,
+        "angle_deg": 0.0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.0,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": null,
+        "restart_run": "20261009T175650Z-baseline-l035-a03f6fcd",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T180207Z-control-l035-6c8aa748",
+      "files": {
+        "console.log": {
+          "bytes": 424173,
+          "sha256": "f9c87583fef994dfdfd214698c07c70653977df12382e9d0a90e0653d13a39e5"
+        },
+        "inputs.tar": {
+          "bytes": 399360,
+          "sha256": "39bfbc90fbf9cd5bb39e3c13252411575beadf2c69776cd0d5f6aa54d112fe94"
+        },
+        "manifest.json": {
+          "bytes": 1619,
+          "sha256": "144f9b86d555336f935738c117789a30e99a1844ac410de0ebce3d9d377b6f26"
+        },
+        "results.tar": {
+          "bytes": 4700160,
+          "sha256": "0b2ceef9efa64e2233bbb93a49dcf226b1c9d32c287ff6f849f7411b76883989"
+        },
+        "run.sh": {
+          "bytes": 863,
+          "sha256": "608fa562d3c53d34e0971c5328dc4491a1c8d2c475f5b96f6bb5988098e7d8cd"
+        }
+      },
+      "completed_solver_wallclock_s": 121.06,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "d6cefdb067e691174a0d9617ba1fb467ae9e1de6c0f28a611327fc274ea8cd86"
+    },
+    {
+      "run_id": "20261009T180432Z-see-l035-alpha-e5-a0-579b0628",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "c4d5a216c7b2d8e87b9fc268faf1c044f64f2513fcd463b42cf3c1da35176355",
+      "input_sha256": {
+        "cell_msh.tdr": "72a9a19974e882aa1caeece3a3867d97a21abe081cdc6567526daefc593f32cc",
+        "charged_access_des.sav": "ee70cdb74e9f6187d15a8cbcae6e2355b36b3446d972c23ad1889b08ffb58c99",
+        "charged_circuit_des.sav": "6a253aaab5ace9f9a57d25e973d57b34c83cf3b04abb64f8fd0c9f1b6d175fb0",
+        "device.cmd": "f8aa4e36f7efa203b289422157fb257668ed37ed3625782a779721a909d246d7",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "dd9a26f5296c2683046d382dba6b053a0e1546b8019ec5e1cf2c22c93df79b7e",
+        "parameters.json": "272c7a96a88083299fadc24d22bd5473d37ce4eb03e4b17cc99ec9287acc38ce",
+        "project.json": "b661d18deda14689cc5aa2b975af042f26d521fc20c04d3bd1d6470b1e0b53ad",
+        "restart-provenance.json": "f3ef6df48951ce88f55cac02f7ec7d436aac11992d150487c9cc8688ba17bfb3",
+        "source-event.json": "737956ccdfa3516fe4461ec3bec51bcfe94d2107193af9498c38b49a2593cc4b",
+        "source-events.csv": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469",
+        "source-steps.csv": "75b6b3cc10f23aa579f82cd5e2f1e80866bc06ad7949bfbbe55470e40c672233"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.35,
+        "charge_pc": 0.007659403595125654,
+        "angle_deg": 0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.006382836329271379,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l035-alpha-e5-a0/event.json",
+        "restart_run": "20261009T175650Z-baseline-l035-a03f6fcd",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "737956ccdfa3516fe4461ec3bec51bcfe94d2107193af9498c38b49a2593cc4b",
+          "source-steps.csv": "75b6b3cc10f23aa579f82cd5e2f1e80866bc06ad7949bfbbe55470e40c672233",
+          "source-events.csv": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T180432Z-see-l035-alpha-e5-a0-579b0628",
+      "files": {
+        "console.log": {
+          "bytes": 475870,
+          "sha256": "e4a50fad63fe092fc036608efa1266e22e11edb293d345abb4eb5fe59d84c874"
+        },
+        "inputs.tar": {
+          "bytes": 430080,
+          "sha256": "5c79adbbe6cc79bc9f95c1e40877f32bb639778b60a4cca455023ffa046a8fc9"
+        },
+        "manifest.json": {
+          "bytes": 1916,
+          "sha256": "dd65d63844d82e49f396882305c204e340791bffbedd23e4bc0a5dd50d854602"
+        },
+        "results.tar": {
+          "bytes": 4935680,
+          "sha256": "c4d5a216c7b2d8e87b9fc268faf1c044f64f2513fcd463b42cf3c1da35176355"
+        },
+        "run.sh": {
+          "bytes": 871,
+          "sha256": "aa5a7281ec9ea4113e374ecb095e836fe0908c6f41ee36ffa96fb4f9f37b0aa3"
+        }
+      },
+      "completed_solver_wallclock_s": 267.24,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "a1edc4d02ec75d9ee3b6736d88cdcab4414dbb62d120677482a67f1b6935e400"
+    },
+    {
+      "run_id": "20261009T180923Z-see-l035-alpha-e5-a30-dd0e675c",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "4ad39f955c8a5f6ce5d905d2b80e639518c62f46c3184e216664f1e9a8e4df1a",
+      "input_sha256": {
+        "cell_msh.tdr": "72a9a19974e882aa1caeece3a3867d97a21abe081cdc6567526daefc593f32cc",
+        "charged_access_des.sav": "ee70cdb74e9f6187d15a8cbcae6e2355b36b3446d972c23ad1889b08ffb58c99",
+        "charged_circuit_des.sav": "6a253aaab5ace9f9a57d25e973d57b34c83cf3b04abb64f8fd0c9f1b6d175fb0",
+        "device.cmd": "0df617bdc2f83590b638fb8051f4aaa91f3d6918ab1bb0441f21583ce9f0c2f6",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "dd9a26f5296c2683046d382dba6b053a0e1546b8019ec5e1cf2c22c93df79b7e",
+        "parameters.json": "43cfcfca02475c509cd8b906246bfa448e8b1cf412cb546f09def313e0129c4e",
+        "project.json": "ea5198cfb3d33fa31e75a792b02dff1f5b8ade0e6e791b9efce2984fc9898272",
+        "restart-provenance.json": "f3ef6df48951ce88f55cac02f7ec7d436aac11992d150487c9cc8688ba17bfb3",
+        "source-event.json": "3691571904712514bae4978b0820a1078f6471fd80f128a10bd2721624e94c23",
+        "source-events.csv": "86caaa389b84b30848ea48464d2f768b890fb2d905ce347c914d65b5d6bef1cd",
+        "source-steps.csv": "d264e2af5e928c5de0e9869d7f39926d7f917183eb8e8dfada0e300be7743896"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.35,
+        "charge_pc": 0.008791560903292963,
+        "angle_deg": 30,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.3856406460551016,
+        "let_pc_per_um": 0.006344762567641478,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l035-alpha-e5-a30/event.json",
+        "restart_run": "20261009T175650Z-baseline-l035-a03f6fcd",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "3691571904712514bae4978b0820a1078f6471fd80f128a10bd2721624e94c23",
+          "source-steps.csv": "d264e2af5e928c5de0e9869d7f39926d7f917183eb8e8dfada0e300be7743896",
+          "source-events.csv": "86caaa389b84b30848ea48464d2f768b890fb2d905ce347c914d65b5d6bef1cd"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T180923Z-see-l035-alpha-e5-a30-dd0e675c",
+      "files": {
+        "console.log": {
+          "bytes": 474560,
+          "sha256": "d8ed746da384371f209f4f85b29d97a3fb4fb85b55c55ce84b614a6de12bbb7d"
+        },
+        "inputs.tar": {
+          "bytes": 440320,
+          "sha256": "7e341484827433127230ceee9a8b62961675e64d7bfab08bb921d1bb2a93352d"
+        },
+        "manifest.json": {
+          "bytes": 1918,
+          "sha256": "87bbf81ccd0e94de58828cd0e17271472bfc2e24dbfd24073ad9a1cf72219571"
+        },
+        "results.tar": {
+          "bytes": 5171200,
+          "sha256": "4ad39f955c8a5f6ce5d905d2b80e639518c62f46c3184e216664f1e9a8e4df1a"
+        },
+        "run.sh": {
+          "bytes": 872,
+          "sha256": "c0865dd8252187eababc383c252934784471cfc4e05c652d93b94ad596b86d0f"
+        }
+      },
+      "completed_solver_wallclock_s": 267.3,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "ca6f9710a5baa81aba4cf3ac27109deaf48e3ee1c14c31bf2317e169bc955a48"
+    },
+    {
+      "run_id": "20261009T181415Z-see-l035-proton-e5-a0-ed3e0095",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "f688148fbcf7c42d25e386fc291b614b015a8f5fe455c9f2621986298b1acea5",
+      "input_sha256": {
+        "cell_msh.tdr": "72a9a19974e882aa1caeece3a3867d97a21abe081cdc6567526daefc593f32cc",
+        "charged_access_des.sav": "ee70cdb74e9f6187d15a8cbcae6e2355b36b3446d972c23ad1889b08ffb58c99",
+        "charged_circuit_des.sav": "6a253aaab5ace9f9a57d25e973d57b34c83cf3b04abb64f8fd0c9f1b6d175fb0",
+        "device.cmd": "d2682b72f60f80c9b730c634ef4bcb1cbc7e220d0ef37929868d54ffb61ebbcd",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "dd9a26f5296c2683046d382dba6b053a0e1546b8019ec5e1cf2c22c93df79b7e",
+        "parameters.json": "5b9c7360b8dc557e21497dc46046ace49a8d46efc0559c34d7f3357775e519a1",
+        "project.json": "9252fd75884584644ad8ce4d106d7de16486eee231e3b536db4effa42c8775f1",
+        "restart-provenance.json": "f3ef6df48951ce88f55cac02f7ec7d436aac11992d150487c9cc8688ba17bfb3",
+        "source-event.json": "fc302b7e864e524d38efd8e76183744fdff6a09cd78fa71476f81446060d3601",
+        "source-events.csv": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952",
+        "source-steps.csv": "fffe9b1018b9a3a35333c0a60fe4b4c3712d66f38b5ebfce2d3d5af844cf5891"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.35,
+        "charge_pc": 0.00042286140884984657,
+        "angle_deg": 0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.00035238450737487217,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l035-proton-e5-a0/event.json",
+        "restart_run": "20261009T175650Z-baseline-l035-a03f6fcd",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "fc302b7e864e524d38efd8e76183744fdff6a09cd78fa71476f81446060d3601",
+          "source-steps.csv": "fffe9b1018b9a3a35333c0a60fe4b4c3712d66f38b5ebfce2d3d5af844cf5891",
+          "source-events.csv": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T181415Z-see-l035-proton-e5-a0-ed3e0095",
+      "files": {
+        "console.log": {
+          "bytes": 467686,
+          "sha256": "d39d020ea6fb27488de5a5868ba5f3e49c5acab724da54bc36a23d53ea9a2aaa"
+        },
+        "inputs.tar": {
+          "bytes": 419840,
+          "sha256": "71d91d43be338f0efc8f6007590fb90f4f49060f9dc2bd40d2ab38d401e6b560"
+        },
+        "manifest.json": {
+          "bytes": 1918,
+          "sha256": "fff8ec77a6f22499aac77d82287d5c61396b54741e55f54ec925935b3b1b4069"
+        },
+        "results.tar": {
+          "bytes": 4925440,
+          "sha256": "f688148fbcf7c42d25e386fc291b614b015a8f5fe455c9f2621986298b1acea5"
+        },
+        "run.sh": {
+          "bytes": 872,
+          "sha256": "ee55b17a2cb4b6654d9fd777e79cb3e93a3f3b4388e8ea9f23b8ee233a143def"
+        }
+      },
+      "completed_solver_wallclock_s": 242.9,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "f17330170ec0f044601f57b81e639b91475928d795b82d6dd46647e2e5ef95b7"
+    },
+    {
+      "run_id": "20261009T181844Z-see-l035-proton-e5-a30-b236cf98",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "f3248684cc4ca4b0092bc2a2ce5cec3b1ec66c0c9264377e20cf18d3539c6e02",
+      "input_sha256": {
+        "cell_msh.tdr": "72a9a19974e882aa1caeece3a3867d97a21abe081cdc6567526daefc593f32cc",
+        "charged_access_des.sav": "ee70cdb74e9f6187d15a8cbcae6e2355b36b3446d972c23ad1889b08ffb58c99",
+        "charged_circuit_des.sav": "6a253aaab5ace9f9a57d25e973d57b34c83cf3b04abb64f8fd0c9f1b6d175fb0",
+        "device.cmd": "625368a1d6da2ab03a2722996358337855d2691a9faa3659cd8a48a1e23f453f",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "dd9a26f5296c2683046d382dba6b053a0e1546b8019ec5e1cf2c22c93df79b7e",
+        "parameters.json": "822825b11c6e7ba95f0968c0e59737867b29685a42ec9b0e42de65f05ace2070",
+        "project.json": "9b2072e7244b2faa3a924d4e86d7369f6501e10ae4fc90bfc09b5d40aba1e2a4",
+        "restart-provenance.json": "f3ef6df48951ce88f55cac02f7ec7d436aac11992d150487c9cc8688ba17bfb3",
+        "source-event.json": "a90bd2a379a1fb20d1c8f555acc6cca930f62c3a1dc7be1c763599a9adf305f1",
+        "source-events.csv": "9a30a49626047f4579585a1a7e23e22e89da71b4d3413b094aa7752515d073f6",
+        "source-steps.csv": "6cbc4006169612c56c43d19379dcd751681ed688f276a38d4c0b4cff802ad76f"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.35,
+        "charge_pc": 0.0004779134502832133,
+        "angle_deg": 30,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.3856406460551016,
+        "let_pc_per_um": 0.00034490432396294506,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l035-proton-e5-a30/event.json",
+        "restart_run": "20261009T175650Z-baseline-l035-a03f6fcd",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "a90bd2a379a1fb20d1c8f555acc6cca930f62c3a1dc7be1c763599a9adf305f1",
+          "source-steps.csv": "6cbc4006169612c56c43d19379dcd751681ed688f276a38d4c0b4cff802ad76f",
+          "source-events.csv": "9a30a49626047f4579585a1a7e23e22e89da71b4d3413b094aa7752515d073f6"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T181844Z-see-l035-proton-e5-a30-b236cf98",
+      "files": {
+        "console.log": {
+          "bytes": 468002,
+          "sha256": "13d19ff7280c9215460f294477ef5415307d0b6cc84eab956e6b731d38250501"
+        },
+        "inputs.tar": {
+          "bytes": 419840,
+          "sha256": "0e1e6728a52315112897ddd994dc5c0f2308b6148d38177693006c7faf7f5328"
+        },
+        "manifest.json": {
+          "bytes": 1920,
+          "sha256": "6c17336829bb16c0654ce08dd9d4d4921dd2e0dfa61ecb2bdf7875bb1ab4b855"
+        },
+        "results.tar": {
+          "bytes": 5171200,
+          "sha256": "f3248684cc4ca4b0092bc2a2ce5cec3b1ec66c0c9264377e20cf18d3539c6e02"
+        },
+        "run.sh": {
+          "bytes": 873,
+          "sha256": "8e245b8ae98609371d2ed15a4ce00443c05352ca589bfd9f4832ba1f11804a69"
+        }
+      },
+      "completed_solver_wallclock_s": 249.7,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "1c38b212dd7dc573ea8d53042fc11e3151a2000efb32389e2be7b2dfd2a17a3a"
+    },
+    {
+      "run_id": "20261009T182312Z-baseline-l045-2c348977",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "9344d473aea26b62d87e44aa7b300003c4919c9bd6d35bd4505f8a258add70c9",
+      "input_sha256": {
+        "device.cmd": "2e136261574eceb90e915bc03ced3c8077a29ae8264dbb360e7ae721177be834",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "ce1414be2123e71b984014c59a8a85515b2016d6ec5a1201611b1f5e0a57eec1",
+        "parameters.json": "e0df5f5b1e046e35049787c3fe5404364566a9421761e4ae8476b3ddeef7018d",
+        "project.json": "2d7819fea2505eda0c61364001de38e20a97d198c1a4c88d7d8868cd216b6ed8"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sde",
+          "args": [
+            "-e",
+            "-l",
+            "geometry.scm"
+          ],
+          "outputs": [
+            "cell_msh.tdr"
+          ]
+        },
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.45,
+        "charge_pc": 0.0,
+        "angle_deg": 0.0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.0,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": null,
+        "restart_run": null,
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T182312Z-baseline-l045-2c348977",
+      "files": {
+        "console.log": {
+          "bytes": 607780,
+          "sha256": "64058d7e4f2b027b20af75f0b61c08cc7fff170445e5a8bd15901bbfbd3d2a5b"
+        },
+        "inputs.tar": {
+          "bytes": 20480,
+          "sha256": "33f4078cfb99a72a46c34cf8e492afac49f60b9f679f2ffdc2ffe28787011d8d"
+        },
+        "manifest.json": {
+          "bytes": 1404,
+          "sha256": "2d01accca224cbba35ceccd277826c5ebe71d1fb1a404aecea0188a5d26fc0a3"
+        },
+        "results.tar": {
+          "bytes": 5201920,
+          "sha256": "9344d473aea26b62d87e44aa7b300003c4919c9bd6d35bd4505f8a258add70c9"
+        },
+        "run.sh": {
+          "bytes": 964,
+          "sha256": "1925d361ca3e40d17202cf8e40afcf8205a4a1787b7d2326a351ba80fd30607e"
+        }
+      },
+      "completed_solver_wallclock_s": 235.35,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "00fed349de2a69323e76e9f549fc1aa185f2793f1007574e8272563a368df2c3"
+    },
+    {
+      "run_id": "20261009T182731Z-control-l045-040583a3",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "d6e01572497701701389e5fd6911b35f4606fd746c014c9c828b6fc59f628237",
+      "input_sha256": {
+        "cell_msh.tdr": "ec2301e48e58cd6217d47a3b4f4d6c459db26c071d5980e3b019f0da7394e223",
+        "charged_access_des.sav": "9eb3b5ecedfe14e5dcba99f819026f0f8096306fb30eec2aadf7d550b94e98dc",
+        "charged_circuit_des.sav": "7276af0e5cf473b44504231c36ca7f0e3528791e0a570ef45270d485937a127a",
+        "device.cmd": "c16a3beff97ce2b235470e6a026108139bee4f4b541b09a00ad27cc66bef9c0b",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "ce1414be2123e71b984014c59a8a85515b2016d6ec5a1201611b1f5e0a57eec1",
+        "parameters.json": "45182c9f5a14189a98227e92b0b945b6bec3418106b4c91f9011f95b17dd5a78",
+        "project.json": "4b0349dc98dbbdd559043a9168d271006075b718073a46719473300a2fec5f76",
+        "restart-provenance.json": "853f4bc17b1a12cb21c2ef019abfb5b6eaf1b317857581d9b58bdd09c70c18f0"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.45,
+        "charge_pc": 0.0,
+        "angle_deg": 0.0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.0,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": null,
+        "restart_run": "20261009T182312Z-baseline-l045-2c348977",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T182731Z-control-l045-040583a3",
+      "files": {
+        "console.log": {
+          "bytes": 424179,
+          "sha256": "723416ad49691b83f3f8fc86e491b525e0f2a1f4f9e4a41fa2670ad46661b876"
+        },
+        "inputs.tar": {
+          "bytes": 399360,
+          "sha256": "d398df6967bbd61c48a759e242215027fc7f970b1492268eae432fc132ec7b3d"
+        },
+        "manifest.json": {
+          "bytes": 1619,
+          "sha256": "8e234108f5268e71db175bd489cba432fa20454d8b1d012ac820640eb10f5273"
+        },
+        "results.tar": {
+          "bytes": 4720640,
+          "sha256": "d6e01572497701701389e5fd6911b35f4606fd746c014c9c828b6fc59f628237"
+        },
+        "run.sh": {
+          "bytes": 863,
+          "sha256": "afca9c2120d11f2c02c069870a7253b6db4793bafd19f74c188115e57e9b4836"
+        }
+      },
+      "completed_solver_wallclock_s": 119.84,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "9fdf928ca32300b8d78a04169f1256457fb5408983ede55463b256d5bda5b082"
+    },
+    {
+      "run_id": "20261009T182956Z-see-l045-alpha-e5-a0-e30537b9",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "e1306356666b317ba966eeb48c8658eaa17c525a34a0608b56e1bd6c09eae470",
+      "input_sha256": {
+        "cell_msh.tdr": "ec2301e48e58cd6217d47a3b4f4d6c459db26c071d5980e3b019f0da7394e223",
+        "charged_access_des.sav": "9eb3b5ecedfe14e5dcba99f819026f0f8096306fb30eec2aadf7d550b94e98dc",
+        "charged_circuit_des.sav": "7276af0e5cf473b44504231c36ca7f0e3528791e0a570ef45270d485937a127a",
+        "device.cmd": "6519f75714a5d8ac1a8f25e6d095c6922f0282fd7cbb3a355e39903fc8529a8a",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "ce1414be2123e71b984014c59a8a85515b2016d6ec5a1201611b1f5e0a57eec1",
+        "parameters.json": "0eb6284d37c64e7c2df581385781437e59e571c236027956d21c596fa6da0255",
+        "project.json": "7397c29267a272d1d62ba219300a0b57c45a91c1b21493126de885f9cff8f6ad",
+        "restart-provenance.json": "853f4bc17b1a12cb21c2ef019abfb5b6eaf1b317857581d9b58bdd09c70c18f0",
+        "source-event.json": "05b2b95e93ed5664478385fafc978122edc03431382decc1ebf99d21b4aab3e5",
+        "source-events.csv": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469",
+        "source-steps.csv": "ad0cc924205692be98c493c3f21947e030e45ee9e5e9140ccad18edff2ff65d7"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.45,
+        "charge_pc": 0.007659403595125654,
+        "angle_deg": 0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.006382836329271379,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l045-alpha-e5-a0/event.json",
+        "restart_run": "20261009T182312Z-baseline-l045-2c348977",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "05b2b95e93ed5664478385fafc978122edc03431382decc1ebf99d21b4aab3e5",
+          "source-steps.csv": "ad0cc924205692be98c493c3f21947e030e45ee9e5e9140ccad18edff2ff65d7",
+          "source-events.csv": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T182956Z-see-l045-alpha-e5-a0-e30537b9",
+      "files": {
+        "console.log": {
+          "bytes": 486883,
+          "sha256": "040e10cd3ea43b5b686b42de7639dd4aa8e1aca61f37c4e95b9cfe0dd0c964f1"
+        },
+        "inputs.tar": {
+          "bytes": 430080,
+          "sha256": "9d8d1b96dcffaf73170895b2471b291fcbf782eef90729aa225babb793d62320"
+        },
+        "manifest.json": {
+          "bytes": 1916,
+          "sha256": "dc11f7151e0f768de47eab8f1f1853e08cc883867ec61db0b782ec870c827951"
+        },
+        "results.tar": {
+          "bytes": 4966400,
+          "sha256": "e1306356666b317ba966eeb48c8658eaa17c525a34a0608b56e1bd6c09eae470"
+        },
+        "run.sh": {
+          "bytes": 871,
+          "sha256": "7dd2066af51d6192286a84c745a7465d50022af995b4878566ff2341d5752bc8"
+        }
+      },
+      "completed_solver_wallclock_s": 284.15,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "72b473a88dfb2036ec9743d23ef8c400c70627f3a997306b8828667877792459"
+    },
+    {
+      "run_id": "20261009T183504Z-see-l045-alpha-e5-a30-d6bb7fb9",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "3dbe65894308859fde3797e952bae74bd79a7ba336fa5d62ad467b5a12c79119",
+      "input_sha256": {
+        "cell_msh.tdr": "ec2301e48e58cd6217d47a3b4f4d6c459db26c071d5980e3b019f0da7394e223",
+        "charged_access_des.sav": "9eb3b5ecedfe14e5dcba99f819026f0f8096306fb30eec2aadf7d550b94e98dc",
+        "charged_circuit_des.sav": "7276af0e5cf473b44504231c36ca7f0e3528791e0a570ef45270d485937a127a",
+        "device.cmd": "1cf36502ccf5aa4da6c6e229557e776552d52ddd99807d79688879126ca83ae2",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "ce1414be2123e71b984014c59a8a85515b2016d6ec5a1201611b1f5e0a57eec1",
+        "parameters.json": "d72e6f198c07bc2befc479edc881f06c49333f89f7690862ca3f68f59c6f2ab7",
+        "project.json": "5f036253800007b1bb195d96148e6dd19609b10f86b52aa65e45063728901d4e",
+        "restart-provenance.json": "853f4bc17b1a12cb21c2ef019abfb5b6eaf1b317857581d9b58bdd09c70c18f0",
+        "source-event.json": "6e0208e41dfeb43a7fc85c0b614ab16a0c0463d3f0bf6a4818968c299ea9304c",
+        "source-events.csv": "86caaa389b84b30848ea48464d2f768b890fb2d905ce347c914d65b5d6bef1cd",
+        "source-steps.csv": "2a785b94e1714590feed1af43982923981c3821d55a78a8226c0cd3dd1a04aa1"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.45,
+        "charge_pc": 0.008791560903292963,
+        "angle_deg": 30,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.3856406460551016,
+        "let_pc_per_um": 0.006344762567641478,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l045-alpha-e5-a30/event.json",
+        "restart_run": "20261009T182312Z-baseline-l045-2c348977",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "6e0208e41dfeb43a7fc85c0b614ab16a0c0463d3f0bf6a4818968c299ea9304c",
+          "source-steps.csv": "2a785b94e1714590feed1af43982923981c3821d55a78a8226c0cd3dd1a04aa1",
+          "source-events.csv": "86caaa389b84b30848ea48464d2f768b890fb2d905ce347c914d65b5d6bef1cd"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T183504Z-see-l045-alpha-e5-a30-d6bb7fb9",
+      "files": {
+        "console.log": {
+          "bytes": 487115,
+          "sha256": "90811ae2282fa7a2b54933dd95c21a3e8a48b65853014ff3656c393964928092"
+        },
+        "inputs.tar": {
+          "bytes": 440320,
+          "sha256": "4cf3a1954b97d750c2d82e95271d43c8f2410dfb4c69c27727da3e6eee65b054"
+        },
+        "manifest.json": {
+          "bytes": 1918,
+          "sha256": "05c5cb8a1feae2938ffadf602b7af138b7c25ca7952a6e82b1644752a33fa5a1"
+        },
+        "results.tar": {
+          "bytes": 5212160,
+          "sha256": "3dbe65894308859fde3797e952bae74bd79a7ba336fa5d62ad467b5a12c79119"
+        },
+        "run.sh": {
+          "bytes": 872,
+          "sha256": "0f99baa0de8758e8e85fb6a3fca6684b13faed00d9ef937c8855ced13bc55fd8"
+        }
+      },
+      "completed_solver_wallclock_s": 282.72,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "80f7ae627b895f39ff989f5a2575acb9bb04beb4c973b8f664b74a44a1c34dc4"
+    },
+    {
+      "run_id": "20261009T184010Z-see-l045-proton-e5-a0-6de5d89b",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "b7497dfdda4eedced44a6da596dbf6f6199fd2542877c36b55751bfdacb3b1d7",
+      "input_sha256": {
+        "cell_msh.tdr": "ec2301e48e58cd6217d47a3b4f4d6c459db26c071d5980e3b019f0da7394e223",
+        "charged_access_des.sav": "9eb3b5ecedfe14e5dcba99f819026f0f8096306fb30eec2aadf7d550b94e98dc",
+        "charged_circuit_des.sav": "7276af0e5cf473b44504231c36ca7f0e3528791e0a570ef45270d485937a127a",
+        "device.cmd": "8b95096d62e7ac12e9fbe06845a00c8cc14d1e155b5edad33f0d00a5ccf5f48b",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "ce1414be2123e71b984014c59a8a85515b2016d6ec5a1201611b1f5e0a57eec1",
+        "parameters.json": "3417026c60733777cd99bbb90fd28eb5fe277de2eb0de93f1b8188bb4c817168",
+        "project.json": "4d22085150dc72c06d9aff72c5d1e995ab8e31576ef5a0f93cc119cbb7cb0455",
+        "restart-provenance.json": "853f4bc17b1a12cb21c2ef019abfb5b6eaf1b317857581d9b58bdd09c70c18f0",
+        "source-event.json": "0d6fa9d04c06fd0ac445d58b29071f7af2db0a61c792c44967f9eb90a6035164",
+        "source-events.csv": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952",
+        "source-steps.csv": "3dae1def18bfbd96ad9fd1cb9c2a44ec6d998686223d5f3c0c3b1e3044cf6583"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.45,
+        "charge_pc": 0.00042286140884984657,
+        "angle_deg": 0,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.00035238450737487217,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l045-proton-e5-a0/event.json",
+        "restart_run": "20261009T182312Z-baseline-l045-2c348977",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "0d6fa9d04c06fd0ac445d58b29071f7af2db0a61c792c44967f9eb90a6035164",
+          "source-steps.csv": "3dae1def18bfbd96ad9fd1cb9c2a44ec6d998686223d5f3c0c3b1e3044cf6583",
+          "source-events.csv": "2c50987ef7a2e58d2ab977587a2fbcc91d682c32fd74039add6e5972a83c8952"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T184010Z-see-l045-proton-e5-a0-6de5d89b",
+      "files": {
+        "console.log": {
+          "bytes": 468304,
+          "sha256": "754f8b7ea465bf1a1c9d25594a287256d010c563a17de8158bedd07600cc66c0"
+        },
+        "inputs.tar": {
+          "bytes": 419840,
+          "sha256": "4857b6aca6da9a3f2cbe56105934bcbf4426f030483782fb4fc35a33f6c22033"
+        },
+        "manifest.json": {
+          "bytes": 1918,
+          "sha256": "7793dbd505b49bfbbac70c2c910569948c9723e7b4d9aafe09a812011e2aca90"
+        },
+        "results.tar": {
+          "bytes": 4925440,
+          "sha256": "b7497dfdda4eedced44a6da596dbf6f6199fd2542877c36b55751bfdacb3b1d7"
+        },
+        "run.sh": {
+          "bytes": 872,
+          "sha256": "1ee851e555534a0ccd9bcefbe36e6cddf7881dc73958811695120aedd410ebb8"
+        }
+      },
+      "completed_solver_wallclock_s": 246.69,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "adc2d3495003d524733e7db1f6f1a2774619a65f0913cbc4ffa1f84a436b7878"
+    },
+    {
+      "run_id": "20261009T184444Z-see-l045-proton-e5-a30-a438b3cf",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "0400088cfcbebcb770b4df7bcf46060010c09c47fecc5f3562f9e13e289e87d9",
+      "input_sha256": {
+        "cell_msh.tdr": "ec2301e48e58cd6217d47a3b4f4d6c459db26c071d5980e3b019f0da7394e223",
+        "charged_access_des.sav": "9eb3b5ecedfe14e5dcba99f819026f0f8096306fb30eec2aadf7d550b94e98dc",
+        "charged_circuit_des.sav": "7276af0e5cf473b44504231c36ca7f0e3528791e0a570ef45270d485937a127a",
+        "device.cmd": "ff1ea5f3cbd1b54f6b72da2d267eb7d86f0f73f419eb4d0dbab51738aa7de9ef",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "ce1414be2123e71b984014c59a8a85515b2016d6ec5a1201611b1f5e0a57eec1",
+        "parameters.json": "c73aa8366c8d5d52bef36048c48b5fa74023951de2bafa49167e38347596205e",
+        "project.json": "f36c18fd595c5073fb86ae37643b7af379bad9954b3a13663c9f213291933d10",
+        "restart-provenance.json": "853f4bc17b1a12cb21c2ef019abfb5b6eaf1b317857581d9b58bdd09c70c18f0",
+        "source-event.json": "736ee67243ec269b5e2ce51da1dfa06273a06414cb122999f4c6721b3ddf8ffd",
+        "source-events.csv": "9a30a49626047f4579585a1a7e23e22e89da71b4d3413b094aa7752515d073f6",
+        "source-steps.csv": "571bc14649a9160182d1ad91f6d6eb92d33b8866534b1080c81b4fe328571b33"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.45,
+        "charge_pc": 0.0004779134502832133,
+        "angle_deg": 30,
+        "mesh_scale": 1.0,
+        "step_scale": 1.0,
+        "track_length_um": 1.3856406460551016,
+        "let_pc_per_um": 0.00034490432396294506,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/l045-proton-e5-a30/event.json",
+        "restart_run": "20261009T182312Z-baseline-l045-2c348977",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "736ee67243ec269b5e2ce51da1dfa06273a06414cb122999f4c6721b3ddf8ffd",
+          "source-steps.csv": "571bc14649a9160182d1ad91f6d6eb92d33b8866534b1080c81b4fe328571b33",
+          "source-events.csv": "9a30a49626047f4579585a1a7e23e22e89da71b4d3413b094aa7752515d073f6"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T184444Z-see-l045-proton-e5-a30-a438b3cf",
+      "files": {
+        "console.log": {
+          "bytes": 467924,
+          "sha256": "bbd43879938c3d14c41915863dff743dfd68bb44c02163b15f2133a4e1da7bfb"
+        },
+        "inputs.tar": {
+          "bytes": 419840,
+          "sha256": "a231cf2218f65099a416db04ed2464ca71e0be6b8f644b3e9694f528ff98bf1b"
+        },
+        "manifest.json": {
+          "bytes": 1920,
+          "sha256": "fd6cb457c77f262521b4a271c8a9a64a4dbfd14d1a553fd4fd9f6982b993287d"
+        },
+        "results.tar": {
+          "bytes": 5160960,
+          "sha256": "0400088cfcbebcb770b4df7bcf46060010c09c47fecc5f3562f9e13e289e87d9"
+        },
+        "run.sh": {
+          "bytes": 873,
+          "sha256": "f8111f993a5669e593d546a72a7adcd336cb334f1dcf30d8ade9ad92dcdb15ee"
+        }
+      },
+      "completed_solver_wallclock_s": 245.84,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "4ce4488c21a95fb06b004579f7d2f4ded0528ca0a83b51569c89f125a6dfd1f1"
+    },
+    {
+      "run_id": "20261009T185046Z-refine-alpha5-l025-a0-27978762",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "c55daed24ce787de21f623846798b81cdf836ddb7f19762e5a872853b863ae9e",
+      "input_sha256": {
+        "device.cmd": "ec5460f95aa0062a8497fd83e553d8a9d8f64b2ed95ebd8c0a6ded2fc288447e",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "dfc120ac79c18ee2b81081d57f747439fc407fc08c28ff0f4c1687b03b428fb6",
+        "parameters.json": "85515317e6d7fc1e20f0150000bb39546a371cbb1e1e41e2858bd8dc9c4c3564",
+        "project.json": "b925f9eda25c0e3ce877996493df8cc08a450ed9d87e7b599af018ca498f7ebb",
+        "source-event.json": "d89b4e6304be0879f3dfe0ef3016ec3d08ab727bc5a97eb1bfda79427ed5857a",
+        "source-events.csv": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469",
+        "source-steps.csv": "19478204b1aa4c91adb96eda721c114bacb2f1f8b03f6440875535057a0a1e97"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sde",
+          "args": [
+            "-e",
+            "-l",
+            "geometry.scm"
+          ],
+          "outputs": [
+            "cell_msh.tdr"
+          ]
+        },
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0.00765940359512565,
+        "angle_deg": 0,
+        "mesh_scale": 0.7,
+        "step_scale": 0.5,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.006382836329271375,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": "experiments/dram-see-v1/data/geant4/pilot-alpha5-l025-a0/event.json",
+        "restart_run": null,
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+        "source_evidence_sha256": {
+          "source-event.json": "d89b4e6304be0879f3dfe0ef3016ec3d08ab727bc5a97eb1bfda79427ed5857a",
+          "source-steps.csv": "19478204b1aa4c91adb96eda721c114bacb2f1f8b03f6440875535057a0a1e97",
+          "source-events.csv": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+        }
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T185046Z-refine-alpha5-l025-a0-27978762",
+      "files": {
+        "console.log": {
+          "bytes": 1204480,
+          "sha256": "82e7ed8894f00bfc8627e414c2f08e3507b223021275eac3cd87fc9f0585cd77"
+        },
+        "inputs.tar": {
+          "bytes": 51200,
+          "sha256": "ff8dee8668fdf99cea0192201fca3eba796911a39d68129430629b5f26799854"
+        },
+        "manifest.json": {
+          "bytes": 1701,
+          "sha256": "8b304b0af52de4f20ac6434794cc0a04d727f8100f73f5a49328463df7b927d1"
+        },
+        "results.tar": {
+          "bytes": 7751680,
+          "sha256": "c55daed24ce787de21f623846798b81cdf836ddb7f19762e5a872853b863ae9e"
+        },
+        "run.sh": {
+          "bytes": 972,
+          "sha256": "2a7d95bacb175b90b30694f76d7143e39fb63f40f12093525997e35f7a759498"
+        }
+      },
+      "completed_solver_wallclock_s": 826.45,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "880770b57f46803f1f3c319f0804a99514366d987d2d2368adfa5eae0c90c6bd"
+    },
+    {
+      "run_id": "20261009T190518Z-refine-control-l025-a0-f0526020",
+      "state": "COLLECTED",
+      "ssh_exit_code": 0,
+      "results_sha256": "3356bb7b311bf32070ef0b63af700956f2a543b81e07e789eb4f6910904ade2e",
+      "input_sha256": {
+        "cell_msh.tdr": "b8914cdc879080f291e959990450f51acf83cdb667f80e14cbdf974b630a77b0",
+        "charged_access_des.sav": "e64301f42ac15d895cb70c457fc6689b17bf668177d14653f42c0884a0030c5a",
+        "charged_circuit_des.sav": "a599279e9fbe6a49c224b867817adfac123dfab9a2e2175757e2e3973dfb0e59",
+        "device.cmd": "89b7590a37da800628fe60925bb08dd346632915f232fa4a153c0d847ef38f2a",
+        "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+        "geometry.scm": "dfc120ac79c18ee2b81081d57f747439fc407fc08c28ff0f4c1687b03b428fb6",
+        "parameters.json": "3ad98606ae17cbed3d1f83146f7a3588e57974a4411a026b783a2f9ce58e7e60",
+        "project.json": "9f7e80143b8e6aec603a89d4179a2d302685f2eefc483f16e03fdca4ebdcc1ef",
+        "restart-provenance.json": "2bf50b1dbfddb96eab8473954c2e7f32b78bfcb6da6a34f7a39207d316e44ed2"
+      },
+      "runner_sha256": "8a08d895d788f053da8d07cc29dd7c745ede9b5f3b29b757ad012ca79f7779d5",
+      "commit": "e0638adb57def26bf3fe78c52d9c609215233e97",
+      "steps": [
+        {
+          "tool": "sdevice",
+          "args": [
+            "device.cmd"
+          ],
+          "outputs": [
+            "circuit.plt",
+            "transient_des.log",
+            "final_access_des.tdr"
+          ]
+        }
+      ],
+      "parameters": {
+        "gate_length_um": 0.25,
+        "charge_pc": 0,
+        "angle_deg": 0,
+        "mesh_scale": 0.7,
+        "step_scale": 0.5,
+        "track_length_um": 1.2,
+        "let_pc_per_um": 0.0,
+        "capacitance_F": 1e-14,
+        "effective_thickness_um": 1,
+        "temperature_K": 300,
+        "track_radius_um": 0.03,
+        "source_event": null,
+        "restart_run": "20261009T185046Z-refine-alpha5-l025-a0-27978762",
+        "interpretation": "Uncalibrated planar 1T1C prototype; not a process node"
+      },
+      "local_evidence_directory": "local_runtime/runs/20261009T190518Z-refine-control-l025-a0-f0526020",
+      "files": {
+        "console.log": {
+          "bytes": 804428,
+          "sha256": "7bdeb7540565d7793db31f91e222c0c4fb65d9720f5d9fa3c22e0ade2a0efe97"
+        },
+        "inputs.tar": {
+          "bytes": 481280,
+          "sha256": "ecc05f843ea241c2a633d14d974de7fa57f5d6a42749dbf884ea37be7c961dd8"
+        },
+        "manifest.json": {
+          "bytes": 1639,
+          "sha256": "72ba0610faf55e4c7c048eee4e04b5587d598732480fd70d3ec616aa9efbf09f"
+        },
+        "results.tar": {
+          "bytes": 6553600,
+          "sha256": "3356bb7b311bf32070ef0b63af700956f2a543b81e07e789eb4f6910904ade2e"
+        },
+        "run.sh": {
+          "bytes": 873,
+          "sha256": "ffb2f5cb47692a764b3f5d18af4008417aa889d5eec8283f8d18dfefb9caa2aa"
+        }
+      },
+      "completed_solver_wallclock_s": 293.82,
+      "solver_completion_in_console": true,
+      "analysis_summary_sha256": "294161259eafd916d85bd8482a1a8fc1af2ff748f5264979a694949570a69882"
+    }
+  ],
+  "run_count": 31,
+  "state_counts": {
+    "COLLECTED": 26,
+    "FAILED_COLLECTED": 5
+  },
+  "completed_solver_wallclock_s_sum": 7825.24,
+  "duration_scope": "Only completion lines; aborted solve and setup time excluded."
+}

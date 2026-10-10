@@ -1,0 +1,20 @@
+{
+  "offline_matched_D_mV": -9.915036045006985,
+  "physical_matched_D_mV": -9.915036045004989,
+  "difference_mV": 1.9966250874858815e-12,
+  "tolerance_mV": 0.1,
+  "alpha_read_SN_match_error_mV": 0.04991485062899592,
+  "scalar_match_only_not_carrier_history": true,
+  "passed": true,
+  "run_ids": {
+    "rodiag1-bridge090": "20261010T073147Z-rodiag1-bridge090-8db1e0b8",
+    "rodiag1-center050": "20261010T073750Z-rodiag1-center050-2fde80ba",
+    "rodiag1-alpha-match": "20261010T074533Z-rodiag1-alpha-match-d0af10aa",
+    "rodiag1-scan035": "20261010T075140Z-rodiag1-scan035-fd250135",
+    "rodiag1-scan045": "20261010T075751Z-rodiag1-scan045-bbc7abd1",
+    "rodiag1-scan055": "20261010T080358Z-rodiag1-scan055-02fe8094",
+    "rodiag1-wl-off": "20261010T081041Z-rodiag1-wl-off-55dfc440",
+    "rodiag1-wl-slow": "20261010T081707Z-rodiag1-wl-slow-5acda3af",
+    "rodiag1-matched-ref-r3": "20261010T082741Z-rodiag1-matched-ref-r3-99f3de31"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "run_id": "20261009T185046Z-refine-alpha5-l025-a0-27978762",
+  "parameters": {
+    "gate_length_um": 0.25,
+    "charge_pc": 0.00765940359512565,
+    "angle_deg": 0,
+    "mesh_scale": 0.7,
+    "step_scale": 0.5,
+    "track_length_um": 1.2,
+    "let_pc_per_um": 0.006382836329271375,
+    "capacitance_F": 1e-14,
+    "effective_thickness_um": 1,
+    "temperature_K": 300,
+    "track_radius_um": 0.03,
+    "source_event": "experiments/dram-see-v1/data/geant4/pilot-alpha5-l025-a0/event.json",
+    "restart_run": null,
+    "interpretation": "Uncalibrated planar 1T1C prototype; not a process node",
+    "source_evidence_sha256": {
+      "source-event.json": "d89b4e6304be0879f3dfe0ef3016ec3d08ab727bc5a97eb1bfda79427ed5857a",
+      "source-steps.csv": "19478204b1aa4c91adb96eda721c114bacb2f1f8b03f6440875535057a0a1e97",
+      "source-events.csv": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469"
+    }
+  },
+  "archive_sha256": "c55daed24ce787de21f623846798b81cdf836ddb7f19762e5a872853b863ae9e",
+  "input_sha256": {
+    "device.cmd": "ec5460f95aa0062a8497fd83e553d8a9d8f64b2ed95ebd8c0a6ded2fc288447e",
+    "generator-sha256.txt": "10659b5104f3414838740ec15fd9a3e74251e31c6cf366e90ab81fed6f84e1eb",
+    "geometry.scm": "dfc120ac79c18ee2b81081d57f747439fc407fc08c28ff0f4c1687b03b428fb6",
+    "parameters.json": "85515317e6d7fc1e20f0150000bb39546a371cbb1e1e41e2858bd8dc9c4c3564",
+    "project.json": "b925f9eda25c0e3ce877996493df8cc08a450ed9d87e7b599af018ca498f7ebb",
+    "source-event.json": "d89b4e6304be0879f3dfe0ef3016ec3d08ab727bc5a97eb1bfda79427ed5857a",
+    "source-events.csv": "424b4eb9b62edefc6542c3f44d93afc9c839f2519c479ce86c5da4b5d6896469",
+    "source-steps.csv": "19478204b1aa4c91adb96eda721c114bacb2f1f8b03f6440875535057a0a1e97"
+  },
+  "solver_finished": true,
+  "final_time_s": 3e-09,
+  "circuit_samples": 810,
+  "device_samples": 810,
+  "prestrike_voltage_V": 0.952929875046279,
+  "final_voltage_V": 0.463561492377479,
+  "min_poststrike_voltage_V": 0.463561492377479,
+  "voltage_drop_V": 0.4893683826688,
+  "capacitor_loss_C": 4.893683826688e-15,
+  "terminal_loss_C": 4.893683826687439e-15,
+  "terminal_loss_trapezoid_C": 4.931715397097731e-15,
+  "charge_balance_residual_C": 5.608801036121394e-28,
+  "max_kcl_residual_A": 2.6044334628968493e-15,
+  "peak_hold_current_A": 0.000314229440831478,
+  "radiation": {
+    "generation_dataset": "IntegrSemiconductor HeavyIonGeneration",
+    "generated_C": 7.605058341469545e-15,
+    "target_C": 7.65940359512565e-15,
+    "source_integral_relative_error": 0.007095233066278027,
+    "integration": "trapezoid of spatial generation integral over actual solver times"
+  },
+  "tdr_sha256": {
+    "cell_msh.tdr": "b8914cdc879080f291e959990450f51acf83cdb667f80e14cbdf974b630a77b0",
+    "prestrike_access_des.tdr": "d84f522b58db50362a6150e3baba71d87372c8967908d20709a250154aa87d3f",
+    "strike_access_des.tdr": "3de88685f600874690e555bf49906fda080098c423918156a26fadbadefbb91d",
+    "final_access_des.tdr": "b928317e79b7a7d72259ef902cb2f48aef352c7c9d4308879e30a92ab4dcc8b0"
+  },
+  "scope": "Engineering and stated numerical contracts; uncalibrated 1T1C model",
+  "event_binding": "archived_input_hashes"
+}
