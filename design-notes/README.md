@@ -10,7 +10,7 @@
 - [实施路线](../experiments/roadmap.md)：Geant4→TCAD 最小闭环、多尺寸扫描、预测验证与近期任务。
 - [报告提纲](../reports/outline.md)：项目设计报告、作品演示与证据要求；具体结构和参数待来源核实。
 - [仿真与桌面操作经验](workflow.md)：流程、故障定位、证据标准、执行安全和Git授权；运行、取证及Git操作前读取。
-- [工程操作入口](../README.txt)：工作区布局、连接方式和运行约束。
+- [工程操作入口](../README.md)：工作区简介、结构、复现方式、Release 和安全边界。
 - [PN 电场桌面测试](../tests/pn-field-desktop/README.txt)：完整复现步骤与参数。
 - [VDMOS 总剂量训练](../tests/vdmos-tid-training/README.md)：既有训练记录与方法边界，不能替代正式 DRAM 单粒子效应验证。
 - [环境初始化记录](../records/initialization.txt)：镜像部署、SSH 和许可证维护事件。

@@ -1,0 +1,2307 @@
+{
+  "schema": "dram-see-v3",
+  "revision": 1,
+  "frozen_utc": "2026-10-10T09:44:33.976762+00:00",
+  "scope": "Uncalibrated 2D 1T1C; conditional simulation response, not commercial DRAM reliability or radiation cross section",
+  "git_commit": "c072df8a4fedc51906be770c9fd5b8290c1ff01c",
+  "plan_sha256": "6fdae88f1a1d2ac9d89bca6183338c77fcfb7d1dbfdec3bdcada04412c9e718e",
+  "handoff_sha256": "b043c8d0536c85d9999a8efe8278ece235acccce2131d581c3d1b1c496fa00e1",
+  "preservation_sha256": "e6192540c5cc0c70d30cc4f682ee95aa6bfde2cec178668104dc21fdcddeff66",
+  "design_generator_sha256": "583d047b33279f56c6abcdb411da50791b584e330d3302917328b754590c47b9",
+  "independent_event_count": 64,
+  "tcad_paired_response_count": 128,
+  "events": [
+    {
+      "label": "l018-alpha-a0-s202610301",
+      "condition_id": 0,
+      "replicate": 1,
+      "seed": 202610301,
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.63,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": true
+    },
+    {
+      "label": "l018-alpha-a0-s202610302",
+      "condition_id": 0,
+      "replicate": 2,
+      "seed": 202610302,
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.63,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l018-alpha-a0-s202610303",
+      "condition_id": 0,
+      "replicate": 3,
+      "seed": 202610303,
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.63,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l018-alpha-a0-s202610304",
+      "condition_id": 0,
+      "replicate": 4,
+      "seed": 202610304,
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.63,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l018-alpha-a30-s202610311",
+      "condition_id": 1,
+      "replicate": 1,
+      "seed": 202610311,
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.6305773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": true
+    },
+    {
+      "label": "l018-alpha-a30-s202610312",
+      "condition_id": 1,
+      "replicate": 2,
+      "seed": 202610312,
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.6305773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l018-alpha-a30-s202610313",
+      "condition_id": 1,
+      "replicate": 3,
+      "seed": 202610313,
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.6305773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l018-alpha-a30-s202610314",
+      "condition_id": 1,
+      "replicate": 4,
+      "seed": 202610314,
+      "gate_length_um": 0.18,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.6305773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l018-proton-a0-s202610321",
+      "condition_id": 2,
+      "replicate": 1,
+      "seed": 202610321,
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.63,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": true
+    },
+    {
+      "label": "l018-proton-a0-s202610322",
+      "condition_id": 2,
+      "replicate": 2,
+      "seed": 202610322,
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.63,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l018-proton-a0-s202610323",
+      "condition_id": 2,
+      "replicate": 3,
+      "seed": 202610323,
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.63,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l018-proton-a0-s202610324",
+      "condition_id": 2,
+      "replicate": 4,
+      "seed": 202610324,
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.63,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l018-proton-a30-s202610331",
+      "condition_id": 3,
+      "replicate": 1,
+      "seed": 202610331,
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.6305773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": true
+    },
+    {
+      "label": "l018-proton-a30-s202610332",
+      "condition_id": 3,
+      "replicate": 2,
+      "seed": 202610332,
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.6305773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l018-proton-a30-s202610333",
+      "condition_id": 3,
+      "replicate": 3,
+      "seed": 202610333,
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.6305773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l018-proton-a30-s202610334",
+      "condition_id": 3,
+      "replicate": 4,
+      "seed": 202610334,
+      "gate_length_um": 0.18,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.63,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.6305773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l025-alpha-a0-s202610341",
+      "condition_id": 4,
+      "replicate": 1,
+      "seed": 202610341,
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-alpha-a0-s202610342",
+      "condition_id": 4,
+      "replicate": 2,
+      "seed": 202610342,
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-alpha-a0-s202610343",
+      "condition_id": 4,
+      "replicate": 3,
+      "seed": 202610343,
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-alpha-a0-s202610344",
+      "condition_id": 4,
+      "replicate": 4,
+      "seed": 202610344,
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-alpha-a30-s202610351",
+      "condition_id": 5,
+      "replicate": 1,
+      "seed": 202610351,
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7005773502691895,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-alpha-a30-s202610352",
+      "condition_id": 5,
+      "replicate": 2,
+      "seed": 202610352,
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7005773502691895,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-alpha-a30-s202610353",
+      "condition_id": 5,
+      "replicate": 3,
+      "seed": 202610353,
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7005773502691895,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-alpha-a30-s202610354",
+      "condition_id": 5,
+      "replicate": 4,
+      "seed": 202610354,
+      "gate_length_um": 0.25,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7005773502691895,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-proton-a0-s202610361",
+      "condition_id": 6,
+      "replicate": 1,
+      "seed": 202610361,
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-proton-a0-s202610362",
+      "condition_id": 6,
+      "replicate": 2,
+      "seed": 202610362,
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-proton-a0-s202610363",
+      "condition_id": 6,
+      "replicate": 3,
+      "seed": 202610363,
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-proton-a0-s202610364",
+      "condition_id": 6,
+      "replicate": 4,
+      "seed": 202610364,
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-proton-a30-s202610371",
+      "condition_id": 7,
+      "replicate": 1,
+      "seed": 202610371,
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7005773502691895,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-proton-a30-s202610372",
+      "condition_id": 7,
+      "replicate": 2,
+      "seed": 202610372,
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7005773502691895,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-proton-a30-s202610373",
+      "condition_id": 7,
+      "replicate": 3,
+      "seed": 202610373,
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7005773502691895,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l025-proton-a30-s202610374",
+      "condition_id": 7,
+      "replicate": 4,
+      "seed": 202610374,
+      "gate_length_um": 0.25,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.7,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.7005773502691895,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "holdout",
+      "pilot": false
+    },
+    {
+      "label": "l035-alpha-a0-s202610381",
+      "condition_id": 8,
+      "replicate": 1,
+      "seed": 202610381,
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-alpha-a0-s202610382",
+      "condition_id": 8,
+      "replicate": 2,
+      "seed": 202610382,
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-alpha-a0-s202610383",
+      "condition_id": 8,
+      "replicate": 3,
+      "seed": 202610383,
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-alpha-a0-s202610384",
+      "condition_id": 8,
+      "replicate": 4,
+      "seed": 202610384,
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-alpha-a30-s202610391",
+      "condition_id": 9,
+      "replicate": 1,
+      "seed": 202610391,
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-alpha-a30-s202610392",
+      "condition_id": 9,
+      "replicate": 2,
+      "seed": 202610392,
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-alpha-a30-s202610393",
+      "condition_id": 9,
+      "replicate": 3,
+      "seed": 202610393,
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-alpha-a30-s202610394",
+      "condition_id": 9,
+      "replicate": 4,
+      "seed": 202610394,
+      "gate_length_um": 0.35,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-proton-a0-s202610401",
+      "condition_id": 10,
+      "replicate": 1,
+      "seed": 202610401,
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-proton-a0-s202610402",
+      "condition_id": 10,
+      "replicate": 2,
+      "seed": 202610402,
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-proton-a0-s202610403",
+      "condition_id": 10,
+      "replicate": 3,
+      "seed": 202610403,
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-proton-a0-s202610404",
+      "condition_id": 10,
+      "replicate": 4,
+      "seed": 202610404,
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-proton-a30-s202610411",
+      "condition_id": 11,
+      "replicate": 1,
+      "seed": 202610411,
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-proton-a30-s202610412",
+      "condition_id": 11,
+      "replicate": 2,
+      "seed": 202610412,
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-proton-a30-s202610413",
+      "condition_id": 11,
+      "replicate": 3,
+      "seed": 202610413,
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l035-proton-a30-s202610414",
+      "condition_id": 11,
+      "replicate": 4,
+      "seed": 202610414,
+      "gate_length_um": 0.35,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.8,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.8005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "train",
+      "pilot": false
+    },
+    {
+      "label": "l045-alpha-a0-s202610421",
+      "condition_id": 12,
+      "replicate": 1,
+      "seed": 202610421,
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-alpha-a0-s202610422",
+      "condition_id": 12,
+      "replicate": 2,
+      "seed": 202610422,
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-alpha-a0-s202610423",
+      "condition_id": 12,
+      "replicate": 3,
+      "seed": 202610423,
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-alpha-a0-s202610424",
+      "condition_id": 12,
+      "replicate": 4,
+      "seed": 202610424,
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-alpha-a30-s202610431",
+      "condition_id": 13,
+      "replicate": 1,
+      "seed": 202610431,
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-alpha-a30-s202610432",
+      "condition_id": 13,
+      "replicate": 2,
+      "seed": 202610432,
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-alpha-a30-s202610433",
+      "condition_id": 13,
+      "replicate": 3,
+      "seed": 202610433,
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-alpha-a30-s202610434",
+      "condition_id": 13,
+      "replicate": 4,
+      "seed": 202610434,
+      "gate_length_um": 0.45,
+      "particle": "alpha",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-proton-a0-s202610441",
+      "condition_id": 14,
+      "replicate": 1,
+      "seed": 202610441,
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-proton-a0-s202610442",
+      "condition_id": 14,
+      "replicate": 2,
+      "seed": 202610442,
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-proton-a0-s202610443",
+      "condition_id": 14,
+      "replicate": 3,
+      "seed": 202610443,
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-proton-a0-s202610444",
+      "condition_id": 14,
+      "replicate": 4,
+      "seed": 202610444,
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 0,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.0,
+        1.0,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-proton-a30-s202610451",
+      "condition_id": 15,
+      "replicate": 1,
+      "seed": 202610451,
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-proton-a30-s202610452",
+      "condition_id": 15,
+      "replicate": 2,
+      "seed": 202610452,
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-proton-a30-s202610453",
+      "condition_id": 15,
+      "replicate": 3,
+      "seed": 202610453,
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    },
+    {
+      "label": "l045-proton-a30-s202610454",
+      "condition_id": 15,
+      "replicate": 4,
+      "seed": 202610454,
+      "gate_length_um": 0.45,
+      "particle": "proton",
+      "energy_MeV": 5.0,
+      "angle_deg": 30,
+      "event_count": 1,
+      "paired_bits": [
+        0,
+        1
+      ],
+      "surface_impact_um": [
+        0.9,
+        0,
+        0
+      ],
+      "launch_position_um": [
+        0.9005773502691896,
+        -0.001,
+        0
+      ],
+      "direction": [
+        -0.49999999999999994,
+        0.8660254037844387,
+        0
+      ],
+      "split": "extrapolation",
+      "pilot": false
+    }
+  ],
+  "historical_event_seeds_checked": [
+    20261009,
+    202610101,
+    202610102,
+    202610103,
+    202610104,
+    202610201,
+    202610202,
+    202610203,
+    202610204
+  ],
+  "pilot_counts_towards_main_matrix": true,
+  "thresholds_mV": [
+    2.5,
+    5.0,
+    10.0
+  ],
+  "main_threshold_mV": 5.0,
+  "metrics": {
+    "deltaQ_fC": "1e15*Cstore*(SN_event(2.8ns)-SN_matched_control(2.8ns)); signed",
+    "D_mV": "1000*(BL_signal-BL_matched_neutral)",
+    "M_mV": "(2*stored_bit-1)*D(4ns)",
+    "deltaM_mV": "M_matched_control-M_event; positive is margin loss",
+    "read_window_ns": [
+      3.8,
+      4.0
+    ],
+    "read_window_report": [
+      "M_min",
+      "M_max",
+      "M_end_minus_start"
+    ],
+    "classification": "M>epsilon correct; M<-epsilon criterion_error; closed interval critical"
+  },
+  "reference": {
+    "target_V": 0.5,
+    "storage_capacitance_F": 1e-14,
+    "bitline_capacitance_F": 1e-13,
+    "mode": "per-condition full neutral BL curve; real twin branch validation",
+    "physical_devices": [
+      "SignalCell",
+      "ReferenceCell"
+    ],
+    "signal_instance": "access",
+    "reference_instance": "refcell",
+    "heavyion_scope": "signal device only; reference zero source",
+    "physical_initialization": "full, no single-branch sav",
+    "matching_fields": [
+      "length",
+      "oxide",
+      "geometry/mesh",
+      "time-step",
+      "physics",
+      "timing",
+      "capacitances"
+    ],
+    "constant_offset_subtraction": false
+  },
+  "gates": {
+    "initial_error_mV": 1.0,
+    "precharge_error_uV": 10.0,
+    "end_time_ns": 4.0,
+    "source_relative_error_max": 0.05,
+    "reference_source_charge_max_fC": 1e-12,
+    "kcl": "1e-12 A + 0.001*local absolute current scale",
+    "be": "max(0.001 fC, 0.001*absolute capacitor charge change)",
+    "four_terminal": "max(0.002 fC, 0.001*absolute charge change)",
+    "physical_offline_each_voltage_and_D_mV": 0.1,
+    "physical_offline_classifications_all_thresholds_equal": true,
+    "numerical_readout_change_mV": 0.5,
+    "numerical_deltaQ_change_fC": 0.01
+  },
+  "source": {
+    "energy_MeV": 5.0,
+    "track_radius_um": 0.03,
+    "charge_conversion_eV_per_pair": 3.6,
+    "let": "Qdep_pC/track_length_um; normalization factor 1",
+    "track_length": "angle0:1.2; angle30:min(1.2/cos(theta),(L+0.45)/sin(theta))",
+    "gaussian_truncation": "report geometry-based estimate separately; actual integral compared to original total Qdep, never retarget Qdep*F",
+    "zero_deposition": "legal, retain event and paired responses; no replacement"
+  },
+  "statistics": {
+    "strata": [
+      "length",
+      "particle",
+      "angle",
+      "stored_bit",
+      "threshold"
+    ],
+    "planned_n_each": 4,
+    "counts": [
+      "valid",
+      "correct",
+      "criterion_error",
+      "critical",
+      "numerically_uncertain",
+      "failed",
+      "missing"
+    ],
+    "point_bounds": "[k_error/N,(k_error+k_critical+k_uncertain+k_failed+k_missing)/N]",
+    "interval": "Wilson 95% two-sided with z=1.959963984540054; envelope over best/worst unresolved assignments using planned N",
+    "interval_endpoints_clamped": [
+      0,
+      1
+    ],
+    "zero_event_upper": "1-0.05**(1/N) only if all planned responses determinate and k_error=0",
+    "paired_any_bit": "optional; collapse by event first, never double N",
+    "no_multiple_testing_claim": "descriptive intervals, not simultaneous coverage or significance claims"
+  },
+  "prediction": {
+    "train_lengths_um": [
+      0.18,
+      0.35
+    ],
+    "holdout_lengths_um": [
+      0.25
+    ],
+    "extrapolation_lengths_um": [
+      0.45
+    ],
+    "models": [
+      "training_mean",
+      "ridge"
+    ],
+    "targets": [
+      "deltaQ_fC",
+      "deltaM_mV"
+    ],
+    "separate_model_per_bit_and_target": true,
+    "features": [
+      "Qdep_fC",
+      "Qdep_fC/L_um",
+      "Qdep_fC*sin(theta)"
+    ],
+    "ridge_candidates": [
+      0.0,
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "cv": "leave-one-physical-condition-out over 8 training (L,particle,angle) groups; all four repeats and both bits stay grouped",
+    "selection_score": "arithmetic mean of per-fold RMSE for each bit/target independently",
+    "tie_break": "lowest alpha among scores within 1e-12 target units of minimum",
+    "standardization": "training fold population mean/std only; zero std replaced with1; final fit uses all training data",
+    "ridge_objective": "sum_squared_error + alpha*sum(coef**2); intercept unpenalized; alpha0 via least-squares",
+    "required_training": "all 64 training bit responses audited; unresolved outcome blocks prediction freeze",
+    "freeze_before_test": "model coefficients/scalers/config, all test input Geant4 events and matched baselines, per-event predictions and SHA256 before any holdout/extrapolation TCAD response",
+    "metrics": [
+      "MAE",
+      "RMSE",
+      "max_absolute_error",
+      "stratified_residuals"
+    ],
+    "scope": "predict TCAD response given actual Geant4 deposition and known unirradiated baselines; oxide extension excluded from length prediction scores"
+  },
+  "numerical": {
+    "preregistered": {
+      "length_um": 0.18,
+      "particle": "alpha",
+      "angle_deg": 30,
+      "replicate": 1,
+      "stored_bit": 1
+    },
+    "variations": [
+      {
+        "step": 0.5,
+        "mesh": 1.0
+      },
+      {
+        "step": 1.0,
+        "mesh": 0.7
+      }
+    ],
+    "matching": "event, own control and neutral reference at each variation",
+    "additional_count": 2,
+    "distance": "min over epsilon in2.5,5,10 of abs(M-epsilon),abs(M+epsilon)",
+    "selection": "all main-matrix responses; sort by(distance,condition_id,replicate,stored_bit); choose first two unique response IDs; reuse if preregistered point selected",
+    "near_boundary_mV": 0.5,
+    "unresolved_near_boundary": "mark numerically_uncertain at affected threshold until matching refinement confirms stable classification",
+    "crossing": "preserve raw classes and mark numerically_uncertain, never change threshold or seed"
+  },
+  "oxide_extension": {
+    "length_um": 0.25,
+    "oxide_nm": [
+      4.0,
+      5.0,
+      6.0
+    ],
+    "baseline_nm": 5.0,
+    "angle_deg": 0,
+    "particles": [
+      "alpha",
+      "proton"
+    ],
+    "replicate": 1,
+    "paired_bits": [
+      0,
+      1
+    ],
+    "new_thicknesses_require": [
+      "rebuilt_geometry_mesh",
+      "bit0_control",
+      "bit1_control",
+      "neutral_reference"
+    ],
+    "additional_independent_events": 0,
+    "source": "controlled assumption ±20% about existing uncalibrated5nm model",
+    "transport_scope": "fixed silicon-entry events; Geant4 material stack remains silicon/vacuum"
+  },
+  "execution": {
+    "serial_threads": 1,
+    "solver_budget_s": 86400,
+    "kill_on_budget": false,
+    "stage_order": [
+      "freeze",
+      "reference_and_baselines",
+      "pilot_and_source_isolation",
+      "training",
+      "model_and_prediction_freeze",
+      "holdout_and_extrapolation",
+      "oxide_and_numerics",
+      "delivery"
+    ],
+    "initial_reserve_s": {
+      "main_responses": 55000,
+      "reference_validation": 7300,
+      "numerics": 13000,
+      "oxide": 6200,
+      "failure_and_margin": 4900
+    },
+    "accounting": "all new v3 solver wallclock including failed/validation runs; missing solver time uses conservative runner elapsed; inherited runs cost0",
+    "submission_stop": "before next run if elapsed+conservative_next_estimate>86400; retain fixed planned denominator, no seed replacement",
+    "long_run": "preserve running solver; inspection before next dispatch, no automatic kill or retry"
+  },
+  "course_pending": [
+    "actual2-3student_roles",
+    "teacher_review",
+    "lab_resource_handoff",
+    "defense",
+    "final_assessment"
+  ],
+  "old_pilot_and_thresholds_unchanged": true,
+  "source_freeze_policy": "Before each stage dispatch, immutable execution-freeze manifest binds source/dependency hashes and prepared inputs; revised code gets a new manifest, never rewrites prior evidence"
+}

@@ -15,7 +15,7 @@
 
 执行、调查和审查默认沿用主代理当前模型与推理强度，不自动降级。较长且有交接收益的纯验证可交给一个 `validation_worker`（`gpt-6-luna`、`high`），不可用由主代理接管；不得因此把科学设计交给纯验证角色。配置无法核实时明确标记，不以提示词证明实际模型或OAuth状态，不读取凭据。子代理不再派发；当前环境禁止子代理时不得启动。
 
-按任务读取必要材料：项目定位见 [README](../README.txt)，研究规划见 [实验计划](../experiments/plan.md) 与 [路线](../experiments/roadmap.md)，报告任务见 [提纲](../reports/outline.md)；实际执行再读 [操作规范](workflow.md) 和目标实验自己的计划、操作文档及最新日志。PN/VDMOS测试仅作为经验，不能替代DRAM模型或数据。
+按任务读取必要材料：项目定位见 [README](../README.md)，研究规划见 [实验计划](../experiments/plan.md) 与 [路线](../experiments/roadmap.md)，报告任务见 [提纲](../reports/outline.md)；实际执行再读 [操作规范](workflow.md) 和目标实验自己的计划、操作文档及最新日志。PN/VDMOS测试仅作为经验，不能替代DRAM模型或数据。
 
 ## 2. 委派契约与所有权
 
